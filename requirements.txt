@@ -1,0 +1,5 @@
+openpyxl>=3.1.5
+Pillow>=11.0.0
+pytesseract>=0.3.13
+RapidFuzz>=3.10.1
+requests>=2.32.3

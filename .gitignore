@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+last_extraction_debug.txt
+data/card_index.pkl
+data/scryfall_default_cards.json
