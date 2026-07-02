@@ -45,7 +45,7 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-02.31"
+APP_VERSION = "2026-07-02.34"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
@@ -547,6 +547,7 @@ class OcrMatchContext:
     sets_in_text: set[str]
     hint_card: dict | None = None
     namebar_resolved: bool = False
+    hint_from_title: bool = False
 
 
 @dataclass
@@ -1355,6 +1356,14 @@ class ScryfallDatabase:
         face_card, _ = self._find_by_face_names_in_text(ocr.raw_text)
         pt_words_card, _ = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
         hint_card = self._reliable_hint_card(ocr)
+        hint_oracle = hint_card.get("oracle_id") if hint_card else None
+        hint_from_title = bool(
+            hint_oracle
+            and (
+                (namebar_en and namebar_en.get("oracle_id") == hint_oracle)
+                or (namebar_pt and namebar_pt.get("oracle_id") == hint_oracle)
+            )
+        )
         return OcrMatchContext(
             ocr=ocr,
             fractions=fractions,
@@ -1367,6 +1376,7 @@ class ScryfallDatabase:
                 or (face_card and self._card_name_in_raw_text(face_card, ocr.raw_text))
                 or pt_words_card
             ),
+            hint_from_title=hint_from_title,
         )
 
     def _find_by_collector_fraction(self, raw_text: str, ctx: OcrMatchContext | None = None) -> tuple[dict | None, str, str]:
@@ -1573,7 +1583,75 @@ class ScryfallDatabase:
             matches = [item for item in same_oracle_cards if (item.get("released_at") or "")[:4] == target]
             if len(matches) == 1:
                 return matches[0]
+        # The copyright year is often the only thing separating reprints, and it
+        # sits on the lowest-contrast line, so OCR mangles a digit (e.g. "2010"
+        # read as "1010"). Recover it by matching each printing's release year
+        # against the OCR allowing one wrong digit.
+        release_years = {(item.get("released_at") or "")[:4] for item in same_oracle_cards}
+        release_years = {year for year in release_years if re.fullmatch(r"\d{4}", year)}
+        tolerant = self._years_in_copyright(raw_text, release_years)
+        if tolerant:
+            target = max(tolerant)
+            matches = [item for item in same_oracle_cards if (item.get("released_at") or "")[:4] == target]
+            if len(matches) == 1:
+                return matches[0]
         return None
+
+    def _flavor_scores(self, cards: list[dict], raw_text: str) -> dict[int, tuple[int, int]]:
+        """(proper-noun hits, content-word hits) of each card's flavor text in
+        the OCR. Flavor is stored in English, but proper nouns in an attribution
+        ("—Sheoldred, Whispering One") are spelled the same across languages, so
+        they still anchor a match against a Portuguese scan."""
+        raw_words = set(normalize_text(raw_text).split())
+        scores: dict[int, tuple[int, int]] = {}
+        for item in cards:
+            flavor = card_faces_text(item, "flavor_text")
+            if not flavor:
+                scores[id(item)] = (0, 0)
+                continue
+            proper = {
+                normalize_text(word) for word in re.findall(r"[A-Z][A-Za-z'-]{3,}", flavor)
+            }
+            proper = {word for word in proper if word}
+            proper_hits = 0
+            for token in proper:
+                if token in raw_words:
+                    proper_hits += 1
+                elif fuzz and any(fuzz.ratio(token, word) >= 85 for word in raw_words):
+                    proper_hits += 1
+            content_words = {word for word in normalize_text(flavor).split() if len(word) >= 4}
+            content_hits = sum(1 for word in content_words if word in raw_words)
+            scores[id(item)] = (proper_hits, content_hits)
+        return scores
+
+    def _flavor_compatible_prints(self, cards: list[dict], raw_text: str) -> list[dict]:
+        """Drop printings whose flavor text contradicts what the OCR read. Many
+        reprints differ only by flavor (Trained Armodon's Tempest quote is "These
+        are its last days...", but the reprints say "Armodons are trained to step
+        on things"), so a printing whose flavor is absent from the scan cannot be
+        the card in hand. Only filters when at least one printing's flavor is
+        strongly present, so a flavorless or badly garbled scan is left intact."""
+        if len(cards) <= 1:
+            return cards
+        scores = self._flavor_scores(cards, raw_text)
+        best = max(scores.values())
+        if best[0] < 1 and best[1] < 3:
+            return cards
+        keep = [item for item in cards if scores[id(item)] == best]
+        return keep or cards
+
+    @staticmethod
+    def _years_in_copyright(raw_text: str, candidate_years: set[str]) -> set[str]:
+        normalized = re.sub(r"[OoQ]", "0", raw_text)
+        normalized = re.sub(r"[lI|]", "1", normalized)
+        tokens = set(re.findall(r"\d{4}", normalized))
+        found = set()
+        for year in candidate_years:
+            for token in tokens:
+                if sum(a != b for a, b in zip(year, token)) <= 1:
+                    found.add(year)
+                    break
+        return found
 
     @staticmethod
     def _earliest_print(same_oracle_cards: list[dict], card: dict) -> dict:
@@ -1610,9 +1688,13 @@ class ScryfallDatabase:
                     return card
             return set_matches[0]
 
-        context_pick = self._print_from_context(same_oracle_cards, raw_text)
+        # With no readable set/collector, the flavor text on the card is the
+        # strongest remaining signal for which reprint this is: discard the
+        # printings whose flavor contradicts the scan before falling back.
+        compatible = self._flavor_compatible_prints(same_oracle_cards, raw_text)
+        context_pick = self._print_from_context(compatible, raw_text)
         if not collectors:
-            return context_pick or self._earliest_print(same_oracle_cards, card)
+            return context_pick or self._earliest_print(compatible, card)
         current_collector = collector_key(card.get("collector_number"))
         if current_collector in collectors:
             return card
@@ -1628,7 +1710,7 @@ class ScryfallDatabase:
                 if (item.get("set") or "").upper() in raw_upper:
                     return item
             return same_cards[0]
-        return context_pick or self._earliest_print(same_oracle_cards, card)
+        return context_pick or self._earliest_print(compatible, card)
 
     @staticmethod
     def _collector_numbers_in_text(raw_text: str) -> set[str]:
@@ -1789,14 +1871,30 @@ class ScryfallDatabase:
         if ctx.hint_card and ctx.hint_card.get("oracle_id") != card.get("oracle_id"):
             if not self._print_evidence_in_ocr(card, ctx):
                 return False
-            # A name read clearly from the card must outweigh a collector number
-            # when this card's own name is absent from the OCR and the named card
-            # also exists in this set: that is the signature of a misread digit
-            # (e.g. 215 -> 219 turning "Zhur-Taa Goblin" into "Senate Griffin").
-            if not self._card_name_in_raw_text(card, ocr.raw_text) and self._hint_card_shares_set(
-                ctx.hint_card, (card.get("set") or "").upper()
-            ):
-                return False
+            if not self._card_name_in_raw_text(card, ocr.raw_text):
+                # The card's own name is absent from the OCR, so this candidate
+                # rests on a set+collector pair alone. When the title bar clearly
+                # read a different card (hint_from_title), that title outweighs a
+                # pair recovered from noisy footer/body tokens: trust the pair
+                # only if the dedicated footer parser read a structured
+                # set_code + collector_number that names this card exactly.
+                # Otherwise it is a hallucinated footer match, e.g. the "Golias
+                # Zumbi" scan turning into "Dread Reaper POR #89".
+                structured_match = bool(
+                    ocr.set_code
+                    and ocr.collector_number
+                    and ocr.set_code.upper() == (card.get("set") or "").upper()
+                    and collector_key(ocr.collector_number)
+                    == collector_key(card.get("collector_number"))
+                )
+                if ctx.hint_from_title and not structured_match:
+                    return False
+                # A name read clearly from the card must outweigh a collector
+                # number when the named card also exists in this set: that is the
+                # signature of a misread digit (e.g. 215 -> 219 turning
+                # "Zhur-Taa Goblin" into "Senate Griffin").
+                if self._hint_card_shares_set(ctx.hint_card, (card.get("set") or "").upper()):
+                    return False
         if self._card_name_in_raw_text(card, ocr.raw_text):
             return True
         if ctx.hint_card and ctx.hint_card.get("oracle_id") == card.get("oracle_id"):
