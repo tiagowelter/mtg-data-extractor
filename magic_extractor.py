@@ -11,7 +11,7 @@ import time
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
-from tkinter import BooleanVar, END, StringVar, Tk, filedialog, messagebox, ttk
+from tkinter import BooleanVar, END, Label, StringVar, Tk, filedialog, messagebox, ttk
 
 import requests
 from openpyxl import Workbook, load_workbook
@@ -31,15 +31,28 @@ except Exception:  # pragma: no cover - difflib fallback keeps the app usable
     process = None
 
 
+def configure_ssl_certificates() -> None:
+    import certifi
+
+    default_bundle = certifi.where()
+    for var in ("SSL_CERT_FILE", "REQUESTS_CA_BUNDLE", "CURL_CA_BUNDLE"):
+        value = os.environ.get(var)
+        if value and not Path(value).is_file():
+            os.environ[var] = default_bundle
+
+
+configure_ssl_certificates()
+
+
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-01.18"
+APP_VERSION = "2026-07-01.25"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
 MTGJSON_ATOMIC_PATH = DATA_DIR / "mtgjson_atomic_cards.json.gz"
 INDEX_PATH = DATA_DIR / "card_index.pkl"
-INDEX_VERSION = 3
-EXCEL_PATH = APP_DIR / "magic_cards.xlsx"
+INDEX_VERSION = 6
+EXCEL_PATH = APP_DIR / "MagicCollection.xlsx"
 DEBUG_PATH = APP_DIR / "last_extraction_debug.txt"
 HTTP_HEADERS = {
     "User-Agent": "magic-extractor/1.0 (local desktop tool)",
@@ -90,7 +103,7 @@ COLOR_PT = {
 TESSERACT_CANDIDATES = [
     r"C:\Program Files\Tesseract-OCR\tesseract.exe",
     r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
-    r"C:\Users\tiago\AppData\Local\Programs\Tesseract-OCR\tesseract.exe",
+    str(Path(os.environ.get("LOCALAPPDATA", "")) / "Programs" / "Tesseract-OCR" / "tesseract.exe"),
 ]
 
 
@@ -107,6 +120,158 @@ def clean_ocr_line(line: str) -> str:
     line = re.sub(r"\s+", " ", line)
     line = re.sub(r"[\{\}\[\]]", "", line)
     return line.strip(" .,:;")
+
+
+COMMON_PT_OCR_WORDS = {
+    "cemiterio",
+    "cemiterios",
+    "grimorio",
+    "grimorios",
+    "conjura",
+    "conjurar",
+    "magica",
+    "magicas",
+    "criatura",
+    "criaturas",
+    "terreno",
+    "terrenos",
+    "oponente",
+    "oponentes",
+    "jogador",
+    "jogadores",
+    "card",
+    "cards",
+    "turno",
+    "turnos",
+    "poder",
+    "resistencia",
+    "controle",
+    "alvo",
+    "feiticaria",
+    "encantamento",
+    "instantanea",
+    "instantaneas",
+    "revela",
+    "revelar",
+    "coloque",
+    "comprar",
+    "compre",
+    "exila",
+    "exile",
+    "dano",
+    "combate",
+    "etapa",
+    "final",
+    "inicio",
+    "proprio",
+    "propria",
+    "numero",
+    "cada",
+    "vezes",
+    "vez",
+    "quando",
+    "voce",
+    "seus",
+    "suas",
+    "seu",
+    "sua",
+    "ate",
+    "todo",
+    "toda",
+    "todos",
+    "todas",
+    "com",
+    "para",
+    "mais",
+    "menos",
+    "outro",
+    "outra",
+    "outros",
+    "outras",
+}
+
+COMMON_EN_OCR_WORDS = {
+    "card",
+    "cards",
+    "draw",
+    "land",
+    "lands",
+    "damage",
+    "creature",
+    "creatures",
+    "target",
+    "opponent",
+    "opponents",
+    "control",
+    "enters",
+    "whenever",
+    "ability",
+    "turn",
+    "spell",
+    "spells",
+    "player",
+    "players",
+    "graveyard",
+    "library",
+    "battlefield",
+    "permanent",
+    "permanents",
+    "counter",
+    "counters",
+    "token",
+    "tokens",
+    "serving",
+    "nothing",
+    "like",
+    "posters",
+    "made",
+    "second",
+    "resolved",
+    "legendary",
+    "pilot",
+}
+
+
+def is_plausible_namebar(text: str) -> bool:
+    cleaned = clean_ocr_line(text or "")
+    words = re.findall(r"[A-Za-zÀ-ü]{3,}", cleaned)
+    if not words or len(words) > 6:
+        return False
+    if not any(len(word) >= 4 for word in words):
+        return False
+    alpha = sum(ch.isalpha() for ch in cleaned)
+    if cleaned and alpha < len(cleaned) * 0.35:
+        return False
+    title_words = re.findall(r"\b[A-ZÀ-Ü][a-zà-ü]{2,}\b", cleaned)
+    if not title_words and len(words) <= 3:
+        return False
+    return True
+
+
+def best_namebar_line(text: str) -> str:
+    lines = [clean_ocr_line(line) for line in (text or "").splitlines()]
+    candidates = [line for line in lines if is_plausible_namebar(line)]
+    if not candidates:
+        return ""
+    def line_score(line: str) -> int:
+        score = sum(1 for word in line.split() if len(word) >= 4)
+        if "," in line:
+            score += 5
+        if re.match(r"^[A-ZÀ-Ü]", line):
+            score += 2
+        return score
+
+    return max(candidates, key=line_score)
+
+
+def normalize_ocr_name(value: str) -> str:
+    value = clean_ocr_line(value or "")
+    tokens = []
+    for token in value.split():
+        if re.search(r"\d", token) and re.search(r"[A-Za-z]", token):
+            token = token.translate(str.maketrans({"1": "l", "0": "o", "5": "s", "8": "b"}))
+        tokens.append(token)
+    return " ".join(tokens)
 
 
 def clean_card_text(value: str) -> str:
@@ -130,12 +295,46 @@ def ocr_collector_key(value: str) -> str:
     return collector_key(value)
 
 
+def words_fuzzy_match(expected: str, word: str, threshold: int = 82) -> bool:
+    if expected == word:
+        return True
+    if not fuzz:
+        return False
+    length_gap = abs(len(expected) - len(word))
+    effective_threshold = threshold
+    if length_gap >= 3:
+        effective_threshold = max(threshold, 90)
+    elif length_gap >= 2:
+        effective_threshold = max(threshold, 88)
+    ratio = fuzz.ratio(expected, word)
+    if ratio < effective_threshold:
+        return False
+    if length_gap >= 3 and min(len(expected), len(word)) >= 5:
+        shorter = expected if len(expected) < len(word) else word
+        longer = word if shorter == expected else expected
+        if longer.startswith(shorter[: max(4, len(shorter))]):
+            return ratio >= 92
+    return True
+
+
 def fuzzy_word_count(expected_words: list[str], text_words: list[str], threshold: int = 82) -> int:
     count = 0
     for expected in expected_words:
-        if any(word == expected or (fuzz and fuzz.ratio(expected, word) >= threshold) for word in text_words):
+        if any(words_fuzzy_match(expected, word, threshold) for word in text_words):
             count += 1
     return count
+
+
+def detect_tesseract_languages() -> tuple[str, bool]:
+    if pytesseract is None:
+        return "eng", False
+    try:
+        langs = pytesseract.get_languages(config="")
+        if "por" in langs:
+            return "por+eng", True
+    except Exception:
+        pass
+    return "eng", False
 
 
 def bilingual(en_value: str, pt_value: str) -> str:
@@ -144,6 +343,76 @@ def bilingual(en_value: str, pt_value: str) -> str:
     if pt_value and normalize_text(pt_value) != normalize_text(en_value):
         return f"{en_value} / {pt_value}" if en_value else pt_value
     return en_value
+
+
+def bilingual_name_parts(value: str) -> set[str]:
+    value = clean_card_text(value)
+    parts = [part.strip() for part in value.split(" / ") if part.strip()]
+    normalized = {normalize_text(part) for part in parts}
+    if len(parts) > 1:
+        normalized.add(normalize_text(value))
+    return {part for part in normalized if part}
+
+
+def excel_names_match(cell_value: str, search_name: str) -> bool:
+    cell_parts = bilingual_name_parts(cell_value)
+    search_parts = bilingual_name_parts(search_name)
+    if not cell_parts or not search_parts:
+        return False
+    return bool(cell_parts & search_parts)
+
+
+def find_name_row_in_excel(name: str) -> int | None:
+    if not EXCEL_PATH.exists():
+        return None
+    workbook = load_workbook(EXCEL_PATH, read_only=True, data_only=True)
+    try:
+        sheet = workbook.active
+        for row_index, row in enumerate(
+            sheet.iter_rows(min_col=1, max_col=1, values_only=True),
+            start=1,
+        ):
+            cell_value = row[0] if row else None
+            if row_index == 1 and cell_value and str(cell_value).strip() == "Nome":
+                continue
+            if cell_value is None or str(cell_value).strip() == "":
+                continue
+            if excel_names_match(str(cell_value), name):
+                return row_index
+    finally:
+        workbook.close()
+    return None
+
+
+def ensure_excel_workbook():
+    if EXCEL_PATH.exists():
+        workbook = load_workbook(EXCEL_PATH)
+        sheet = workbook.active
+    else:
+        workbook = Workbook()
+        sheet = workbook.active
+        sheet.title = "Cartas"
+        sheet.append(FIELDS)
+        for cell in sheet[1]:
+            cell.font = Font(bold=True)
+            cell.fill = PatternFill("solid", fgColor="D9EAF7")
+        for index, field in enumerate(FIELDS, start=1):
+            sheet.column_dimensions[get_column_letter(index)].width = max(12, min(42, len(field) + 8))
+    return workbook, sheet
+
+
+def append_row_to_excel(row: list[str]) -> None:
+    workbook, sheet = ensure_excel_workbook()
+    sheet.append(row)
+    workbook.save(EXCEL_PATH)
+
+
+def update_row_in_excel(row_number: int, row: list[str]) -> None:
+    workbook = load_workbook(EXCEL_PATH)
+    sheet = workbook.active
+    for col_index, value in enumerate(row, start=1):
+        sheet.cell(row=row_number, column=col_index, value=value)
+    workbook.save(EXCEL_PATH)
 
 
 def card_faces_text(card: dict, field: str) -> str:
@@ -255,6 +524,16 @@ def configure_tesseract() -> str | None:
 
 
 @dataclass
+class OcrMatchContext:
+    ocr: OcrResult
+    fractions: list[tuple[str, int]]
+    tokens: list[str]
+    sets_in_text: set[str]
+    hint_card: dict | None = None
+    namebar_resolved: bool = False
+
+
+@dataclass
 class OcrResult:
     name_hint: str = ""
     namebar_text: str = ""
@@ -267,6 +546,7 @@ class OcrResult:
 class LocalOcr:
     def __init__(self) -> None:
         self.tesseract_path = configure_tesseract()
+        self.ocr_lang, self.por_available = detect_tesseract_languages()
 
     def available(self) -> bool:
         return pytesseract is not None and self.tesseract_path is not None
@@ -287,14 +567,14 @@ class LocalOcr:
             footer_crop = candidate.crop((0, int(height * 0.74), width, height))
             namebar_texts.extend(
                 [
-                    self._ocr(name_crop, "--psm 7"),
-                    self._ocr(candidate.crop((0, 0, int(width * 0.9), int(height * 0.18))), "--psm 6"),
+                    self._ocr(name_crop, "--psm 7", bilingual=True),
+                    self._ocr(candidate.crop((0, 0, int(width * 0.9), int(height * 0.18))), "--psm 6", bilingual=True),
                 ]
             )
             texts.extend(
                 [
-                    self._ocr(name_crop, "--psm 7"),
-                    self._ocr(bottom_crop, "--psm 6"),
+                    self._ocr(name_crop, "--psm 7", bilingual=True),
+                    self._ocr(bottom_crop, "--psm 6", bilingual=True),
                     self._ocr_footer(footer_crop),
                     self._ocr(candidate, "--psm 6"),
                 ]
@@ -332,23 +612,24 @@ class LocalOcr:
         candidates = [image]
         return candidates
 
-    def _ocr(self, image: Image.Image, config: str) -> str:
+    def _ocr(self, image: Image.Image, config: str, bilingual: bool = False) -> str:
         prepared = self._prepare(image)
-        return pytesseract.image_to_string(prepared, lang="eng", config=config)
+        lang = self.ocr_lang if bilingual and self.por_available else "eng"
+        return pytesseract.image_to_string(prepared, lang=lang, config=config)
 
-    @staticmethod
-    def _ocr_footer(image: Image.Image) -> str:
+    def _ocr_footer(self, image: Image.Image) -> str:
         footer = image.convert("L")
         footer = footer.resize((footer.width * 5, footer.height * 5))
         simple_binary = footer.point(lambda pixel: 255 if pixel > 100 else 0)
         contrast_footer = ImageEnhance.Contrast(footer).enhance(2.5)
         binary = contrast_footer.point(lambda pixel: 255 if pixel > 100 else 0)
         inverted_binary = ImageOps.invert(contrast_footer).point(lambda pixel: 255 if pixel > 100 else 0)
+        lang = self.ocr_lang if self.por_available else "eng"
         return "\n".join(
             [
-                pytesseract.image_to_string(simple_binary, lang="eng", config="--psm 6"),
-                pytesseract.image_to_string(binary, lang="eng", config="--psm 6"),
-                pytesseract.image_to_string(inverted_binary, lang="eng", config="--psm 6"),
+                pytesseract.image_to_string(simple_binary, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(binary, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(inverted_binary, lang=lang, config="--psm 6"),
             ]
         )
 
@@ -410,7 +691,7 @@ class LocalOcr:
             words = normalized.split()
             if not words or all(word in ignored for word in words):
                 return -100
-            title_words = re.findall(r"\b[A-Z][a-z]{2,}\b", candidate)
+            title_words = re.findall(r"\b[A-ZÀ-Ü][a-zà-ü]{2,}\b", candidate)
             value = min(len(words), 5)
             value += len(title_words) * 3
             if len(title_words) >= 2:
@@ -420,6 +701,26 @@ class LocalOcr:
             value -= sum(3 for word in words if word in ignored)
             value -= sum(2 for word in words if word in {"instant", "sorcery", "artifact", "enchantment", "land"})
             value -= sum(1 for word in words if word.isdigit())
+            if re.search(r"[©™]|wizards|coast|wasatch|anthony|palumbo|paliso", candidate, re.IGNORECASE):
+                value -= 50
+            if "/" in candidate or re.search(r"\b\d{3,}\b", candidate):
+                value -= 25
+            if len(words) > 6:
+                value -= 15
+            if re.search(r"\b(criatura|creature|instantanea|feiticaria|encantamento|terreno|artifact)\b", normalized):
+                value -= 30
+            if re.search(r"\b(da|de|do|das|dos)\b", normalized) and title_words:
+                value += 8
+            if re.search(r"\b(was|were|nothing|serving|like the|made it|whenever a)\b", normalized):
+                value -= 45
+            if re.search(r"\b(the|and|for|with|that|this|from|into)\b", normalized) and len(words) >= 5:
+                value -= 20
+            if "," in candidate:
+                value += 12
+            if re.match(r"^[A-ZÀ-Ü][a-zà-ü]+,", candidate):
+                value += 15
+            if re.search(r"[^a-zA-ZÀ-ü0-9\s\-',]", candidate):
+                value -= 10
             return value
 
         line = max(lines, key=score)
@@ -429,6 +730,7 @@ class LocalOcr:
     @staticmethod
     def _parse_collector(text: str) -> tuple[str, str, str]:
         text = text.upper().replace("•", " ")
+        text = re.sub(r"\bO(\d{2,4})\b", r"0\1", text)
         text = re.sub(r"[^A-Z0-9]+", " ", text)
         rarity = ""
         rarity_with_pt_match = re.search(
@@ -445,6 +747,14 @@ class LocalOcr:
         )
         if rarity_match:
             rarity, number, set_code = rarity_match.groups()
+            return set_code, number, rarity
+
+        loose_footer = re.search(
+            r"\b([CMUR])\s+0*(\d{1,4}[A-Z]?)\b[\s\S]{0,40}?\b([A-Z]{3})\b[\s\S]{0,20}?\b(?:EN|PT)\b",
+            text,
+        )
+        if loose_footer:
+            rarity, number, set_code = loose_footer.groups()
             return set_code, number, rarity
 
         match = re.search(r"\b(\d{1,4}[A-Z]?)\s+([A-Z0-9]{2,5})\s+(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b", text)
@@ -465,6 +775,9 @@ class ScryfallDatabase:
         self.mtgjson_pt_by_name: dict[str, dict] = {}
         self.name_choices: list[tuple[str, int]] = []
         self.pt_name_choices: list[tuple[str, int]] = []
+        self.face_name_choices: list[tuple[str, int]] = []
+        self.set_booster_max: dict[str, int] = {}
+        self.oracle_collectors: dict[str, set[str]] = {}
         self.loaded = False
 
     def download(self, log) -> None:
@@ -545,13 +858,23 @@ class ScryfallDatabase:
         self.mtgjson_pt_by_name.clear()
         self.name_choices.clear()
         self.pt_name_choices.clear()
+        self.face_name_choices.clear()
+        self.set_booster_max.clear()
+        self.oracle_collectors.clear()
 
         seen_choices = set()
+        seen_face_choices = set()
         for index, card in enumerate(self.cards):
             set_code = (card.get("set") or "").upper()
             collector = collector_key(card.get("collector_number"))
             if set_code and collector:
                 self.by_print.setdefault((set_code, collector), []).append(card)
+            oracle_id = card.get("oracle_id") or card.get("name")
+            if oracle_id and collector:
+                self.oracle_collectors.setdefault(oracle_id, set()).add(collector)
+            if card.get("lang") == "en" and card.get("booster") and str(card.get("collector_number", "")).isdigit():
+                collector_number = int(card["collector_number"])
+                self.set_booster_max[set_code] = max(self.set_booster_max.get(set_code, 0), collector_number)
 
             oracle_id = card.get("oracle_id") or card.get("name")
             if card.get("lang") == "pt":
@@ -563,6 +886,12 @@ class ScryfallDatabase:
                     if key and key not in seen_choices:
                         self.name_choices.append((candidate, index))
                         seen_choices.add(key)
+                for face in card.get("card_faces") or []:
+                    face_name = face.get("name") or ""
+                    key = normalize_text(face_name)
+                    if key and key not in seen_face_choices:
+                        self.face_name_choices.append((face_name, index))
+                        seen_face_choices.add(key)
 
         if MTGJSON_ATOMIC_PATH.exists():
             log("Lendo traduções em português...")
@@ -577,6 +906,12 @@ class ScryfallDatabase:
                 if key and key not in seen_pt_choices:
                     self.pt_name_choices.append((pt_name, index))
                     seen_pt_choices.add(key)
+                    for part in re.split(r"\s*/\s*", pt_name):
+                        part = part.strip()
+                        part_key = normalize_text(part)
+                        if part_key and part_key not in seen_face_choices:
+                            self.face_name_choices.append((part, index))
+                            seen_face_choices.add(part_key)
 
         state = {
             "cards": self.cards,
@@ -587,6 +922,9 @@ class ScryfallDatabase:
             "mtgjson_pt_by_name": self.mtgjson_pt_by_name,
             "name_choices": self.name_choices,
             "pt_name_choices": self.pt_name_choices,
+            "face_name_choices": self.face_name_choices,
+            "set_booster_max": self.set_booster_max,
+            "oracle_collectors": self.oracle_collectors,
             "loaded": True,
             "index_version": INDEX_VERSION,
         }
@@ -594,44 +932,513 @@ class ScryfallDatabase:
             pickle.dump(state, handle, protocol=pickle.HIGHEST_PROTOCOL)
         self.loaded = True
 
+    OCR_SET_FIXES = {
+        "FRE": "FRF",
+        "ECT": "ECL",
+        "ECI": "ECL",
+        "EC1": "ECL",
+        "RN4": "RNA",
+        "RMA": "RNA",
+        "RNI": "RNA",
+        "AFI": "AFR",
+        "AFP": "AFR",
+        "GAN": "GTC",
+        "GRMN": "GTC",
+        "GRAN": "GTC",
+        "GRMN": "GTC",
+        "ORM": "GTC",
+        "FOE": "EOE",
+        "EOF": "EOE",
+    }
+
+    def _known_set_codes(self) -> set[str]:
+        return {set_code for set_code, _collector in self.by_print.keys()}
+
+    def _sets_for_card_count(self, total: int) -> list[str]:
+        matches = []
+        seen = set()
+        for code, info in self.sets.items():
+            if info.get("card_count") == total and code not in seen:
+                matches.append(code)
+                seen.add(code)
+        for code, booster_max in self.set_booster_max.items():
+            if booster_max == total and code not in seen:
+                matches.append(code)
+                seen.add(code)
+        return matches
+
+    @staticmethod
+    def _is_likely_collector_fraction(collector: str, total: int) -> bool:
+        if total < 30:
+            return False
+        collector_digits = re.sub(r"\D", "", collector)
+        if not collector_digits:
+            return False
+        return int(collector_digits) <= total
+
+    @staticmethod
+    def _collector_fractions_in_text(raw_text: str) -> list[tuple[str, int]]:
+        fractions = []
+        text = raw_text.upper()
+        for match in re.finditer(r"\b([0-9OIL]{1,4}[A-Z]?)\s*/\s*([0-9OILSE]{1,5})\b", text):
+            collector = ocr_collector_key(match.group(1))
+            total_raw = match.group(2).translate(str.maketrans({"O": "0", "I": "1", "L": "1", "E": "8", "S": "5"}))
+            if re.fullmatch(r"\d{1,5}", total_raw):
+                total = int(total_raw)
+                if ScryfallDatabase._is_likely_collector_fraction(collector, total):
+                    fractions.append((collector, total))
+        return fractions
+
+    def _corrected_set(
+        self,
+        token: str,
+        known_sets: set[str],
+        collector: str = "",
+        total: int = 0,
+    ) -> str:
+        if token in known_sets:
+            return token
+        fixed = self.OCR_SET_FIXES.get(token, "")
+        if fixed and fixed in known_sets:
+            return fixed
+        if total and collector:
+            matching_sets = self._sets_for_card_count(total)
+            if len(matching_sets) == 1 and self.by_print.get((matching_sets[0], collector)):
+                return matching_sets[0]
+        if fuzz and process and len(token) >= 2:
+            candidates = list(known_sets)
+            if total and collector:
+                count_sets = self._sets_for_card_count(total)
+                if count_sets:
+                    candidates = count_sets
+            match = process.extractOne(token, candidates, scorer=fuzz.ratio)
+            min_score = 86 if len(token) <= 3 else 80
+            if match and match[1] >= min_score:
+                if self.by_print.get((match[0], collector)):
+                    return match[0]
+        return ""
+
+    def _print_candidates(self, set_code: str, collector: str) -> list[dict]:
+        candidates = [card for card in self.by_print.get((set_code, collector), []) if card.get("lang") == "en"]
+        return candidates or self.by_print.get((set_code, collector), [])
+
+    def _pick_best_print_candidate(self, candidates: list[dict], raw_text: str) -> dict | None:
+        if not candidates:
+            return None
+        if len(candidates) == 1:
+            return candidates[0]
+        scored = []
+        for card in candidates:
+            score = 0
+            if self._card_name_in_raw_text(card, raw_text):
+                score += 100
+            pt_card = self.portuguese_for(card)
+            pt_name = (pt_card or {}).get("printed_name") or ""
+            if pt_name and normalize_text(pt_name) in normalize_text(raw_text):
+                score += 80
+            scored.append((score, card))
+        scored.sort(key=lambda item: item[0], reverse=True)
+        if scored[0][0] > 0:
+            return scored[0][1]
+        return candidates[0]
+
+    def _set_codes_in_text(self, raw_text: str) -> set[str]:
+        known_sets = self._known_set_codes()
+        tokens = re.findall(r"[A-Z0-9]+", raw_text.upper())
+        found = {token for token in tokens if token in known_sets}
+        if fuzz and process:
+            for token in tokens:
+                if len(token) != 3 or token in found:
+                    continue
+                match = process.extractOne(token, list(known_sets), scorer=fuzz.ratio)
+                if match and match[1] >= 88:
+                    found.add(match[0])
+        return found
+
+    def _namebar_candidates(self, namebar_text: str) -> list[str]:
+        line = best_namebar_line(namebar_text)
+        candidates = []
+        if line:
+            candidates.append(line)
+            candidates.append(normalize_ocr_name(line))
+        normalized_all = normalize_ocr_name(namebar_text)
+        if normalized_all and normalized_all not in candidates and is_plausible_namebar(normalized_all):
+            candidates.append(normalized_all)
+        return [candidate for candidate in candidates if candidate]
+
+    def _fuzzy_namebar(self, namebar_text: str) -> dict | None:
+        for candidate in self._namebar_candidates(namebar_text):
+            card = self._fuzzy_name(candidate, strict_words=True, min_score=84, prefer_en=True)
+            if card:
+                return card
+            if is_plausible_namebar(candidate):
+                card = self._fuzzy_name(candidate, strict_words=False, min_score=76, prefer_en=True)
+                if card:
+                    return card
+        return None
+
+    def _find_by_face_names_in_text(self, raw_text: str) -> tuple[dict | None, str]:
+        if not raw_text or not self.face_name_choices or not process or not fuzz:
+            return None, ""
+        choices = {name: index for name, index in self.face_name_choices}
+        best_card = None
+        best_name = ""
+        best_score = 0
+        for line in raw_text.splitlines():
+            cleaned = clean_ocr_line(line)
+            normalized = normalize_text(cleaned)
+            words = normalized.split()
+            if not words or len(words) > 4:
+                continue
+            if not any(len(word) >= 4 for word in words):
+                continue
+            for size in range(min(3, len(words)), 0, -1):
+                for start in range(0, len(words) - size + 1):
+                    candidate = " ".join(words[start : start + size])
+                    if len(candidate) < 5:
+                        continue
+                    if candidate in COMMON_EN_OCR_WORDS or candidate in COMMON_PT_OCR_WORDS:
+                        continue
+                    match = process.extractOne(candidate, choices.keys(), scorer=fuzz.WRatio)
+                    if not match:
+                        continue
+                    matched_name = match[0]
+                    matched_len = len(normalize_text(matched_name))
+                    min_score = 96 if len(candidate) < 7 else 90
+                    if match[1] < min_score:
+                        continue
+                    if len(candidate) < matched_len * 0.55:
+                        continue
+                    if match[1] > best_score:
+                        best_score = match[1]
+                        best_name = matched_name
+                        best_card = self.cards[choices[matched_name]]
+        if best_card:
+            return best_card, best_name
+        return None, ""
+
+    def _fraction_supports_print(self, set_code: str, collector: str, fractions: list[tuple[str, int]]) -> int:
+        score = 0
+        for fraction_collector, total in fractions:
+            if fraction_collector != collector:
+                continue
+            if set_code in self._sets_for_card_count(total):
+                score = max(score, 150)
+        return score
+
+    def _distinctive_name_in_raw_text(self, card: dict, raw_text: str) -> bool:
+        names = [card.get("name", "")]
+        for face in card.get("card_faces") or []:
+            face_name = face.get("name") or ""
+            if face_name:
+                names.append(face_name)
+        pt_card = self.portuguese_for(card)
+        if pt_card:
+            printed_name = pt_card.get("printed_name") or pt_card.get("name") or ""
+            names.append(printed_name)
+            for part in re.split(r"\s*/\s*", printed_name):
+                part = part.strip()
+                if part:
+                    names.append(part)
+        normalized_raw = normalize_text(raw_text)
+        raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
+        for card_name in names:
+            if not card_name:
+                continue
+            normalized_name = normalize_text(card_name)
+            if normalized_name and normalized_name in normalized_raw:
+                return True
+            name_words = [
+                word for word in normalized_name.split() if len(word) >= 4 and word not in COMMON_PT_OCR_WORDS
+            ]
+            if not name_words:
+                name_words = [word for word in normalized_name.split() if len(word) >= 4]
+            if not name_words:
+                continue
+            if all(word in COMMON_PT_OCR_WORDS for word in name_words):
+                continue
+            required = 2 if len(name_words) >= 2 else 1
+            if fuzzy_word_count(name_words, raw_words) >= required:
+                return True
+            if fuzz:
+                for line in raw_text.splitlines():
+                    cleaned = clean_ocr_line(line)
+                    if len(cleaned.split()) > 6:
+                        continue
+                    normalized_line = normalize_ocr_name(cleaned)
+                    line_words = [word for word in normalized_line.split() if len(word) >= 3]
+                    if name_words and len(name_words) == 1:
+                        word = name_words[0]
+                        if not any(
+                            words_fuzzy_match(word, raw_word, 88) and len(raw_word) >= max(5, len(word) * 0.55)
+                            for raw_word in line_words
+                        ):
+                            continue
+                    if fuzz.WRatio(card_name, cleaned) >= 84 or fuzz.WRatio(card_name, normalized_line) >= 76:
+                        return True
+        return False
+
+    def _print_evidence_in_ocr(self, card: dict, ctx: OcrMatchContext) -> bool:
+        ocr = ctx.ocr
+        set_code = (card.get("set") or "").upper()
+        collector = collector_key(card.get("collector_number"))
+        if ocr.set_code and ocr.collector_number:
+            if ocr.set_code.upper() == set_code and collector_key(ocr.collector_number) == collector:
+                return True
+        for index, token in enumerate(ctx.tokens):
+            if collector_key(token) != collector:
+                continue
+            window = set(ctx.tokens[index + 1 : index + 16])
+            if set_code in window:
+                return True
+        fraction_collectors = {fraction_collector for fraction_collector, _total in ctx.fractions}
+        if set_code in ctx.sets_in_text and collector in fraction_collectors:
+            return True
+        if collector in self._collector_numbers_in_text(ocr.raw_text):
+            if set_code in ctx.sets_in_text or set_code in ctx.tokens:
+                return True
+        return False
+
+    def _reliable_hint_card(self, ocr: OcrResult) -> dict | None:
+        face_card, _ = self._find_by_face_names_in_text(ocr.raw_text)
+        if face_card and self._distinctive_name_in_raw_text(face_card, ocr.raw_text):
+            return face_card
+        namebar_en = self._fuzzy_namebar(ocr.namebar_text)
+        if namebar_en and self._distinctive_name_in_raw_text(namebar_en, ocr.raw_text):
+            return namebar_en
+        namebar_pt, _ = self._fuzzy_portuguese_text(
+            best_namebar_line(ocr.namebar_text) or ocr.namebar_text,
+            namebar_mode=True,
+        )
+        if namebar_pt and self._distinctive_name_in_raw_text(namebar_pt, ocr.raw_text):
+            return namebar_pt
+        pt_words_card, _ = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
+        if pt_words_card and self._distinctive_name_in_raw_text(pt_words_card, ocr.raw_text):
+            return pt_words_card
+        if ocr.name_hint and self._likely_name_hint(ocr.name_hint):
+            normalized_hint = normalize_ocr_name(ocr.name_hint)
+            if is_plausible_namebar(normalized_hint):
+                card = self._fuzzy_name(normalized_hint, strict_words=False, min_score=76)
+                if card and self._distinctive_name_in_raw_text(card, ocr.raw_text):
+                    return card
+            if is_plausible_namebar(ocr.name_hint):
+                card = self._fuzzy_name(ocr.name_hint, strict_words=True, min_score=84)
+                if card and self._distinctive_name_in_raw_text(card, ocr.raw_text):
+                    return card
+        return None
+
+    def _fuzzy_portuguese_words_in_text(self, raw_text: str) -> tuple[dict | None, str]:
+        if not raw_text or not self.pt_name_choices:
+            return None, ""
+        raw_words = [word for word in normalize_text(raw_text).split() if len(word) >= 4]
+        if len(raw_words) < 2:
+            return None, ""
+        best_word_card = None
+        best_word_name = ""
+        best_word_score = 0
+        for pt_name, index in self.pt_name_choices:
+            pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 4]
+            if not pt_words:
+                continue
+            distinctive_words = [word for word in pt_words if word not in COMMON_PT_OCR_WORDS]
+            match_words = distinctive_words or pt_words
+            all_pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 3]
+            first_word = all_pt_words[0] if all_pt_words else ""
+            if len(all_pt_words) > 1 and first_word:
+                if not any(words_fuzzy_match(first_word, word, 88) for word in raw_words):
+                    continue
+            matches = fuzzy_word_count(match_words, raw_words)
+            required = min(3, len(match_words)) if len(match_words) >= 3 else min(2, len(match_words))
+            if matches < required:
+                continue
+            score = matches * 100 + min(len(pt_words), 6)
+            if score > best_word_score:
+                best_word_score = score
+                best_word_name = pt_name
+                best_word_card = self.cards[index]
+        if best_word_card:
+            return best_word_card, best_word_name
+        return None, ""
+
+    def _oracle_has_collector(self, oracle_id: str, collector: str) -> bool:
+        return collector in self.oracle_collectors.get(oracle_id, set())
+
+    def _build_match_context(self, ocr: OcrResult) -> OcrMatchContext:
+        fractions = self._collector_fractions_in_text(ocr.raw_text)
+        tokens = re.findall(r"[A-Z0-9]+", ocr.raw_text.upper())
+        sets_in_text = self._set_codes_in_text(ocr.raw_text)
+        namebar_en = self._fuzzy_namebar(ocr.namebar_text)
+        namebar_pt, _ = self._fuzzy_portuguese_text(
+            best_namebar_line(ocr.namebar_text) or ocr.namebar_text,
+            namebar_mode=True,
+        )
+        face_card, _ = self._find_by_face_names_in_text(ocr.raw_text)
+        pt_words_card, _ = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
+        hint_card = self._reliable_hint_card(ocr)
+        return OcrMatchContext(
+            ocr=ocr,
+            fractions=fractions,
+            tokens=tokens,
+            sets_in_text=sets_in_text,
+            hint_card=hint_card,
+            namebar_resolved=bool(
+                (namebar_en and self._card_name_in_raw_text(namebar_en, ocr.raw_text))
+                or (namebar_pt and self._card_name_in_raw_text(namebar_pt, ocr.raw_text))
+                or (face_card and self._card_name_in_raw_text(face_card, ocr.raw_text))
+                or pt_words_card
+            ),
+        )
+
+    def _find_by_collector_fraction(self, raw_text: str, ctx: OcrMatchContext | None = None) -> tuple[dict | None, str, str]:
+        fractions = ctx.fractions if ctx else self._collector_fractions_in_text(raw_text)
+        if not fractions:
+            return None, "", ""
+        sets_in_text = ctx.sets_in_text if ctx else self._set_codes_in_text(raw_text)
+        collectors_in_fractions = {collector for collector, _total in fractions}
+        if sets_in_text and collectors_in_fractions:
+            best_card = None
+            best_set = ""
+            best_collector = ""
+            best_score = -1
+            for set_code in sets_in_text:
+                for collector in collectors_in_fractions:
+                    candidates = self._print_candidates(set_code, collector)
+                    if not candidates:
+                        continue
+                    card = self._pick_best_print_candidate(candidates, raw_text)
+                    if not card:
+                        continue
+                    score = 250
+                    score += self._fraction_supports_print(set_code, collector, fractions)
+                    if self._card_name_in_raw_text(card, raw_text):
+                        score += 100
+                    if score > best_score:
+                        best_score = score
+                        best_card = card
+                        best_set = set_code
+                        best_collector = collector
+            if best_card:
+                return best_card, best_set, best_collector
+
+        fraction_counts: dict[tuple[str, int], int] = {}
+        for collector, total in fractions:
+            fraction_counts[(collector, total)] = fraction_counts.get((collector, total), 0) + 1
+        ranked_fractions = sorted(fraction_counts.items(), key=lambda item: item[1], reverse=True)
+        for (collector, total), _count in ranked_fractions:
+            matching_sets = self._sets_for_card_count(total)
+            if not matching_sets:
+                continue
+            best_card = None
+            best_set = ""
+            best_score = -1
+            for set_code in matching_sets:
+                candidates = self._print_candidates(set_code, collector)
+                if not candidates:
+                    continue
+                card = self._pick_best_print_candidate(candidates, raw_text)
+                if not card:
+                    continue
+                score = 50
+                score += self._fraction_supports_print(set_code, collector, fractions)
+                if set_code in sets_in_text:
+                    score += 200
+                if self._card_name_in_raw_text(card, raw_text):
+                    score += 100
+                if score > best_score:
+                    best_score = score
+                    best_card = card
+                    best_set = set_code
+            if best_card:
+                if len(matching_sets) > 1 and best_score < 150:
+                    continue
+                return best_card, best_set, collector
+        return None, "", ""
+
     def find(self, ocr: OcrResult) -> tuple[dict, str]:
         self.load()
-        card, set_code, collector_number = self._find_print_in_ocr_text(ocr.raw_text)
-        if card:
-            return card, f"rodapé OCR {set_code} #{collector_number}"
+        ctx = self._build_match_context(ocr)
 
-        namebar_card, namebar_name = self._fuzzy_portuguese_text(ocr.namebar_text)
-        if namebar_card:
-            namebar_card = self._prefer_print_from_ocr(namebar_card, ocr.raw_text)
-            return namebar_card, f"nome superior PT OCR '{namebar_name}'"
-        namebar_card = self._fuzzy_name(ocr.namebar_text, strict_words=True)
-        if namebar_card:
-            namebar_card = self._prefer_print_from_ocr(namebar_card, ocr.raw_text)
-            return namebar_card, "nome superior OCR"
+        def finalize(card: dict, reason: str) -> tuple[dict, str]:
+            return self._prefer_print_from_ocr(card, ocr.raw_text), reason
+
+        def try_match(card: dict | None, reason: str) -> tuple[dict, str] | None:
+            if not card:
+                return None
+            card = self._prefer_print_from_ocr(card, ocr.raw_text)
+            if self.is_confident_match(card, ctx):
+                return card, reason
+            return None
 
         if ocr.set_code and ocr.collector_number:
-            candidates = self.by_print.get((ocr.set_code.upper(), collector_key(ocr.collector_number)), [])
-            english = [card for card in candidates if card.get("lang") == "en"]
-            if english:
-                if not ocr.name_hint or self._card_name_matches(english[0], ocr.name_hint):
-                    return english[0], f"código {ocr.set_code.upper()} #{ocr.collector_number}"
+            candidates = self._print_candidates(ocr.set_code.upper(), collector_key(ocr.collector_number))
             if candidates:
-                if not ocr.name_hint or self._card_name_matches(candidates[0], ocr.name_hint):
-                    return candidates[0], f"código {ocr.set_code.upper()} #{ocr.collector_number}"
+                card = self._pick_best_print_candidate(candidates, ocr.raw_text)
+                matched = try_match(card, f"código {ocr.set_code.upper()} #{ocr.collector_number}")
+                if matched:
+                    return matched
+
+        card, set_code, collector_number = self._find_print_in_ocr_text(ocr.raw_text)
+        matched = try_match(card, f"rodapé OCR {set_code} #{collector_number}")
+        if matched:
+            return matched
+
+        face_card, face_name = self._find_by_face_names_in_text(ocr.raw_text)
+        if face_card and self._distinctive_name_in_raw_text(face_card, ocr.raw_text):
+            matched = try_match(face_card, f"face OCR '{face_name}'")
+            if matched:
+                return matched
+
+        pt_words_card, pt_words_name = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
+        if pt_words_card and self._distinctive_name_in_raw_text(pt_words_card, ocr.raw_text):
+            matched = try_match(pt_words_card, f"nome PT palavras '{pt_words_name}'")
+            if matched:
+                return matched
+
+        namebar_en = self._fuzzy_namebar(ocr.namebar_text)
+        namebar_line = best_namebar_line(ocr.namebar_text) or normalize_ocr_name(ocr.namebar_text)
+        if namebar_en and (
+            self._distinctive_name_in_raw_text(namebar_en, ocr.raw_text)
+            or self._card_name_matches(namebar_en, namebar_line)
+        ):
+            matched = try_match(namebar_en, "nome superior OCR")
+            if matched:
+                return matched
+
+        namebar_pt, namebar_pt_name = self._fuzzy_portuguese_text(
+            best_namebar_line(ocr.namebar_text) or ocr.namebar_text,
+            namebar_mode=True,
+        )
+        if namebar_pt and self._card_name_in_raw_text(namebar_pt, ocr.raw_text):
+            matched = try_match(namebar_pt, f"nome superior PT OCR '{namebar_pt_name}'")
+            if matched:
+                return matched
+
+        card, set_code, collector_number = self._find_by_collector_fraction(ocr.raw_text, ctx)
+        matched = try_match(card, f"fração collector {set_code} #{collector_number}")
+        if matched:
+            return matched
+
+        if not ctx.namebar_resolved:
+            card, matched_name = self._fuzzy_portuguese_text(ocr.raw_text)
+            matched = try_match(card, f"nome PT OCR '{matched_name}'")
+            if matched:
+                return matched
 
         if ocr.name_hint and self._likely_name_hint(ocr.name_hint):
-            card = self._fuzzy_name(ocr.name_hint, strict_words=True)
-            if card:
-                card = self._prefer_print_from_ocr(card, ocr.raw_text)
-                return card, f"nome OCR '{ocr.name_hint}'"
-        card, matched_name = self._fuzzy_portuguese_text(ocr.raw_text)
-        if card:
-            card = self._prefer_print_from_ocr(card, ocr.raw_text)
-            return card, f"nome PT OCR '{matched_name}'"
+            normalized_hint = normalize_ocr_name(ocr.name_hint)
+            card = None
+            if is_plausible_namebar(normalized_hint):
+                card = self._fuzzy_name(normalized_hint, strict_words=False, min_score=76)
+            if not card and is_plausible_namebar(ocr.name_hint):
+                card = self._fuzzy_name(ocr.name_hint, strict_words=True, min_score=84)
+            matched = try_match(card, f"nome OCR '{ocr.name_hint}'")
+            if matched:
+                return matched
+
         card, matched_line = self._fuzzy_ocr_text(ocr.raw_text)
-        if card:
-            card = self._prefer_print_from_ocr(card, ocr.raw_text)
-            return card, f"texto OCR '{matched_line}'"
+        matched = try_match(card, f"texto OCR '{matched_line}'")
+        if matched:
+            return matched
         raise LookupError("Não consegui encontrar a carta na base local.")
 
     @staticmethod
@@ -700,29 +1507,30 @@ class ScryfallDatabase:
     def _find_print_in_ocr_text(self, raw_text: str) -> tuple[dict | None, str, str]:
         if not raw_text:
             return None, "", ""
-        known_sets = {set_code for set_code, _collector in self.by_print.keys()}
+        known_sets = self._known_set_codes()
+        fractions = self._collector_fractions_in_text(raw_text)
+        fraction_totals = {collector: total for collector, total in fractions}
         language_codes = {"EN", "PT", "ES", "FR", "DE", "IT", "JP", "KO", "RU", "ZHS", "ZHT"}
         rarity_codes = {"C", "U", "R", "M"}
         tokens = re.findall(r"[A-Z0-9]+", raw_text.upper())
 
-        def corrected_set(token: str) -> str:
-            if token in known_sets:
-                return token
-            ocr_set_fixes = {
-                "FRE": "FRF",
-                "ECT": "ECL",
-                "ECI": "ECL",
-                "EC1": "ECL",
-            }
-            fixed = ocr_set_fixes.get(token, "")
-            return fixed if fixed in known_sets else ""
-
         def candidate_from(set_code: str, collector: str) -> dict | None:
-            candidates = [card for card in self.by_print.get((set_code, collector), []) if card.get("lang") == "en"]
-            candidates = candidates or self.by_print.get((set_code, collector), [])
+            candidates = self._print_candidates(set_code, collector)
+            if not candidates:
+                return None
             for card in candidates:
                 if self._card_name_in_raw_text(card, raw_text):
                     return card
+            total = fraction_totals.get(collector, 0)
+            collector_digits = re.sub(r"\D", "", collector)
+            if collector_digits and int(collector_digits) <= 9 and not total:
+                return None
+            if total:
+                if set_code in self._sets_for_card_count(total):
+                    return self._pick_best_print_candidate(candidates, raw_text)
+                return None
+            if self.by_print.get((set_code, collector)):
+                return self._pick_best_print_candidate(candidates, raw_text)
             return None
 
         for index, token in enumerate(tokens):
@@ -734,8 +1542,9 @@ class ScryfallDatabase:
             if collector_index >= len(tokens) or not re.fullmatch(r"0*\d{1,4}[A-Z]?", tokens[collector_index]):
                 continue
             collector = ocr_collector_key(tokens[collector_index])
+            total = fraction_totals.get(collector, 0)
             for lookahead in range(collector_index + 1, min(collector_index + 25, len(tokens) - 1)):
-                set_code = corrected_set(tokens[lookahead])
+                set_code = self._corrected_set(tokens[lookahead], known_sets, collector, total)
                 if not set_code:
                     continue
                 if tokens[lookahead + 1] not in language_codes and (set_code, collector) not in self.by_print:
@@ -754,12 +1563,13 @@ class ScryfallDatabase:
                 if previous_is_number or next_is_number:
                     continue
             collector = ocr_collector_key(token)
+            total = fraction_totals.get(collector, 0)
             if index + 1 < len(tokens) and tokens[index + 1].isdigit():
                 search_start = index + 2
             else:
                 search_start = index + 1
             for lookahead in range(search_start, min(search_start + 25, len(tokens) - 1)):
-                set_code = corrected_set(tokens[lookahead])
+                set_code = self._corrected_set(tokens[lookahead], known_sets, collector, total)
                 if not set_code:
                     continue
                 key = (set_code, collector)
@@ -773,9 +1583,18 @@ class ScryfallDatabase:
 
     def _card_name_in_raw_text(self, card: dict, raw_text: str) -> bool:
         names = [card.get("name", "")]
+        for face in card.get("card_faces") or []:
+            face_name = face.get("name") or ""
+            if face_name:
+                names.append(face_name)
         pt_card = self.portuguese_for(card)
         if pt_card:
             names.append(pt_card.get("printed_name") or pt_card.get("name") or "")
+            printed_name = (pt_card or {}).get("printed_name") or ""
+            for part in re.split(r"\s*/\s*", printed_name):
+                part = part.strip()
+                if part:
+                    names.append(part)
         names = [name for name in names if name]
         if not names:
             return False
@@ -807,17 +1626,34 @@ class ScryfallDatabase:
                         return True
         return False
 
-    def is_confident_match(self, card: dict, ocr: OcrResult) -> bool:
+    def is_confident_match(self, card: dict, ctx: OcrMatchContext) -> bool:
+        ocr = ctx.ocr
+        if self._ocr_contradicts_card(card, ctx):
+            return False
+        if ctx.hint_card and ctx.hint_card.get("oracle_id") != card.get("oracle_id"):
+            if not self._print_evidence_in_ocr(card, ctx):
+                return False
         if self._card_name_in_raw_text(card, ocr.raw_text):
+            return True
+        if ctx.hint_card and ctx.hint_card.get("oracle_id") == card.get("oracle_id"):
             return True
         set_code = (card.get("set") or "").upper()
         collector = collector_key(card.get("collector_number"))
-        tokens = re.findall(r"[A-Z0-9]+", ocr.raw_text.upper())
-        for index, token in enumerate(tokens):
+        for index, token in enumerate(ctx.tokens):
             if collector_key(token) != collector:
                 continue
-            window = set(tokens[index + 1 : index + 16])
+            window = set(ctx.tokens[index + 1 : index + 16])
             if set_code in window:
+                return True
+        for fraction_collector, total in ctx.fractions:
+            if fraction_collector != collector:
+                continue
+            matching_sets = self._sets_for_card_count(total)
+            if set_code not in matching_sets:
+                continue
+            if set_code in ctx.sets_in_text:
+                return True
+            if len(matching_sets) == 1 and set_code in ctx.tokens:
                 return True
         card_type = normalize_text(card_faces_text(card, "type_line"))
         card_text = normalize_text(card_faces_text(card, "oracle_text"))
@@ -828,6 +1664,51 @@ class ScryfallDatabase:
             sum(1 for word in type_words if word in raw) >= 2
             and sum(1 for word in text_words if word in raw) >= 4
         )
+
+    def _ocr_contradicts_card(self, card: dict, ctx: OcrMatchContext) -> bool:
+        raw_text = ctx.ocr.raw_text
+        fractions = ctx.fractions
+        collectors = self._collector_numbers_in_text(raw_text)
+        if not fractions and not collectors:
+            return False
+        card_collector = collector_key(card.get("collector_number"))
+        card_set = (card.get("set") or "").upper()
+        oracle_id = card.get("oracle_id")
+
+        fraction_collectors = {collector for collector, _total in fractions}
+        if card_collector in fraction_collectors:
+            if card_set in ctx.sets_in_text:
+                return False
+            if self._card_name_in_raw_text(card, raw_text):
+                return False
+            supporting = False
+            for collector, total in fractions:
+                if collector != card_collector:
+                    continue
+                if card_set in self._sets_for_card_count(total):
+                    supporting = True
+                    break
+            return not supporting
+
+        if card_collector in collectors and self._oracle_has_collector(oracle_id, card_collector):
+            return False
+
+        if fraction_collectors:
+            for collector, total in fractions:
+                if self._oracle_has_collector(oracle_id, collector):
+                    continue
+                matching_sets = self._sets_for_card_count(total)
+                for set_code in matching_sets:
+                    if self.by_print.get((set_code, collector)):
+                        return True
+
+        if collectors and not self._oracle_has_collector(oracle_id, card_collector):
+            for collector in collectors:
+                if self._oracle_has_collector(oracle_id, collector):
+                    continue
+                if collector != card_collector:
+                    return True
+        return False
 
     @staticmethod
     def _likely_name_hint(name_hint: str) -> bool:
@@ -868,27 +1749,47 @@ class ScryfallDatabase:
             "ataca",
             "ataque",
             "bloquear",
+            "serving",
+            "nothing",
+            "posters",
+            "navy",
         }
         if hard_action_words.intersection(words):
             return False
         return len(rules_words.intersection(words)) <= 1
 
-    def _fuzzy_name(self, name_hint: str, strict_words: bool = False) -> dict | None:
+    def _fuzzy_name(
+        self,
+        name_hint: str,
+        strict_words: bool = False,
+        min_score: int = 84,
+        prefer_en: bool = False,
+    ) -> dict | None:
         normalized_hint = normalize_text(name_hint)
         if not normalized_hint:
             return None
         if process and fuzz:
+            pt_card = None
+            pt_score = 0
+            en_card = None
+            en_score = 0
             pt_choices = {name: index for name, index in self.pt_name_choices}
-            pt_match = process.extractOne(name_hint, pt_choices.keys(), scorer=fuzz.WRatio) if pt_choices else None
-            if pt_match and pt_match[1] >= 84:
-                return self.cards[pt_choices[pt_match[0]]]
+            if pt_choices:
+                pt_match = process.extractOne(name_hint, pt_choices.keys(), scorer=fuzz.WRatio)
+                if pt_match and pt_match[1] >= min_score:
+                    pt_card = self.cards[pt_choices[pt_match[0]]]
+                    pt_score = pt_match[1]
             choices = {name: index for name, index in self.name_choices}
-            match = process.extractOne(name_hint, choices.keys(), scorer=fuzz.WRatio)
-            if match and match[1] >= 84:
-                if strict_words and not self._name_words_present(match[0], normalized_hint):
-                    return None
-                return self.cards[choices[match[0]]]
-            return None
+            en_match = process.extractOne(name_hint, choices.keys(), scorer=fuzz.WRatio) if choices else None
+            if en_match and en_match[1] >= min_score:
+                if not strict_words or self._name_words_present(en_match[0], normalized_hint):
+                    en_card = self.cards[choices[en_match[0]]]
+                    en_score = en_match[1]
+            if en_card and (not pt_card or en_score >= pt_score + 3 or prefer_en):
+                return en_card
+            if pt_card and (not en_card or pt_score > en_score + 3):
+                return pt_card
+            return en_card or pt_card
 
         import difflib
 
@@ -914,37 +1815,63 @@ class ScryfallDatabase:
         required = 2 if len(words) >= 2 else 1
         return sum(1 for word in words if word in normalized_text) >= required
 
-    def _fuzzy_portuguese_text(self, raw_text: str) -> tuple[dict | None, str]:
+    def _fuzzy_portuguese_text(
+        self,
+        raw_text: str,
+        *,
+        namebar_mode: bool = False,
+        max_lines: int = 20,
+    ) -> tuple[dict | None, str]:
         if not raw_text or not process or not fuzz or not self.pt_name_choices:
             return None, ""
+        if not namebar_mode:
+            short_lines = []
+            for line in raw_text.splitlines():
+                cleaned = clean_ocr_line(line)
+                words = normalize_text(cleaned).split()
+                if not words or len(words) > 8:
+                    continue
+                short_lines.append(line)
+                if len(short_lines) >= max_lines:
+                    break
+            if not short_lines:
+                return None, ""
+            raw_text = "\n".join(short_lines)
         raw_words = [word for word in normalize_text(raw_text).split() if len(word) >= 3]
-        best_word_card = None
-        best_word_name = ""
-        best_word_score = 0
-        for pt_name, index in self.pt_name_choices:
-            pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 4]
-            if not pt_words:
-                continue
-            matches = fuzzy_word_count(pt_words, raw_words)
-            required = min(2, len(pt_words))
-            if matches < required:
-                continue
-            score = matches * 100 + min(len(pt_words), 6)
-            if score > best_word_score:
-                best_word_score = score
-                best_word_name = pt_name
-                best_word_card = self.cards[index]
-        if best_word_card:
-            return best_word_card, best_word_name
+        if namebar_mode:
+            best_word_card = None
+            best_word_name = ""
+            best_word_score = 0
+            for pt_name, index in self.pt_name_choices:
+                pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 4]
+                if not pt_words:
+                    continue
+                all_pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 3]
+                first_word = all_pt_words[0] if all_pt_words else ""
+                if len(all_pt_words) > 1 and first_word:
+                    if not any(words_fuzzy_match(first_word, word, 88) for word in raw_words):
+                        continue
+                matches = fuzzy_word_count(pt_words, raw_words)
+                required = min(3, len(pt_words)) if len(pt_words) >= 3 else min(2, len(pt_words))
+                if matches < required:
+                    continue
+                score = matches * 100 + min(len(pt_words), 6)
+                if score > best_word_score:
+                    best_word_score = score
+                    best_word_name = pt_name
+                    best_word_card = self.cards[index]
+            if best_word_card:
+                return best_word_card, best_word_name
 
         choices = {name: index for name, index in self.pt_name_choices}
         best_card = None
         best_name = ""
         best_score = 0
         for line in raw_text.splitlines():
-            normalized = normalize_text(clean_ocr_line(line))
+            cleaned = clean_ocr_line(line)
+            normalized = normalize_text(cleaned)
             words = [word for word in normalized.split() if len(word) >= 3]
-            if not words:
+            if not words or len(words) > 8:
                 continue
             for size in range(min(5, len(words)), 1, -1):
                 for start in range(0, len(words) - size + 1):
@@ -954,9 +1881,15 @@ class ScryfallDatabase:
                         continue
                     pt_name = match[0]
                     pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 4]
+                    all_pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 3]
+                    first_word = all_pt_words[0] if all_pt_words else ""
+                    if len(all_pt_words) > 1 and first_word:
+                        if not any(words_fuzzy_match(first_word, word, 88) for word in words):
+                            continue
                     if len(pt_words) == 1 and len(words) > 2:
                         continue
-                    if pt_words and fuzzy_word_count(pt_words, words) < min(2, len(pt_words)):
+                    required = min(3, len(pt_words)) if len(pt_words) >= 3 else min(2, len(pt_words))
+                    if pt_words and fuzzy_word_count(pt_words, words) < required:
                         continue
                     adjusted_score = match[1] + (len(pt_words) * 3)
                     if adjusted_score > best_score:
@@ -1012,12 +1945,16 @@ class ScryfallDatabase:
         best_card = None
         best_line = ""
         best_score = 0
+        lines_seen = 0
         for line in raw_text.splitlines():
             cleaned = clean_ocr_line(line)
             normalized = normalize_text(cleaned)
             words = [word for word in normalized.split() if word not in ignored and len(word) > 1]
-            if len(words) < 2:
+            if len(words) < 2 or len(words) > 8:
                 continue
+            lines_seen += 1
+            if lines_seen > 20:
+                break
             for size in range(min(5, len(words)), 1, -1):
                 for start in range(0, len(words) - size + 1):
                     candidate = " ".join(words[start : start + size])
@@ -1112,6 +2049,7 @@ class MagicExtractorApp:
         self.preview_ref = None
         self.busy_widgets = []
         self.extraction_id = 0
+        self.last_appended_row: int | None = None
         self.field_vars = {field: StringVar() for field in FIELDS}
         self.foil_var = BooleanVar(value=False)
         self.status_var = StringVar(value=f"Pronto. v{APP_VERSION}")
@@ -1159,23 +2097,46 @@ class MagicExtractorApp:
         right.grid(row=0, column=1, sticky="nsew")
         right.columnconfigure(1, weight=1)
 
+        self.result_banner = Label(
+            right,
+            text="",
+            font=("Segoe UI", 11, "bold"),
+            anchor="w",
+            padx=10,
+            pady=8,
+            wraplength=820,
+            justify="left",
+        )
+        self.result_banner.grid(row=0, column=0, columnspan=2, sticky="ew", pady=(0, 10))
+
         for row_index, field in enumerate(FIELDS):
-            ttk.Label(right, text=field).grid(row=row_index, column=0, sticky="nw", padx=(0, 8), pady=3)
+            ttk.Label(right, text=field).grid(row=row_index + 1, column=0, sticky="nw", padx=(0, 8), pady=3)
             entry = ttk.Entry(right, textvariable=self.field_vars[field])
             if field == "Descrição magia":
                 entry = ttk.Entry(right, textvariable=self.field_vars[field])
-            entry.grid(row=row_index, column=1, sticky="ew", pady=3)
+            entry.grid(row=row_index + 1, column=1, sticky="ew", pady=3)
 
-        ttk.Label(right, text="OCR bruto").grid(row=len(FIELDS), column=0, sticky="nw", padx=(0, 8), pady=3)
+        ttk.Label(right, text="OCR bruto").grid(row=len(FIELDS) + 1, column=0, sticky="nw", padx=(0, 8), pady=3)
         self.raw_text = ttk.Label(right, textvariable=self.raw_ocr_var, wraplength=850, justify="left")
-        self.raw_text.grid(row=len(FIELDS), column=1, sticky="ew", pady=3)
+        self.raw_text.grid(row=len(FIELDS) + 1, column=1, sticky="ew", pady=3)
 
         status = ttk.Label(self.root, textvariable=self.status_var, anchor="w", padding=(10, 4))
         status.grid(row=1, column=0, columnspan=2, sticky="ew")
 
+        self.duplicate_alert = Label(
+            self.root,
+            text="",
+            fg="red",
+            font=("Segoe UI", 10, "bold"),
+            anchor="w",
+            padx=10,
+        )
+        self.duplicate_alert.grid(row=2, column=0, columnspan=2, sticky="ew")
+
     def _log_ocr_status(self) -> None:
         if self.ocr.available():
-            self.log(f"OCR pronto: {self.ocr.tesseract_path} | v{APP_VERSION}")
+            lang_note = "por+eng" if self.ocr.por_available else "eng (instale por no Tesseract para cartas PT)"
+            self.log(f"OCR pronto: {self.ocr.tesseract_path} | {lang_note} | v{APP_VERSION}")
         else:
             self.log(f"OCR indisponível: instale o Tesseract para extrair texto da imagem. | v{APP_VERSION}")
 
@@ -1207,6 +2168,63 @@ class MagicExtractorApp:
         for field in FIELDS:
             self.field_vars[field].set("")
         self.raw_ocr_var.set("")
+        self.last_appended_row = None
+        self.clear_duplicate_alert()
+        self.clear_result_banner()
+
+    def show_result_banner(self, message: str, kind: str = "info") -> None:
+        styles = {
+            "success": ("#1b5e20", "#e8f5e9"),
+            "duplicate": ("#b71c1c", "#ffebee"),
+            "info": ("#1565c0", "#e3f2fd"),
+        }
+        fg, bg = styles.get(kind, styles["info"])
+        self.result_banner.configure(text=message, fg=fg, bg=bg)
+        self.root.update_idletasks()
+
+    def clear_result_banner(self) -> None:
+        self.result_banner.configure(text="", bg="SystemButtonFace", fg="SystemWindowText")
+
+    def show_duplicate_alert(self, row_number: int) -> None:
+        message = f"Carta já existe na linha {row_number} de {EXCEL_PATH.name} — não foi adicionada de novo."
+        self.duplicate_alert.configure(text=message)
+        self.show_result_banner(message, "duplicate")
+
+    def clear_duplicate_alert(self) -> None:
+        self.duplicate_alert.configure(text="")
+
+    def check_duplicate_alert(self, name: str) -> None:
+        if not name.strip():
+            self.clear_duplicate_alert()
+            return
+        existing_row = find_name_row_in_excel(name)
+        if existing_row is not None:
+            self.show_duplicate_alert(existing_row)
+        else:
+            self.clear_duplicate_alert()
+
+    def save_or_alert_duplicate(self, row: list[str], allow_update: bool = False) -> None:
+        name = row[0]
+        if not name.strip():
+            return
+        existing_row = find_name_row_in_excel(name)
+        if existing_row is not None:
+            if allow_update and self.last_appended_row == existing_row:
+                update_row_in_excel(existing_row, row)
+                self.clear_duplicate_alert()
+                self.log(f"Atualizado na linha {existing_row} em {EXCEL_PATH}")
+                return
+            self.show_duplicate_alert(existing_row)
+            return
+        self.clear_duplicate_alert()
+        append_row_to_excel(row)
+        self.last_appended_row = find_name_row_in_excel(name)
+        self.log(f"Salvo em {EXCEL_PATH}")
+        if self.last_appended_row:
+            self.show_result_banner(
+                f"Salvo na linha {self.last_appended_row} de {EXCEL_PATH.name}.",
+                "success",
+            )
 
     def run_background(self, target, done_message: str | None = None, job_id: int | None = None) -> None:
         def is_current_job() -> bool:
@@ -1283,31 +2301,73 @@ class MagicExtractorApp:
         self.extraction_id += 1
         job_id = self.extraction_id
         image_for_job = self.current_image.copy()
+        self.last_appended_row = None
         self.clear_results()
         self.raw_ocr_var.set(f"Extraindo dados... v{APP_VERSION}")
         self.set_busy(True, "Extraindo dados da carta...")
+
+        def worker() -> None:
+            ocr_result = None
+            try:
+                self.log("Carregando base local...")
+                self.db.load(log=self.log)
+                self.log("Rodando OCR local...")
+                ocr_result = self.ocr.extract(image_for_job)
+                self.log("Procurando carta na base...")
+                card, reason = self.db.find(ocr_result)
+                if job_id != self.extraction_id:
+                    return
+                self.root.after(0, lambda: self._finish_extract(job_id, ocr_result, card, reason))
+            except Exception as exc:
+                if job_id != self.extraction_id:
+                    return
+                message = str(exc)
+                captured_ocr = ocr_result
+                self.root.after(0, lambda: self._fail_extract(job_id, message, captured_ocr))
+
+        threading.Thread(target=worker, daemon=True).start()
+
+    def _fail_extract(self, job_id: int, message: str, ocr_result: OcrResult | None = None) -> None:
+        if job_id != self.extraction_id:
+            return
+        self.clear_results()
+        self.raw_ocr_var.set(f"Erro: {message}")
+        self.log(f"Erro: {message}")
+        if ocr_result is not None:
+            self.write_debug({}, "", ocr_result)
+        messagebox.showerror("Erro", message)
+        self.set_busy(False)
+
+    def _finish_extract(self, job_id: int, ocr_result: OcrResult, card: dict, reason: str) -> None:
+        if job_id != self.extraction_id:
+            return
         try:
-            self.log("Carregando base local...")
-            self.db.load(log=self.log)
-            self.log("Rodando OCR local...")
-            ocr_result = self.ocr.extract(image_for_job)
-            self.log("Procurando carta na base...")
-            card, reason = self.db.find(ocr_result)
             self.write_debug(card, reason, ocr_result)
-            if not self.db.is_confident_match(card, ocr_result):
-                raise RuntimeError(
-                    f"Resultado suspeito ({card.get('name')}). Campos foram limpos; veja {DEBUG_PATH.name}."
-                )
             row = self.db.to_row(card, self.foil_var.get())
             self.fill_fields(row, ocr_result, reason, job_id)
+            existing_row = find_name_row_in_excel(row[0])
+            if existing_row is None:
+                self.save_or_alert_duplicate(self.row_values())
+                saved_row = find_name_row_in_excel(row[0])
+                if saved_row:
+                    message = f"Salvo na linha {saved_row} de {EXCEL_PATH.name}."
+                    self.show_result_banner(message, "success")
+                    self.log(message)
+            else:
+                self.show_duplicate_alert(existing_row)
+                self.log(
+                    f"Preenchido: {row[0]} | {reason} | "
+                    f"Já existe na linha {existing_row} de {EXCEL_PATH.name} — não foi adicionada de novo"
+                )
+                messagebox.showwarning(
+                    "Carta já existe",
+                    f"\"{row[0]}\" já está na linha {existing_row} de {EXCEL_PATH.name}.\n\n"
+                    "Os campos foram preenchidos, mas a carta não foi adicionada de novo ao Excel.",
+                )
         except Exception as exc:
-            message = str(exc)
-            self.clear_results()
-            self.raw_ocr_var.set(f"Erro: {message}")
-            self.log(f"Erro: {message}")
-            messagebox.showerror("Erro", message)
-        finally:
-            self.set_busy(False)
+            self._fail_extract(job_id, str(exc), ocr_result)
+            return
+        self.set_busy(False)
 
     def write_debug(self, card: dict, reason: str, ocr_result: OcrResult) -> None:
         lines = [
@@ -1334,6 +2394,7 @@ class MagicExtractorApp:
             self.field_vars[field].set(value)
         raw = ocr_result.raw_text.strip()
         self.raw_ocr_var.set(raw[:1200])
+        self.show_result_banner(f"Carta identificada: {row[0]}", "info")
         self.log(f"Preenchido: {row[0]} | {reason}")
 
     def row_values(self) -> list[str]:
@@ -1361,22 +2422,7 @@ class MagicExtractorApp:
         if not any(row):
             messagebox.showwarning("Sem dados", "Extraia ou preencha uma carta primeiro.")
             return
-        if EXCEL_PATH.exists():
-            workbook = load_workbook(EXCEL_PATH)
-            sheet = workbook.active
-        else:
-            workbook = Workbook()
-            sheet = workbook.active
-            sheet.title = "Cartas"
-            sheet.append(FIELDS)
-            for cell in sheet[1]:
-                cell.font = Font(bold=True)
-                cell.fill = PatternFill("solid", fgColor="D9EAF7")
-            for index, field in enumerate(FIELDS, start=1):
-                sheet.column_dimensions[get_column_letter(index)].width = max(12, min(42, len(field) + 8))
-        sheet.append(row)
-        workbook.save(EXCEL_PATH)
-        self.log(f"Salvo em {EXCEL_PATH}")
+        self.save_or_alert_duplicate(row, allow_update=True)
 
     def download_database(self) -> None:
         self.run_background(lambda: self.db.download(self.log), "Base atualizada.")
