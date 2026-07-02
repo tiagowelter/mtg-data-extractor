@@ -51,7 +51,10 @@ SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
 MTGJSON_ATOMIC_PATH = DATA_DIR / "mtgjson_atomic_cards.json.gz"
 INDEX_PATH = DATA_DIR / "card_index.pkl"
-INDEX_VERSION = 6
+INDEX_VERSION = 9
+# Layouts that reuse real card names but are never scanned as collectible cards;
+# excluded from the fuzzy name/face matching pools.
+_NON_CATALOG_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem"}
 EXCEL_PATH = APP_DIR / "MagicCollection.xlsx"
 DEBUG_PATH = APP_DIR / "last_extraction_debug.txt"
 DEBUG_LOG_PATH = APP_DIR / "extraction_log.txt"
@@ -922,6 +925,15 @@ class ScryfallDatabase:
                 self.pt_by_oracle.setdefault(oracle_id, []).append(card)
             elif card.get("lang") == "en":
                 self.en_by_oracle.setdefault(oracle_id, []).append(card)
+                # Art-series prints, tokens and emblems reuse a real card's name
+                # (art series often duplicates it as "X // X", and there are token
+                # "Goblin"/"Soldier" cards) but are not collectible cards anyone
+                # scans to catalog. Keeping them out of the fuzzy name/face pools
+                # stops the matcher from returning the art print or token instead
+                # of the real card (e.g. AMSH art card instead of the MSC card, or
+                # a "Goblin" token instead of "Zhur-Taa Goblin").
+                if card.get("layout") in _NON_CATALOG_LAYOUTS:
+                    continue
                 for candidate in [card.get("name"), card.get("printed_name")]:
                     key = normalize_text(candidate or "")
                     if key and key not in seen_choices:
@@ -940,6 +952,8 @@ class ScryfallDatabase:
             seen_pt_choices = set()
             for index, card in enumerate(self.cards):
                 if card.get("lang") != "en":
+                    continue
+                if card.get("layout") in _NON_CATALOG_LAYOUTS:
                     continue
                 pt_card = self.mtgjson_pt_by_name.get(normalize_text(card.get("name", "")))
                 pt_name = (pt_card or {}).get("printed_name", "")
@@ -1575,12 +1589,27 @@ class ScryfallDatabase:
             for item in self.cards
             if item.get("lang") == "en" and item.get("oracle_id") == oracle_id
         ]
-        for item in same_oracle_cards:
-            set_code = (item.get("set") or "").upper()
-            if set_code and re.search(rf"\b{re.escape(set_code)}\b", raw_upper):
-                return item
-
         collectors = self._collector_numbers_in_text(raw_text)
+
+        def set_in_text(item: dict) -> bool:
+            code = (item.get("set") or "").upper()
+            return bool(code) and bool(re.search(rf"\b{re.escape(code)}\b", raw_upper))
+
+        set_matches = [item for item in same_oracle_cards if set_in_text(item)]
+        if set_matches:
+            # When a collector number was read from the card, keep the printing
+            # whose set AND collector both appear in the OCR text. Otherwise an
+            # exact set+collector match gets overwritten by an arbitrary same-set
+            # sibling (a serialized or alternate-art reprint under a different
+            # collector number), which is how MSC #58 turned into MSC #369.
+            if collectors:
+                for item in set_matches:
+                    if collector_key(item.get("collector_number")) in collectors:
+                        return item
+                if card in set_matches:
+                    return card
+            return set_matches[0]
+
         context_pick = self._print_from_context(same_oracle_cards, raw_text)
         if not collectors:
             return context_pick or self._earliest_print(same_oracle_cards, card)

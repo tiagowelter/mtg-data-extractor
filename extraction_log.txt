@@ -1012,3 +1012,1127 @@ B lesson they teach.
 VOB S249 U x es !
 MAC EN be ZOLTAS BROS Gator SUAS
 
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:32:35
+matched_name: Zhur-Taa Goblin
+matched_set: RNA
+matched_collector: 215
+reason: nome superior OCR
+name_hint: Goblin Zhur-Taa ee
+namebar_text: a Goblin Zhu Tas \
+
+Goblin Zhur-Taa 2
+Slam po.
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+a Goblin Zhu Tas \
+
+XB dae? Pieced Cele, faye poe eee (Gare eae ie e 4
+qieem bater, TW )
+
+21s/2s9 u
+
+QNA > ET ter Watne REYNOLDS TA IT sah ofthe Cat
+
+Ne Gli Ati daa es seblins saeos prmiicires
+
+attra on trate do Puatalina, Qh a
+
+Porat foray cs soPres iconifes Gina ovtde
+
+CPeei ab Pola Bod. Pratenaide acd oii!
+
+yitea! Bann 2/2 )
+219/259 U /2
+RNA+HT te Warne RxyHOLos Te a C 19 Wisatch of the Const
+
+No Cla Zinta- Tia, es goblins saoos pronctros
+wentrar on furta de bataliia Quando a
+batalla termta, os sebreviventes amida extae
+espromande pela boca, procurando alsucnt om
+ghee bater, Wr)
+219/289 U
+QNA+PT ter Warne REyYWOLDs PA NY Tae of the Cet
+
+4 No Cla Zhur-Taa, os goblins sdo os primetros
+Baentrar ont furia de batalla. Quando a
+batalha termina, as sobrevizventes ainda estaa
+espumando pela boca, procurando algucm em
+guom bater. Wr)
+2s 2sau /2
+QYA + Hy tr Warne RETROLES LP an 7 Pe Me TY]
+
+Goblin Zhur-Taa ee
+PNT L BY 7 j
+? w ail
+ot ~ - r . : bl Py
+Be . . .
+Oe gs
+- XL : 4
+s —_ , 4 4
+he ae 7
+l Criatura — Goblin Amoque
+4 ‘Tumulto (Esta ertatura entra no campo de
+ae bataddta cont wan marcador +1) +1 ou inipeto, a
+Fy sea escolha.)
+4 No Cla Zhur-Taa, os goblins sdo os princtros
+a entrar om furta de batalha, Quando a
+batalha termina, os sobreviventes ainda estaa
+espuntando pela boca, procurando algucm om
+gem bates. Wr) 75
+23 f2sou
+QHAo FY ter Warn RIO She SIUM ahi tthe ter
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:34:36
+matched_name: Ulvenwald Mysteries
+matched_set: SIR
+matched_collector: 223
+reason: fração collector SIR #223
+name_hint: GRAN PY te Mane Benne
+namebar_text: . 73
+
+. eve
+- cue.
+~ ™; vevyeel
+os) ~ »*OSRP 522
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+=~ ~ la na
+. in An ai
+~— Se See, __..
+225/249 U “PAC MIN Words of the Coat
+GAN + OY to Mare Benne
+
+. ' i nn
+lam) ~ co: 7 oN TOT
+—_ . ast, a
+o | Ms CS DF te
+2G . : sho oD Um :
+4 S - 5.5 Sea 2
+
+H ww . . ve eZ - >
+
+(an) . Spe Se errs
+
+223/ 259 U A&C WIA Wiuarde af the Cost
+ORM > HT tr Mann Bene
+
+a, ’ ’ J Cis ae =
+~ wooo 2 it =
+w : oPoe GF toe mr
+Z 4 Eee
+223/ 259 U 77 & C 1A Wiaarth of the Coe
+GRAN PY te Mane Benne
+qq
+
+‘ee | Se St
+re » rn a
+‘ ne nae
+i) =? | Ue 7 DE te
+ri : | eae
+q - sf raet-tzirrt
+& . a
+(an) . whe DA, Tt
+— <Ai/e Yee, __.. eee
+223/ 259 U "eA SIR Warde of the Ccaet
+GRMN + OY tor Mare Bene
+
+7
+4 o™~ . F Aor
+-. ar
+a) a gue
+,eoertne
+pe wSEeEEiz
+; x35 52:
+a eZ2ogiis
+° -~ un) To <3
+«em 2yRE TLE 5
+Ts) g374S%%
+2 FESY*SE
+% g eesecy??
+3 5 Zee 5532
+. on -
+o - gece Fye
+‘Ss 8 283e282 3
+: < i -
+1*) a, ze zE 732825
+= Tepes as ts
+£ LTe2ciiads
+GSRESRESF
+» 3 i
+gaearn 2
+4 Fe] AEFECSES
+a ¢ gE es
+. SCe5 242225
+oe
+-~ e ef '
+S ad " ¢ t
+~, ran Se °
+I 22 ' PEE
+ov 2 Ee
+) GBewsx es
+; ae2tQc Ts
+FesZs75
+We SFE.
+© >, 4 2322382
+~—o a
+g \ 238523
+FESQHES
+aad Zee
+S72 8S 24:2
+—) ‘ Ls EE IE
+a5 =~s
+; 2a eT
+g 1 ee Shes
+@ S een
+. g Sff 528
+=p 7es “TES
+ts 1 6S e2523
+= . WSS eRe
+G ~
+ga 32 * Z
+q RG &Y mo Mare Bene van sins
+sande Pthe d.aet
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:35:44
+matched_name: Psychic Symbiont
+matched_set: M19
+matched_collector: 221
+reason: fração collector M19 #221
+name_hint: QHAs FY tw Rasor Vamias
+namebar_text: ia x | | ce ,
+
+12) A g
+95 %&
+
+ay] BB ae 3
+aS c
+SAYUE-
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+ia x | | ce ,
+
+“=
+io Cj a
+°
+- of’ . as - 2 had
+221/ 259 2 => "FC M19 Wards of the Coot
+QNA>BPT te Rasy VARGAS
+
+ae e 7
+
+S - vat 3 Bey
+| ee \ ~~ ens
+
+= * x mo €
+
+= & "uae
+
+ae > “+2
+
+= df ne? ne a rn od
+221/ 259 8 =>  & C19 Wizards af the Coes
+RNAsHY te Rawr Vancas
+
+Nad Of < :
+
+qe} _ i=] 2.
+] & - Bens
+
+= yd ~ m6
+
+= x aa
+
+ol 7 > a+ 2
+
+oa AA es J i iy id ee od
+
+221/ 259 R => °F & C 3019 Kisarch of the Coons
+QNAsPY te Rawr Vancas
+
+so ay, i) ff ce a -e
+A . ‘ 2 oa %
+| rm ns
+Pay s' cS mrs é
+FE : 2 cen &
+ae = “M+os
+°
+- of.” . ' ff - . i ad
+221/ 259 2 => 7h aC M19 Wiatch al the Ccaet
+QNA>sBPY te Ranoy VARGAS
+
+bd: (aa
+& 25 3
+“3 4 ~
+“Ci 5 2. GZ
+ah ESoae®
+- mtn secs
+Ld ° ry. on . c a2
+> | ae Ej] s-s%aZ
+al | PEE
+tad ZR Aesve
+— oo? ASS”
+* WAS . REIL. at "EV, COA,
+‘ *% : -, Lg
+e lee , ag
+op Koos 2
+© ~ & 5
+: , ae)
+, —_
+. a ° O¢
+ee : SE
+i te eS . = 5°
+An rar. a g 52
+1 . 9 oe S
+| [iow EY a+
+eae rd . : .
+22 239 KR a> Sh DLR sande bite hae
+QHAs FY tw Rasor Vamias
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:36:29
+matched_name: Gruul Spellbreaker
+matched_set: RNA
+matched_collector: 179
+reason: fração+nome RNA #179
+name_hint: de Glee Pear ah WRELP ED CMT STS PUL
+namebar_text: y
+Ca
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+4 arse **
+clo MICNLATES. r
+179/289 8 a> TPA MIU D car fob baet
+GA YT mw Coase STONE
+,
+
+RHQ bed TER.
+AD COMMUNIC CMTE PVOCe ssa. SIMI Ales
+de Glee Pear ah WRELP ED CMT STS PUL
+EOIN
+179/259 8 => 7? & C3018 Wiad of the Cost
+GAN + HT me Coasa Stose
+
+MPG he Tlaaikd.
+“Al contramagica € Wan processa siniples
+de quebrar ao matéria ent stias particidlas
+cle mMenlares.”
+179/259 R => “PA SIR Ward ol the Cat
+GR FY to Coase STONE
+
+MdQucia iayivd.
+BA contramagica é€ um processo simples
+§ de quebrar a matéria em stias particulas
+vlementares.”
+17o/ F759 a od SA SR eh eae
+OH 6 FT te Cotase STONE
+
+a >
+lonizar Lee
+oof 1 ~~
+ox ; - = ',
+» ; . a a 17 xe 4
+S; ong :
+, “ ‘ : . 7
+fl Magica Instantanea yiony
+‘ Anule a magica alvo. Ionizar causa
+2 pontos de dano ao controlador
+daquela magica.
+“Al contramagica é um processe siniples
+de quebrar a matéria em sttas particilas
+dlemientares.”
+1y7o/359 8 o> SR SIR an ht aot
+ORY © OY te Coase STON
+,
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:37:18
+matched_name: Electrolyze
+matched_set: IMA
+matched_collector: 198
+reason: fração+nome IMA #198
+name_hint: MASE be LOLITAS Bakos & Gata SZimSTAS
+namebar_text: (Geroine
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Ld _ . & ee
+
+B lesson they teach. e
+9B Ss PAD YU nS fos
+MASE be LOLITAS Bakos & Gata SZimSTAS
+
+J Careect creatures andor plavers. H
+} Draw a card.
+The Izzet learn something from every
+lesson hey teach.
+198/249 VU We OUT Wiracaby ef the Coase
+IM As EN B® ZOLTIAS BOR0S & Gabor STIKSIAI
+
+hg Carget creatures and/or players.
+‘a Draw a card.
+f The Izzet learn something from every
+B lesson they teach.
+198/249 U er Oe
+IM AS EM be ZOLTAN Boats & Gabor STIASTAI
+
+fa target Creatures and/or players.
+
+i Draw a card.
+
+Mm The Izzet learn something from every {;
+lesson they teach. ,
+Mime be bee JOLT Does NS Gatien SOURS At
+
+‘ Electrolyze Log
+‘ iJ
+BN ‘ 2 ~ oS
+: fz : !
+it
+t eer
+‘ ‘
+ms
+wa Electrolyze deals 2 damage divided
+m™ as you choose among one or two
+fy (arget creatures and/or players.
+‘§ Draw a card.
+a
+Ma The Izzet learn something from every
+B lesson they teach.
+VOB S249 U x es !
+MAC EN be ZOLTAS BROS Gator SUAS
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:40:20
+matched_name: The Wasp, Winsome Avenger
+matched_set: MSC
+matched_collector: 39
+reason: código MSC #39
+name_hint: Whenever Phe Wasp attacks, tap target
+namebar_text: | The Wasp, Winsome Avenger
+
+& _ ~~ Tee \
+The Wasp, Winsome Avenger JL
+
+set_code_hint: MSC
+collector_hint: 39
+
+raw_ocr:
+| The Wasp, Winsome Avenger
+
+“No Job too small, Ne villane too bre.” a)
+R 0039 gS MARVEL.
+MSC + EN me Rao Vira ™& Rl Wao of the Coast
+
+hexproot until end of turn.
+Whenever Phe Wasp attacks, tap target
+creature defending plaver controls,
+“No ha Tost Nee ofiaae fou ree
+R 0039 ® _. MARVEL
+MSC EN mm Raout Vita 1 & € 2026 Wizaeds of the Coast
+
+hexproof until end of turn.
+Whenever The Wasp attacks, tap target
+( creature detending plaver controls.
+“No Job too small, No wllam too big” TW)
+R 0039 &> » MARVEL.
+MSC *EN t Raout Vita & 0 Nile Wuandte ut the Coast
+
+AB hexproof unul end of turn.
+Whenever The Wasp attacks, tap target
+creature defending player controls. |
+, <w, We * ’ ° - -_ 99 h
+“No Job too small. No villain too big. WH)
+R 0039 ae: MEARN EL /
+MSC + EN me Rance Vira “R&R DIN Wendt the Gos
+
+yo >
+The Wasp, Winsome Avenger Lek
+~ ™~™ | -
+. a ~, 4
+/. 4 rm AN
+|
+& \ \
+~ \ j
+
+Ve 2 \eoens
+
+AS on
+
+\
+} — - : _?
+\ % *
+
+6 a .
+m Legendary Creature — Human Hero ua
+m@ ilash
+| Flying
+
+When The Wasp enters, target Hero gains
+4 hexproof until end of turn.
+
+Whenever The Wasp attacks, tap target
+Mm creature defending player controls. }
+
+“No Job too small. No villa tec big.” 70
+
+MSC oEN aw Rance Vetace RDI Wind et the Coat
+q df
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:42:43
+matched_name: Austere Command
+matched_set: MSC
+matched_collector: 294
+reason: rodapé OCR MSC #121
+name_hint: Austere Command 4K
+namebar_text: { Austere Command 4%
+
+y
+| Austere Command 4
+
+set_code_hint: MSC
+collector_hint: 12
+
+raw_ocr:
+{ Austere Command 4%
+
+q -
+value + or greater.
+R O12) oo MARVEL
+MSC ° EN a Taunin Clann ™ A MIA Witants ot the Coast
+q
+
+¢ Destroy all creatures with mana
+Value 3 or less,
+© Destroy all creatures with mana
+Value bor greater,
+R O12) = Cc MARVEL
+MSC +EN te Tava Ciagnt ! & C 2026 Wizseds of the Coast
+
+¢ Destroy all creatures with mana
+value 3 or less.
+¢ Destroy all creatures with mana
+Value -f or greater.
+R 0121 oD © MARVEL.
+MSC EN be Taurin Crarnt ™ A Ale Wisse ot the Coast
+
+—Seeea NS A Ome Bee ee EN EO
+¢ Destroy all creatures with mana
+value 3 or less.
+¢ Destroy all creatures with mana
+value 4 or greater.
+R912) Py? MARVEL
+MSC + FM te TauRin CLARKE A DN Ra toettho sus
+
+a >
+Austere Command 4K
+' | @n
+6 - 2
+a Swe
+; é g
+Sorcery
+Choose two —
+* Destroy all artifacts.
+* Destroy all enchantments.
+¢ Destroy all creatures with mana
+value 3 or less.
+* Destroy all creatures with mana
+value 4 or greater.
+R Or?) See MARA EL
+MSC + EN me Taurine Clann em Dele Wasssdt this © pet
+qq
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:44:06
+matched_name: Captain America, Team Leader
+matched_set: MSC
+matched_collector: 5
+reason: código MSC #5
+name_hint: ( Captain Americ, ream Leader ex
+namebar_text: ( Captain Americ, ream Leader ex
+
+( Captain America, Team Leader ©
+, ee an .
+
+set_code_hint: MSC
+collector_hint: 5
+
+raw_ocr:
+( Captain Americ, ream Leader ex
+
+“Avengers assemble!” l
+ee
+M 00OS « MARVEL
+MSC +EN te Marx Sprars TM A N26 Wacards of the Coast
+
+q df
+
+Ww F URRUEE VSS Vl LUadd. 2 UL aA Tar a
+counter on that Hero and a +1/+1
+counter on Captain America.
+“Avengers assemble!”
+Mm 0005 => ¢ MARVEL
+MSC > EN te Marx Sprars ™ & € 2026 Wuards of the Coast
+qi
+
+T URERERSR VERE Wl LULA. 2 UL A Tae ta atl
+' | cougger on that Hero and a +1/+1
+\j coufiter'gn Captain America.
+Mm 0005S => © MARVEL
+MSC -EN %& Manx Spars T & C 2026 Wards of the Coan
+q
+
+W fF USAGES VEE V2 CU. 2 a Ta
+counter on that Hero and a +1/+1
+counter on Captain America.
+“Avengers assemble!”
+m™ 0005 => ¢ MARVEL
+MSC > EN Be Marx Serars ™ & C 2026 Wuards of the Coast
+qi id
+
+- >
+Ys & Aw es . wi r
+So a
+ne \: aa ze 4 yy
+“Law 4!
+Legendary Creature — Human Soldier Hero Jee .
+Whenever another Hero you control
+enters, it gains vigilance and haste
+#) until end of turn. Put a +1/+1
+counter on that Hero and a +1/+1
+counter on Captain America.
+“Avengers assemble!”
+M0005 aa MARVEL.
+MSC + EN te Manx Sprars ™ A Mla Wards ot the Coast
+qi d
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:45:16
+matched_name: Photon, Mighty Marvel // Photon, Mighty Marvel
+matched_set: AMSH
+matched_collector: 34
+reason: face OCR 'Photon, Mighty Marvel'
+name_hint: Photon, Mighty Marvel Zak
+namebar_text: Photon Mighty ih —
+
+Photon, Mighty Marvel 3
+
+set_code_hint: MSC
+collector_hint: 58
+
+raw_ocr:
+Photon Mighty ih —
+
+1 4 4 g
+R 00Ssé o> MARVEL Ta)
+MSC ° EN te Tran Nouven B&O Dede Witands ot the Coast
+
+4 ~ es Sn IEEE IE DEI IEE EE EEE nr
+oone color. Cnubend ofturn, vou dont — ¢
+dedose this mana as steps and phases end. .
+AT bchece Dean shed sorte light on thin
+
+SEEMUEOE Wa)
+R 0058 => « MARVEL
+MSC * EN te Tran NGUYEN ™! & © 26 Wataeds of the Coast
+
+an — & CT  @ iin EEE EEE EE EEE EEE Oo ge
+‘gone color. Unul end of turn, vou don't
+lose this mana as steps and phases end. fa
+Be! beleve Pecan shed some light on this
+SuManon.” Wh)
+R 0058 op > MARVEL.
+MSC +EN ty TRAN NGUYEN “YA Nile Wid ot the Coast
+
+SN eS .
+} one color. Until end of turn, you don’t
+lose this mana as steps and phases end. ¥é
+¢ ‘
+ve « a e x
+Ma! beleve [can shed some light on this
+sttuation.”’
+om 2/4 |)
+R OOSA MARVEL
+MSC e EN te THAS NGUYEN & DW Wosa tthe Cont
+
+4 »
+~~ eS \
+Photon, Mighty Marvel Zak
+A 4 - wa
+og a An) ~
+- eo “ ib
+- a ~ a:
+E oe! ° vy} "
+¥} ty %
+; \
+@ Legendary Creature— Human Hero i &
+wa Whenever Photon deals combat damage §
+pg to a player, add that much mana of any &
+j one color. Until end of turn, you don’t &
+lose this mana as steps and phases end.
+¢ .
+5 “T belteve IT can shed some light on this
+situation.” 9)
+R OooSA Coe MARVEL 2/4
+MSC + EN te THAN NGUYEN YA DTA Word ot the Got
+q
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:46:46
+matched_name: Vision, Synthezoid Avenger
+matched_set: MSC
+matched_collector: 119
+reason: código MSC #119
+name_hint: Vision, Synthezoid Avenger
+namebar_text: ( Vision, Synthezoid Avenger
+
+yo
+f Vision, Synthezoid Avenger é
+( ve ane
+
+set_code_hint: MSC
+collector_hint: 119
+
+raw_ocr:
+( Vision, Synthezoid Avenger
+
+don’t exist unt your next aan.) zw
+R O11g9 oD MARVEL 3/3
+MSC EN te MARK Serars A Bila Weaands ot the Coast
+q
+
+Psd) © Cbdetl pried NAD SS ULE DE. MLUS NISL GIA ;
+© Putatl +1 counter on Vision. ”
+eVision phases out. (fret de aud
+anNVUnG attached to fu as though they \
+dort exist out vor vext urn. }
+3/3}
+msc TEN te Marx SPLARS @ mee M36 Words of the Coat
+
+PSEA UL CERCA Pea VRE SN CLAD DD, VLAN OR ILI bw
+¢ Puta +1/+1 counter on Vision.
+: Vision phases out. (7reat dam and \
+anviling attached to hime as though they —
+dont exist tau your ext lan.)
+R O119 op © MARVEL. 3/3
+MSC EN t Marx Serans ™ A Nile Words ot the Coast
+
+He BOLE & CAEL prides SOS LULA, VAIO VII .
+¢ Put a +1/+1 counter on Vision. ”
+f ¢ Vision phases out. (Treat him and r
+iy anything attached to him as though they
+don’t exist wail your next gan)
+R OIE ae MEARS EL 3/3
+MSC + EN me MaAHK Setars YA DIA West the © oat
+
+4 >
+Vision, Synthezoid Avenger 4
+4
+y : i"
+>” - Me Yoon. \
+- . ~ ae sc :
+-- - wv . he &
+i( Legendary Artifact Creature — Robot Hero “a
+Flying ;
+| Whenever a player casts a spell, if it §
+E isn’t that player’s turn, choose one — =
+i * Put a +1/+1 counter on Vision. 5
+J * Vision phases out. (Treat him and ‘
+i} anything attached to him as though they
+don’t exist unul your next Varn) .
+R O19 oH MARVEL 3/3
+MSC eo EN ae Manx Serars MA DA Wands tthe Coat
+q
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:47:48
+matched_name: Exotic Orchard
+matched_set: MSC
+matched_collector: 241
+reason: código MSC #241
+name_hint: (Exotic Orchard Orchard
+namebar_text: (Exotic Orchard Orchard
+
+yo
+(Exotic Orchard
+
+set_code_hint: MSC
+collector_hint: 241
+
+raw_ocr:
+(Exotic Orchard Orchard
+
+COUINESS.
+R 0241 o> MARVEL
+MSC ° EN a Dario Srapo “A Sle Wiad ot the Coast
+
+f Thi the Bho rea of the moon les a £
+eden sculpted by atten frands, there 3
+Be one called the Watcher stands )
+COMMS,
+msc EN te David S24B0 & ™ & € 2026 Wizaeds ‘ofthe Coe
+
+a ln the Blue Area of the moon lies a
+garden sculpted by alten hands, where
+the one called the Watcher stands ,
+WINS,
+R 0241 o> + MARVEL
+MSC «EN t& Darin Stapo B&O Ne Winds ot the Coast
+
+m 12 the Blue Area of the moon ltes a
+garden sculpted by alten hands, where
+the one called the Watcher stands
+WUIUINESS.
+R O24! ay: MARN EL
+MSC + EM me Dario Srapo “RDN Wet cthe eos
+
+‘ Exotic Orchard
+- e a ‘
+é . aa, ~ _- .
+7 »
+\ d Wt 7
+-» o ‘ ' 47 {
+. . 7+ a 7 ce a ;
+Me: - ae ".
+(and)
+e: Add one mana of any color that J
+m a land an opponent controls could 4
+@ produce. J
+fa nt the Blue Area of the moon ltes a
+garden sculpted by alten hands, where
+the one called the Watcher stands 7
+TUNESS.
+R O24) Soe MARVEL
+MSC * EN am Davi Sraan A De Wand tthe Couet
+q
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:48:46
+matched_name: Rip Apart
+matched_set: MSC
+matched_collector: 187
+reason: código MSC #187
+name_hint: She-Hulk, Jennifer Walters
+namebar_text: { Rip Apart ry
+
+set_code_hint: MSC
+collector_hint: 187
+
+raw_ocr:
+Al . are) .
+She-Hulk, Jennifer Walters
+U O187 > MARVEL.
+MSC * EN tm Marco Turn ™ & Mile Ward ot the Coast
+q
+
+° Destroy target artifact or cnchantnent.
+“Tt vou fet vite play coude your toys, Lan
+detiniichy song break Dich”
+Shee Huth, Jomuior Walters
+U 0187 ¢ MARVEL
+MSC > EN bt» Maaco Turin ™ & © 3026 Wizards of the Coast
+
+@¢° Destroy target artfact or enchantment.
+‘Tf vou let me play ieuh your toys, Pim
+definitely gonna break them.”
+
+She-Hulk, Jennifer Walters
+U 0187 * MARVEL.
+MSC + EN te Maaco Turi AO Mle Wisonds ot the Coast
+
+hel ° . é
+5 ¢ Destroy target artifact or enchantment. ~
+a “Tf you let me play with your toys, Pm
+a definitely gonna break them.”
+—-She-Hulk, Jennifer Walters
+U O187 SUARNVEL
+MSC + EN te Manco Turin “A&A DU Ricrbet thee ous
+
+| ow ;
+‘ Rip Apart ri
+Ed
+oa at ~ -s ° a are a
+: | ia je 7) -
+if “s i a .
+an Fy ea) ws Na > og
+: —_—_—_=s
+Py Choose one — :
+mm ° Rip Apart deals 3 damage to target
+m creature or planeswalker. s
+: * Destroy target artifact or enchantment.
+ra “Tf you ler me play with your toys, P’'m
+ta definitely gonna break them.” ;
+—- She-Hulk, Jennifer Walters
+U Oma? MARVEL
+MSC + EM te Manco Train RDI Rader ths Gout
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:50:47
+matched_name: Bastion Protector
+matched_set: MSC
+matched_collector: 296
+reason: código MSC #122
+name_hint: leo Crile Foucs
+namebar_text: a — Protector - \
+
+Bastion Protector 23
+. L A. '
+
+set_code_hint: MSC
+collector_hint: 122
+
+raw_ocr:
+a — Protector - \
+
+iat.)
+R O122 oD MARVEL
+MSC EN te UU B&D Waasds ot the Coat
+
+PD rceter PUryes Mod rece POTN CISHOPY
+totus”
+leo Crile Foucs
+3/3
+R O122 => ce MARVEL —_
+MSC EN be Uzum ™!& C 2026 Wuraeds af the Coast
+
+“Director Furv’s not recetviig Tisitors
+today.”
+—A gent Gabe Fones
+R O122 SDS - MARVEL. 3/3
+MSC + EN me Usuri A Dita Words ot the Cont
+
+“Director Fury’s not recetving visitors
+today.”
+—A gent Gabe Fones
+R122 ES SOUR E! 3/3
+MSC © EM me Ce i)
+
+Bastion Protector 2
+*
+ace” | 4)
+eS 4 —_
+Creature — Human Soldier
+Commander creatures you control
+get +2/+2 and have indestructible.
+“Director Fury’s not receiving visitors
+today.”
+—Agent Gabe Fones
+& O22 Ee MARNE! 3/3
+MSC EN te User! ~§ a DEON dootthe sons
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:53:49
+matched_name: Plains // Plains
+matched_set: AZNR
+matched_collector: 7
+reason: face OCR 'Plains'
+name_hint: M( Basic Land — Plains ‘
+namebar_text: f se =
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+l 0287 + MARVEL
+MSH-> EN t% Domenico Cava A Mle Wands ot the Coast
+
+oN
+6 ~= ‘
+L 0287 © MARVEL.
+MSH -EN & Domnmaco Caw 1! & © 026 Wizards af the Coast
+
+a, \ .
+‘os
+—N\ -\
+a
+lL 0287 * MARVEL.
+MSH > EN te Domenico Cava ™ & Nila Wisards ot the Carast
+
+\ a
+| NGA —_ .
+(
+L O2R7 SEARS Et
+MSH > EN @ Dominio Cava eR Dele Rase doetthe ees
+
+‘) .
+NO
+€ : a
+\ 4
+eR NS
+‘ oa)
+ih : betgre 4.4 *
+: SS or ae a
+M( Basic Land — Plains ‘]
+* 4
+L N 4 -
+{ N\A ~~
+4
+ra
+L 02R7 MARS EL
+MSH + EN te Dominio Cava MR Dele his bootthe sat
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 12:55:31
+matched_name: Folk Hero
+matched_set: MSC
+matched_collector: 132
+reason: código MSC #132
+name_hint: Whe con arises, Berees abe Ber
+namebar_text: B (FoHero
+
+4 “~ — Ee =
+j(FolkHero
+(I-|-|--LCTtr-t
+
+set_code_hint: MSC
+collector_hint: 132
+
+raw_ocr:
+B (FoHero
+
+When evi arises, heroes are born.
+mM O132 a> ~ MARVEL
+MSC eEN te lon Tyuse Curisrornir A Mila Wears ot the Coast
+q 4
+
+, Udell NTERGDON ob CPOWItICS UV poe NN TCLT Cialis
+creature, draw a card. Vhis ability
+triggers only once each turn.”
+
+Whe con arises, Berees abe Ber,
+M 0132 = ¢ MARVEL
+MSC + EN ty loun Tyur Cumistorpnre ! & © 026 Winaeds of the Coat
+
+U2bal SETAE S A CICALUTO LV pe Witil tials v)
+creature, draw a card. Vhis ability
+triggers only once each turn.”
+When ec arises, Aeroes are born.
+M O32 ap » MARVEL.
+MSC EN be loun Trice Coristornin A Nie Wisse ot the Count
+
+LslAal OLIGILLS A LICAGLULE LY Pe Willi Uldls ‘
+¢ creature, draw a card. This ability
+M@ triggers only once each turn.”
+When evil arises, heroes are born.
+MOlT2 Se SOAREN ET
+MSC + EN te lon Trane Curistornir ar LT Oe CO Pe
+
+y >
+“= <= =
+Folk Hero Ls
+[ — == =z = =z = fd = a
+. \ a a _. u® ; nae —, -
+Meg \ -
+’ Wee 4 é
+4 . ; .t ete -; ,
+& |
+Legendary Enchantment — Background
+m Commander creatures you own .
+have “Whenever you cast a spell
+wy that shares a creature type with this
+creature, draw a card. This ability
+§ triggers only once each turn.”
+When evil arises, heroes are born.
+Mm O32 See MABRNEL
+MSC oO EN be lon Trine Corrmisrorner MR Dole Wags det the Get
+q ad
+
+
+======================================================================
+version: 2026-07-02.31
+timestamp: 2026-07-02 13:30:25
+matched_name: Scavenger Grounds
+matched_set: MSC
+matched_collector: 263
+reason: código MSC #263
+name_hint: 2, @, Sacrifice a Desert: Exile all
+namebar_text: Scavenger Grounds
+
+set_code_hint: MSC
+collector_hint: 263
+
+raw_ocr:
+OTLAUSEE y € ese Ay 4 . .
+R 0263 ep + MARVEL.
+MSC ° EN mw Bastin Garver ™! & Mle Wiad ot the Coaat
+
+( graveyards. :
+Ble ronnants of titanic clashes,
+‘ . . * .
+mB onmortalized by the desert sans.
+R 0263 => ¢ MARVEL.
+MSC + EN b> Bastien Garver ™! & C 2026 Wisseds of the Coast
+
+f graveyards. -
+The remnants of ttranic clashes, .
+unmorialized by the desert sands. 7
+R 0263 ap « MARVEL.
+MSC + EN tm Bastien Gaivit ™ & © le Wises of the Coat
+
+f graveyards. |
+The remnants of titanic clashes, ion
+unmortalized by the desert sands. g
+
+R 0263 CH MARVEL.
+
+MSC eEN te Bastin Gaver A Dla Bavasde et the Coast
+
+( Scavenger Grounds f
+| +.
+. oe . ae we - " | .
+i( Land — Desert )
+m @: Add ¢. | ,
+2, @, Sacrifice a Desert: Exile all .
+, graveyards.
+The remnants of titanic clashes, .
+immortalized by the desert sands.
+R 0263 ie MARNEL
+MSC + EN te fasrtin Gaever hy QDs Ass tet the eget
+
