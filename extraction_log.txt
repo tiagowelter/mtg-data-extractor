@@ -20442,3 +20442,1083 @@ aoe James Paick =; “y a Oe ee -
 i a en Se Oe ee SP PO 2 OS OS Oe .™. Me
 qq ”
 
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:43:13
+matched_name: Bogslither's Embrace
+matched_set: ECL
+matched_collector: 94
+reason: rodapé OCR ECL #94
+name_hint: Eogslther’s Embrace Embrace Oo
+namebar_text: Eogslther’s Embrace Embrace Oo
+
+4
+— eee em oe Ble ime eee ee ee
+m Bogslither’s Embrace L§
+. se oe Sm
+
+set_code_hint: THE
+collector_hint: 94
+
+raw_ocr:
+Eogslther’s Embrace Embrace Oo
+
+nature chaotic and hungry.
+Cc 0094 ™ & Ole Ward of the Cast
+ECk + EN & Justis Grraro
+q 4
+
+i a QV COR Fea l i 2, 2, 2 Jf ES bn a ®
+Ae texale turget creature. .
+Re SHadods creatives ure mithaaadble forces of
+Malure  chiaotte aited HUY.
+C 0094 ™! &U 2026 Wizards of the Come
+ECL > EN & Justin GrRaRD
+
+, a RRC FECR FE UF OMS REM MOE ESTER AES SAGER RE NS Of e
+Exile target creature. :
+mM Shadow creaties are untaniable forces of
+nature chaotic and hungry.
+c 0094 ™ &t N26 Weeasnt of the Coast
+ECL - EN & Justis GrraRo
+
+a SB WCF WF WM WEY WHECIEY wee ee ee tes e
+Exile target creature.
+mM Shadow creatures are untamable forces of
+nature. -chaotic and hungry.
+Cc 0098 TR DE Wont ot the Cat
+ECL © EN be Justis Grraro
+
+4 >»
+. oo . Biwen ~ a - . ao
+Bogslither’s Embrace Le
+
+4 . a ~~ ) .
+
+: oe rrrege Ke De ;
+7 x! ayoee OO, Wie.
+
+a. es 2 le
+Sorcery )
+
+@ As an additional cost to cast this spell, B
+blight 1 or pay 3. (To blight 1, puta J
+-1'-1 counter on a creature you control.) &
+Exile target creature. :
+
+Shadow creatures are untamable forces of
+nature. chaotic and hungry.
+
+C 0094 G&D Wan tthe © at
+
+ECL © EN %@ Justin Grraao
+
+q
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:43:46
+matched_name: Fruit of Tizerus
+matched_set: THB
+matched_collector: 96
+reason: fração+nome THB #96
+name_hint: MM oresee Movemme do Prsere, fora de padacto de
+namebar_text: ae ee ee oe RB eee le ee | ee
+; Fruto de Tizero :
+t
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+CPESEE RO FCINE ber ELV PV he Padded cde
+berebo.
+Ove/234 C Th SIO card ofthe boat
+THB + PT me Basriin L Ota
+
+cand de an are he eh Pati! sole tga to ub bd
+/ a ane Red ee
+by des eed. .
+S
+QTR On OR? TT “
+. ooh Had Voli ae Lick my fo ae Pia, fl oh
+Li" a ‘
+096/254 C A&C YD Wuardh of the Coo
+THB « PY te Bastien L Ocnase
+
+BD EM COMIC BABU SCH HOT de ‘
+CSC PEOVEL J .
+Coe arcere espana coe tant Iruto: Qaargo)
+MM oresee Movemme do Prsere, fora de padacto de
+bervbe.
+096/284 ¢C “eh MIND ar ofthe (caer
+THB: YT tw Basritn L Drnamme
+
+CART de Sele COMTCTIO Prargando Seu custo dle .
+escapatorta. ) :
+me Gma arvore espinhosa com tan fruto amargo
+B ocresce no reno do Trzero, fora do palacto de
+Evebo.
+C90/284 C ° A Dole tate Pehl baa
+"HB? FT te Rasmus lL Denamee
+
+—-- - - -— ~-e-m som —_ BR. ane. _——_ —-—= one eee ————
+Fruto de Tizero &
+“ .
+& .
+*. a
+~y .
+» .
+—_—~ *
+. .
+. Ly
+‘ >
+é :
+: .
+Feitico ¥
+‘ .
+AO jogador alvo perde 2 pontos de vida. cs
+Escapatori 3 @, exile tres outros cards =
+de seu cemiterio. bce pode conpanar cote >
+Mm card de scm ceamiteria pasande sete tote de .
+CSC Paonia :
+Ca arcore espumtosa cont tant fruta Quiarge
+Mooresce Hooeime do Tis)ena, fora do pafacta de
+hircho.
+o9e/234 ¢ TE MIND card ofthe (cant
+THB + &T te Basrien L Ornarne
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:45:48
+matched_name: Slaughter Drone
+matched_set: OGW
+matched_collector: 79
+reason: fração+nome OGW #79
+name_hint: Zangao da Matanca LE
+namebar_text: a Zangao da Matanca : \
+
+a
+| a te Cg
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+a Zangao da Matanca : \
+
+He Maia O Ge ¢, QQTHIO CANTNAG Para OQ
+que nado deveria ser. WW?)
+079/184 C
+OGW FT me (las Soar SA YW sar of tt Cat
+
+S) dieanndinte de daaie gle ele Catese Ge tania
+Morland co static tentc Pan des ete da
+mo represent Maid CONT,
+‘ia ;
+Mision gue cy dbriide caine: Marg oe
+Yl Ma EOC ah, 72
+079/164 ¢
+OCW OT te Dan ScorT "8h C16 Wiad uf the Const
+
+my gieatdacde de dao gue cle cause a tana
+criatura é stiftctente para destrtd-la.
+© representa mana dicolor )
+;
+g isle matao que ¢, abrindo caninhe para o
+gle Nao deverla ser. 2 |
+079/184 C
+OGwW eT te (las SCOTT "Oh NIA Wines al the Chiat
+
+guantidade de dano que cle cause @ tana
+
+criatura é stuftctente para destrui-la.
+
+© representa mana tnicolor)
+
+Ele mata o que é, abrindo caminho para o
+
+que ndo deveria ser. 72 ) ?
+O79/ 184 C /
+OG BY tee (les Sort he Sn oe Po Ee TY
+
+Zangao da Matanca LE
+\ ‘que ae
+», NN ‘
+2X a “2! \
+il= ar ~ ay
+la: |
+a. a?
+Criatura — Eldrazi Zangao db
+Desprovido (Fste card ndo tent cor.)
+©: Zagao da Matang¢a ganha toque
+mortifero até o final do turno. (Qualguer |
+quantidade de dano que ele cause @ tuna
+criatura é sufictente para destrui-la.
+> representa mana tncolor.)
+Ele mata o que é, abrindo caminho para o
+que nado deveria ser. WW )
+comet . a “M thee DV sath 2/2
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:46:23
+matched_name: Witch's Familiar
+matched_set: M15
+matched_collector: 123
+reason: face OCR 'Familiar da Bruxa'
+name_hint: Algumas bruxas do Pantano prancam
+namebar_text: ules — ——
+
+- -_- , os ~~ - -
+Familiar da Bruxa v4
+. ° Sa. ; ig
+* : ~~ “Rea '
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+ules — ——
+
+‘290708 € a)
+mS wT Oe tek ae, “te a Sr i eo
+
+ware Pe wae fu aT By TE la,
+4 trod arr ce ET DETAR hey Pda! 4
+wed hs . ar has id ann wn rare, aN
+2/3 °
+
+destranha arte da batragucomancta,
+londo precim@es no munmicro, tamanho ¢
+cor das cerrintas nua Pele de tam sap.
+
+aestranha arte da batraqucomancta,
+lendo previsoes no manic, Lamanho ¢
+cor das verrugas na pele de um sape.
+
+. -- o Ban oe.
+familiar da Bruxa Ze
+. oe oe ,.. ™e = .
+. t a .: a . ;
+\ ; ‘
+~ wT! *
+. . - a
+‘3
+: e- ° ‘ ™M .
+4 py
+> °
+. . A
+. BY
+. . . .
+oo.” a od ~
+Criatura — Sapo AG
+. >
+Algumas bruxas do Pantano prancam
+westramha arte da batragucomancta, tJ
+lendo previses no mancro, tamtanho ¢  &
+cor das cerrugtas na pele de wm sape.
+‘2a sae /
+US Py twine Wome eh Ser a er er
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:46:55
+matched_name: Catacomb Slug
+matched_set: RTR
+matched_collector: 58
+reason: face OCR 'Lesma de Catacumba'
+name_hint: Pel Java, nvestigador Woyek
+namebar_text: ; Lesma de Catacumba = :
+
+4 « .
+Lesma de Catacumba 4¢4
+‘ \ ie
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+; Lesma de Catacumba = :
+
+oe Nils Hamm rr er vor =)
+qq y
+
+Mm No daria neces thate te ta adiinii Ef
+BM para resolocr aquede crane.” .
+‘ Pu acu encestiada Woick -
+a
+oN Hamm 2 Ny get 2/6 |
+wa SSW ade ed he CO ITS se BY
+
+> —— ee , Cis ih Si. Sane i
+Nao facia uccesstdade de va adticinha &
+pura resolver aquele crite.”
+
+: Pol Fatvay incesnvador Woyek -
+an Ok eS Pe Pe . ‘ ~
+
+Nao havia necessidade de tan adivinho §
+para resolver aquele crime.”
+— Pel FJavva, invesugador Wayek
+
+aoe Nits Hamm ye: ca 2/6
+
+a >»
+—- - a ws ot -- —_,
+Lesma de Catacumba 42
+
+. .
+. -_ a
+7 se ‘
+/
+s > ’ .
+* vi ~
+é
+m Criatura — Lesma oO
+. se
+“Al cena do crime intetra estava coberta By
+por toa gosma pegajosa ¢ xolejante, .
+Nao havta necessidade de um adtvinho &
+para resolver aquele crime.”
+Pel Java, nvestigador Woyek
+q
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:47:40
+matched_name: Melancholic Poet
+matched_set: SOS
+matched_collector: 90
+reason: código SOS #0090
+name_hint: Bclancholic Poct Poet OO
+namebar_text: Bclancholic Poct Poet OO
+
+4 ,
+wee ee ee Be; aoe ee ee
+& Melancholic Poet 1§
+& yy y
+
+set_code_hint: SOS
+collector_hint: 0090
+
+raw_ocr:
+Bclancholic Poct Poet OO
+
+¢ 0090 WE)
+$OS - EN aw frzantri Puno ™ B&O N26 Wizards of the Coast
+
+; . De os e
+mand vou gain 1 lite.
+me cofcbrate our sacdttess because ul "
+rounds us of he uc caluc of being
+
+€ 0090
+SOS © EN tw Euszascre Prind ™ & C 2026 Wizards of the Caast
+
+and you gain | life. :
+“We celebrate our sadness because U
+morons us of the true value of being
+alive.” Wr) 7
+Cc 0090
+$0S - EN mw EuszapeT Puno ™ AC N26 Wizards od the Coast
+
+and you gain 1 life. ;
+“We celebrate our sadness because i
+m reminds us of the true value of being
+alive.”
+2/2
+Cc 0090
+SOS + EN tw Favantru Pro MA a Wits at the Coast
+
+pF >
+-- -- eee - MM sie wee ee a
+Melancholic Poet Lg?
+. ‘-
+ap i
+: .
+cy ‘ , Ly
+| : ‘
+: ; a
+Creature — Elf Bard Ww
+@ Repartee Whenever you cast an .
+instant or sorcery spell that targets a
+creature, each opponent loses | hfe
+and you gain 1 life.
+“We celebrate our sadness because tt
+reminds us of the rue value of being
+alive.”
+2/2 )
+¢ 0090
+SOS - EN mw Ecscanere Puro MRC N26 Wisasds of the Count
+qi
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:48:29
+matched_name: Scathe Zombies
+matched_set: 7ED
+matched_collector: 161★
+reason: nome superior OCR
+name_hint: Nor spake, nor moved thetr eyes
+namebar_text: . cache Lomobiecs —~. .
+
+| Scathe Zombies = ii sl AD
+. yy ra wee me
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+. cache Lomobiecs —~. .
+
+| TNus. Kev Walker |
+
+ry SOG #864860 WL fé mereseesa) wri wre FFE 8 SSE WEATE OY .
+To have seen those dead men rise.”
+-- Samuel lavlor Coleridge,
+. “The Rime of the Ancient Mariner” &
+ae .. Its. Kev Walker so. 2/2
+. . HS ESOS 2A Wizards wae Coasy tex, 10d 140 ‘
+
+. B&G FEUOse Weis wersertsa) were £FS 84 beaded ) .
+To have seen those dead men rise.”
+—Samuel Taylor Coleridge,
+, “The Rime of the Ancient Mariner” §
+. INts. Rev Walker > -
+. “Ne bee WQ) Waidte tlie Coast, bec PO ge 2/2
+
+AMG FELOU VYwié wore ra) wwersé FS WS Mrwwrres -
+To have seen those dead men rise.”
+—Samuel Taylor Coleridge,
+¢ e eo eo
+“The Rime of the Ancient Mariner”
+Tus. Kev Walker
+
+Scathe Zombies ~ - OY
+ne ~ - :
+
+NM ae i!
+
+ae } we 7 -_
+
+Creature — Zombie. We
+“They groaned, they stirred, they all uprose, @
+Nor spake, nor moved thetr eyes;
+
+It had been strange, even in a dream, :
+To have seen those dead men rise.”
+
+—Samuel Taylor Coleridge,
+“The Rime of the Ancient Mariner” §
+TNus. Kev Walker
+. Te TA Wie at ie Carat doc Dod ise 2/2
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:49:49
+matched_name: Terramorphic Expanse
+matched_set: SOS
+matched_collector: 265
+reason: rodapé OCR SOS #265
+name_hint: SOS + EN mw Lion Tumata
+namebar_text: Terramorphic Expanse
+
+set_code_hint: THE
+collector_hint: 265
+
+raw_ocr:
+are QIS8O TORISPENS LOS TON UNeV dre Gestine .
+to die.
+C 0265 ™! AO N26 Wirards af the Coast
+SOS + EN mw Lion Tumata
+
+{ Somte sav tlus snarl the most terbident, -
+Chanigedble focanon ut all of Alreavtos ts 7
+is the burtfplace of Tie hie chider AKAN, There .
+Bre dbso cofispers Ts coher Miey are destined
+{0 dic.
+C 0265 ™ & C 2026 Wizards of the Coast
+SOS + EN te Lron TUKKEA
+
+P SEme sav Gus snarl- the most turbulent, ‘
+f changeable location in all of Arcavtos - -ts
+SM othe birthplace of the five clder dragons. There
+are also zehispers ws tehere hey are destined
+tO dle.
+C 0265 MM & C 3026 Wuands of the Com
+SOS + EN tm LION TuKKre
+
+I
+i Some say this snarl—the most turbulent, ,
+changeable location in all of Arcavios—is
+the birthplace of the five elder dragons. There <
+are also whispers it’s where they are destined ¥
+to die.
+C 0265 PMA N26 Wises of the Coast
+SOS * EN te lion TuxKEM
+
+4 * . . - -_ - + m, - . >»
+( Terramorphic Expanse !
+et! - Sag . ‘ - @g- *« . ‘
+a at) Fy ‘ = ‘ J . \
+a. a | .. \
+t NSS ‘
+‘
+M( Land Ww)
+e, Sacrifice this land: Search your library |
+my for a basic land card, put it onto the |
+m battlefield tapped, then shuffle. (
+i Some say this snarl—the most turbulent, |
+changeable location in ail of Arcavios—is ;
+the birthplace of the five elder dragons. There |
+are also whispers it’s where they are destined ¥
+to die.
+C O765 PMA Sle Wands ofthe Caras
+$05 °EN me lion Tumnra
+qi if
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:51:16
+matched_name: Zhalfirin Void
+matched_set: DOM
+matched_collector: 249
+reason: fração+nome DOM #249
+name_hint: Mm Oonte ceaurne Volte pang cava, mas ide posal
+namebar_text: 4 Vazio —
+
+Vazio Zhalfiriano
+
+set_code_hint: OOM
+collector_hint: 18
+
+raw_ocr:
+4 Vazio —
+
+4a « ) ube alia pM usta. 4 4 . %,
+defer
+249/209 U Sh MINE sar tite wee
+OCOM+hT mw Cuast S1ORt
+
+@ Niner @. <
+dotoes
+249/269 VU 72 & C 18 Tismnds of thee Coast
+OOM+PT me» Cuase StON8
+
+e . Frey .e & Ver ee Se a Jo aru _ SFP mr eee eles @qe0e""
+
+B coor agile cand te fimdo de seu gromoerte,) ~
+f e@: Admione ¢.
+‘
+
+Mm Oonte ceaurne Volte pang cava, mas ide posal
+dcfont
+249/269 vu "eh 18D carte d thes © cor
+OOM->hT mh» Cuase StOnt
+
+. anT eee SS ewer ee Se int are FS ES a” errrua Faeue FEUD eu”
+colar aguele card no fundo dé seu grimerio.)
+a ©: Adicione ©.
+“O vento sussurras Vilte pana casal, mas nde posse.”
+Tefert
+3497 2690 or ee ie Stee ee
+COM> hT te Cmase SIONS
+
+\ Vazio Zhalfiriano .
+q
+N i
+mae a .
+Hl 7 i ( > P
+X
+4( Terreno g
+Ae Quando Vazio Zhalfiriano entrar no campo de
+! batalha, use videncia 1. L/
+mm (Olke 0 cand de topo de seu grimorto, Vice pode
+colovar aguele card no fndo de sau grimorio,)
+fA: Adicione ©.
+“O venta sussurna: Vite para casal’, mas nde passe.” Uy
+- Teferi
+249/209 U Cr Oc i Sr a ra
+COM + PT im Cmese STON
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:51:49
+matched_name: Mage-Ring Network
+matched_set: ORI
+matched_collector: 249
+reason: fração+nome ORI #249
+name_hint: OMe T tor Iie, Pon
+namebar_text: Bt( Rede dos Ancis de Mago Anéis de Mago =
+
+\ Rede dos Anéis de Mago
+
+set_code_hint: THE
+collector_hint: 3015
+
+raw_ocr:
+Bt( Rede dos Ancis de Mago Anéis de Mago =
+
+a Sud Tesery, e mana. y
+249/272 U 7 he MUS Diath ofthe Coat
+OMe T tor Iie, Pon
+
+estocagen? em Rede dos Ancis de Mage.
+@, Remova No marcaderes de estocagem §
+: de Rede dos Ancis de Mage: Adicione N°
+wosua reserva de mana.
+249/272 UV " & C 3015 Wizards of the Cost
+ORI PT we linc Prax
+
+A estocaugem em Rede dos Andis de Mago. ¥
+f @, Remova X marcadores de estocagem J
+@ de Rede dos Ancis de Mago: Adiciane x *
+mM asua reserva de mana.
+249/272 U "ew DIS Woah of the Coat
+ORI OY me linc Prax
+
+estocagem em Rede dos Ancis de Mago. x
+f e, Remova X marcadores de estocagem
+m@ de Rede dos Ancis de Mago: Adicione X
+a sua reserva de mana. ‘
+249/272 Teh MIND sath Pn Ooo
+OR YT deli, Foam
+
+Rede dos Anéis de Mago }
+‘ \
+"
+@ a
+ye a
+Pa . ~~ .
+\ \
+i( Terreno €Q
+- (J
+mz =¢: Adicione 1 a sua reserva de mana.
+a1, ©: Coloque um marcador de :
+fe estocagem em Rede dos Ancis de Mago.
+f «, Remova X marcadores de estocagem
+m de Rede dos Ancis de Mago: Adicione Xt
+a sua reserva de mana. ‘
+249/272 U TO MID sath ite tae
+OR FY me liw, Fran
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:52:32
+matched_name: Haunted Fengraf
+matched_set: DKA
+matched_collector: 157
+reason: face OCR 'Cemitério Pantanoso Assombrado'
+name_hint: Cemitério Pantanoso Assombradc
+namebar_text: Cemitério Pantanoso Assombradc
+
+4 =
+| | Cemiterio Pantanoso Assombrado
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Cemitério Pantanoso Assombradc
+
+Meo ee SEW aoe ce tL state Ms ue
+q
+
+SASSOPTPOPIO.L PACVOIN a UI Cialtal
+
+de criatura aleatorinmente de seu ;
+f CUMITSTIO Para sud mae.
+f a, |
+mm O) purgite de droorsnes de ran coraiga | .
+/ :
+_ Adam peciekce ? i on WA eae
+To 1978 EL corti Cee tat LL 3° Te a e
+
+me ASSOMMOPUGO. 2ZCVOING UM Cara ‘
+de criatura aleatoriamente de seu 3
+
+f Cemiterlo para sua mao,
+
+BO parque de diversbes de ran carnical. |
+
+ree —- ay tt
+
+DOM URED conde Cte Cet LLC SSE ae . 5e
+
+ASSOMMDPAQO. LAICVOWA UT Cdfa
+i de criatura aleatoriamente de seu
+cemitérlo para sua mao.
+O parque de diversées de um carnigal. P
+—o Adam Paquette Rien Saal a
+Me ee MWe ct LL Sats an .
+
+fi >»
+= = '
+! Cemitério Pantanoso Assombrado
+i
+| }
+a \.
+{= &
+~ |
+| 2 Bee
+‘ . “
+IGeneno
+é
+m c:Adicione 1 a sua reserva de mana. |f
+mw 3, ©, Sacrifique Cemitério Pantanoso |’
+Ml Assombrado: Devolva um card
+de criatura aleatoriamente de seu
+} cemiténo para sua mao.
+O pargue de diversbes de um carnigal. ;
+a ee EW ae Doe Le SPATS cat nt
+q
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 14:59:26
+matched_name: Sea Gate Wreckage
+matched_set: OGW
+matched_collector: 177
+reason: fração+nome OGW #177
+name_hint: Bi Escombros de Portdo Marinho de Porto Marinho
+namebar_text: Bi Escombros de Portdo Marinho de Porto Marinho
+
+\ Escombros de Portao Marinho
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Bi Escombros de Portdo Marinho de Porto Marinho
+
+OFC VEAFIMAG SCPC COMO TWICHtOV de G0 Giae  4
+fot perdido,
+W7/ias B & TA Me Wath ofthe Cost
+OG OT ter Lace STULL
+
+habilidade apenas se voce mio uver .
+nenhum card em sua mde. :
+Oserora teas come de com oct aicMtey, ato
+Porfae Mornihe SOT CORT TEL CRT La dae fide
+for porndnde.
+177/184 R > "S&C 3916 Wizards of the Coen
+OGW ee OT te Lace STELLA
+
+A habilidade apenas se voce nao uver
+f nenhum card em sua mao. ;
+M@ Ontroraian centro de conhectnento, agora .
+B Portao Marnilte serce como memorial do que
+fel perdido,
+177/184 R > "TAC S16 Besch of the C cuit
+OGW OY me Lace Sttite
+
+m habilidade apenas se voce nado tiver
+
+fq nenhum card em sua mao.
+
+Mm Outrora um centro de conhectmento, agora
+Portao Marntho serve como memorial do que
+fot perdido.
+
+wWesiase &> it, Pe Ck’ ne 0s re TL
+OW 9 HY te Lace STOLE e
+
+\ Escombros de Portao Marinho }
+| ..3 ay.
+ye. y fj a,
+f ee t ; ” Pal a
+fy 2a
+oar os 4 ; , \
+ree 4 s
+4 "] : ¢ weed ‘ J ad 6
+
+- ~~ . *
+
+N PA acd - ~
+
+: : AS
+
+I( Terreno PN
+
+i ©: Adicione > a sua reserva de mana. Z
+
+bm (O representa mana tncolor.) A
+
+ja 2°, ©: Compre um card. Ative esta ;
+habilidade apenas se voce ndo uver -
+
+fq nenhum card em sua mio.
+
+m Outrora um centro de conhecimento, agora
+Portée Marinho serve como memorial do que
+for pendido.
+
+Wesiae R a Th DAD sah bene tase
+OG HY tw fare STEMS
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 15:00:09
+matched_name: Orzhov Guildgate
+matched_set: RNA
+matched_collector: 252
+reason: fração+nome RNA #252
+name_hint: ANA GT me Cure Cus
+namebar_text: Bf(Portao da Guilda Orzhoy da Guida Orzhow ~
+
+(Portao da Guilda Orzhov
+. | a || wr le
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Bf(Portao da Guilda Orzhoy da Guida Orzhow ~
+
+. ,
+-- Kave
+252/259 ¢ 7 M19 Boatdh ofthy Coat
+ANA GT me Cure Cus
+
+{ “lant rigiteca. danto esplendor Tanta :
+Bo fouhayde ad crer wa wrentina folheada a
+ier,
+Kaye
+252/259 ¢ A&C O10 Warde af the Coest
+ANA cHT we Cams Cunos
+
+f “Janta riqguesa. lanto esplendor. Tanta F
+BS fontagdo a corer a mentina folheada a
+- ie y
+Kava
+252/259 C "eC N10 Wasatch of the Ccant
+ANA OY me Cassy CHitos
+
+-- he
+ff “Janta riguesa. Tanto esplendor. Tanta
+a tentagao a crer na mentia folheada a
+our” e
+— Kava
+232/239 C TPR NVA ah ite tae
+QNAe HT te Core Coos
+
+\ Portao da Guilda Orzhov
+\ ie :
+\
+8 Portao da Guilda Orzhov entra no Z
+Mm campo de batalha virado.
+a e:Adicione * ou @, §
+a -
+ff “Janta rigueza. Tanto esplendor. Tanta
+a fentagde a crer na mentina folheada a
+oun,” y
+— Kava
+252/359 C TA MLD carte tae
+Q4Ae eT me Conn Cut98s
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 15:01:10
+matched_name: Rupture
+matched_set: NEM
+matched_collector: 97
+reason: tÃ­tulo OCR 'u Rupture Spire'
+name_hint: u Rupture Spire
+namebar_text: (Rupture Spire
+»
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+2)
+aoe fiuime Jones Ae Thee , pas, we .
+TORN Ge MID Quan be DG Toth vo . at.
+
+‘@ =Wihen Wuptlure opire citers Ule OALUICIiera,
+
+f sacrifice it unless you pay 1. :
+f e: Add one mana of any color to your :
+’@ mana pool. ;
+¢ *
+Te OE ards ofthe Coat LCE “er 4 =" 3st.
+
+WED RUPCUTE Ope CMUers Ole OALUCMCla, | |
+sacrifice it unless you pay 1. .
+
+f e: Add one mana of any color to your °
+
+m™ mana pool.
+
+| ‘
+
+7 ™ NA Pee NUD Wun toc et LC 750. a fs - 42,
+
+me WIICKh NUPTUTC OPIS CHlCrs UIC OALLICMeCla, |)
+sacrifice it unless you pay 1. ,
+ic: Add one mana of any color to your |
+mana pool. ,
+we Jaime Jones a \a'e — oe , -
+
+. od oO i aa “wwe * La) . ant, {
+u Rupture Spire
+5 / im’
+ad oe , 7“
+‘ N
+1a
+
+\ :
+: Rupture Spire enters the battlefield tapped.
+oa When Rupture Spire enters the battlefield, | &
+sacrifice it unless you pay 1. :
+t : Add one mana of any color to your ,
+fm mana pool. ‘
+"A
+
+TOPS Pe MID Wasnt te LC Te Mth. Yi Wn
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 15:02:35
+matched_name: Unyielding Krumar
+matched_set: KTK
+matched_collector: 94
+reason: fração+nome KTK #94
+name_hint: mYoe OY tw Yiatne Trim Ce re i Sec, Sot eas Ore
+namebar_text: . Kumar Inexoravel \
+
+. -_ =~ . @& we wae OL
+& Krumar Inexoravel 3k
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+. Kumar Inexoravel \
+
+094/269 € a5)
+aT + OY tw Viaing Trim oe Se SO Et eT
+
+SB ORO gue cu camo de par niato &
+Moore Ge mle cscracvicson, lorccnde scuff
+Mende oC Sted fauna ent Prec.
+094/269 ¢ .
+KTK + PY t Vatoa Trrov Pe &C O16 Cisahe of thee Coon
+
+“OQ homem que eu chamo de pat matouw &
+ore glace Me escravizon, Oferecendo set
+mando ¢ sta danuna em troca.”
+094/269 € /
+aT? PY tw Maton Irtiov Te we N16 Wise ed thee (wet
+
+“O homem que eu chamo de pat matou &
+O Ore gue me escravizou, oferecendo set
+m puedo e sua lannna em treca.”
+O98 269 C 3/3
+mYoe OY tw Yiatne Trim Ce re i Sec, Sot eas Ore
+
+-- Br ee’ _
+& Krumar [nexoravel 3¢
+. ~ . , =~
+. ’ ic LT . .
+. fe . ‘howe ; Laat - v i
+'* See a - -" 8
+aaa ea 2
+Criatura — Orc Guerreiro w
+>
+1 *: Krumar Inexoravel ganha -
+iniclauva até o final do turno. .
+“O homem que eu chamo de pai matou §
+O Ore que me escravizon, Oferecendo seu
+mm inido ee sua lantna em troca.”
+3/3 )
+094/269 €
+aTa + &Y te Vato Trim oat Oe ee ee
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 15:03:24
+matched_name: Death's Caress
+matched_set: DKA
+matched_collector: 59
+reason: face OCR 'Carícia da Morte'
+name_hint: Caricia da Morte Bee
+namebar_text: 4 . :
+Caricia da Morte 388
+- lg.
+
+set_code_hint: BY
+collector_hint: 3
+
+raw_ocr:
+seprdture ubafada oc aiponcmacel,
+oe james Ryman _ ; yy 8s co . ~.
+Sor ott ce We nS ve Oe vows
+L
+
+Pe sual a sua resistence.
+se
+s
+t ' - ° t M
+Mm Olece dar de craress oe Kantamar do
+- Been Pasi dle renre ide Midi
+: an erereee exe! wearearerere are IDEM, el Mb oul.
+; . et N te yy ON « ‘
+eames Rymam > . ‘y “va& cae 8] are
+a OR wb wud cee Cuda win 3 By es
+
+mm igual ad sua resistencia.
+M Oleve ador de craves, o farfalhar do
+Mm onto a paralisaaite desctda niuanid
+sepudturd abufada o imipoicmacel,
+ao: 4 o s: . ey. .
+yoo james Ryman > >: ‘y * ~< Cae . ~.
+GAIN hud de dt ap toe Bes vise
+
+igual a sua resistencia.
+O leve odor de craves, o farfalhar do
+m wentoe & paralisante descuda numa
+sepultura abufauda & unpenetravel.
+= james Ryman _. vy ae ra . - -
+L d
+
+a >»
+—_ a ea a | ee -- me
+Caricia da Morte Bee
+
+« .
+x 5 “ou
+. ~ an we ‘ . YY
+. . . ™ .
+V- ¥
+, 4
+y ®
+i
+m Feitico Ww
+m@ Destrua a criatura alvo. Se aquela .
+criatura era um Humano, voce ganha &
+uma quantidade de pontos de vidas
+Mm igual a sua resistencia.
+B Oleve odor de cravos, 0 farfalhar do
+vento d paraliscaute desenda niona 7
+sepultiaa abafada oc miponteidcel.
+aoe james Ryman _ - “ys peg ee LF
+qq
+

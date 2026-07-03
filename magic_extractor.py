@@ -2327,12 +2327,16 @@ class ScryfallDatabase:
             lines_seen += 1
             if lines_seen > 80:
                 break
-            first_word = words[0]
-            if len(first_word) < 5 or first_word in ignored or first_word not in choices:
-                continue
-            original_name, card_index = choices[first_word]
-            if len(normalize_text(original_name).split()) == 1:
-                return self.cards[card_index], cleaned
+            for size in range(min(5, len(words)), 0, -1):
+                candidate = " ".join(words[:size])
+                if candidate not in choices:
+                    continue
+                first_word = words[0]
+                if len(first_word) < 5 or first_word in ignored:
+                    continue
+                original_name, card_index = choices[candidate]
+                if len(normalize_text(original_name).split()) == size:
+                    return self.cards[card_index], cleaned
         return None, ""
 
     def _fuzzy_ocr_text(self, raw_text: str) -> tuple[dict | None, str]:
