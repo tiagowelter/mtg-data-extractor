@@ -13703,3 +13703,6742 @@ cov 2/2
 SOS + EN a Biay Cuaistian MM & 0 2026 Wirards of the Coast
 q if
 
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:19:58
+matched_name: Brothers Yamazaki
+matched_set: CHK
+matched_collector: 160b
+reason: nome superior OCR
+name_hint: Dos i pth PUA es NY
+namebar_text: Da a a no Os a ae See Ee
+m Brothers Yamazaki v3
+i’ wanes.) ey
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Ka Yamazaki gets +2/+2 and has haste. BN
+;
+PPS er tra a) Eft. S ee es Sati bes peat 1
+
+ap AL UICTO dic CadClly OWO PCUIanMeits Maeda ar
+# Brothers Yamazaki in play, the “legend ee
+4 rule” doesn’t apply to them. pe:
+:-$ Each other creature named Brothers f
+% Yamazaki gets +2/+2 and has haste. in
+
+y
+oS TOD 08 Ube od ie O ants Inc SIGS 4b AR
+
+AL UICTOC ait CadCuy OVO PCIIMANCiis NAallea
+
+ia Brothers Yamazaki in play, the “legend :
+ia rule” doesn’t apply to them. &:
+3 Each other creature named Brothers 4
+ka Yamazaki gets +2/+2 and has haste. N
+py
+
+3 ‘
+ax” Wer Me's 2 rar a A ane. hs . ' ‘a . Ay, “9
+
+rem AL ULICIO AIO CAAUCUY UWO PCEITIAICIils TRATICU Bre
+'@ Brothers Yamazaki in play, the “legend i,
+@ rule” doesn’t apply to them. >
+a Each other creature named Brothers if
+fa Yamazaki gets +2/+2 and has haste.
+f ’
+
+’ . .
+= Brothers Yamazaki Ze k
+Dos i pth PUA es NY : .
+
+, Nee
+Ft ite eS
+c .
+‘ Legendary Creature — Human Samurai Ff ;
+ie $
+2 Bushido 1 (When this blocks or becomes ‘
+> blocked, it gets +1/+1 until end of turn.)
+
+a If there are exactly two permanents named fF
+fa Brothers Yamazaki in play, the “legend é
+gq Tule” doesn’t apply to them. &
+‘a Each other creature named Brothers i
+x Yamazaki gets +2/+2 and has haste.
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:21:08
+matched_name: Warehouse Thief
+matched_set: CLB
+matched_collector: 205
+reason: face OCR 'Ladrão de Armazéns'
+name_hint: Ladrio de Armazéns
+namebar_text: , Ladrio de Armazéns
+
+> a ea sae heen. - bdvak. a _. - ;
+@ Ladrao de Armazéns 34
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, Ladrio de Armazéns
+
+208" $61€
+CLA + PY te ANO@EA Pleam> oN Boe
+
+¥turno, voce pode jogar aguele card. 3
+QO Poaetrrares Frcs sto abet nd Tanta
+mT NOES CETL aS VECETeLESe CALITO SOLOS
+'
+CUOVIEES. “4/2 \
+2038/3861 C
+CLO - PT Mt Anpeta Pirano PR NLD te the tc ost
+
+fturno, voce pode jogar aquele card. &
+fa Os Pattrtures rieos sao miatoria tanto :
+BE COTS SUAS THINGS Quarto CANE SCUs
+clientes, a2)
+208/861 C /
+CLR + PY be AROMA PlRARD a a
+
+} turno, voce pode jogar aquele card. “4
+. . . . a
+a Os patriares ricos sao matorta tanto
+MQ cntre suas Vitimas quanto entre seus
+clientes.
+4/2 )
+Fate Sarg
+Ch Re PT be MORES PIraR N : '
+
+@ Ladrao de Armazéns 32s
+
+3 4
+
+. Yet
+
+an
+
+. - ~
+
+k o
+
+: .)
+
+x
+
+a
+
+x 3
+
+4 R
+
+3 \
+
+>
+
+@ Criatura — Tiferino Ladino oR «
+
+a 2, ©, sacrifique um artefato ou uma B
+
+4 criatura: Exile o card do topo de seu §
+grimorio. Ate o final do seu proximo &§
+turno, voce pode jogar aquele card.
+
+4 Os patriares ricos sao matorta tanto
+
+MI cnive suas TILIMIAS Quanto entre seus
+clientes. a2)
+208" 567 € 4/2
+
+cia spr fe ANOGEA FIFA oN Boe
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:22:46
+matched_name: Grotag Night-Runner
+matched_set: ZNR
+matched_collector: 143
+reason: fração+nome ZNR #143
+name_hint: Corredor Norurno Gros -
+namebar_text: Corredor Norurno Gros -
+
+” 2 = F.C ie ddced rink a A cen. oo.
+& Corredor Noturno Grotag vr
+? * ~.
+a ~” o . ~
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Corredor Norurno Gros -
+
+. . g
+mB carta come faditos.
+143/260 u ; .
+Ze ohT te Camniind Gane Mh OM ath tthe Cast |
+
+@opode sogar aquele cand neste turno, 3
+rs
+l
+Nuitigicuta Pr cr re er narey a edNy tls ue tes | “
+, .
+COTE Sr ia a Pe OST didteital
+‘ * . r \
+dtd tit cette ha diniers
+2/3
+143/280 U
+ZNR PY ww Cannouse Games eC WD) Traatch ud the Coast
+S -
+
+# pode jogar aquele card neste turne.
+£ Nataninente caniosos ¢ adaptavers, os goblins 44
+eB comsecgen ausformar a bana estan nian F
+B cuntagem come ladies.
+
+143/260 U
+
+2N@ -6T te Camo Ganes SA SL sath eb thee OC eet
+
+} pode jogar aguele card neste turno. ey
+Pa Naluralmente curtosox ¢ adaptavets, os goblins FF
+i conseguem transformar a baixa estatura numa
+Be cantagem como ladinos.
+
+tase secu
+
+CNY Oe PT te Cammiist Gases or cn? Oe rn Tos
+
+& Corredor Noturno Grotag 22h)
+’ , om
+a o ) v WS ~ Fs
+< . Z.
+: : bey
+Py , 7 “- a
+> ‘ ME oN US .
+? ow : : NI
+@ Criatura — Goblin Ladino .Oas
+~ ss ~ ’ x By!
+4 Toda vez que Corredor Noturno Grotag gy
+Be causar dano de combate a um jogador, ?
+exile o card do topo de seu grimario, Voce BR
+pode jogur aquele card neste turno. ;
+Z Naturabmente curtosos ¢ adaptavets, os goblins
+aM conseguem! transformiar @ bain estat mana
+cura come faditos.
+$a3/280 /
+2NU 6 FT te Camo Ganen TA SD ah ofthe O aet
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:24:18
+matched_name: Reckless Fireweaver
+matched_set: KLD
+matched_collector: 126
+reason: fração+nome KLD #126
+name_hint: Biles estore! de dianda, engines os
+namebar_text: BA Famiteceti Temerario \
+
+A Flamitecelao Temerario Le
+‘xk 2 yi
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+BA Famiteceti Temerario \
+
+CSE NEOIN NOCD TST TE TUE CO OPT EE Ek g
+Xell for , TT)
+
+126/264 C
+
+BLO BT me (EMC HENKO ALEC ASOER SA TE sary of thee Osea
+
+J ode dane a cada oponenty. 3
+; v
+OOS ar yTedes CHO MNT INS PIT Uy de Ma s
+Biles estore! de dianda, engines os
+Bodie aders Sade) Pec uc hida dies pela efi. alia de
+ered fe wha 1/3)
+126/264 ¢
+KLO + OT te Draucmaenno ALLLANDER $e & CO WIth Wane uf the Coot
+
+qode dano a cada oponente. 0
+¥ Os argiatelos encontramt mMspiragao Na
+q beleza estridiaral do dragida, cnqguadMo os "
+BM artesdos sdo influcnclados pela cficacia de
+126/264 C
+KLO > PY te DeaicHtnno ALLUANOtA OR RIT arte el thee C eer
+
+de dano a cada oponente. 7
+Os arqtittelos encontram tmsptragdo na
+a beleca estrutural do dragdo, enquanto os ¥
+aM arlcsdos sdo influenciados pela eficacia de |
+xeu Sogo. “T73 )
+wevz204 ©
+BD OT tw DEM HEN ALIEN ONDER Cr en ry SPC Ce Te
+
+Flamitecelao Temerario le)
+> % #
+“ - a, =
+2 OR « a
+,«< A ~ 7 - “eo we
+“ ar, 2 a‘, ey 6 t ad myo
+7 saw PY oe
+a a a~a -t
+a - ee we — | a
+7 <
+? . -
+
+@ Criatura — Humano Artesao A) ‘
+fy Toda vez que um artefato entra no q
+ia campo de batalha sob seu controle, 4
+Me Flamitecelao Temerano causa Il ponto — &
+de dano a cada oponente. ;
+
+Os arguitelos encontram msptragdo na
+a beleca estrutural do dragdo, enquanto os
+M arlesdos sdo influenciados pela eficacia def
+
+seu fogo,
+
+1/3 }
+tres 204 /3
+KL OT te Dar HeNmer ALLER ASDER oan, Se Cy TSR
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:25:00
+matched_name: Brazen Freebooter
+matched_set: RIX
+matched_collector: 95
+reason: face OCR 'Filibusteira Brônzea'
+name_hint: fa Quando Filibusteira Bronzea entrar y
+namebar_text: Fiibusteira ar : )
+
+, Filibusteira Bronzea 3
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Fiibusteira ar : )
+
+O95 164 C wm
+O01 OF tw Rewer Gaiicens 2 eh ST ie ee er)
+
+qcom el saermique este artebato: :
+Adierone ump mana de quahauer eer a,
+Sua reservar de mama
+
+etehiade: Mad Pon ade, —_"
+
+09s/1e6 C 3/3
+
+RIK DT tr Ramon Guise "TRC 2018 Wiearde ef the Crow
+
+‘Fcom “e@, sacribque este artefato:
+Adigione um mana de qualquer cor at fy
+g sui reserva de mana.” ,
+edelrado mio ¢ reubuade, zw
+COs 164 C
+OQ a1 DT & Rawr Gaitun et ee Sty ee Oe ee
+
+} com “@, sacrifique este artefato: ;
+Adicione um mana de qualquer cor a
+4 sua reserva de mana.”
+Achado nde & reubado.
+a : 3/3 |
+Use $4oc
+O € 6 DT tee Mowir Cactieen ye Bie ew Feat oe
+
+, Filibusteira Bronzea 3 ah
+4 . vi
+é Looe, ,
+e
+. . .
+. “4 8 _— * .
+:
+4
+: g
+4 :
+k
+a
+? or : \y
+Criatura — Humano Pirata ais f
+fa Quando Filibusteira Bronzea entrar y
+r no campo de batalha, crie uma cha
+de artefate incolor do typo Tesoure
+com" @, sacritique este artetato: ,
+Adigione um mana de qualquer cor a
+4g sud Teservi de mana.”
+B lchade mao é reubude,
+3/3 |
+095/164 C
+DO 06 OT tw Raman Garin Oe a St ee eo eee)
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:25:46
+matched_name: Creepy Puppeteer
+matched_set: VOW
+matched_collector: 151
+reason: face OCR 'Titereira Sinistra'
+name_hint: ' Titereira Sinistra
+namebar_text: ' Titereira Sinistra . :
+
+” eK weed - ORR _- . - inl
+, Titereira Sinistra 3
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+' Titereira Sinistra . :
+
+@torne 4/3 até o final do turno. 4
+Wise? wR &> 4/3
+VOW + FT tw Mant Vac Sh SLEW ah t ites € coat
+
+: NL VEIL Acted QSL CONCEPT IUO Gilbddcl 8
+Outra criatura neste combate, voce a
+pede fazer com que o poder ea [a
+resistencia basica daquela criatura se :
+
+Btorne -f 3oate © final do turne. !
+
+11/277 — ed 4/3
+VOW «PY te Mast Macny TSA WS) Waa ed the Cowar
+
+f SL WAIL eet hud QCATELE VNcUUTEIQCTIU Uldda
+Qulra criatura neste combate, voce r
+¢ pode fazer com que © poder e a 5
+@ resistencia basica daquela criatura se. F;
+Btorne 4:3 ate o final do turno.
+rar & 4/3
+VOW © OT te Mart Uscny Th NEW athe ofthe Cet
+
+SL VUE Gata UU UVTI UAGALCAITILTIUL Ullld 4
+f outra criatura neste combate, voce
+wg pode fazer com que 0 poder ea
+‘@ resistencia basica daquela criatura se
+Btorne 4/3 até o final do turno.
+rr 2h? RK Sop 4/3
+VC 6 Tf Wart Many Co ar i) Ore err oo
+
+Titereira Sinistra 32)
+> R
+a 4 % .! ms
+* / ; ~ os °. ‘ ‘ +
+hd , a var) . ‘
+~ - é= \ a ~ , .
+» \ ~~ ,
+2 * 4 \ . foe .
+@ Criatura — Humano Ladino >
+b P
+4 Impeto y
+Pe Foda vez que Titereira Sinistra ataca,
+se Voce alacou com ¢exatamente uma &
+outra criatura neste combate, voce
+é pode fazer com que o poder e a
+‘@ resistencia basica daquela criatura se
+Btorne 4/3 ate o tinal do turno.
+Wrus2e? wR ae 4/3
+VOW + FT ae Mamet Macey TA EW ah ttle oat
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:27:44
+matched_name: Tilonalli's Knight
+matched_set: XLN
+matched_collector: 169
+reason: fração+nome XLN #169
+name_hint: Cavaleiro de Tilonalli les
+namebar_text: [(cavateiro de Tonal —
+
+oye _—
+4 Cavaleiro de Tilonalli J
+? 7
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+[(cavateiro de Tonal —
+
+' BRAS Cerys C8 FOTO, OF GURU © % gy
+Puixao, Wr)
+
+109/279 C
+
+XUN © #T me Lius Lasanioo SA NATH tart f thee OC wet
+
+Joo nal de turne, 3
+r
+O poce de Dairperte do Sof crete oval ,
+cla fies cbs POC Pleats C ra S ri ebrdeute, .
+‘ cdssctetdder COW ad foray date, fg tod
+Meier WI)
+1 . °
+2/2
+169/279 ¢
+XUN ¢ BY te Luss Lasanivo TS & CWI? Waa ad the Coost
+
+400 nal ade turne.
+
+QO pewo do Iniperio do Sol cudtiaa o sol 5
+gicm tres aspectos, Tlonallt & 0 Sol elrdente, TF
+a assoctade com a ferocidade, 0 foxo ¢ a
+
+p IND, “2/2 |
+
+169/279 ¢
+XUN? &Y te Lis Lasanioo NAT Winatie of thee Co weer
+
+oO tinal do Curno. :
+O pevo do Impeérto do Sol cultua ov sol
+LM ocnt (res aspeclos, Tilonalli é¢ 0 Sol Ardente, EF
+aM assoctado com a ferocidade, o fogo ¢ a
+paixdo, TW?)
+tear2?a Cc 2/2
+Roe OT ow Lats Lasanioo ir ike Oot See PT
+
+Cavaleiro de Tilonalli les
+‘N
+2 TO" 8
+a ij - e yl
+- 7 ~ we >.)
+: we ae
+< , : " la mv. qv
+Aare | 1
+7 vo. ae
+Criatura — Humano Cavaleiro 539 ‘
+Ea . weer . ,
+fg Toda vez que Cavaleiro de Tilonalli #
+fg ataca, se voce controlar um Dinossauro, y
+vg Cavaleiro de Tilonalli recebe +1/+1 ate &
+o final do turno. >
+
+O povo do Imperio do Sol cultia o sol
+PB cnt tres aspectos, Tilonallt ¢ 0 Sol Ardente, ;
+BM assoctado cont a feroctdade, 0 fogo ¢ a
+
+palxdo. WT)
+
+tea zie c 2/2
+XN 2 BY te Lies Lasanioo TAL Dah tthe vet
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:28:22
+matched_name: Tiger-Tribe Hunter
+matched_set: AFR
+matched_collector: 163
+reason: fração+nome AFR #163
+name_hint: Cg isso, Cagadora da Tribo do Tigre causa a
+namebar_text: x Cacadora da Tribo do Tigre 3,
+
+; Cacadora da Tribo do Tigre 3.8<
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+x Cacadora da Tribo do Tigre 3,
+
+m CTU UV Gano iwual ag poder da creatvura g
+sucrificada. 4/4)
+
+1es/2e° &
+
+AFR + FY ww Gaztcoar Ritnowsa "h SOE DM ath tthe eet
+
+Qo compris cen Geta de poder mead S
+OND Sper ay este combate, vas ponte er
+Sa rifioa otra ornatura. Quiero vee fae la
+mao. Claigudors dia Pribus dae Piare Ganda I.
+
+Booritura cave dane rudd ier podor da orhitura |
+saeriicuada —
+
+4/4
+163/28) U
+AFR + OY tw Gartcon mows Teh St Wiaeee ad the Coot
+
+qecom erntunis com total de poder 1gdQal
+OU superior a 6 Neste combate, voce pode
+saenificar outea eratura, Quando voce faz 5
+4 Isso, Cagadora da Pribo do DPigre causa a .
+mB ocriatura alve dane igual ao poder da criatura
+sacritcada,. Wa)
+163/281 vu 4/4
+AFR + FY wm Gazrcoar Ri mowsal SN SEW natty cel thee Oat
+
+com criaturas com Cotal de poder igual )
+$g ou superior a 6 neste combate, voce pode ;
+3 sacrificar outra criatura, Quando voce faz
+Cg isso, Cagadora da Tribo do Tigre causa a
+@ criatura alvo dano igual ao poder da criatura
+sacrificada. aa)
+1638/36" & 4/4
+ARR © FT te Garton? Roto ar rn i Ore eee Ce
+
+& Cacadora da Tribo do Tigre 382}
+? f \ »
+hed a J .N > 7 7. en
+: ‘ . » ; : ‘ we 8 ca : , “
+~ a ee
+x H4
+a -” ~ ‘
+- i
+} or . y
+@ Criatura — Humano Barbaro a ‘
+fm Atropelar q
+®, Tattwcas de grupo “Toda vez que Cagadora 4
+Ma da Tribo do Tigre ataca, se voce atacou :
+Z com criatumis com total de poder igual BS)
+3 ou superior a 6 neste combate, voce pode |
+Z sacrificar outra criatura. Quando voce faz
+cg isso, Cagadora da Tribo do Tigre causa a
+
+@ criatura alvo dano igual ao poder da criatura f
+
+sacrificada.
+i 4/4 |
+TOs SB ou
+AF + HT te Gattioat Rotmoww oe oe Or rr re
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:28:56
+matched_name: Flamewake Phoenix
+matched_set: FRF
+matched_collector: 100
+reason: nome PT palavras 'Fênix do Rastro Flamejante'
+name_hint: Bisse, devolva Fenix do Rastro Flamejante de seu Bj
+namebar_text: im Fen do Rastro Flamejante dL
+
+Fénix do Rastro Flamejante Je
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+im Fen do Rastro Flamejante dL
+
+B cemitério para o campo de batalha. 4
+100/188 R co
+FRE OT te Mis Ve PhD IAW satel thee Cnet
+
+. per Noorsnete do combate meoscu turma ss 7
+Sees COnbre bir GH Crhitunie Com poder aiual
+
+Qocupsuperper a Vovoce pode pagan @ Se fiver ‘
+
+dovelya Pomix de Restre Plame de seu”
+eomiternn pata carpe de panalhas.
+
+rn & 2/2
+
+FRE «PY to Min Vues Te he © 01S Wasatch of the Coon
+
+fo feros | No imecie do combate ne seu turne, xe
+voce controkir uma eriatura com poder igual .
+q ousuperior ad, voce pode paguir a. Se fizer :
+Bisse, devolva Fenix do Rastro Flamejante de seu Bj
+M cemiterio para o campo de batalha,
+“2/2 |
+100/188 & <& 2/2
+FRE + OT tr Min Vow Oh NES Keates of thee CO oeer
+
+. se ‘9
+
+a Feros —- No inicio do combate no seu turno, se
+
+g voce controlar uma criatura com poder igual
+¢ ‘rior a 4, voe’ pude pagar &. Se fize
+pg OU SUPLTION @ 4, VOCE pude Pagar @. o¢ L4er
+Am isso, devolva Fenix do Rastro Flamejante de seu
+
+cemitério para o campo de batalha.
+toc TBS R chp
+ERE = YT ma Min Ve 2 on ch! Pts eee rT
+
+Fénix do Rastro Flamejante Lee}
+
+> fi
+? ine
+. ~
+i ” y ~~.
+» ‘* , a +
+, oa . \
+@ Criatura — Fénix thy ‘
+: | i
+a Voar. impeto 4
+x, va . .
+
+Pe Penix do Rastro Mlamejanty ataca a cada tumo §
+BE se estiver apto. \
+ere: - - No inicio do combate no seu turno, se
+
+g vece controlar uma criatura com poder igual
+Pg ou superior a 4, voee pude pagar &. Se fizer
+Bg isso, devolva Fenix do Rastro Flamejante de scu Ff
+cemitério para o campo de batatha.
+1oo/ TBS Rk cee /
+FRE oe PY te Mis Vow "kh PADD ah tthe tat
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:29:37
+matched_name: Krark-Clan Grunt
+matched_set: MRD
+matched_collector: 97
+reason: nome superior OCR
+name_hint: mB Krark-Clan Grunt 28 E
+namebar_text: m Krark-Clan Grunt Zz
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
++ ¢ U (4 &
+f
+om SE ie aa a ESTE
+
+e 7 . 7 — 16
+¥ strike until end of turn. Lt
+} The more weapons a goblin breaks in :
+4 battle, the more respected he beconies. s
+dgThomas M. Baxay ro Bay ees 2/2 +
+oP he NN) Wyner oldie au ee STROLL GPG On
+
+strike until end of turn.
+, The more weapons a goblin breaks in
+, battle, the more respected he becomes.
+- EURLAVREGSTT y's.” ae werner 2/2 V8
+Po eee Sy eS
+
+fq strike until end of turn. ‘
+¥ s
+my Lhe more weapons a goblin breaks in o
+Mm battle, the more respected he becomes. k
+
+pee Oe Oe Ce cee
+t 1
+mB Krark-Clan Grunt 28 E
+2 i . \ . i = fe 7 a : Lg ~
+TO __ ee ae:
+p fv. x -_/' oe ee - 4 3
+| Creature — Goblin Warrior “on, :
+s
+tq Sacrifice an artifact: Krark-Clan t
+fa Grunt gets +1/+0 and gains first ;
+‘ strike until end of turn. :
+‘ . . x
+3 The more weapons a goblin breaks in
+im battle, the more respected he becomes. E,
+- RG YEE + BORIS PTY z
+Peps SVT Y- 00) San cama SOA} cl SOUL OPE a eR
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:30:29
+matched_name: Izzet Chemister
+matched_set: A25
+matched_collector: 138
+reason: fração+nome A25 #138
+name_hint: le. @, Sacrifice Izzet Chemister: i"
+namebar_text: a — | . ,
+
+Izzet Chemister Z
+
+set_code_hint: A2S
+collector_hint: 3
+
+raw_ocr:
+a — | . ,
+
+* Reese emiuster without paying their 7
+mana costs.
+138/249 R €%> 1/3)
+A2S © EN Pe SVITUIN VELINoy SON MOPS Warts oti Gee
+
+ge Card from Vour gravevara. r
+le. @, Sacrifice Izzet Chemister: i"
+
+} Cast anv number of cards exiled with *
+
+€izzet Chemister without paving their 7]
+
+138/249 R
+
+A25 * EN © SYTTUN VELINOV ™ & 0 21K Wirands of the Coser
+
+Cara from your graveyard. »
+‘$1 oe, , Sacrifice Izzet Chemister: |
+fg Cast any number of cards exiled with
+wy izzet Chemister without paying their
+
+mana costs. TH
+
+138/249 R €D I/3
+A25 * EN be SVITLIN VELINOV MQ MEN Wirasdts ot the Caer
+
+Card from your graveyara. ‘,
+} 1 @, @, Sacrifice Izzet Chemister: A
+rg Cast any number of cards exiled with &
+ia Izzet Chemister without paying their
+mana costs. 73)
+138/249 R €D 1/3
+A2S © EN be SWETLIN VELIScoN ws TOPS We te boas
+
+a Izzet Chemister 22)
+; ¢ 9 a 2
+s. ‘ oo . . : H
+er av : Vy 4 ‘
+Fd \
+, 5 3
+Creature — Goblin Wizard ly ‘
+: . a
+fs Haste 4
+4] 2, «: Exile target instant or sorcery §
+card from your graveyard. »
+1 2, @, Sacrifice Izzet Chemister:
+fg Cast any number of cards exiled with
+a Izzet Chemister without paying their Ff
+mana costs. Th
+138/249 R €% 1/3
+A2S © EN be SYITLIN VOLINOY “RQ MOPS Waste otic Cane
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:31:14
+matched_name: Krenko, Baron of Tin Street
+matched_set: MKM
+matched_collector: 135
+reason: código MKM #0135
+name_hint: Mao, sacrifique um artefato: Coloque um %
+namebar_text: | — Barao da Rua do Estanho ,
+
+Krenko, Barao da Rua do Estanho 2
+oa
+
+set_code_hint: MKM
+collector_hint: 0135
+
+raw_ocr:
+| — Barao da Rua do Estanho ,
+
+m@ criatura Gooun vermema iol. bla ganna impeto Ty
+ate o final do turno. zh
+R 0135 <p
+MKM ePT Be Bran Vatiza Ro MDE Ratan ot the Coast
+q ad
+
+fF COMUTPOTG. ¥
+¥ Toda vez gue um artetato & colocade num .
+PP conniterio vindo de campo de batalha, voce -
+Qo pode pagar @. Se fiver isso, erie uma fieha de
+Mm criatura Goblin vermelha ] od. Ela ganha impete -
+Sate o pnal de turne, 373)
+R 0135 >
+MKM=PT Be Brian VALIZA TM fe 2025 Winards of the Coast
+
+4g comtrola. “
+:§ Toda vez que um artetato é colocade num :
+4 cemiterio vindo do campo de batalha, vece a
+@ pode pagar &. Se fizer isso, crie uma ficha de .
+mB cniatura Goblin vermelha 11. Ela ganha impeto J
+Pate o final do turno. 373 )
+R 0135 oe
+MKM > PT Be Brian Vaueza ™ & DDS Digarch ct the Cast
+
+controla. ae
+b¥ Toda vez que um artefato é colocado num
+g cemitério vindo do campo de batalha, voce ”
+@ pode pagar @. Se fizer isso, crie uma fichade s&s
+m criatura Goblin vermelha 1/1. Ela ganha impeto
+até 0 final do turno. 373 )
+R O35 Sie
+MKM «PT Be Miran Vatesa MN DDS abot the © et
+
+4 >
+Krenko, Barao da Rua do Estanho 2@ 5
+
+‘ Mise tee io a
+
+° . ~ : ¢ ioe ¥ 4 . a ‘ a ~ ~
+
+; Ss NY :
+
+P Criatura Lendaria — Goblin ec
+
+t t
+
+fa impeto i
+
+Mao, sacrifique um artefato: Coloque um %
+
+Bg marcador +1/+1 em cada Goblin que voce ‘
+controla. Ny
+Toda vez que um artefato é colocado num ,
+
+g cemitério vindo do campo de batalha, voce :
+
+@ pode pagar @. Se fizer isso, crie uma ficha de ’
+
+@ criatura Goblin vermeiha 11. Ela ganha impeto
+até 0 final do turno. 373)
+R O135 ee 3/3
+MKM -PT Be Bitan Vatasa ey Mb Wuenbeetihe sua
+. d
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:31:58
+matched_name: Squee, the Immortal
+matched_set: DOM
+matched_collector: 146
+reason: fração+nome DOM #146
+name_hint: Squee, 0 Imortal Lee
+namebar_text: B Scio incr — dL
+
+~. ee ee NN
+Squee, o [mortal le
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+B Scio incr — dL
+
+ay
+COM+6T ter Sortie Veter oe Ck Se ee ccs
+
+TOM Qi SOP MAL es Ort Pre oboer f
+LOMO QUO Cl MES AO Poder MON I"
+aonb ada 7
+2/1
+146/269 R =>
+OOM > PT te Srrtum Vinmeor PoC WIN Curate of thee Coont
+
+: ry
+‘Jem que ser mato esperto pra clver 4
+Blanto quanto et, mas nao poder morrer
+be fade ajuda.” :
+OOM- OY to Sortims Vein ot ee MeO ee a es)
+
+} “Tem que ser milo esperto pra viter A
+
+Sy fanto quanto ett, mas nado poder morrer is
+
+Mm também ajuda,” ;
+COMM T tw Sortine Varese “4 i Sr cr re
+
+Me Te NN N
+Squee, 0 Imortal Lee
+
+} an 8
+an WR
+_ Po Re!
+aan ‘ “
+2 ee y
+a “OR
+ff Criatura Lendaria — Goblin g ‘
+a Voce pode conjurar Squee, o Imortal, %
+Ry a partir de seu cemiterio ou do exilio. &
+“Tem que ser miuto esperto pra vtver |
+Py fanto quanto eu, mas nao poder morrer
+a fambem ajuda.”
+
+else 3 oo 2/1 |
+
+COM> &T te SerTiin Vetrere or Sr ee cere ees]
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:40:03
+matched_name: Keldon Raider
+matched_set: M20
+matched_collector: 146
+reason: fração+nome M20 #146
+name_hint: Saqueadora Keldoniana
+namebar_text: Saqueadora Keldoniana 2
+
+seh
+& Saqueadora Keldoniana se
+
+set_code_hint: 667
+collector_hint: 4
+
+raw_ocr:
+Saqueadora Keldoniana 2
+
+O rest Vira carvae. id
+146/286 ¢
+420° FT te Coes Stamay TR NEE Lett the Cat
+
+. a]
+Os ors doe saltogdercs Rel faces :
+PUREED EO ME CO CRTCH CaP Bae ‘
+
+Pia Os cade Calis, Nae aihoittal ee ouitey ©
+PUT PO aah
+
+146/280 C 4/3
+M20 °OT to Com Staman Te & CS 010 Tanah uf the Cows
+
+BOS esplltos doy salteadores keldontanos
+BNL -se dO gue CONSCRMEMT CarteRar :
+BS vontados cae seus colos, Nao anportao calor, F
+Bo resto ira carcae,
+146/286 C 4/3
+420-667 de Comers Sama NK aah ol the Caer
+
+‘9
+BOs espoltos dos salteadores Reldonianes
+g liniitam-se Qo gue consegtiem carregar
+SS ontadas cm seus colos, Nao miporta o valor, F
+Bo resto Cira carvao,
+1ae/380 C 4/3
+4200 YT te Corrs Staae bo Ey is SC a ST
+
+@ Saqueadora Keldoniana Zeek
+’ - ae / ‘ yl
+c ike . , t a a ' of! 4
+. == FA 7+ Saar 7
+- lan a ° :
+. 4 — .. rae . 4.
+bs . Bm: . "a ve \ oe .
+x S.. * ~ eo -
+: woe . EE. _ - ’
+. an . 3 : .
+4 4 . | 4 . ~ A Le
+a Criatura — Humano Guerreiro  A20) <
+, 4
+4 Quando Saqueadora Keldoniana entra no y
+yg campo de batalha, voce pode descartar — §
+um card. Se fizer isso, compre um card. ff
+Os espéltos dos salleadores keldontianas '
+z finiitani-se ao gue consegitem carregar
+Re ontados cnt seus colos, Nae anporta o valor,
+0 reste viva carvae,
+146/286 C 4/3
+420687 te Comms Samay Th SDT cae Oe
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:40:38
+matched_name: Rampaging Cyclops
+matched_set: DOM
+matched_collector: 139
+reason: fração+nome DOM #139
+name_hint: du Med Pde dade do ctefi Pe tose
+namebar_text: p one — .
+
+Ciclope Enfurecido 3)
+
+set_code_hint: OOM
+collector_hint: 4
+
+raw_ocr:
+p one — .
+
+pe COMCCHITUN CHE WLAN Ge MING COI Ge q
+cada vec.
+4/4 |
+139/209 ¢
+OOmM-FT mw Toma home Ce ee SP ee Ree ene)
+
+Os orerreiros Reddo anos xo prac tai ,
+
+du Med Pde dade do ctefi Pe tose 7
+BP CONC MTN CDE MATS de Mand COW de ;
+
+cdl oor, |
+139/269 ¢ 4/4
+OOM>PT a» Fouass koe fo AC WIR Wumndh af the Coent
+
+Os guerretros Reldontanos se aprovettam Ff
+fa da incapactdade do ciclope de se 7
+Me concentrar cmp mats de uma coisa de
+cada vec.
+4/4 |
+139/369 ¢
+OOM-61 a» Toma hoes ot ee i SEP Se ee ec
+
+, - ~
+} Os guerretros Reldonianos se aprovettam A
+a da incapacidade do ciclope de se
+Mm concentrar em mats de uma coisa de
+
+cada ves. Ta)
+
+1 "2O9 C 4/4
+
+a ary
+
+COM eh) tw Tomasz hoeesiis or cr OP cr
+
+Ciclope Enfurecido 32)
+2 f;
+? . Am .
+zB t
+: ’ ; @ oe, 4 Ras
+. “4 ‘ Dad
+2 | fe
+ine! Gi
+F =v)
+m Criatura — Ciclo is
+fm Ciclope Enturecido recebe -2/-0 A
+va enquanto duas ou mais criaturas o |
+Mg estiverem bloqueando.
+Os guerreiros Reldonianos se aproveitam |
+ry da incapactdade do ciclope de se G
+Ma concentrar emt mats de uma coisa de
+cada wee.
+4/4 |
+139/369 ¢
+COM->+T mw Tomasz hows oe Oe eke ere)
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:41:12
+matched_name: War-Name Aspirant
+matched_set: KTK
+matched_collector: 126
+reason: fração+nome KTK #126
+name_hint: Aspirante a Nome de Guerra
+namebar_text: Aspirante a Nome de Guerra
+
+i he
+i Aspirante a Nome de Guerra J
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Aspirante a Nome de Guerra
+
+Bm atecrreirod Mand fo gite gid ta gitad cle shiilin g
+sete mone de VUE. . “21 +?)
+
+126/269 U
+
+mY 6 OY tw (hanto (nisin oe SE SOP See Si eT
+
+VS EE ab UNE TO SOE EDaes praerdee Sat ‘
+. . «
+Dept per crutune. ce poder sguabei r
+' re nn Moi. a qele fyts i. rer] rer wall fag
+126/269 U
+TK e PY me Dare Galensy To & C 16 Wists of the Coon
+
+SUSPUETe db INOUDE UC Ree fe NAG PU SOT :
+biegqueade por criaturas do poder igual ou
+inferior ad. ‘
+Nowiona batatia «tab uniporianite Nang ion :
+mB estccrrere Mardi de gue agueks ria ginal ole ania
+SCTE DG fe TW cae “2/1 )
+126/269 U
+mT 6 OY te (latio Cntiet "Oh NA Wisat ed the Cet
+
+SUS PEAS SB INCHS GO AIUCKTS SO POUS KT 7
+bloqucado por eriaturas de poder igual ou
+infersor a.
+a Nevhions batalha ¢ tab uriportaitte pana ton
+BB ovuerrciro Mardu do gue aquéla na gtal ele ganha (
+seu nome de RUCTIL. “21 )
+126/269 u
+mTae Tt (Jeti Cascint bat re i er ar
+
+Aspirante a Nome de Guerra le :
+AY
+2 &
+$ - 9@ . ot
+’ rs ,
+. 7 fs
+»
+E _® | "
+a .
+? . .
+@ Criatura — Humano Guerreiro | ‘
+Me Ranke | Aspirante a Nome de Guerra entra ne #
+y
+fa campo de batalha com um marcador +1 +1 se y
+Me ve over atacade com uma criatura reste turne. &
+Aspirante a Nome de Guerra ndo pode ser S
+hhoqueade por criaturas de poder igual ou
+inferior al. ‘
+4 Nevhiona bataiha mats uripotiante para tit
+BM euerretro Mardu de guc aqgudla na gual cle ganas (
+sere monte de terra.
+2/1 }
+126/269 ¥
+RT 6 OY tr Cano Canstlet oe SE ero ee es
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:41:19
+matched_name: War-Name Aspirant
+matched_set: KTK
+matched_collector: 126
+reason: fração+nome KTK #126
+name_hint: Aspirante a Nome de Guerra
+namebar_text: Aspirante a Nome de Guerra
+
+i he
+i Aspirante a Nome de Guerra J
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Aspirante a Nome de Guerra
+
+Bm atecrreirod Mand fo gite gid ta gitad cle shiilin g
+sete mone de VUE. . “21 +?)
+
+126/269 U
+
+mY 6 OY tw (hanto (nisin oe SE SOP See Si eT
+
+VS EE ab UNE TO SOE EDaes praerdee Sat ‘
+. . «
+Dept per crutune. ce poder sguabei r
+' re nn Moi. a qele fyts i. rer] rer wall fag
+126/269 U
+TK e PY me Dare Galensy To & C 16 Wists of the Coon
+
+SUSPUETe db INOUDE UC Ree fe NAG PU SOT :
+biegqueade por criaturas do poder igual ou
+inferior ad. ‘
+Nowiona batatia «tab uniporianite Nang ion :
+mB estccrrere Mardi de gue agueks ria ginal ole ania
+SCTE DG fe TW cae “2/1 )
+126/269 U
+mT 6 OY te (latio Cntiet "Oh NA Wisat ed the Cet
+
+SUS PEAS SB INCHS GO AIUCKTS SO POUS KT 7
+bloqucado por eriaturas de poder igual ou
+infersor a.
+a Nevhions batalha ¢ tab uriportaitte pana ton
+BB ovuerrciro Mardu do gue aquéla na gtal ele ganha (
+seu nome de RUCTIL. “21 )
+126/269 u
+mTae Tt (Jeti Cascint bat re i er ar
+
+Aspirante a Nome de Guerra le :
+AY
+2 &
+$ - 9@ . ot
+’ rs ,
+. 7 fs
+»
+E _® | "
+a .
+? . .
+@ Criatura — Humano Guerreiro | ‘
+Me Ranke | Aspirante a Nome de Guerra entra ne #
+y
+fa campo de batalha com um marcador +1 +1 se y
+Me ve over atacade com uma criatura reste turne. &
+Aspirante a Nome de Guerra ndo pode ser S
+hhoqueade por criaturas de poder igual ou
+inferior al. ‘
+4 Nevhiona bataiha mats uripotiante para tit
+BM euerretro Mardu de guc aqgudla na gual cle ganas (
+sere monte de terra.
+2/1 }
+126/269 ¥
+RT 6 OY tr Cano Canstlet oe SE ero ee es
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:42:17
+matched_name: Blistering Dieflyn
+matched_set: SHM
+matched_collector: 82
+reason: face OCR 'Dieflyn Ardente'
+name_hint: Dieflyn Ardente a
+namebar_text: : Dieflyn wu re
+
+a Dieflyn Ardente 3
+; Lah,
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+: Dieflyn wu re
+
+my 2SStN NUNCA Mas Preebarid colar .
+combusttoel nawamente. 3
+
+et OA SP bem ae e ee NOS Leb ht wo ot %, wv
+e
+( Vr deg hee ' an paddle ae Le cacceceual "a
+ee soe . ms, . . . : . ‘ “Moe .
+oa sora re ar wy Paidls poy Ly elds fue oe Se "Ge *
+re re OE
+Ly
+= et O/T:
+Se moa . .
+eae won Altres os ye a A
+na ee ce ae ee, “3° ue ev? . > -
+
+eeUy QS? Ch GeGs RSNZ BASE ESN",
+
+PE Oralguer ferretre kithkin aderaria .
+A caplurarion dtefivin para seu forme, pois FF
+L . . . ¢
+fe PSSM NUNCA MAIS precivarta cctar
+
+Mm combs nowamente. ,
+ST eee rs moray GUL )
+S33 ~ “~* 7 Wns ety LY ‘
+- = ~~. 4 pa aa ee . - th
+
+~ @2UYW QZ GESSCEE VSNVF Biss SEAM, y
+
+MB Qualguer ferretro kithkin adoraria t
+
+My capturar wn diflyn para seu forno, pois Fe
+
+Ma assim nunca mais precisarta coletar kK
+combusttvel nawamente.
+
+Dieflyn Ardente a
+: ‘ x y
+oe
+i * wa Oe ‘ a
+: a ‘ @ ,
+! i oI . vig i
+~ Ny ry rd s
+, $ a ™e: Bt :
+be ce Su bo
+‘ ” ' *? Off ,
+oon. - 9 ‘ '
+i MS. wie .
+. ?
+im Criatura — Diabrete ™, :
+4
+ Voar *
+‘ . {
+M %: Dictlyn Ardente recebe +1'+0
+Ag ate o final do turno, v
+f Qualguer ferreiro kithkin adorarta t
+wy capturar ton dicflyn para seu fornte, pois FF
+Be assim nunca mals precisarta coletar
+mB combustterl nowamente. 5
+An eons pte ory GP
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:42:54
+matched_name: Regathan Firecat
+matched_set: M14
+matched_collector: 150
+reason: nome superior OCR
+name_hint: im Regathan Firecat Zek
+namebar_text: f(eegathan recat ~ a r
+
+4 |
+ee ee ee eee
+a Regathan Firecat 26
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+f(eegathan recat ~ a r
+
+f
+RE A copra
+id
+
+BrP OC td Mei rk sdb, SCO Cd
+: , ’ ' , g - .
+Cole dds clebed Tate Cdkeet ted ca Proc af
+contd, be romiple robbcrs. 4
+: |
+aie ee ee ee PS , aa ts
+
+CATING OCRING MleUed SN, SCOrCNea
+earth, and the charred corpses of ,
+d ccotdd-be temple robbers.
+<
+
+| ‘
+; % y ay hy fy +e
+Se a
+- ae NM), Lt Dae We 4 ee cee |
+
+3 CAVING O€hiInd Melled SNOT, Scorcned
+a earth, and the charred corpses of f:
+pg ccould-be temple robbers. ss
+é ~~
+TAs . P Xe “1 ye . ‘
+hae? —~ ‘ Qe te! aE Lee Jats oe ae
+
+p >
+Se ee ee Saree eee
+im Regathan Firecat Zek
+~ , ak
+2 me ~ace” 5 . &
+¢ f , zz - 2 r
+‘ ' vers a as
+
+* Cd ”
+
+& .
+- bh. Oo pag “ a!
+: = ; i
+F ¥
+im Creature — Elemental Cat .
+< £
+M4 It stalks the Regathan highlands,
+leaving behind melted snow, scorched 3
+
+earth, and the charred corpses of
+
+a ccould-be temple robbers. 9
+f 5
+Ora: TFET TE IL 4/1)
+RE A vopeoma
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:45:15
+matched_name: Hero of the Games
+matched_set: 2X2
+matched_collector: 112
+reason: nome superior OCR
+name_hint: pee eS be Rene Mass N , \
+namebar_text: . Hero of the cc
+
+& Hero of the Games 2
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+. Hero of the cc
+
+me romcnidered as Aeroes of Heir people, id
+W272 sgt /
+2n2 + 6% te bor Hass any . Bo ee et
+
+. yy. he NN SSA HE 8S BY t " os RG sae NSSdKE VSD .
+. «
+urn. :
+Q Wovens of ic Troan Grates are forecer
+Boromcnibv red as freroes of trem people,
+w2/ssi ¢
+2X2 > Ete te hone Mass ‘th MSS Dacee se the fC vest
+
+2 le ee S>~-* " @ FT NE BEES SSL WAALS LS ?
+
+‘turn.
+
+4 Winners of the roan Games are forever §
+Bromenibered as heroes of their people.
+ws 387 € /
+2n2 + 6% tw hire Hass “A ch. oe 0 oe eT)
+
+wow he WOES NS &.\* S @&o S NF HEEL WEEN NS ry
+
+3 turn. 4
+
+&
+
+Winners of the roan Games are forever
+
+remembered as heroes of their people. é
+pee eS be Rene Mass N , \
+
+& Hero of the Games Ze,
+2 rn. A
+’ eosts a
+D e . a ~ ss. i
+oN yt wa
+mo™~} ; . N =
+ja Creature — Human Soldier Se FE
+4 Whenever you cast.a spell that y
+my targets Hero of the Games, creatures §
+ra you control get +1/+0 until end of — ff
+§ turn.
+4 Winners of the Lreaan Games are forever (if
+a romembered as heroes of thetr people.
+3/2 )
+
+Vor sse €
+
+Je 2) FS Pe be Hass x 4 rr
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:45:50
+matched_name: Flamewave Invoker
+matched_set: BBD
+matched_collector: 178
+reason: nome superior OCR
+name_hint: GHD = Chey te Pave Pee an cn ee, oof at
+namebar_text: ; — Invoker . ,
+
+Flamewave Invoker 2)
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+; — Invoker . ,
+
+ae CVOMSC,
+VW76/ 254 U
+BBO + CN mh Dart oewan BNE Rat oth bast
+
+ar? SAee om * ‘e*se™ f NC a r bSsea™ *SReasesesbwewuaae b
+’ "> U t ? - ; . i iy
+b Lvshdo coun Me haanblost goblin fiaky the f
+PB potcuthal for far ercater dimes and far {*
+POTN. t
+"
+2/2
+
+178/254 U
+
+BBO > EN t Dave Dorman & 6 Q01K Wirands Wo the Crust
+
+SS Se eae Sw ress ws & NTS reese aueve’ RG ANW 2 DO ‘
+MB lJaside even the huanblest goblin lurks the
+i potential for far greater things—and far ;
+\ ys
+178/254 U
+BBO? CN hw Dart Dorman oe TS Wage othe toast
+
+r4 nde betendhell — Dele ress wa preaewesawew'h® A eeatwie ‘
+R ° . “4
+; Inside even the humblest goblin lurks the is
+wy potential for far greater things—and far ty
+Me CYOISE. k
+VIB 254 U 2/2
+GHD = Chey te Pave Pee an cn ee, oof at
+
+& Flamewave Invoker 2¢)
+: aad R
+F * | eee rs ce f . og »
+a ") a Neen SSS -)
+é ao - . Nee we 4. =. ~ \
+m Creature — Goblin Mutant @}
+’ '
+: re]
+wa 7 @: Flamewave Invoker deals 5 damage ff
+3 to target player or planeswalker. .
+3 Inside even the humblest goblin lurks the a
+fg potential for far greater things—and far
+aa COrse. j
+2/2 )
+WSs 254 U
+BBO + Ch mw Dare Dagwan re) thot ae
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:46:21
+matched_name: Frenzied Raptor
+matched_set: XLN
+matched_collector: 146
+reason: fração+nome XLN #146
+name_hint: & Raptor Frenético 22)
+namebar_text: Raptor Frenetico
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Pt
+140/279 C
+KM s YT me lispem EninG A STW ate lithe Oat
+
+- SPREOT CC FENC FICC 8d CL efstccder th 7 oe .
+. . ®
+destemidos gite Xo fag comida torees
+le CHIVES COURMSCLUOS COME TOZCS WARUMONES ok
+Ute oles,
+,
+4/2
+146/279 ¢
+XUN © OY tw irsrum Eninc Teh C DIT Wrath uf the Coast
+
+OCl CENCE Ce Cfetecicr U7 POEPAERTER SD
+Yo destemidos gue se langam contra torres fb
+| de chifres ¢ maisculos cem veses matores Ts
+Ete eles. -
+146/279 ¢c 4/2
+XUN #Y te lispin Eninc OR RT Wistar of thee Caer
+
+SOE OC PEDEFELELEEZ SD CO CPPETEELE EF C7 ed elated :
++8 destemtidos que se langam contra torres —
+eg cle chifres e musculos cem veses matores FR
+Se gue eles.
+
+4/2 )
+14K 249
+Ki 0 FT te Meet base cA nae ee? ce ee TD
+
+& Raptor Frenético 22)
+* . foe af ieee ny Oy, , “
+ee CS Saw &
+ge aN 7
+‘ . yyy Re St! 3:
+7 oe < Pes,
+. , yy) oe of Py
+x ~ 7 “+
+ry A . ° we '
+} on , \
+Criatura — Dinossauro a3) ‘
+: i
+BE Os guerretres do Lnpério do Sol ‘
+sdo ensinados a emudar os raptores ;
+destemidos que se langant contra torres
+£ de chifres ¢ nutsculos cent vezes matores Ty
+a gue eles.
+4/2 )
+Tae 2I9 €
+Xi OY te Hsien or ek: SPO OT)
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:46:53
+matched_name: Thundering Raiju
+matched_set: NEO
+matched_collector: 166
+reason: fração+nome NEO #166
+name_hint: controla. Em seguida, Raju Trovejante causa
+namebar_text: rain Trovejante _ VAR
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+rain Trovejante _ VAR
+
+ke COMMURE € OS Md rcaddores sao Wiad ficdgecs.)
+164/302 8 Qa
+NEO*RT te Kata Mea BN ER atte ot thee Wo saat
+
+qocontrela. bin semvda. Rapa Presorante cause 8
+No pontos de dante a cada openmentos senda No
+omumere do outras crnitures moedricadas gue la
+
+Bove ce contra ©). Pyertianecins Co Bes ath F
+
+“a7 \
+NEOoPT wm Xana Rena Fe & CWS) Waa ad the Coat
+
+4 controla. Em segunda, Ranu Provesante causa
+XX Pontos de dane a cada oponentessendo NoPE
+$ enumere de outras eriaturas moditicadas que 4
+eg voce controht, (Os Eyrapaaentes, as ehuray que ,
+Bcd conto ec os mlareddores sao mic ftcdyees J
+166/302 8 &> 3/3
+HEO* FT me Kata Bese ON SEW sah bth Cont
+
+controla. Em seguida, Raju Trovejante causa
+
+s8 XX pontos de dane a cada oponente, sendo X
+Mg oO numero de outras criaturas modificadas que
+a voce controla, (Os Egripsaunentos, as Auras guc b
+z ’ ‘ i .
+
+Bice contralu ¢ os niarcadares sao miadificugdes.)
+
+T1640 802 BR ip
+
+SEO eT we Kaien Meee i hs Othe aera rc
+
+Raiju Trovejante Zee)
+~
+’ .
+gor ON 4 “) af ‘4 ry / yl
+—— ! - . 7 Lan
+ns :
+- Mey OG 2
+Po . 7 " . ‘8
+% -_ . y Ux: a -, o
+. . ; 4 ; “
++ :
+a ‘ y 4%
+By ; , 9 , =»
+J ry roe
+@ Criatura — Espirito AR ‘
+tr a
+. Impeto y
+v
+Be Toda vez que Raiju Trovejante atacar, cologue &
+2 um marcador +1'+1 na criatura alvo que voce &
+controla. Em seguida, Raiyu Trovejante causa *
+3 X pontos de dane a cada oponente, sendo X
+ego numero de outras criaturas modificadas que f¥
+@ voce controla, (Os Eqrapaamentos, as Auras que &
+coed contrala ¢ os mtarcadorys sao modificagées.)
+NEGe HT te Kavita Riese be ee
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:47:30
+matched_name: Viashino Fangtail
+matched_set: RAV
+matched_collector: 148
+reason: nome superior OCR
+name_hint: Viashino Fangtail Zeek
+namebar_text: Ps Feng wv}
+
+an Ce edema —— a Hee ne NU ee Oe ee ere ee tee
+S Viashino Fangtail Ze
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Ps Feng wv}
+
+s initc research notes K
+ite PaGR Se: LF) SF: yk Re ay “Gre Ba a
+
+ff .
+
+“When the bony terminus gets too large, :
+ag 0S Shed from the tail in coinciding periods I
+3 of heightened aggression and hunger.” ¥
+va — Simic research notes 3
+mn >
+
+of . bf
+a “When the bony terminus gets too large, ry
+iq 30's shed from the tail in coinciding periods
+Pa of heightened aggression and hunger.” P
+fa —Simiic research notes
+
+ka “When the bony terminus gets too large, ‘
+@ it’s shed from the tail in coinciding periods &
+ea of heightened aggression and hunger.” ¥
+ms — Simic research notes B
+
+ne Ce ahem a ke UU ne Be eS eet ot ee
+Viashino Fangtail Zeek
+“ wn fy
+“? “ts : wit ° ke
+> | ee ad . %
+iS ~~ ~ :
+ja Creature — Viashino Warrior aK
+‘ac: Viashino Fangtail deals 1 damage [¥
+fa to target creature or player.
+a “When the bony terminus gets too large, t
+mq 20's shed from the tail in coinciding periods &
+Pa of heightened aggression and hunger.” »
+fy —Simic research notes k
+ODT PRE ET 4
+NO rane Ba heb a tee RD ee eee
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:48:04
+matched_name: Akoum
+matched_set: OPC2
+matched_collector: 9
+reason: nome superior OCR
+name_hint: Pyrex, atecrrenro dat eX Podiyae I
+namebar_text: 4) Guerreiro de Akoum wom:
+
+: : a pee a. Cree _~s, oo. -
+ra) Guerreiro de Akoum 5
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+4) Guerreiro de Akoum wom:
+
+‘ A
+4Terreno @: Adicione ©),
+
+134/280 U : . ; .
+
+ZN@ eT tw KARL Romie ID at ol thee Cet |
+
+BevTne nae soi ortted, Nias HAO foana F
+Peete edad PUP Os SeMY CITOS” (
+Pyrex, atecrrenro dat eX Podiyae |
+' |
+Ws
+Ne CPT te Kam Korie Te A&C WD) Trae de ud the Coes
+
+Bhi nao sou cruclh, mas nao tenho
+4 Pactencta Pura Os seus erros.” :
+Tvrux, guerreive da expedigae 3
+3 .
+4Terrene GQ: Adicione ©. A/S )
+134/280 U
+ZN eT ww Kart Roe Ph DL Wiae tl thee Caer
+
+“Eu ndo sou crucl, mas nao tenho 3
+3 pacténcia para os seus erros.”
+4 Tyrux, guerretro da expedigado y
+x
+4Terreno G: Adicione (., 4/5 )
+
+¥ 4) Guerreiro de Akoum 22)
+. . “4 ae. Is -
+7 nes —~ 3 i , — . eal
+i ” * Ps ~ a kd € an — ae yl
+~' A OR, x P.
+a ma > . . 1 ~ «pd
+Eo . \ \ -
+yo | . “y — ¥
+x ‘ -
+2 ce Va 7% sel .
+@ Criatura — Minotauro Guerreiro os ‘
+: R
+My Atropelar 4
+“Eu nao sou cruel, ntas nao tenho ;
+Paciéncta Para os seus erros.”
+
+4 Tivrux, guerreiro da expedigdo
+x
+4Terreno G: Adicione 4/5 )
+
+. DNe cey he Kame Roe i th? Oris Sree Bei
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:48:55
+matched_name: Spitfire Lagac
+matched_set: ZNR
+matched_collector: 167
+reason: face OCR 'Lagac Cospe-fogo'
+name_hint: Raff Papalesma, atathadeire goblin y
+namebar_text: Lagac Cospe-fogo | _
+
+a owed - aed ink a det - s
+a Lagac Cospe-fogo 3
+>
+
+set_code_hint: PONTO
+collector_hint: 1
+
+raw_ocr:
+Lagac Cospe-fogo | _
+
+Raff Papalesma, atathadeire goblin y
+for 260 C
+ZNO + FT te ANTONIO fond Manzrestoo TS DM tay fitter Cat
+
+qoponta de dane a cada opanente. ‘3
+~
+
+1
+NMED Had fos Uh et Cts dd, 7
+ota Pied clear dasturte” 7
+
+' Raf Puapar SP, re a be : " a Oy !
+WT,
+
+3/4
+167/280 C
+ZNQ e HY tw Antoneo hosd MANzantDO "OAC DD) Trane of the Coot
+
+J ponto de dano a cada oponente.
+g “Se TCE OUTIN LOM tOsse Miclo cueaseada, 4
+Besta pra csylentur bastante” ;
+Ralf Papatesmia, atalhadene goon
+
+107/260 ¢€
+
+ZNO FY te Antouod hosd Manzant oo i SC! MP ok ed
+
+; ponto de dano a cada oponente. :
+Pa Se Voce ONTIY luna tosse Melo cngasgada,
+KS osfa pra exquentar bastante.”
+Raff Papalesma, atathadeiro goblin
+
+Ore sec C /
+
+SN 8 BY te ATi lore Manzano “hh fa) ae re
+
+& Lagac Cospe-fogo Ze)
+rs 1 , ou? yl
+. a .
+‘ ~4) e .
+. cos . Ll
+7 : . + ae v °
+f ral . ° . , : 7 woof * Se
+yi ve . . coe
+} or \
+Criatura — Lagarto xg ‘
+f , r
+4 Alferragem Poda vez que um terreno g
+My entra no campo de batalha sob seu 1
+eg controle, Lagac Cospe-fogo causa 1 ‘
+ponto de dane a cada eponente. s
+Pg Se cod ONT ona Cosse Micio cngaseada, ;
+eM std pra exguentar bastante.”
+Raff Papalesma, atathadetro goblin
+3/4 |
+162280 C
+CNG BY te Anos hind Manzent oo So Se OSES ee TY)
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:50:20
+matched_name: Ripscale Predator
+matched_set: M20
+matched_collector: 157
+reason: nome PT palavras 'Predador da Escama Dilacerante'
+name_hint: & Predador da Escama Dilacerante 4.8 @
+namebar_text: x Predador da Escama ne <
+
+Fe cnszsneesnae anu apenanenntaemss anes aghanouamumneusenesanvemsantintanesaueasaemmanaate
+M Predador da Escama Dilacerante 4.2
+5
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+x Predador da Escama ne <
+
+isr/280 C . -
+420+ FT me VoCmaM Baca PR DW Lab thee OC weet
+
+Os fimonscieras raradinontc citencdoim ao
+dota de frite cure ates Urbans ¢ °
+NM PUUMERS,
+Tr Te N
+6/5 !
+187/280 C
+M20+ PY te Vocman Baca "C&C 10 Weare uf the Coos
+
+Os dinossatros raramente entendem aT,
+Bideta de limitte entre areas urbands c °
+RY
+
+; 6/5 |
+1S7/280 C
+420+6T te Vornan Baca SR SW tah ol thee Oat
+
+BOs dinossauros raramente entendem a
+g ideta de linitite entre areas urbanas e
+be SclUAZeNS.
+: 6/5 )
+SP FE9 C
+M206 FT tor Vocmaw Rice Sh SD ain et ae
+
+& Predador da Escama Dilacerante 4.8 @ }
+$ . t wt fe
+rd . J 4é 7
+he 5
+* e & 6, ”
+ea =<
+a / SA: . ¢
+N- h
+, ‘oN .
+a 2
+f oor ; \y
+@ Criatura — Dinossauro | A20} <
+: d
+yy Ameacar (Esta criatura so pode ser |
+blogueada por duas ou mats ertaturas.) ¥
+Os dinossauros raramente entendem a
+tdeta de lintite entre areas urbanas ¢
+Be sclvagens.
+6/5 }
+187/289
+4205 FT tw VOCMAN Baten Th SGD Lath the Cer
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:50:51
+matched_name: Sun-Crowned Hunters
+matched_set: XLN
+matched_collector: 164
+reason: fração+nome XLN #164
+name_hint: & Cacadores Coroa-de-sol 4¢@2)
+namebar_text: an a RS . Ce - pon —_. 2 ae! or
+4 Cacadores Coroa-de-sol 42.
+2 ” at ad i Pee be Fae
+ie GRD Se
+
+set_code_hint: COROA
+collector_hint: 3
+
+raw_ocr:
+104/279 C a)
+KUM © PT tw AARON MiLim TA SW sath ofthe Oat
+
+Fpontes de dano ae openente alve, :
+Cone sordaia & Parigesay o cles mow .
+’ std) SOSTIMIOS, )
+5/4
+164/279 ¢
+XUN « PY te AanOn Maem Teh CDI? Wrath uf the Coast
+
+¥ pontos de dano ao oponente alvo.
+Cin sostiho & perigoso, e eles nioica 4
+A sldo soziihos. "
+| 5/4 |
+164/279 €
+XUN © &T te AAROM MiiR CR TW sarahe lithe Co nnat
+
+‘¥ pontos de dano ao oponente alvo. a4
+é Um sozinho é pertgoso, ¢ eles nunca
+oa estado socinhos.
+| 5/4 )
+4/249 C
+Hoe OT me Aamo MI ir cn is GPO Se
+
+& Cacadores Coroa-de-sol 4¢@2)}
+? TAN 7g: Vag. 4G 1 Po 8
+we RE,
+* Ri ¢ SiAy = +5
+ie = \% Mo
+be * a, . . 3
+if (ok |
+Y s% .
+a 7“ Oe ' .
+: . 3
+Criatura — Dinossauro @ ‘
+>
+BI Enfurecer Toda vez que Cagadores 3
+Coroa-de-sol sofre dano, ele causa 3B
+pontos de dano ao oponente alvo. ,
+g Um sozinho & pertgoso, ¢ eles nunca
+of estado socinhos.
+5/4 |
+104/279 €
+KN - BT te Aamo Mri TA SL Wey tthe Owe
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:51:24
+matched_name: Thrash of Raptors
+matched_set: XLN
+matched_collector: 168
+reason: fração+nome XLN #168
+name_hint: WE Dinossauro, Bando de Raptores
+namebar_text: > Bando . Raprores — —
+
+wi i Eh gt
+4 Bando de Raptores 3
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+> Bando . Raprores — —
+
+B lcntao, cles seguem emt frente, 4
+168/279 C 3/3
+XUN + #T tw lowarn an KLO Sw DTD sath bth Cae
+
+Iilos Kardenaint Pola miata rusted, ates 7
+for gitdlgnter PHONES, cbt ac ,
+stb roe sof rest tyy ’ f ap @. .
+CHE TOSCO & fetta Prag ae kOe,
+
+‘ . .
+faite, clos scuicm chit realte,
+
+168/279 ¢
+
+XUN © SY te homarman KUO Te a C 17 Wises uf the Coon
+
+Files dardexam pela miata rastera, aaides P
+¥ per qualquer rianor estranho, Atacam 4
+cur toussono ¢ todos partitham do abate. Fj
+B lintdo, cles scaucm cnt frente.
+1ee/279 ¢ 3/3
+KLM © OT te lowarnas Kio NT Witataty ol thee Conse
+
+EEE ERE EEE .
+§ icles dardejam pela mata rasteira, atraidos =
+Fa por qualquer rianor estranho, Atacam ;
+f cu unissono e todos partilham do abate. — F
+B l:ntdo, cles seguem em frente.
+tes /279 C 3/3
+Kl ¢ PY te SowarM as ALO LP Sn on Oct ree ery
+
+& Bando de Raptores Je)
+2 Ng WY 4
+‘ ~ a) ih ik hae
+‘ : ~~ 3
+ES "AN n
+4 — mm s
+x = ~ . ’
++ : .
+i . Le eh
+2 — \
+4 Enquanto vocé controlar outro y
+WE Dinossauro, Bando de Raptores ;
+recebera +2:+0 ¢ tera atropelar. :
+
+Iles dardeggam pela miata rastetra, aratdos
+py per qualquer rianor estranho, Atacam ;
+Scour unissomo é tados partlham do abate.
+
+B lcntao, cles seguem em frente.
+
+1ea/279 C 3/3
+
+KOM © FT te lowarM ay KLO TA DW sary ol thee OC aat
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:54:24
+matched_name: Voldaren Stinger
+matched_set: MID
+matched_collector: 167
+reason: fração+nome MID #167
+name_hint: Oe SER PEEP EC CELE Lark Chile Chesere lice Loree
+namebar_text: - 3 et o. Car - 4 won a ’ a, - ‘
+Ferroadora Voldaren
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Oe SER PEEP EC CELE Lark Chile Chesere lice Loree g
+Aa ton vampire envelvude, TW)
+
+Werf 277
+
+410+ OT tr Vantin Fas ane tA LE Woah ofthe Cea
+
+Pt] +0 ate © final de ture, 7
+{
+{ Me dttele lie a PEO Pol sdahite goad tea |
+gocuitiocade tonalioiiic dltercte Gitnides |
+AQ Wa CAMEO CUO fade, TWh
+167/277 ¢
+M10 oY te Manrima Fac mova Fo WIb Weretste af the Coest
+
+9o+2°+0 ate o final do turno,
+a Um duelo até o primetro sanene temum fF
+be sronificade totalmente diferente quando
+Aan campire cnvolvnde,
+AL
+WO?/ 277 C€
+MIO + &T ta Mamtina Fac anes She NE Wisaty el thee CU osest
+
+} +2'+0 até o final do turno. oj
+eg Un duelo até o primetro sangue tem ium [F
+a significado totalmente diferente quando — |
+ha um vampire envolvrde,
+1/1 )
+TORO II7 C
+41) HT tee Mamie Fas ansa “A Se Oe ee
+
+4 Ferroadora Voldaren ee)
+} , A
+‘ rad
+. We 5
+an +e :
+* b oo!
+‘ 4 wey i .
+E ide 4 sw, Se
+x : is
+’ ~ L
+? oor ; : \I
+@ Criatura — Vampiro Guerreiro ie) ‘
+@ berroadora Voldaren tem iniciativa in
+By enquanto estiver atacando. ¥
+§ 2 @: Ferroadora Voldaren recebe ‘
++2°+0 ate o final do turno, ,
+a Un duelo até o primetro sangue temum TF
+a srenificade totalmente diferente quando
+ha wn vanipiro envolviude.
+p it |
+Ors 277
+M1 &T te Mantis Far area TA ED ath tthe Or
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:54:57
+matched_name: Mounted Dreadknight
+matched_set: MID
+matched_collector: 150
+reason: nome superior OCR
+name_hint: Cavaleiro do Pavor Montado
+namebar_text: Cavaleiro do Pavor Montado
+
+" 5 ae i . Wn os pa ee _." . oo. oe
+, Cavaleiro do Pavor Montado 44.
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Cavaleiro do Pavor Montado
+
+Tec fidccc lh Gide Sede? CadPdle ds cde CC ae Thee OomM™ g
+MOTELEHA, 5/4)
+
+WOs2er CC
+
+4190+ eT ee low Mea hr ne Os ee eT
+
+Jy openenic pordeu prenters deo sida poste turnes. ‘3
+‘i
+. ; (
+OO}: Vdd fates Mike eS any tein bee J (4
+cote ya fe ae CN id foots my ite ofa, i I.
+valour bh ite wat re Ore eens Boo ate cra fr fae [
+jetyts ree ry
+5/4
+180/277 ¢
+M10 hT te low Mamas TSA OSE Wisse af the Coou
+
+4 epenente perdeu pontos de vida neste turne,
+Os vampires Magkoo static tent tna bac OG
+4 conceivente de clesanicia decudente gue ¢ fact! :.
+BSCE Y QUE SO) CUP zes de CONIC ton OP
+MOTE 5/4)
+WOs/277
+MIO + FT tw tos Wemuaz Sh SEW sath of thee UC wat
+
+oponente perdeu pontos de vida neste turne. — By
+é Os vamprras Markow cultivant unia tmagent tao
+cy conrcincente de clessdatcta decadente que é faci '
+@ csguecer gue sdo capaces de contocar tona tropa f
+morufena. 374 )
+rar gee C
+S41 he eT tw Meee Meal? “hb Sr ia? Pe ee rer
+
+Cavaleiro do Pavor Montado 4@)
+
+b
+
+’ A
+
+‘ , ed
+
+’ vr.
+
+‘ “
+
+5 ‘
+
+: x
+
+z i
+
+x
+
+in V
+
+& ’
+
+k
+
+@ Criatura — Vampiro Cavaleiro “Ak
+
+e 4
+
+ka Atropelar z8
+
+¥ ~ .
+
+Je Cavaleire de Pavor Montado entra ne campo ¥
+de batalha com um marcader +1 +1 sc um ‘
+oponente perdeu pontos de vida neste turne.  &
+Os campiros Muagkow calito toa intagens tae Tg
+
+: comciicente de clesdnicna decadente gue ¢ facil
+
+MB ygpleccer gle Sua? Cupiaces de conver tata tropa
+MOVERS 5/4)
+
+Os 27
+
+4102 OT te bose Memealz TA SE Math tite Cue
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:57:18
+matched_name: Hissing Iguanar
+matched_set: ALA
+matched_collector: 104
+reason: face OCR 'Iguanar Sibilante'
+name_hint: m Iguanar Sibilante Zeek
+namebar_text: ee ee eee vee
+a Iguanar Sibilante 2
+
+set_code_hint: PONTO
+collector_hint: 4
+
+raw_ocr:
+PA casas feridas como bringuedos,
+‘
+Repeat SO a Wk Sannin Seth vee we oh
+
+g a a” . ~
+Ao ponto de dane ato jogador alve,
+BP Os beantars say companhemis de cava w
+Bodes surradores onaidimos, que dda actos stay ft
+cays fortis coat bringiedes, .
+ssannnasgsene cRNENGUR TEESE RARER ES .
+Fs Da cerandon Kikowkl 0 ces 3/1 |
+TMS et TO. A Alan ta O ue: otha, O72 |) Ae
+
+oa ° , Le
+4 ponto de danoy ao jogador alvo.
+, Os iguanars sdo os companhetras de caga a
+BB clos surradores vuashinos, que dae a eles suas HG
+PB casas foridas como brinquedos, x
+4 v
+YASS es Sr. - IORI Oil lo) SOURS .? 4 Ce- sete th
+
+LJ _ . v4
+
+a ponto de dano ao jogador alvo, +
+9
+
+a “ i e ° &
+py Os iguanars sdo os companhetros de caga e
+ma dos surradores viashinos, que dao a eles suas If
+Bm cagas feridas como bringuedos. N
+re we beta | Metenny ie - RA EN }
+AAS DN OR Eh es
+
+pe ere tee eee ee
+? .
+m Iguanar Sibilante Zeek
+- - .
+
+i . fi ‘.
+; ~~ k
+, 5
+‘ A
+‘ ’ 1 gi a coll 3
+é he, re
+
+4
+
+% ‘ 7
+
+%S s
+
+- oe t
+e ‘
+} Criatura — Lagarto ah 5
+& 4
+: . %
+Py Toda vez que outra criatura for colocada i
+Mono cemiterio vinda do jogo, voce pode
+fazer com que Iguanar Sibilante cause | y
+Q ponto de dane ao jogador alvo. t
+Me Os iguanars sao os companheiras de caga "
+A dos surradores viashinos, que dao a eles suas IR
+f cagas feridas como bringuedas, ~
+pa oornme, Geacant 3/l }
+SSS ES US oh
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 09:58:21
+matched_name: Lambholt Raconteur // Lambholt Ravager
+matched_set: VOW
+matched_collector: 167
+reason: nome superior OCR
+name_hint: Devastador de Lambholt Je
+namebar_text: Devastador de Lambholt -
+
+: : i hii PP ee On, Ce
+. Devastador de Lambholt de
+
+set_code_hint: 41
+collector_hint: 2
+
+raw_ocr:
+Devastador de Lambholt -
+
+‘ * HRP ese & tae Lt ’ . Gok aes a4. G
+Barnes, cigia deo otarcje +r}
+
+Vas / ore c
+
+410+ FT te lasow Rang TA STR a tthe tet
+
+- i? re é ee Ore ee re Ae ae See ee ee .
+. ; i ; ; ; °
+hie dla. wet Be ee ne Oe a ee ee Morne res
+: |
+Ay ee re ee ‘ mas , ENT Mea at, . J. eT are -
+. a
+ae wtdedies ie abe ea sale MaKe Ye i: say t
+‘ tends modes hae woe la : hela Vet. fit ws eid “ :
+» + sre ‘ ~ ye . \
+us A ee ne oe ee
+2/2
+148/277 ¢
+MIO PY telson Kanc TAC VI Weed id the Cou
+
+Be Ess hectare mate me A Oa OF etre
+memos ple, Efe unainda cs hacdios tacuiites ana be
+aferrortouar ie Cares: dherante meses ads Mattes scone Te
+4 doa alnadas ae miedo Sobran sen preye. bose any
+bh pieanide oomional ota fa cabana, 6 yite ho ata a
+Barnes. crrta de onarete
+WT
+1a$/277 C 2/2
+MIO+FT be sow Kane Sh SSW sath of thee Cat
+
+“bsh8e lovolar nao e Nena Oriulaniantss %
+a mentecaplo, Ele manda os kacates mavantes para
+wa alerrorizar o cviareyo dtarante meses. As nortes sent
+MB dormir aliadas ao nicde cobram seu preve. E88 at, BY
+be yteatdo o moral esta la embartno, ¢ que ele ataca.”
+-— Barnes, vigta do cilarcjo
+2/2 )
+rae zee ¢ 2/2
+41 PT te lasoe Rass Sr, ee Oe Oe
+
+Devastador de Lambholt Je,
+‘
+2 = J A
+y y mo g:
+4 x... x
+Key ms
+- s_ \ L" ta ie g
+ry . , y “
+: ia: vy a"
+x = OC — =e
+Po = Co ¢
+a ay 7 .
+2 _7. - wed k
+a \
+Criatura — Lobo a}
+7 |
+38: A criatura alve nde pode bloquear nate BR
+J} turne. 3
+;
+s
+“Esse Tovehir nae é menhtoie britaniorntes
+moentesaple, Phe onisanda as kacares wacantes fara
+aferrorizuano tHares feeranle mieses. eds Mattes yond
+4 dasni adtades ae ptede cobram sete preyo. Ese cat,
+BM ytd oor vse da cmbatve, & qite le atte
+Barnes, cigia deo otarcje +r}
+Vas/2r7 €
+MIG + FT te sow Kane TA SCID tah ofthe twe
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 10:00:25
+matched_name: Far Out
+matched_set: UNF
+matched_collector: 8
+reason: fração+nome UNF #8
+name_hint: Uredan, ctclope filesefo Wa
+namebar_text: 4 Ciclope do Chicote-corrent
+
+Ciclope do Chicote-corrente 4<
+£¢ ; A aw a
+af gate
+
+set_code_hint: FEAR
+collector_hint: 5
+
+raw_ocr:
+4 Ciclope do Chicote-corrent
+
+Uredan, ctclope filesefo Wa
+4/4
+W8/2e4 C
+WARSEY te bonne Bouin TA NE Le tthe © at
+
+Pee ds agate Decante Disteite, tae 5
+fear de i ae WOES, A fous eins arrebouta *
+frade, alt bance fe Pescoanbros, Pana be ‘
+
+s Pesce bit “N cMgtide! Te Os rita”
+
+, ‘rod c ! fot fri note
+4/4
+110/204 ¢
+WAR? OY te lonann Boom Te & C3019 Wash uf the Caner
+
+Bo doce dis agie Dectmo Distrito, nite
+‘Fe lana de Exscomebres. Mas onde arrebenta
+¥tudovalt Faaxa de Escombros, Faixa de *
+Ma fescomebros estado de espirtto””
+Uradan ciclope filosofo WH
+8/244 C 4/4
+WAR+ FY te lonars Boon OR NT tate al thee Cont
+
+“bocé diz aqut Deécimo Distrite, nde .
+SB leaixa de Escombros. Mas onde arrebenta
+: tudo, alt Fatxa de Escombros. Fatxa de ;
+Ma fescombros estado de espirite.”
+— Uredan, ciclope filosofe
+4/4 )
+oe 244 C
+WAR HY te honass Bouin TR ye K cae tthe tas
+
+Ciclope do Chicote-corrente 4@}
+, a:
+_“ Ea
+3 Ta, bat ae »
+Lan
+. . ~ ‘ es ‘
+” ~- or a :
+N Ey: Y x
+~ .
+AZ = . k
+S mn ; : *
+Criatura — Ciclope Guerreiro hi
+a 32: A criatura alvo nao pode bloquear y
+Wa neste turno. }
+“bocé dis aqui Décimo Distrito, nde >
+haixna de Escombros. Mas onde arrebenta
+tudo, alt Kaixa de Escombroas. Faixa de
+Ma lcscombros estado de espirito””
+— Unedar, ciclope filesofo
+4/4 )
+ites gea €
+WARS HY Mer bonass Boon hr ro SOC Ee MTT
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 10:04:26
+matched_name: Grizzly Bears
+matched_set: POR
+matched_collector: 169
+reason: face OCR 'Ursos Cinzentos'
+name_hint: a Ursos Cinzentos Ue
+namebar_text: ! aes . -
+
+fl Ursos Cinzentos d
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+! aes . -
+
+— Jolracl, iniperatri2 das crianuas ‘)
+
+eh ee Flee .é rs re ere ee ee ee soe
+’ 4 ° ry
+fy fry i” rae “bas ra Veraey ad fete Aare) ' vee
+1
+J, ne ale ene ot haga ry wo M ' '* a ‘, . {
+’ on .
+to ern,
+, a e Le
+‘ ' ' ’ ° ' : .
+° h ieiedea. tata f. weads han ere Rw a ,
+fay iis TS. er ain 2a | -_— ’
+
+. ONO dh COTTE MENT 4 The LEC 6 deeld, LUTE pee Ey oa)
+
+4 . fredaderes gle WM CATING can ’
+
+cry, MO COME for predires
+cbnersgrs ,
+-— Jolracd maiperaters dus criannas )
+
+CNEL CONE PODIA TIES QOL 0 NOM LUTTE FEE 4d ¢.
+mc predadores gue ntncd entrardo em ;
+m guerras, nem compunray por poderes
+
+ancigas.” .
+
+— Folrael, wnperatriz das ertaturas :
+
+f
+a Ursos Cinzentos Ue.
+i wy 7
+? oe ° . wt | _ .
+SS mae
+‘* é | Y
+.
+Criatura — Urso xX
+Bo Ndo podemes ney esquecer que, doutre
+Mm todas ay maravdhay de Dominarta,
+Rey tc cane sestemad cle rida, COME PE sas i
+v ad
+ae fredadures que nitica cntrardo cm y
+RMT, Me COMER rade ror fre res
+REO. .
+-— Jobacl, iniperatete dus criatoras »
+LN ofr eae 2/2 )
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 10:05:20
+matched_name: Runeclaw Bear
+matched_set: M10
+matched_collector: 203
+reason: nome PT palavras 'Urso Garra de Runa'
+name_hint: B Urso Garra de Runa l@
+namebar_text: ; Urso — de = }
+
+(Curso Garra de Runa
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+; Urso — de = }
+
+a.)
+tere sea ¢
+mS er? whee ine, i he ee oo
+
+Ee Vane ob FA ce and cba ret da Cece cade Med fide
+Web Me QIN ee CIE Be a OT!
+ODES Ea td POI SE i oa $
+a/l, fod Ore Qe dies, ’
+rarenem |
+2/2
+
+‘ Pere Ob4E. 6 8 THELEN ECS CECE Peer Ay eo 2 SY ee OY | .
+Marca Nos anima que ciwem por la, Os
+anna da floresta deixant sia marca o£
+BM (ados OS UO ASON'S, .
+{ors zee ¢ 2/2
+01S PY ee hws (nse, SNOT we A et. cee
+
+: JEVER PEM. 6 MIURA ate JERR AES CEC ENC JFI6C8
+Mm marca nos animats que vitem por la, Os
+animais da floresta detxam sta marca
+cm lodos os tnrvason's. ]
+2/2
+"ero sdac
+eg. ey ww lima ine. “8 ae’ ce ee .
+
+B Urso Garra de Runa l@
+OW!) DIS 17
+.% t j ® .
+j . *. eo <
+4 st,” , e
+rs i ; 3
+\ . i ‘
+~ ’ t f « eh .
+he. . ,
+a re a , .
+\
+Criatura — Urso LAAIS) °
+it 5
+E
+i Al magta dos clfes deixa sta marca na F
+im floresta. A magta da floresta deixa sta j
+pg area nos aumars ge civemt por la, Osk
+me aviimarts da floresta deixamt sua marcas
+cmt todos os URTASOR'S. .
+2/2 )
+tere sea ¢
+ese rt ae hws ince. oe a. Se a oe
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 10:07:57
+matched_name: Gigantoad
+matched_set: FIN
+matched_collector: 187
+reason: rodapé OCR FIN #187
+name_hint: Tah aes Ce
+namebar_text: ((Gigantoad - =
+
+Gigantoad
+. mA ; oN <A
+ny os SF a A
+
+set_code_hint: DRE
+collector_hint: 4
+
+raw_ocr:
+((Gigantoad - =
+
+MM unsuspecting hikers. r
+4/4 )
+C OR? FFXV Dre scan ENDe
+FIN + EN te Hesto D. Counov ™}! B&O M25 Wisse ot the Cwast
+
+The gigantodd ts RNOWN 10 TONMNC
+oubnkle of its conyorl sone during
+dovenpoles Much to the surprise of
+ustispectine HIRES.
+er | 4/4 |
+C 0187 = FFXV ~ VVC SQUARE ENIX
+FIN - EN & Hassto D. Crunxov fe ¢ 2025 Wizards of the Coat
+
+The gigantoad ts Rnown to venture
+outside of its contfort sone during
+downpours much to the surprise of )
+unsuspecting hikers.
+4/4 |
+C 0187 FFXV Pre SOU AI ENIX
+FIN + EN > Harsto D. CHuxov ™ & © IS Wises of the Coast
+
+The gigantoad is known to venture
+outside of its contfort zone during
+downpours—much to the surprise of y
+unsuspecting hikers.
+4/4
+C OR? FFKV Phe MU awa PST
+FIN + EN be Hristo D. Counc "SR MES Bison ot the © cast
+
+Gigantoad 3
+. Tah aes Ce
+A * . : Pe °
+- A an
+;
+Creature — Frog FFG,
+'
+a@ As long as you control seven or more
+lands, this creature gets +2/+2.
+The gigantoad is Rnown lo venture
+outside of its comfort sone during
+downpours —-much to the surprise of )
+unsuspecting hikers.
+4/4 )
+C ORF FFXV Dre suai EN OX
+FIN + EN te Hesto D. Counov ™}! B&O M25 Wisse ot the Cwast
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 10:09:14
+matched_name: Rise of the Ants
+matched_set: MID
+matched_collector: 196
+reason: fração+nome MID #196
+name_hint: Ascensao das Formigas y
+namebar_text: Ascensao das Formigas y
+
+:
+a Ascensao das Formigas 4a
+. .
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Ascensao das Formigas y
+
+CHEST Che POCA PHU, £IG Pols, CX ME-O, bi
+196/277 U "Th DIED car tthe Oat
+410° RT te Nicmotas Garcom
+
+BVidha.
+
+Recapitular 6 ®® (Loco pode conjierar |:
+Beste card cle sete commterio parade sci .
+BM ctesto do roca Depots, Xie-e, |!
+196/277 Uv "aC Dl Wuarde of the Coon
+M10 +PT te Miceoras Garcon
+
+a Vida. '
+@ Recapitular 6 ®® (Loce pode conjurar |Z
+egecste curd de set cenulerto pagando ser
+custo de recapitular, Depots, extle-o.)
+196/27? uv “Ph MID Dc tthe Cut
+MIO hT te Niceotass Garcom
+
+q Vida. “
+Recapitular 6 ®® (Loceé pode conjurar J
+m este card de seu centlertio pagando seuss
+
+custo de recapitular. Depots, exile-o.) r
+i Le a TR SLM ar teh eae
+M106 eT te Nicaea Gercom
+
+m Ascensao das Formigas R Re fe a
+5
+~~ .
+t ; a a A ‘ ; .
+: I . aN 4 5
+RE *
+a aaa :
+: Vou - . Cams \
+m Feitico @
+' :
+Crie duas fichas de criatura Inseto E
+verde 3/3. Voce ganha 2 pontos de
+vida. ;
+Recapitular 6 ®® (boce pode conjurar ig
+Beste card de seu cemiterio pagando seu <
+custo de recapttular, Depots, exile-o.) x
+Woes are g TRON IEW sarde teh eae
+M1 BT te Nicos Garcom
+
+
+======================================================================
+version: 2026-07-02.34
+timestamp: 2026-07-03 10:10:06
+matched_name: Horrific Assault
+matched_set: MH3
+matched_collector: 157
+reason: face OCR 'Assalto Horripilante'
+name_hint: Boe VOCS CONTRO QL Para Zl, VOC Banna
+namebar_text: ((sssatro orripitance
+
+set_code_hint: THE
+collector_hint: 187
+
+raw_ocr:
+s wou atin SHeee& u c 4
+toe . . - . ,
+styettos a influducia de Everakul.
+¢ 018? ™ Ro MD Wand ot the Coast
+MH3 + PT Re dustit bones
+
+Boe VOCS CONTRO QL Para Zl, VOC Banna 9
+“@ pontos de vida. 7
+MOCO PONT AS TEER CIS © SOUT LIYO doe Qidal Fern, as FS
+me fobrsouiens de Haitstrad cstacaie pardcudarmcnte Wy
+sugettos ainflucicia de Lourakad
+c 0187 ™ ft 20248 Wizards of the Coast
+MH3 > PT be lustint Fonts
+
+wm oF VOCE CONUFOM UML Pura Zzi, VOCe panna > a
+pontas de vida. <d
+
+BCom formas nittavels € scut anjo ao qual rezar, os FS
+
+Bm fobtsomens de Danistrad estavam particularniente fy
+
+ao . . « . ay ’
+
+sugettos a influcncta de Tonrakul.
+
+Cc 0187 A DVIS Dias ot the Coast
+
+MH3 > PT te lustine Fonts
+
+a Oe VOCE CONTOla UMM Lldradl, Voce Banna ¥
+; pontos de vida. x
+m Com formas miutaveis e sem anjo ao qual rezar, os &
+lobisomens de Innistrad estavam particularmente fy
+sujeitos a influéncia de Fmrakul.
+Cc 018? he NM DD Maat the Sout
+MHS © PT be lusts Fonts
+
+, ; 4
+
+, ° *
+
+™ Assalto Horripilante @
+
+a l/ le hi A V4 van
+
+ss f 2 f :
+
+t rf ba ete .
+BPE ug? so a NE
+
+' \ ake ui 4 Se 24 .
+‘ fine cane SO Pat ag we ~ .
+ar) , . i end, : on:
+
+" * , . 3 Y Ok
+a ‘ INS a Ks ‘
+feitico {> k
+
+. ee
+
+Pa A criatura alvo que voce controla causa 3
+
+he dano igual ao seu poder a criatura ou ao
+
+rs ~ 2 3
+
+Na Planeswalker alvo que voce nao controla. i
+
+* Se vocé controla um Eldrazi, vocé ganha 3
+
+3 pontos de vida. 4
+
+BCom formas mutaweis e sem anjo ao qual rezar, os &
+lobisomens de Innistrad estavam particularmente
+sujettos a influéncia de Emraku.
+
+C ONS? eR MES Masandect the Suet
+MHZ 2 PT te dostine fonts
+q ad
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:30:21
+matched_name: Mage il-Vec
+matched_set: TPR
+matched_collector: 140
+reason: fração+nome TPR #140
+name_hint: Mogat, batedor Sultai
+namebar_text: , Explorar a
+
+@ Explorar as Fronteiras 2
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, Explorar a
+
+> esa, :
+Mogat, batedor Sultai
+140/269 ¢ TONDO D ee Width wee
+mata OT te lames Pace
+
+Psua mae, Goloque O restante cm) seu .
+CCTRITCT LG.
+, . :
+: “Pere store ne ae choices Oo bom) ‘
+Bosco”
+Mowai fbatedor Sultay
+
+140/269 ¢ "SAC 316 Crsanth of the Coon
+TK o PY te latets Pan
+
+sua mao, GColoque 0 restunte em seu
+CCMILET1O, ‘
+cre Sd
+fie estou noo meu elemento: o elemento »
+surpresa.” r
+Mogat, batedor Sultat
+146/269 ¢ Th 1G Risa ed the (ent
+mT > OY tm lates Pane
+
+fm sua mao. Coloque 0 restante em secu ¥
+ya cemilerio. 7
+“eu estou no met édemento:o elemento =
+surpresa.” .
+- » Mogat, batedor Sultat
+14¥/ 369 C Ow NAD NE oe
+mae OY tw Tas Pace
+
+m Explorar as Fronteiras VX. 4
+BY a7
+: Ar
+oc. :
+yO '
+oN, ule :
+woot ar ae ¥
+oo “a oon ¢ . ;
+a) whe: ”
+s*
+feitico wy
+» “
+Revele os cince cards do tope de seu £
+a crimorio. Voce pode colocar um card |
+k de criatura ou terreno dentre eles em Ie
+@suamido. Coloque 0 restante em secu d
+i cCemMilerlo. ¢
+Be Pte estore no meu elemento: o elemento s
+surpresa.” r
+Mogat, batedor Stultai
+148/269 ¢ TH MOC cree tha bee
+mT OY te lamts Paka
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:31:06
+matched_name: Blessing of Frost
+matched_set: KHM
+matched_collector: 161
+reason: fração+nome KHM #161
+name_hint: Béncao da Geada
+namebar_text: | Bencao da Geada - \
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+| Bencao da Geada - \
+
+MCs anar de Jorn ntaica Passa frto, 4
+Worse 2s B &> TOR SLED sah tthe Caer
+ae OT te MILA Prue
+
+Magia. Depo, compre um card para cada
+ebadibra que vece contrebha com: poder mead) ou
+saperbor deb oS coatane de aa toate La te
+Ph int ae JO ie Pao ete,
+161/285 R => TAC YI) Wiad of the Cos
+KHMo PT te Mita Pasa
+
+La dnd @ *
+magica. Depois, compre um card para cada
+cnatura que voce controla com poder igual ou
+superior ab. (OQ) & naan de tanta fente da niece. !
+
+Co wena de Joa ated Pace frre,
+101/285 8 => “Ph MSD Bisa ofthe Cait
+mm HT te Mia Prac
+
+LJ ee — i Sale - | . Oe - -
+magica. Depois, compre um card para cada
+criatura que voce controla com poder igual ou
+superior a4. (O & mana de uma fonte da ueiv.)
+Cm anitpo de Jorn nunca passa frie,
+
+Tor 2es R oD "A SLUR sate teh baer
+Hee PT te Mita Pre
+
+Béncao da Geada 38
+a)
+\ . € ;
+© ae grr. a ‘
+- . yet os eo:
+i . ae Lone _
+q . » - ra , 7 : 4
++ } i 4
+Gg” : ; - oe
+¥ ant a .
+. yy ‘
+
+A Feitico da Neve Ci? j
+AE Distribua No marcadores + 1/41 entre qualquer f
+numero de cnaturas que voce controla, sendo
+Xa quantidade de © gasto para conjurar esta
+
+magica. Depois, compre um card para cada
+eriatlura que voce controla com poder igual ou
+superior a 4. (O é mana de wma fonte da neve.)
+Oo ane de Jorn nunca passa frie.
+ory 2es KR &> Aw DS IPB sanh fob ease
+eae BT te Mita Prac
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:31:42
+matched_name: Give // Take
+matched_set: DGM
+matched_collector: 129
+reason: face OCR 'Take'
+name_hint: —General Takeno, i
+namebar_text: es 3
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+~ hos 2 XI
+letter to the imperial mapmaker S)
+Se ee eS ee
+
+We arrived at the battlefield too tate. .
+Again. Another error on your part, and ?
+vou will have to anstver to me personally.” a
+40
+m@ -—Ceneral Takeno,
+me fetter to the vupertal mapmaker
+% vA
+nee a ee gn Tk, Oe. IO -
+were Hea thier. Unidsoyy iS) ces re. 6 NS & \ |
+AS FR C1003. 2008 Whilands Ul hoc Cove trned piece to AE
+
+i _ We arrived at the battiejield too tate. ‘
+Again. Another error on your part,and
+mm you will have to answer to me personally.” KB
+—General Takeno, i
+
+mB letter to the unperial mapmaker :
+
+m «We arrived at the battlefield too late. Fe
+a Again. Another error on your part,and
+m you will have to answer to me personally.” 7
+—CGeneral Takeno, ve
+letter to the imperial mapmaker y
+
+§Uproot Zeek
+a oY ’ an -
+~ 4yke av \
+Yr,
+
+Ny 1 .- Jf i oy
+v
+m Sorcery — Arcane AE
+fg Put target land on top of its owner’s  F&
+og library. -
+
+y, . ’
+“We arrived at the battlefield too late.
+ea Again. Another error on your part,and =
+ay you will have to answer to me personally.”
+—General Takeno, <
+letter to the unperial mapmaker iB
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:32:29
+matched_name: Charge of the Forever-Beast
+matched_set: IKO
+matched_collector: 147
+reason: fração+nome IKO #147
+name_hint: m Carga da fera Eterna Ze
+namebar_text:  \ eS
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+aidddads OFS adders CAM aE De ry oo ade i At badly : ary ?
+taltimios sec talon.
+147/374 U a Pe See ee eT
+1KO* eT mw Fir Bias RAL
+an -
+
+plang alker alve dane nual ae poten dee ard
+roveloaie
+‘ ere er ne weds meth ae i. M Wes ced sets
+a rr Pa yoy ne .
+147/274 uv © & C 0 Wizards of the Cost
+moe FY ww fiur Bunsen
+4
+. md
+
+@ planesswalker alve dane igual ao poder do card '
+
+| revelade. ‘
+
+BOs Pauetannads fo Zandt ster fort rades Palos
+
+Me doors des ovedouthanrtes de Broke cahhos Mas
+
+ties soc tatys.
+ta?/274 U “ha SVB carob ths bse
+1KO+ FT we Fite Sums aan
+.
+. a
+
+% planeswalker alvo dano igual ao poder do card Be.
+f revelado.
+o . - pe re
+mm Os pantanats de Zapgoth sda fertitizados pelos =
+cudaieres dos ex-desafiantes de Brokkeos caidos nos Eg
+teltemtos sects.
+tare aye iu TAS le Rah teh ae
+m8 FT tee Fide Ba ee AS
+
+m Carga da fera Eterna Ze
+5 wu - ~ AN
+4 ‘ a. : *§ W/E z
+e:; Bo Aye | 7 x
+aaa . & .
+4 YY f . 4 rv, Le
+‘ wo, ve A
+, .
+. ; a . _ a “ iz
+vA Bh eS
+ind ee * : . Pao . . i ~ nn
+feitico Lok
+. .
+Como custo adicional para conjurar esta 3
+magica, revele um card de eriatura da sua mao.
+Carga da Fera Eterna causa a criatura ou ao ‘
+@ planeswalker alvo dano igual ao poder de card ;
+j revelado.
+ms fpantanals de Zagoth sao fertilizados pelos ba
+cadaieres dos ex-desafiantes de Brokkos caides nas Bg
+taltrntos ségulos.
+tare oa a Pt eo ee ee oe
+KO &T te Fie Ba Re RAS
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:33:04
+matched_name: Adventure Awaits
+matched_set: ZNR
+matched_collector: 177
+reason: rodapé OCR ZNR #177
+name_hint: eB Crh, Sarogle Pes Cate Mo TUrader de seu
+namebar_text: { Aventura a Espera Lé
+a a “ \
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+bd
+f
+“Que bom, Estamos todos agit. Lamos lal”
+Wwis2toc TT SI Mearhotthy Oat
+ZNG@ + ET oe Bir Cannan
+
+TEP See hee OY PSCC PH TUT ae Ne
+
+women cm ordem alecatera Se voce nde
+
+colescou um card em sua mide dessa forcma. p:
+
+compre um cand. P
+Lj
+
+"OG Bota. Pests Feder cegnet. Panties ha
+177/280 ¢ F&C DD) Wuardh of the Coon
+ZNR OY we Bey Coarstian
+
+eB Crh, Sarogle Pes Cate Mo TUrader de seu
+@egrimone em ordem aleatoria. Se voce nao
+@ colocou um card em sua mao dessa forma, IF
+BB compre um card.
+?
+"One bom. Estantes todos agra. Lamios lal”
+wr/28O0 C “PA MIND adh ofthe Coan
+ZN TY te Batsy Cooaestian
+
+mm Tao, WCOIogue O PestaMle No TUNG Ge seu
+gnmono em ordem aleatoria. Se voce nao fig
+4 colocou um card em sua mio dessa forma,
+im compre um card. s
+r
+“Que bom. Estamos todos aqut. Vamos lal
+tree Ee C TA Sle Reade the hae
+CNG + eT tee Balay Crea rstian
+
+@ Aventura a Espera Le
+RY
+rs
+iv
+£ 7 =
+* ‘ ‘ ri
+‘ a
+OMS a 2
+i ry ¥
+' ee “A. .
+tena . x. us
+| ned aa mo - eA
+, ‘ ay
+‘ > 7 ti
+Feitico 8 x
+Olhe os cinco cards do tope de seu 3
+grimonio. Vocé pode revelar um card de t
+criatura dentre eles ¢ coloca-lo em sua ‘
+mao. Coloque o restante no fundo de seu
+i grimorio em ordem aleatornia. Se voce nio BS
+4 colocou um card em sua mao dessa forma, IJ
+mm compre um card. :
+“Que bom. Estamos todos agut. Vamos lal
+Wee zseoc SN Sle Meat teh tae
+ZNO 6 FY tw Bitdy Croaestias
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:33:43
+matched_name: Bestial Menace
+matched_set: MM2
+matched_collector: 141
+reason: nome superior OCR
+name_hint: —Saidah, Foraga hunter f
+namebar_text: i —— — , . . 3
+
+cae De eee AU aN re ae
+a Bestial Menace eX.. -{
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+i —— — , . . 3
+
+~s' all . an
+—Saidah, Foraga hunter f
+
+4 onto the battlefield.
+
+8 My battle crv reaches ears far keener "
+YE han yours.”
+
+ul —Saidah, Foraga hunter
+
+AP ya go 3908: 2055 Whtande 0 the: Cont LLC pA Ta
+
+raed ee, _ BA
+; onto the battlefield.
+ea “My battle cry reaches ears far keener o
+than yours.” f
+—Saridah, Joraga hunter 5
+
+a onto the battlefield. i
+
+BS “My battle cry reaches ears far keener ,
+than yours.” w
+—Saidah, Joraga hunter ‘y
+- on é oo ae ve Ok Ses c:
+
+ia Bestial Menace 3@6 i
+s* 7. “ oan
+i) we a od ve
+
+‘ *e @ . . . -
+
+2 AR dee . vel : ane
+
+a Put a 1/1 green Snake creature token, ie
+
+m a 2/2 green Wolf creature token, and
+
+aa a 3/3 green Elephant creature token [&
+
+mm onto the battlefield. fi
+
+m “My battle cry reaches ears far keener 7
+than yours.” “
+—Saidah, Foraga hunter ‘
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:34:31
+matched_name: Prey Upon
+matched_set: UMA
+matched_collector: 178
+reason: fração+nome AER #120
+name_hint: AER > FT te Rras Pascoasr
+namebar_text: = —— “é
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
++ dd NANESA AOS JOrlLES SOOVETITEY. ;,
+120/184 C "ew NT Winatdh ot the Cait
+AER > FT te Rras Pascoasr
+
+BIO COMMTOLA, 60. add Maa Chie cd ;
+OM did guaantidade de dae teal ado fp,
+sete Poder) :
+
+Bl dae atteresa dos fortes sobreeteer.
+
+120/184 ¢ AC DIT Wisaraa af the Coest
+
+AER+ #Y to Kian Pascoast
+
+nao CONWOlA. (Caddie Wd CaS a :
+@outra uma quantidade de dane igual ao fy
+seu poder) i
+I da natureza dos fortes sobreviver. 3
+120/184 C SO MYT Bisatdh of the Crane
+BER = PT de Kran Pexcoast
+
+pg AO COMMONS. (4-00 land Causa d a
+eg oudtra uma quantidade de dano igual ao {x
+am seu poder.) re
+E da natureza dos fortes sobreviver. ¢
+woe Ws C bar I Be OD Oe eee
+AER + FY te Reon eerie
+
+@ Apresar @
++
+7 : ‘
+" Da. fo
+: to MQ, / < oy 7 —o
+feitico @®
+A criatura alvo que voce controla E
+k luta com a criatura alvo que voce \
+5 nao controla. (Cada uma causa a d
+f oulra uma quantidade de dano igual ao
+a seu poder.) eS
+FE da natureza dos fortes sobreviver. x
+WOs ws C bor, SRN Oe SS te ee
+AER + HY te Kren Pesreiasr
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:35:06
+matched_name: You Meet in a Tavern
+matched_set: AFR
+matched_collector: 215
+reason: nome PT palavras 'Vocês se Encontram numa Taverna'
+name_hint: AFR eT te Zottan Boas
+namebar_text: Vocés se a puma Tv vx.
+
+a Vocés se Encontram numa Taverna 2
+ge i MP
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Vocés se a puma Tv vx.
+
+foe ae JVs CETS as eve ou Old By
+recebem #2 ¢2 ate oe final do turn.
+218/28: u "TA SLE Deah tthe © ane
+AFR eT te Zottan Boas
+
+MASP PST TOT ee CEPTS Gr OPO OTE
+ches see alos on stan dnp. Coola a
+rostento ne funder de scuowrimenbe op. ordem b.
+SUEUR SL, h
+5 eee ae As cthaturas que Ve ee comtpeda
+reeebenn ee 2 ate oo tinal ado bargin
+218/281 UV °F & CD21 Waarde of the Coane
+AFR > PT tw Iotitan Boas
+
+. QUAUIQUer BUTS ra ade Cards Ge CPECUra Aenure
+cles © colocaelos em sua mie. Cologue o ‘
+. restante no funde de seu grimerio em ordem
+a aleatorna.
+t . . .
+© Puna bryyna As craturas que vece controla
+reeebem #2062 ateoo tinal do turne.
+218/281 U "ORNS Baath ofthe Coa
+AFR + &T we Zoran Boas
+
+Me QUIQuer NUMCro de Cards Qe Crialura Gentre §
+eles ¢ coloca-los em sua mio. Cologue o :
+yg orestante no funde de seu grimorio em ordem I
+i aleatoria. S
+* Puxar briga ~~ As criaturas que voce controla Bi
+recebem +2. 42 ate o final do turno.
+27s 38" Ou ° A Pan Oat SP Sree aera Re Ed
+AFRO HT tw foitan Boa
+
+im Vocés se Encontram numa Taverna 2 @@
+s
+at . - — te
+} We NL FRET ON of
+4 , ~ fee a 8 ‘
+wet wee , e TT Pa
+ss Se an q
+5 ; oY oN - . . .
+ri = a) ~ tm ‘a
+2 re 2 ‘
+< ~~ cS
+an a F
+vy oR
+. ‘ 7
+m Feitico & \
+:
+Escolha um
+* Foratarian grapo  Ollhe os cineo cards
+do topo de seu grimorio. Voce pode revelar
+qualquer numero de cards de criatura dentre
+ules ¢ coloca-los em sual mio. Coloque o ;
+restante no fundo de seu grimorio em ordem Hf
+aluvatoria. Pp
+© Puxar dviga As criaturas que voce controla Bf
+recebem +2 42 ate o final do turne.
+2s/ set Th SP Aeanh the eat
+AFR + HT te fortan Bons
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:36:28
+matched_name: Colossal Dreadmask
+matched_set: MH3
+matched_collector: 148
+reason: rodapé OCR MH3 #148
+name_hint: Mas, sé Cocé Vir seus dentes, sera tarde deniats
+namebar_text: ees CR Ue Colossal < é
+
+4 a . 2 ~ ~
+| Mascara Sinistra Colossal 44
++
+re eer ane Pe F
+
+set_code_hint: RMD
+collector_hint: 148
+
+raw_ocr:
+ees CR Ue Colossal < é
+
+ag Ado fei Perna para ater nem puanao Para gritar, Wy
+Nias, sé Tocd Ur seus dentes, sera tarde denials.
+¢ 0148 TR MT Mink ot the Cust
+MHS © PT be Cato Monttiao
+
+eh CrVatura equipddd recede FO TO © tem ,
+Qatrepelar. -
+g Equipar 3@@ '
+
+Nae fen Perna Para barter wen Pulmae Parad Srudyy
+
+Mids, so CMC CU Scotts dentes, seta hatde feiss.
+
+Cc 0148 ™ et. 2024 Winands of the Coast
+MHS -PT be Cato Momttiro
+
+AY criatura equipaddd recede TO TO © tem L
+atropelar.
+: Equipar 3@@ -
+Nao tem perna para bater nem pulmdo para gritar,
+Mas, Se TOcE TV seus deites, sera farde demats.
+Cc 0148 Ro 2028 Bisatch ct the Coast
+MH3-PT te Caio MonttiRro
+
+og ok Crialura equipaada recede ToO'ro © tem u
+atropelar. v
+i Equipar 3@@ "
+wo
+\,
+‘ Ndo tem perna para bater nem pulmdo para gritar, &
+mas, Se Uoce Vir seus dentes, sera tardé dentats.
+Cc O48 “Ss ee Ma raetect the eet
+MHS 2 PT be Cato Mosier
+
+| Mascara Sinistra Colossal 4 @@
+HE OAM 1 Ve po re.
+x ‘ ‘, ie rs -=
+Yin Py pte 4 a
+. — ” : Ty nn 4 . {s ‘ . om
+, 1 Saf a ee : : * oa .
+Nees at : ‘ t
+\» ‘, s . 2 i
+@ Artefato — Equipamento f}
+‘ Arma viva (Quando este Equipamenio entrar i
+i no canipo de batatha, crite uma ficha de criatura ks
+Pivrexiano Geriie preta 0:0 ¢ anexe-v a ela.) ‘|
+E A criatura equipada recebe +6°+6 ¢ tem i
+atropelar. a
+Equipar 3@@ F
+»
+h
+' Nae fem perna para bater nem pulmdo para gritar, B
+Mas, sé Cocé Vir seus dentes, sera tarde deniats.
+C 0148 RMD andthe ont
+MH3 + PT & Caro MosttiRre
+q d
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:39:40
+matched_name: Boseiju Reaches Skyward // Branch of Boseiju
+matched_set: NEO
+matched_collector: 177
+reason: fração+nome NEO #177
+name_hint: » Tloty Dee ,o 1 ae
+namebar_text: ® Boseiju Alcanca as Alturas 3é
+| (GConforme esta Saga Bes ae
+cntra ¢ AROX sua ecftamta Pes eet
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+ncantamento — Saga gion
+1727/3802 U "ew D2 Wah ot the Coat
+| NEO’ PT te Zrzmoe Cutm
+
+, an err !oi- Vue, t I- =r 49
+$ ‘ ‘FS 6 stele .
+4 1 Vay e i—jan Se:
+Wt ny GA 8 5) rears i
+> ee oi whe ia 4 .
+Encantamento — Saga aan
+ee at re
+177/302 uv Te & C 222 Wuardh of the Coen
+MEO >OY tw Zrzn0u Com
+
+N\ Soe ees = he are 2 eT ys
+, ses PTy Spade ate
+evince
+rt) are mS UT OF
+> i mb rep 4 wtel= 4
+Encantamento — Saga ff.
+177/802 U "eC D2 Wah ol the Cost
+| MEO? OY tw Zrgmou Cum
+
+: Oy Yeoh tae Bs
+. » Tloty Dee ,o 1 ae
+cou TG AJR oe 8
+Encantamento — Saga Ak
+w7W?/802 u “R&R SDR ho lthe bse
+| MEO*OT tw Zezmoe Cum
+
+{CQ Boseiju Alcanca as Alturas 3@
+| (Conforme esta Saga een oo z - a
+eNTra ¢ aPos sta etapa FR = _
+de compra, adictone aoe | ee :
+wane miarcador de aera t Bt
+conhecunento) gina Se a. 4
+Procure em seu te TRS ; mn: ¢
+gnmonio ate don yo Oar Gaar any
+I cands de Floresta + ; og
+basica, revele-os, i - 3
+valoque-os em Ta . pets
+sua mao e depois a 73 } ok 2
+embarialhe. a taal —_— ae
+Cot " Pere f 7
+ano que ate Win rq = ferent: - Se
+II | card de terreno alve ne te .. |=
+de seu cemiterio no ff ogee yh -<S Me
+lope de secu gnimorn. fF ied CY & ;
+Exile esta Saga. a VO TS Se eS
+lll depos a devolva ae 2 pq } Bl Tes &
+campo de batalha n “oar Q) F} cut eae
+| ’ TILT pe ins Be
+transtormada sob seu Po Spare 4 > wily
+4 contrele. a) ve 1 fi = .
+—ig de G2 =P iene
+f ir.- poe 4 mp
+ao” Ss Temas te » ont Zee
+\
+Encantamento — Saga AN
+Tree sold u "7s Sli Meat teh tat
+NEG * HT tw dtznece Cues
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:40:41
+matched_name: Verdant Haven
+matched_set: M15
+matched_collector: 206
+reason: face OCR 'Refúgio Verdejante'
+name_hint: Refugio Verdejante Ze
+namebar_text: Refugio = | .
+
+B Refugio Verdejante 3
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Refugio = | .
+
+- ae
+mans (beni Jo mand qk LETTE IW Ler). ‘
+oc fea cary ee ee od
+eS wT ow Daw (Ae ae
+
+we’ .t mo ee es Oe wo _ ' mys Mak No !
+
+‘ ; 4
+206/260 ¢ wad Wie Cum df Os Caen
+019-07 @» Don (anmccore
+
+AEC ODO, WYN SEED SO PNION ee Vind ,
+
+Toda ves que oe Cerrene encantade tor virade
+
+pars geror mana, su controbitor adicemina 's
+
+uni mana de Qualquer cor a sua reserva de ’
+
+span rae ay So LaPRY Sane qyifee fate yr as LY ie ‘
+Par wat S ee a ne i ey ee Oe ee
+MS. PT ww Onan (awmcee
+
+me VC OOD, Wee RAND o PONloOs Ge Via. ?
+mm boda vez que o Cetreno encantado for virado
+mm para gerar mana, seu controlador adigenara
+um mana de qualquer cor a sua reserva de
+mana (alent do pian gue © lerrenw vr).
+ost gta c - Bie we e .
+es ge OT tw Cet Le ws ore
+
+Refugio Verdejante Ze
+. , af
+Fi
+q . . . e
+2 . _ p ’
+: we <7 Foe Brees
+oe swf «
+. “Bane:
+? / “
+meee \
+Encantamento — Aura
+a 53
+a . 4
+j Encantar terrene [
+Mg Quando Refugio Verdcyante entra no campo B
+fe te batalha, wee gunha 2 pontos de vida. ;
+AB Toda vez que © Cerrene encantade for virade
+me paca gerar mana, scu centrolador adigienara i
+um mana de qualquer cor a sua reservade
+Mana (alent do mana dite o terreno gerd). ’
+ace fen 7. eB ew rie. oe
+eS wh tw Dent (Ae ae
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:41:44
+matched_name: Vastwood Zendikon
+matched_set: WWK
+matched_collector: 117
+reason: face OCR 'Zendikon de Matavasta'
+name_hint: fi Zendikon de Matavasta ae
+namebar_text: f Zendikon de Matavasta
+
+Zendikon de Matavasta é
+-
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+f Zendikon de Matavasta
+
+aquele card para a mao de seu dono. A)
+“LOIN CTU ae RY ~ F
+
+. PNeNAN TH SF NEN Ln nee Brew esse sd eds. Soseed absssrent
+
+EB COMT COMO UBD Cerrena, ‘
+: . oe €
+Quando o terrene encantide for :
+Me colocade num cemiterto. devolva
+
+Me aquele card para a mae de scu done, ‘
+“oY N00. D8 Wthande td fw ta LLC PLES my
+
+% NECN WLW EF VAN! Sap’ Bob’ 686M 6ELO8E. Aodsed 8862 8N008
+
+Pa conta como um terreno.
+A Quando o terreno encantado for 7
+mB colocado num cemiterio, devolva ,
+B aquele card para a mao de seu dono. :
+Pim ie o an aa, oN ees : aa 3 .
+
+VVSEUW We F Vv’ sep’ Sc bW SSEWSELEEEe SBobeh 03SS5N508
+
+vm conta como um terreno. $i
+
+@ Quando o terreno encantado for 5
+colocado num cemiterio, devolva ¢
+aquele card para a mao de seudono.
+
+fi Zendikon de Matavasta ae
+; ans “ae |;
+om FR age
+
+. 7 . 77 ~ *
+
+m™ Encantamento — Aura Oo;
+ya Encantar terreno f
+oe) terreno encantado ¢ uma criatura \
+° verde 6/4 do po Elemental. Ela ainda ‘
+Z conta como um terreno. is
+m@ Quando o terreno encantado for 5
+colocado num cemiterio, devolva
+aquele card para a mao de seu dono. f
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:42:17
+matched_name: Find the Path
+matched_set: AFR
+matched_collector: 183
+reason: nome PT palavras 'Encontrar o Caminho'
+name_hint: Quando Encontrar o Caminho entrar ff
+namebar_text: Encontrar o Caminho 3
++ yo
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Adicione ##,.”
+1es/ 20° C¢ TA SL Roanh ihe tae
+AFR BT te Linosty Loon
+
+bar? he ie RA Uae tad dads sb PQ PECAN TNR Sb dal
+masmorra. Foie aa primera Saha on
+Prossine Pard @ Prod,
+QM terreno enecantade tem @:
+Adiviong #2”
+188/261 ¢ WAC D3 Wuards af the Coou
+AFR + #Y te Linoszy Loon
+
+we SSNS Nectb bap in’ NAN Cede bcdaed sch, ch VU SLU HO biel -
+a@masmorra. (age va primeira sala ou BE
+WB prossiga Para a proxuna.)
+@ () terreno encantado tem “@:
+Adiciony #@.~
+1es/2zer c "hw MID var ol the C caer
+AFR + FT we Linosty Loon
+
+BRA petted tid RAN Gea eeea sch, CAV TALULA MOU bic .
+
+i masmorra. (Entre na primeira sala ou ES
+
+Eg prossiga para a prexima.) %
+O terreno encantado tem “¢: ’
+Adicione #®@,”
+
+4 Encontrar o Caminho Ze
+* ! cn, ; St Fs go :
+~ NOY
+: = (> \
+‘ ‘ ' . £
+m Encantamento — Aura oO \
+. :
+Encantar terreno F
+Quando Encontrar o Caminho entrar ff
+no campo de batalha, aventure-se na
+masmorra. (Entre na primetra sala ou FS
+prossiga para a prexima.) i
+O terreno encantado tem “@: i
+Adicione ##,”
+Yesfze er Se he ee ee a
+AFR + FT ow Linosey Loon
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:42:54
+matched_name: Feral Invocation
+matched_set: M20
+matched_collector: 170
+reason: fração+nome M20 #170
+name_hint: Mm Orme sagrade de Nile pritese os qite Aen
+namebar_text: aemens Feral —
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+aemens Feral —
+
+wa TS . * x ~- ‘iM ' 4
+a Mata Nessana eo cage as gite ude 0 fed zem. ,
+170/280 C TP NI Woah tthe Covet
+M20 + FT tar Martas Kowinos
+
+Tiencantar criatara .
+BON Orratura encountuda recebe #2 42 :
+‘ ON sa detthdt? de Nk ne Pree ihe agate ih Tea!
+
+af Mata Nouwsfattid Coyedyahiurs flee ae fe warn n
+
+170/280 ¢ "eo & C ND19 Biath af the Coed
+420° PT te Mansias Kounos
+
+“@ Tincantar criatura
+@oA criatura encantada recebe +2 +2. U
+Mm Orme sagrade de Nile pritese os qite Aen b
+° . . ,
+a Marta Nesstama ec cag as gite Hide o fd 2m.
+170/280 C "O&O N19 Bie of the Coat
+M20- HT te Maretas Ko. nos
+
+fa E:ncantar criatura ‘d
+4 A criatura encantada recebe +2'+2. ro
+" Ss)
+O lince sagrado de Niléta protege os que henram fy
+a Mata Nessiana ¢ caga os gle nde 0 fasem.
+Wor IBS C O&M LVR Larne SebA ae
+42 HT tee Marsias KOC aces
+
+m Invocacao Feral Ze !
+5 _-¢ a
+. . . : AN ¢
+co ~ . ° 4 7J os , -4
+‘ ’ ‘” .
+5 t ie
+Encantamento — Aura [AA20) °
+Pa Lampejo (love podera compurar esta muigicd at é
+PE geatlguer mentento ent qite pider conjurar wita |
+k midgicd pestataned.) ‘
+% Encantar criatura :
+§ A criatura encantada recebe +2:+2. ro
+O lince sagrado de Nulekt protege os que honram fg
+a Mata Nesslata ¢ caya os gue nde o facet,
+Wor3s80 C TP Aw NVR canh fty oe
+420+ HY ter Marnitas Koti nos
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:43:25
+matched_name: Grafted Growth
+matched_set: NEO
+matched_collector: 188
+reason: rodapé OCR NEO #188
+name_hint: Quando Crescimento Enxertado entrar
+namebar_text: a Crescimento Enxertado 2
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+dois manas de uma cor a sua escolha’.
+1ea/so2 Cc Th SLD earh tthe boca
+MEO? #T me Pore Dima
+
+PLCh QC AUET Tp Tes CEO CETTE. QUEM UT
+
+marcador ¢) 4) ona criatura ou ne
+Vorude alve que voce controla,
+QO terrene cncantande tem “es Adicione F*
+
+4 . on
+dors mamas de uma cor a sti escelha’.
+
+188/302 ¢C a C DS) Ward of the Coau
+
+NEO+ ST wm Pore Dima
+
+S meia SEs Sad QTL UG Uch dad, SEARLS hoe Uildl ;
+marcador +] +1 na criatura ou ne “
+‘8 Veicule alvo que voce controla., j
+ag © terreno encantando tem “e@: Adicione
+dois manas de uma cor a sua escolha”,
+168/302 C Tew SD Ward of the Cat
+NEO- YT tw Poorer Dima
+
+cm BEG? EES oh AM Udlalllilcdd, ROU Ulil ;
+marcador +1]/+1 na criatura ou no “]
+Veiculo alve que voce controla. iP
+A . 3
+O terreno encantando tem “@: Adicione ¢
+dois manas de uma cor a sua escolha”™. §
+Tea $02 C "A SLD DB fe eae
+NEO eC hY te Poorer Dima
+
+@ Crescimento Enxertado Ze
+5 ; mo
+4» 5. ¥ ;
+Ey pe
+. - . . j 4 «| Hid
+t f] y,
+wl? N\. ie
+3 ~~? 4 tb:
+. . we . . . : S)
+' ee Ne >a - ¥ ty
+° Sowile ears 4
+Encantamento — Aura ARE
+. ,
+Encantar terreno ;
+Quando Crescimento Enxertado entrar
+no campo de batalha, cologue um
+marcador +1/41 na criatura ou no }
+Veiculo alve que voce controla, 5
+cf to =
+O terreno encantando tem “oe: Adicione "a
+dois manas de uma cor 4 sua escolha”™.
+war so2c TR SI Dearh fee ese
+NEO* HT tw Poote Dima
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:45:57
+matched_name: Encroaching Dragonstorm
+matched_set: TDM
+matched_collector: 142
+reason: nome superior OCR
+name_hint: ' When a Dragon you control enters, )
+namebar_text: \ ‘Encroaching Dragonstorm (
+
+oe mm:
+, Encroaching Dragonstorm (314
+, Ze
+
+set_code_hint: THE
+collector_hint: 2025
+
+raw_ocr:
+\ ‘Encroaching Dragonstorm (
+
+b)
+owner’s hand.
+ew —
+P 0424 Promo Pack & ™ & © 2025 Wizards of the Coast
+TOM +EN t& Marco Goal
+
+EE SSC EE EE EES
+‘ battlefield tapped, then shuffle. "
+' When a Dragon you control enters, )
+return this enchantment to its
+owner’s hand. ,
+P 0424 Promo Pack => tT & C 2025 Wizards of the Comt
+TOM -EN it Marco Goat
+
+{ battlefield:tap ped then ahuffle.
+
+| When a Dragia' you cofitrol enters,
+
+; Feturn this enchantment to its
+
+| owner’s hand.
+eg |
+P 0424 Promo Pack => ™ & © 2025 Wizards of the Coast
+TOM -EN & Maaco Goat
+
+EE ESOC EE EE EE
+‘ battlefield tapped, then shuffle. "
+' When a Dragon you control enters, )
+return this enchantment to its
+owner’s hand. ,
+P 0424 Promo Pack => te & C 2025 Wizards of the Comt
+TOM -EN te Marco Goat
+
+Tr... k. N.S
+, Encroaching Dragonstorm Oc:
+} \ ‘ a
+Neg, : .
+| Enchantment we
+” When this enchantment enters,
+‘| search your library for up to two
+4 basic land cards, put them onto the
+’ battlefield tapped, then shuffle. ‘
+} When a Dragon you control enters, |
+return this enchantment to its
+owner’s hand.
+ee ee
+P 0424 Promo Pack ft BC 2025 Wizards of the Coat
+TOM-EN St Maaco Gorut
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:46:42
+matched_name: Hunter's Mark
+matched_set: AFR
+matched_collector: 188
+reason: fração+nome AFR #188
+name_hint: a Marca do Predador
+namebar_text: Marca do Predador ) |
+
+4 Marca do Predador 3
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Marca do Predador ) |
+
+propo poder a coatura ou aoe planeswalker
+alve gue voce nav control,
+1ea/zat u “TA ST Weatdh tthe © ae
+AFR + OY we irre
+
+Pista MM Baer pede ser Gul ded,
+Aooratura dive que voce comtirehay recede
+ele date tint de tornmes Peo sesurdis, ,
+ene causa une quamudade de damer crud Ges »
+Boproprie poder a crating eu ge poses walke:
+WOYe Que Veco mie comipeha.
+198/28) U aC 31 Guards of the Coon
+AFR > PY tw lery
+“~ o
+
+BB iesta Magica Nae pode ser anulaaa.
+: ¢
+BA cnatura alve que voce cantrola recebe ‘
++14] ate tinal de turne. Em segunda, X
+fecla causa uma quantidadde de dane mual ao
+prepre poder a coaturda ou ae planeswalker
+alive que Vece nae control.
+188/281 U "TV Wath ofthe Coan
+AFR oe HT tor lrry
+
+m i.sta magica nao pode ser anulada. .
+A cnatura alvo que voce controla recebe
+va +1 +) ate o final do turno. Em seguida, r
+m@ cla causa uma quantidade de dano igual av -
+proprio poder a criatura ou ao planeswalker x
+alvo que voce ndo controla.
+tear se ou TA DBs eh eae
+ARR 6 iT te tery
+
+fo -
+a Marca do Predador 38
+s
+; C
+“4 \
+™ ; XO.
+~ \ .
+Hi ~ a“ 4 on
+PF &
+r
+m Magica Instantanea &
+‘ é
+Esta magica custa 3a menos para ser
+conjurada se iver come alve uma permanente fg
+azul que Vase nite controls,
+sta magica nao pode ser anulada.
+A cnatura alve que voce contrela recebe ,
++141 ate final do turne. Em seguida,
+mecla causa uma quanudade de dane igual ao
+proprie poder a cratura ou ao planeswalker
+alve gue voce nav control,
+1ea/7a1 uU “TA ST Weatdh tthe © ae
+AFR + OY we irre
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:47:32
+matched_name: 
+matched_set: 
+matched_collector: 
+reason: 
+name_hint: VOW °®Y te Surnone Viusuow
+namebar_text: { Dossel Esmagador Zé
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+dd Ld
+Wrenn ,
+loa/arr Tw MIR sah the tet
+VOW © BT te SUETLn VEN
+
+* PDestrua © eneantamento alve.
+
+“eds floresfas deste vide wate fot Micde |
+
+dese UPON” 2
+‘ Wor
+104/277 ¢ "F&C 21 Wiad od the Coon
+VOW °®Y te Surnone Viusuow
+
+ge Westrua o encantamento alvo.
+Beds florestas deste maaide nao tem nicdo ft
+ade so uu por”
+Wrenn
+194/277 ¢ "eh MIE Bitar ot thy Ucar
+VOW © FT te Surtim Viurwor
+
+* Destrua Oo encantamento alvo. a
+ta As florestas deste mundo nao tem medo &
+de se tmpor.” .
+— Wrenn
+ee Sean HR SLVR sar teh eae
+VOW 6 eT ter SUE TL VEU eon
+
+& Dossel Esmagador Ze
+ee AT : . A ~ a
+. “ae “NS . |
+, oe = ™ af ~ 1
+‘ LES 3
+Magica Instantanea yt FF
+: Escolha um — ;
+t ¢ Destrua a criatura alvo com voar.
+* Destrua o encantamento alvo. d
+eg As florestas deste nuiundo nao tém medo %
+de se impor.” :
+— Wrenn ’
+ir Se a Pe ie Le
+VIN FT ter SOTTUIS VEL SON
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:47:41
+matched_name: 
+matched_set: 
+matched_collector: 
+reason: 
+name_hint: VOW °®Y te Surnone Viusuow
+namebar_text: { Dossel Esmagador Zé
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+dd Ld
+Wrenn ,
+loa/arr Tw MIR sah the tet
+VOW © BT te SUETLn VEN
+
+* PDestrua © eneantamento alve.
+
+“eds floresfas deste vide wate fot Micde |
+
+dese UPON” 2
+‘ Wor
+104/277 ¢ "F&C 21 Wiad od the Coon
+VOW °®Y te Surnone Viusuow
+
+ge Westrua o encantamento alvo.
+Beds florestas deste maaide nao tem nicdo ft
+ade so uu por”
+Wrenn
+194/277 ¢ "eh MIE Bitar ot thy Ucar
+VOW © FT te Surtim Viurwor
+
+* Destrua Oo encantamento alvo. a
+ta As florestas deste mundo nao tem medo &
+de se tmpor.” .
+— Wrenn
+ee Sean HR SLVR sar teh eae
+VOW 6 eT ter SUE TL VEU eon
+
+& Dossel Esmagador Ze
+ee AT : . A ~ a
+. “ae “NS . |
+, oe = ™ af ~ 1
+‘ LES 3
+Magica Instantanea yt FF
+: Escolha um — ;
+t ¢ Destrua a criatura alvo com voar.
+* Destrua o encantamento alvo. d
+eg As florestas deste nuiundo nao tém medo %
+de se impor.” :
+— Wrenn ’
+ir Se a Pe ie Le
+VIN FT ter SOTTUIS VEL SON
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:48:28
+matched_name: Clinging Mists
+matched_set: DKA
+matched_collector: 109
+reason: face OCR 'Brumas Pegajosas'
+name_hint: Sabet i Pony a eres on
+namebar_text: yo
+a ee eee:
+fiBrumasPegajosas 2.4
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+desvirar de seus controladores, R
+AAP E CREO TI ie. ~ an. |
+Sabet i Pony a eres on .
+,
+
+@ Orr ue Fee. Lee eo? FATRUN LEP FF NAFNSA ot baat
+
+pontos de vida. vire todas as criaturas
+BP oatacantes. Estas crnituras naa sae .
+Bo dessiradas durante a proxima etapa de fe
+@ desvirar de seus controladores, ’
+S seu Anthony Francisco i “ae oN
+“TIM Be yee labs ade LLG dowd we . .
+
+SELMER FEO REE ere TATN WY LAU F NFRS 28 4N 82ND
+4 pontos de vida, vire todas as criaturas By
+‘8 atacantes. Estas criaturas nao sao ”
+B desviradas durante a préxima etapa de
+; desvirar de seus controladores. t
+5 PP AMNONT $0 eisca' |: set? © 7
+
+y hail  & O4 . ty ; a ry dl
+mm pontos de vida, vire todas as criaturas §
+™ atacantes. Estas criaturas nao sao “,
+desviradas durante a proxima etapa de ¢
+desvirar de seus controladores. 3
+Sap SE “SE, \
+L 4
+
+a >
+Brumas Pegajosas VX. 2
+5 Paw e x
+ERS :
+id j NN .
+
+aS oe
+¥ oe _—/_ . @
+a JS ‘Ng °
+, DAT :
+ae Loar a
+- - ’
+&
+8
+: ¢
+m™ Magica Instantanea vy
+‘ ws
+y Previna todo o dano de combate que f
+seria Causado neste turno. L.
+3 Hora fatal — Se vocé ver 5 ou menos
+s pontos de vida, vire todas as criaturas fi
+ya atacantes. Estas criaturas nao sao i
+desviradas durante a proxima etapa de By
+I '
+desvirar de seus controladores. f
+beeen ty on Li ae
+. ”
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:49:12
+matched_name: Savage Hunger
+matched_set: ALA
+matched_collector: 147
+reason: face OCR 'Fome Selvagem'
+name_hint: Onto, 0 Cugsadar, ostacd chat de eranides P
+namebar_text: | Fome Selvagem | ~
+
+4 . 5 ~
+| Fome Selvagem 24
+: ee) |
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+| Fome Selvagem | ~
+
+UITOE CS. ECO Checdoud Cfiedad MaMMcrie Cates oA R
+. '
+“as Berean St4 ¥ : 4 ‘4 j
+Site AS etar t A fo Sree A Ow
+
+Sn TO EO CTA Masts sie ieee fe ‘
+. PO EO ab ! dora, a ne ,
+SUL Os | ran rar aren ae arene ia ficuee tence c cabs € ne - y
+5 - . BS 3
+°° aeoose Karl Kopinski . . =,
+“eM Se yet LUbs Warde te Oe LL L924 we ‘.
+
+‘@ocurd de Sele comer IO pruganto Sele cute ate /
+ee recapitiarn Depois, exte-o J r
+* o
+
+Onto, 0 Cugsadar, ostacd chat de eranides P
+
+umbtous. ch cobra estacd chet semete com One, f
+4 Ne
+An 190 3. 203 iene Of de. '20 LLC
+
+Bm card de seu cenitério pagando seu custo de
+
+: recapttular, Depois, extle-o.)
+One, 0 Cagador, estava cheio de grandes c
+amobroes. A cobra estava cheia somente com Onto, 5
+
+4 >
+Fome Selvagem vx. 2
+f,
+3
+i a.
+. “ i]
+‘4 -
+1 ~ . , bi pe
+i; 1 te
+Pa ‘ Re
+a
+™ Magica Instantanea  E
+5 :
+AN crarturaale recebe +3 41 ¢ ganha ;
+atropelar ate © final do turn. t:
+Recapitular 3@ (lie pode comprar este
+curd de sc comilerto Pugandeo seu cute de
+recapitidar, Depois, exne-o.)
+al
+Me Otto, 0 Cagador, estaca cheie de grandes ”
+ambos. cl cobra estecu cher semente cont Otte, f
+q
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:50:31
+matched_name: Return to Nature
+matched_set: WAR
+matched_collector: 175
+reason: face OCR 'Retorno à Natureza'
+name_hint: WARCET Mer ALA OS Canntnr
+namebar_text: . pune crore
+m Retorno a Natureza Jé
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+ecditf, : care CE CUTE, bd
+--- Bnymara
+5/284 C TPA SID Wath i tbe Cc aut
+WARCET tee ALAY UA Oarntl
+
+*}exile o card alvo de um cemiterto, _
+“Nid Matte tao itdds forte Lee dite oe Es
+Boorediecuates bvotaide cue acres.”
+Lerntara
+1759/2646 ¢ ~~ aC N19 Wassch af the Cosa
+WAR:OY ww ALarma Oarnta
+
+ae Exile o card alve de um cemitcrio. ,
+eS, a natiaeza é mats forte. Voce nao ve
+predtozothos brotando cmt arveres”
+~~ Jmmare
+178/264 C "ew OO Warde il the Cat
+WAR+OT be ALAya Canna
+
+5 ¢ Exile o card alvo de um cemiterio. ,
+i Sim, a natureca é mats forte. Voce nao vé &
+predtozinhos brotando em arvores.” ¢
+— Emimara
+179/224 C TPR MVR a eh ae
+WAR OT ter ALAS A Dante
+
+@ Retorno a Natureza le
+RY
+: ai <4 . - . We ‘
+V gene ga":
+‘ 4, . ‘L£:, - 4 , i ?
+{ = wn. ~ a a
+aN 4, . cP edna ~ “
+h oo. - ee : ‘
+’ > ' $
+My 1
+Magica Instantanea ws
+. .
+Escolha um —- E
+* Destrua o artefato alvo. .
+: Destrua o encantamento alvo.
+f * Exile o card alvo de um cemitério. 4
+a ‘ ‘oy yoo - - Ba
+mm Sin, a naturesza é mais forte. Voce udo vé
+predtozinhos brotando em arveres.” $
+—- Eanmara
+73/284 C Tem MVM ak hy tae
+WARCET Mer ALA OS Canntnr
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:51:02
+matched_name: River Heralds' Boon
+matched_set: XLN
+matched_collector: 204
+reason: fração+nome XLN #204
+name_hint: JP Sentos Purcutes das arcores, od forgae
+namebar_text: B b2ncio dos Arauros do Rio Arautos do RIO
+
+Béncao dos Arautosdo Rio Lé
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+B b2ncio dos Arauros do Rio Arautos do RIO
+
+Po
+
+f
+204/239 ¢ Teh MAT Bisath ofthe Count
+KUM ° FT te ALEX Rowson
+
+Jem até um Tritae alvo.
+JP Sentos Purcutes das arcores, od forgae 7
+§olelas cod Moss”
+
+204/279 ¢ &C D1T Wizards of the Coon
+XUN ¢ OY tw Aux Konstan
+
+gem ate um Tritao alvo. s
+“Somos parentes das arvores, ¢ a forga
+mB delas & a nossa.”
+204/279 C 78 we SIT Bosathk of the Coat
+KLM * &T te ALEK KowsTap
+
+i em até um Tritao alvo. ¢
+a “Somos parentes das arvores, € a forga
+delas é a nossa.” ¢
+204/279 C “A DITA sath be ae
+KN 0 FT te ALE Kowstad
+
+@ Béncado dos Arautosdo Rio JL !
+3
+f 1 ae 4;
+\ Ny 4
+Lo, sb a , 7 -
+. “ a t.
+A 3?
+a? » a. nN
+Magica Instantanea @ x
+: Coloque um marcador +1/+1 na a
+¥ criatura alvo e um marcador +1/+1
+i em até um ‘Tritao alvo. :
+ra “Somos parentes das arvores, ¢ a forga
+delas é a nossa.” ¢
+204/279 TO MAT sath ttte toast
+KUN? PT te ALEX Kowstap
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:51:30
+matched_name: Plummet
+matched_set: AFR
+matched_collector: 199
+reason: fração+nome AFR #199
+name_hint: AFR ee PY te Aux Beanwin
+namebar_text: 
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+199/281 C¢ Th ST Rear the bee
+AFR OET tr ALIN Beanwin
+
+Qsopre mode de dragae fer deftutiar a
+
+floresta, OO stot do com fleclias NMC .
+
+han O chao oxctiote come se dbhalacde
+Bor dau forronidto, O) toa cade €or cet. ;
+199/281 ¢ A&C Dll Tosds af the Coee
+AFR ee PY te Aux Beanwin
+
+BO) sopra noxto do dragae fes deftunar a |,
+
+MB floresta, O sibila de cem flechas encheu Wy
+
+Boar O chao osctou come se dbadade
+
+m porn terremoto, O urano cai do cet.
+199/201 ¢ Th MS) Waar ol the Caer
+AFR + FT tr ALY Beanwin
+
+4 Q sopro noxto do dragao fes definhar a Fy
+floresta. O sibtlo de cem flechas encheu }
+ao ar. O chao osctlot como se abalado S
+por um terremoto, O trano cain do céu. iy
+tear 361 C TR SIRs eh ae
+AFR 6 HY tw ALIN Beanwin
+
+© Tombar Le
+Lf . .
+~ 3 ~~,
+f . Us <—om
+e
+te ’ : , s
+3 > ee
+4 oy
+Magica Instantanea Ok
+Destrua a criatura alvo com voar. r
+4 O sopro noéxio do dragao fez definhar a
+i floresta. O sibtlo de cem flechas encheu &
+moar O chao oscilou como se abalado B®
+por tm terremoto, O trano caiu do céu. Fy
+roel 281 C H&S Aart eae
+| AFR 6 HY te ALY Beanery
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:52:07
+matched_name: Glissa's Scorn
+matched_set: NPH
+matched_collector: 110
+reason: face OCR 'Escárnio de Glissa'
+name_hint: ff Escarnio de Glissa Le
+namebar_text: Escarnio Glissa )
+
+Fiabe i SELES See
+| Escarnio de Glissa 14
+
+set_code_hint: PONTO
+collector_hint: 1
+
+raw_ocr:
+Escarnio Glissa )
+
+rr—CtsCSCtésCE
+
+. x - -. ' . . . t
+“Se Nase fella Poare sabrecieer dae teria B,
+vedo desir tande baad fetcnnicrife. ;
+
+® wit
+
+f Crftysce
+
+as ~
+
+ner Nils Hamm :
+
+“Se 107) TUL) Binanke sé he Con LLC
+
+“Se fosse feito para sobreviver nav terta f
+me xcdo destrutde tao factimente” %
+Gltssa f
+
+me “Se fosse feito para sobreviver ndo terta is
+ws . ’ ~ es 3?
+sido destrutdo tao facitlmente. 5
+— Glissa d
+2
+A OCG ol oe Ste -—~ S
+
+ff Escarnio de Glissa Le
+q . . . ~ .
+. , «oy Ff
+a? NN ri
+d ad av hi
++ f 3 se - -
+: 9 | , f :
+od :
+Magica Instantanea > &
+fa Destrua o artefato alvo. Scu
+controlador perde 1 ponto de vida. i
+4 “Se fosse fetto para subreviver ndo terta
+me sido destruido tao facilmente.” y
+-- Glissa rf
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:54:49
+matched_name: Rampage of the Clans
+matched_set: RNA
+matched_collector: 134
+reason: fração+nome RNA #134
+name_hint: Bupo Centauro
+namebar_text: YEH IES
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+* - 4
+. . ,
+todo quetmar!
+134/259 B cortarsen us toatare &> rregatory com
+ANA S&T ter SIDMARTE ColaTURTI DL SD EH tert ofthe Oat
+
+Porta una ticha de criatura verde 3 3 do ;
+tripe Centaure, ;
+
+Bloons! Poitier aiiese ate o minnie V4
+rouda Genin
+
+134/259 R cossmqees as ratere > mrégrtory.com
+
+RNAsHY te SiOMANTN CouaTURYION $e & C19 Wrath uf the Coot
+
+“@ cria uma ficha de criatura verde 3 3 do ff
+Bupo Centauro. ;
+Bo linfuregaminsel Tonfuregani-se ate o mundo f
+fodo quetniar!” ,
+
+184/259 R cestaqees as rotare > rrAgstory.com
+
+ANA hT te SiIDMARTN CHATURVEDI OA 1 Wath ol thee Coat
+
+Fg cria uma ficha de criatura verde 3/3 do Bg
+hE tipo Centauro.
+“hnfuregam-se! Enfuregani-se até o nude
+todo quetmar!”
+TE 44299 WR crete ue Postar oH mPgstory com
+GWA + FY ter S10 ANTM CotaTl RYEDI Lr a ty ee SO RTE MOT)
+
+Furia dos Clas 3@
++ . , 2 ,
+Q Ae at Pd i
+: Wee g '
+mm tert]
+e ee . ’ oF
+5} h
+m Magica Instantanea Pon
+. ‘
+Destrua todos os artefatos ¢ ;
+encantamentos. Para cada permanente .
+destruida dessa forma, seu controlador
+cria uma ficha de criatura verde 3.3 do d
+tipo Centauro, r
+a
+“Enfurcgam-sel Loifuregaii-se até o mundo
+todo queimiar!” ‘
+134/259 B Cortarsen as toatare > mAgstorycom
+ANA + HT te SIOMARTN CoLaTURYLDI TA sat el thee Oo naa
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:55:37
+matched_name: Haunted Fengraf
+matched_set: DKA
+matched_collector: 157
+reason: face OCR 'Cemitério Pantanoso Assombrado'
+name_hint: Cemitério Pantanoso Assombradc
+namebar_text: Cemitério Pantanoso Assombradc
+
+4 =
+| | Cemiterio Pantanoso Assombrado
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Cemitério Pantanoso Assombradc
+
+Meo ee SEW aoe ce tL state Ms ue
+q
+
+SASSOPTPOPIO.L PACVOIN a UI Cialtal
+
+de criatura aleatorinmente de seu ;
+f CUMITSTIO Para sud mae.
+f a, |
+mm O) purgite de droorsnes de ran coraiga | .
+/ :
+_ Adam peciekce ? i on WA eae
+To 1978 EL corti Cee tat LL 3° Te a e
+
+me ASSOMMOPUGO. 2ZCVOING UM Cara ‘
+de criatura aleatoriamente de seu 3
+
+f Cemiterlo para sua mao,
+
+BO parque de diversbes de ran carnical. |
+
+ree —- ay tt
+
+DOM URED conde Cte Cet LLC SSE ae . 5e
+
+ASSOMMDPAQO. LAICVOWA UT Cdfa
+i de criatura aleatoriamente de seu
+cemitérlo para sua mao.
+O parque de diversées de um carnigal. P
+—o Adam Paquette Rien Saal a
+Me ee MWe ct LL Sats an .
+
+fi >»
+= = '
+! Cemitério Pantanoso Assombrado
+i
+| }
+a \.
+{= &
+~ |
+| 2 Bee
+‘ . “
+IGeneno
+é
+m c:Adicione 1 a sua reserva de mana. |f
+mw 3, ©, Sacrifique Cemitério Pantanoso |’
+Ml Assombrado: Devolva um card
+de criatura aleatoriamente de seu
+} cemiténo para sua mao.
+O pargue de diversbes de um carnigal. ;
+a ee EW ae Doe Le SPATS cat nt
+q
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:56:09
+matched_name: Flourishing Hunter
+matched_set: VOW
+matched_collector: 199
+reason: fração+nome VOW #199
+name_hint: Quando Cagadora Florescente entra
+namebar_text: Cacadora Florescente 4 )
+
+a Cacadora Florescente 42
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Cacadora Florescente 4 )
+
+cdidediclad. bd
+Arlinn Kord we)
+lga/sar?7 6/6
+VOw + FT me Iisa Goat Se Mn i SPOS A Oe TY
+
+oD EE TUSISTC tI Gobet is wd CUT IS
+CPULUras Guie Vece COREA,
+“Norn dade Meni adoutlb nha cid WEIN .
+‘ ae itch
+109/277 ¢
+VOW > ®Y a lisa Goat Tea WIt Wrath id the Cowart
+
+aM TDR POSISTCTICT Ciitre Gas Cts OUTED IS ;
+rq criaturas que voce control, ‘
+Sor tana hours acolhte-da ent yiridiya
+Mm lealeta.”
+eirttan KRord Ge )
+199/277? ¢
+VOW - FT ww itsa Goat A NTP Wiser te the Cowart
+
+me Cea CC SINICHIC Ta COLTTC as Ua OUT AS -
+i criaturas que voce controla.
+m “Serta wna honra acolhé-la em minha =
+alcateta.” r
+Arlinn Kord $6 )
+ey ae a 6/6
+Vow 6 Tt hae Goar Cy Cr ih, Cane ne PE
+
+a Cacadora Florescente 4@e@
+oa woe OF .
+Ry oe ae <r’ “
+3
+‘ , aan:
+. . Eo. tt
+. * 7) i rr i oR. ae, an
+m Criatura — Lobo Espirito rapt BV
+Quando Cagadora Florescente entra
+ne campo de batalha, voce ganha uma g
+quantidade de pontos de vida igual a
+muvor resistencia entre as das outrus
+cniaturas que voce controla.
+WO ae olfpend : ”
+. Sorki laud honra acolhtcada CNT nuh ,
+dheatin” ;
+airiinn Kord 6/6 |
+W99/2r7 Cc
+VOW + &T te lisa Goat TA DEW sath tthe OC wat
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:56:46
+matched_name: Birthing Hulk
+matched_set: OGW
+matched_collector: 121
+reason: fração+nome OGW #121
+name_hint: Quando Brutamontes Procriador entrar no
+namebar_text: { Brutamontes Procriador
+
+at — .,
+4( Brutamontes Procriador 6
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+{ Brutamontes Procriador
+
+1: Regenere Brutamontes Procrniador.
+121/184 U 5/
+OGW FT ter Lk Wane TA NATH sat of the U wat
+
+Mm lsatidbia dtcas fehas Ge ermaturaimeator bo) ade
+Dpe Rebonte bidrazr bias tem USacmiqee ose &
+crhitura Adicname © a sua reserva de mama”
+OTC TEE
+Pe Resenere Brutanrentes Proorsuader
+5/4
+121/184 UV
+OGW 9 BY ter Ack Wanc Fe & CWA Wisetdh of the Cont
+
+Datalhie duas fchas de crutunaeaincelor |b do
+ope Rebento Bldraat Elas tem “Sacnfhque oti §
+criatural Adicioene © a sua reserva de mana.”
+(O representa WAUKE MCaCr |
+1?) Regenere Brutamontes Procriador.
+127/184 U
+OGw FT te LUCK Wana "SWC NIA Wiate ol thee Cet
+
+batalha duas fichas de cnatura incolor 1/1 do
+upo Rebento Eldrazi. Elas tem “Sacrifigue esti (@
+criatura: Adicione > 4 sua reserva de mana.”
+(? representa miata ticaler)
+1°: Regenere Brutamontes Procriador.
+127/184 UL /
+Owe HT tw LAK oan, Sh SID at the Oo war
+
+. a a =e _ = fl SP oe ae
+f, 7 '
+4( Brutamontes Procriador oe
+PS ‘ “ ; -
+“f . »: os
+‘ iw |
+. . “4 t
+“ON
+4 rN q
+) < ‘ _* 'R
+Criatura — Eldrazi Zangao de }
+edt
+Desprovido (iste card mde font cor)
+Quando Brutamontes Procriador entrar no
+campo de batalha, cologue no campo de ‘
+batalha duas fichas de cnatura incolor 1/1 do
+upo Rebento Eldrazi. Elas tem “Sacnfigue esta
+criatura: Adicione © a sua reserva de mana.”
+(> representa piu tucoler)
+1¢: Regenere Brutamontes Procnador. ;
+131/164 U f
+OGwW FT te UCK Wane SAY LW sar of the Cet
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:57:19
+matched_name: Primordial Wurm
+matched_set: WAR
+matched_collector: 174
+reason: fração+nome WAR #174
+name_hint: (Vorme Sea = cA
+namebar_text: (Vorme Sea = cA
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+(Vorme Sea = cA
+
+Ot
+?
+W4/2ea ©
+
+WAR EY tee SITTIN VEL ST TE ate el thee Oat
+
+Crab ered dad © oad Gstpree aed Pee ah nlee go ae
+qatadaa ate corte: porto yitande os
+
+PT atsares tO cdo Laraaio cde lyre ‘
+
+morduda, :
+174/264 ¢ 16
+WAR? OT te Surin Vrumoy "eo & C19 Waser of the Cone
+
+a SET OEEFECELACA LOS RCE ESLE CEO POG NEE fe ott -
+qo ajlidam até certo ponto quando os
+Binvaseres sao do tamanho de wma )
+a nordida. ,
+Wasz2ea c 7/6
+WAR SOY te SurTin Vise TL NT athe ol thee OC eet
+
++ C/O OCC FECES G OS dead Send ue OO ATED FF Pd Se .
+4 ajudam até certo ponto quando os :
+bg Jtvasores sao do tamanho de tna .
+mordida. .
+7/6 )
+WA V24 C
+We AR YT te SOCTL I VEL eR ir i a Se On ee TE
+
+@ Vorme Primordial 422 !
+4 1’ . ‘ . : . =
+se
+. “ ~ ; !
+~~, t
+; tye 4 i r ; :
+i ia i)
+on ee rr,
+Criatura — Vorme ws
+1 O trenamento de elite, a devogdae {.
+f obstinada ea capa de lazotep so
+i ajudam até certo ponto quando os
+bg drwasores sdo do tamanho de uma s2
+mo mordida. ‘
+¢
+7/6 )
+Warqgeac
+WAR 6 HT Mer SUTTUN VEL i I oy SO ae eT
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:58:01
+matched_name: Lurking Roper
+matched_set: AFR
+matched_collector: 194
+reason: fração+nome AFR #194
+name_hint: vida, desvire Estrangulador a Espreita
+namebar_text: Estrangulador 3 Espreita
+
+:
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Estrangulador 3 Espreita
+
+AAHHHTHHHHHH ” .
+4/5 |
+aehcet we Anca Var TAO TED seth ob thee Cet |
+
+vida. desvire Estrangulader a Espreita.
+OMT ats ofa - bes ponder ha hy .
+BGM ds ON TESTES so A ae
+VARTTHTHTELL ——_
+4/5
+194/281 U
+AFR «PY te Ampenw Man Te OSE Wise ad the Coont
+
+vida, desvire Estrangulador a Espreita.
+OB Oda. as estadac-ttes pendent do tela,
+me eg tecartley ts esdatday-Mtes: se projelai
+AAHMHHHHHTTHH  ~ We
+4/5
+194/281 U
+AFR + YT tw Anpanw Mar CW NSW pathy ol thee Caer
+
+vida, desvire Estrangulador a Espreita.
+oe Olha, us estalac-tites pendem do leto, S
+enguanto as estalag-mites se projetam— ¢
+AAHHHHHHHHH—” 51
+teas gar iu
+AF + HT tw Aucmnw Var "A PPR ah tthe tae
+
+& Estrangulador a Espreita vx.
+per Oe
+3 - 4 View - :
+| ee 4 i ty
+'
+Criatura — Horror a& x
+. .
+Estrangulador a Espreita nao ¢ E
+desvirado durante sua ctapa de desvirar.
+
+‘Toda vez que voce ganhar pontos de
+
+vida, desvire Estrangulador a Espreita.
+“Olha, as estalac-Utes pendem do tela, 3
+enguanlo us cstalag-mites se proelam—- ¢
+AAHHHRHHHHH.---”
+papa u 4/5 }
+
+hen cet te Anat War Sh EM at ht the (er
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:58:43
+matched_name: Burr Grafter
+matched_set: CHK
+matched_collector: 203
+reason: nome superior OCR
+name_hint: a Burr Grafter Ze i
+namebar_text: : : a ye ee
+
+Tiveacn: ee eT ee wees .
+=| Burr Grafter 3
+LP
+
+, ra df ~ * 4
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+: : a ye ee
+
+E ro é r RIGVEYAIG é Our GliG ie
+R)
+wee Dae Bo Lee a a eee ans
+
+Soulshift 3 (When chis is put into a <
+gravevard from play, vou may return target
+wee . 7). ~ ‘a
+
+ee Spirit card with converted mana cost 3 or BB
+m less from your graveyard to your hand.)
+tt ‘
+
+Mm Soulshift 3 (When this is put into a
+a craveyard from play, you may return target &
+ae Spirit card with converted mana cost 3 or &
+
+less from your graveyard to your hand.) rf
+IA ae Ne ee Sk em cn elation ‘a ruchen oe :
+
+e ° e >
+
+m Soulshift 3 (When this is put into a é
+a graveyard from play, you may return target §
+
+Spirit card with converted mana cost 3 or &
+
+less from your graveyard to your hand.) ¢
+Ea ee 2/2 |
+
+Tae oe Pe a wt
+a Burr Grafter Ze i
+‘ Ap cae west
+(i er i; an
+5 Se ae ee
+x CUE ME SC ata | Oy Rati
+ae ae
+:
+Creature — Spirit TT ki
+2 2 ro
+a Sacrifice Burr Grafter: Target creature
+me gets +2/+2 until end of turn. wt
+Pa Soulshift 3 (When this is put into a z
+wa eraveyard from play, you may return target &
+Spirit card with converted mana cost 3 or F&
+less from your graveyard to your hand.) ff
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 10:59:19
+matched_name: Colossapede
+matched_set: AKH
+matched_collector: 161
+reason: fração+nome AKH #161
+name_hint: Riche, de dds wit hyd
+namebar_text: 
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+ .)
+,
+101/269 C¢
+
+AKM > &T te ww Kane, TW sete ofthe Cea
+
+Brats os Parte, Qrakyeen COPE MMOs Gite Essen Pe
+SUC MES COMME ERE TOM HONE Mal PomtOlne Pe
+; chee ates Warrine aes he Peclssge Peerac-Dete ‘
+: Riche, de dds wit} hyd
+5/5
+161/269 ¢
+AKH OY telson Kaus Teh CD17 Wraande ud the Coast
+
+MB ais esperto. Qualguer cotsa menos gtte isso c Fd
+VB tec Judy comguishaird wae lratar da Perfella WE
+vida apos a morte de nosso Tarae-Dens.”
+‘ Rhonas, deus da forga
+161/269 C 5/5
+AKH OPT te lyon Kaw, ONT Wi nae el thee Cowart
+
+Be ais esperto, Qualguer coisa Mens que Isso ve Ke
+g vocd jamais conquistara wm lugar na perfella &
+fe vida apos a morte de nosso Farao-Ders.” ‘
+Rhonas, deus da forga ¢
+Tor! 249 C /
+Amro FT mar law Rave. Lr, ee? Oe SES Ty
+
+& Colossopode 4@ !
+5
++ . 7 reer Aloe
+his
+x ; 4 be a 4 *, 7
+7 we ' ; lf an of .
+' P) yy ~ Ry \
+| en? as ‘
+tt as oe “ ia ~ \
+. fl Py - ie, w tte
+eA ‘ JT . . a ‘
+oy a > ‘ +,
+2 ras ~ ‘tr.@ t:
+> A - -- 4 ty
+Y- mn r
+—" . ‘ae - i
+Criatura — Inseto s& x
+“Se cle for mator, voce precisara scr mars
+rapido, Se for mats forte, voce Precisard ser
+Mats esperto, Qualguer coisa menos qtte Isso oc Ed
+Tove Jaais conquisharad tan lugar na perfetla i
+vida apes a morte de nosso Farae-Ders.” *s
+Rhonas, deus da forga ¢
+101/269 ¢ /
+AKH > OT te wow Raw, TD sary ofthe Coast
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 11:00:26
+matched_name: 
+matched_set: 
+matched_collector: 
+reason: 
+name_hint: Chianul, na tecedura de Arel y
+namebar_text: 2» wp i £#|' OP
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+7)
+9S/ 2090 ¢
+mT 6 OT tm ieoee Neves Be assell ot SE SSPE at eT
+
+Qo bata wan corce ¢ calegte os Rites '
+Bosuesstarros. | :
+Chaanul, ua tecedura de vlre!
+
+2/1)
+138/260 <¢
+KYK > PY Ot» hos Savign Gaassitl Fe & C 016 Wisedes 06 hee Coot
+
+“Lbata wm cerve ¢ cologue os chifres ‘.
+pg eat cabega dela, Ela pode ouvir os ,
+Bm SUSSULTOS.” >
+Chianul, na tecedura de Arel y
+2/1}
+135/249 ¢
+mT OY te hee Neve ae Ba assent 8 he NOW isa ed the Coat
+
+ma Abata um cervo ¢ cologue os chifres ¥:
+ag ria cabega dela. Ela pode ouvir os
+sussurros.” 3
+-  Chianul, na tecedura de Arel "
+2/1 )
+19S! 2E9 C
+mT ae OT te ome Nee ae Kaan at ae i Se ere
+
+& Caca do Planalto L@
+i .. | ' td a
+*
+B od ——
+\ |
+> “ eer Fa -_~ .
+Criatura — Alce a
+f Quando Caga do Planalto morre, ?
+Mg voce ganha 2 pontos de vida. .
+ra lbata um cervo e¢ cologue os chifres i
+MB ova cabega dela. Ela pode ouvir os
+sussurros.” >
+Chiamal, na tecedura de Arel ’
+2/1 )
+W3S/ 2490 €
+RTs OT tw beome Sevres Baas oor Se Se, en
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 11:00:52
+matched_name: Transluminant
+matched_set: RAV
+matched_collector: 186
+reason: face OCR 'Transluminante'
+name_hint: fa 6 *, Sacrifice Transluminant: Puta
+namebar_text: Scere _ TE
+
+Transluminant LL
+x, . ‘ . Ture oe fa 4 .
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Scere _ TE
+
+obligations that hold you to this world.” -
+ray
+LBRO OSSEIPRR TES sous ON
+
+@ Vins tO play dt cna Of turn. .
+§ “l‘orget yourself. Forget your city. Forget If
+mm your homes, your families, the debts and Ke
+Mm vbligations that hold you to this world.” BY
+by
+
+Na . " rs "8 @ noe a ws A
+Reccorea ich ee} 2/2 NK
+PKR AN199 3: 2005 Wicapbe Of dhe Chath Ine LEGA WO rs}
+
+Me ee lO play at end of turn. 4
+na “Forget yourself. Forget your city. Forget
+your homes, your families, the debts and f®
+obligations that hold you to this world.” :
+tt eked Gabe a ae dee Ee ve. a8
+
+Me UYyle WIO Play at CNG OF lurn. zi
+
+im “Forget yourself. Forget your city. Forget
+your homes, your families, the debts and 7
+obligations that hold you to this world.”
+
+Paewere ox Dre A oe a. ee,
+i Transluminant Le ;
+. ke Ve. . 7»
+- ) re ey é a
+Creature — Dryad Shaman rl
+fa 6 *, Sacrifice Transluminant: Puta
+i 1/1 white Spirit creature token with
+m flying into play at end of turn. zi
+ila “Forget yourself. Forget your city. Forget
+your homes, your families, the debts and “
+obligations that hold you to this world.” [§
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 11:02:40
+matched_name: Armored Kincaller
+matched_set: LCI
+matched_collector: 174
+reason: rodapé OCR LCI #174
+name_hint: Invocador da Raca Blindado Ze
+namebar_text: BC iwvocador d da Raca Blindado ndado
+
+y
+§ Invocador da Raca Blindado 2
+> 5 TW
+—— «~~,
+
+set_code_hint: LC
+collector_hint: 074
+
+raw_ocr:
+BC iwvocador d da Raca Blindado ndado
+
+C O74
+LC + PT te Joun FronicK Mf NII Wands of the Coast
+
+-B UZCT ISSO OU COTMPOHT OUULO LATMIOSSAUTO,
+‘A voce ganhara 3 pontos de vida. .
+z
+iB CLela se dedica a protegdo de sua manada. Por q,
+ee sorte, cla nos considera parte desta.” ;
+Cc 0174 3/3
+LCi + PT me loun TroricK ™ & © 2025 Wurasdh of the Coast
+
+we HIZCT ISSO OU COTMPOME OULTO LAMOSSAUTO, ,
+voce ganhara 3 pontos de vida.
+pe
+HB “Z:/a se dedica a protegao de sua manada. Por Fy
+m sorte, ela nos considera parte desta.” ¥
+—- Huatli 373 )
+Cc 0174
+LCI > PT me loun TronicK 1 bo NID Wayseds of the Coast
+
+eg FIZCT 1990 OU COMUOIAT OULLO LANOSSAUTO, — fk
+{ voce ganhara 3 pontos de vida. "
+am “Ela se dedica a protegao de sua manada. Por &
+sorte, ela nos considera parte desta.” ¥
+— Huatl 373 )
+C 0174
+LCt>e PT te loun TronicKx “MR BNI Wards of the Coat
+
+4 . . 4 . . el ta os >
+{ Invocador da Raca Blindado Ze
+: Sey F
+§ Sy? BED
+: : re rt eT.
+| a if i 8
+m Criatura — Dinossauro om”
+Ba Quando Invocador da Raga Blindado entra i
+no campo de batalha, vocé pode revelar um e
+k card de Dinossauro de sua mao. Se vocé ie
+a fizer isso ou controlar outro Dinossauro, 3
+4 vocé ganhara 3 pontos de vida. 1
+i “Ela se dedica a protegao de sua manada. Por =
+sorte, ela nos considera parte desta.” ¥
+— Huatli
+3/3 }
+C 0174
+LCl > PT be loun TronicK eR MIN Waands of the Coat
+q d
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 11:03:42
+matched_name: Villagers of Estwald // Howlpack of Estwald
+matched_set: ISD
+matched_collector: 209
+reason: face OCR 'Alcateia Uivante de Estwald'
+name_hint: Alcatera Uivante de Estwald
+namebar_text: © Alcateia Uivante de Estwald
+
+yf
+a ___AaAzazz-_—_—_———_—_E_E__-
+© Alcateia Uivante de Estwald
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+© Alcateia Uivante de Estwald
+
+, df
+
+LL oS 2 hin Lh Pah P Ree ea bah GAGE BEN Lecter sat Pb bday .
+Alcatera Uivante de Estwald. ;
+BOs cadaddos de Ustrald nao rechagam os fy
+mB forustemos ~~ 0 gosto defes cambea ¢ bom,
+S me Key Walker i, ee \_4/6_ 6
+"> Pa (0st SUED dee oe LLG gue, foe
+
+7 Gadel gy Inato AERP ASOT GANT CRGR BEA, CEASE OETA aE .
+§ Alcateia Uivante de Estwald.
+
+KB Os cidadaos de [istizald ndo rechagam os
+
+t . e .
+
+Mm forastetros — o vosto deles também & bom. |
+SP 1 i095 68 Wihende od toe. Co LLC SONOS mes
+
+5 BRECAR AWD BEN MEST SESE EASE BEND LE CES OES LSE
+
+‘ Alcateia Uivante de Estwald.
+Os cidaddos de Estwald néo rechagam os FE
+forasteiros — o gosto deles também é bom. f
+
+“0K (aaly Tin Pind ee q 7 ” BN 4/6
+
+yp >
+ee
+@) Alcateia Uivante de Estwald
+LA
+| a
+3 i
+P .
+‘%
+| ;
+Pr
+ma ne 8
+. .. Criatura — Lobisomem qe 4
+4
+No inicio de cada manutencao, se um 3
+jogador ver conjurado duas ou mais
+magicas no ultimo turno, transforme
+Alcateia Uivante de Estwald.
+SI Os cidaddos de Estezald nao rechagam os TY
+forasteiros — o gosto deles também & bom. f
+. d
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 11:04:17
+matched_name: Grazing Gladehart
+matched_set: DDP
+matched_collector: 14
+reason: fração+nome DDP #14
+name_hint: S — Yon Basrel, Oran-Rief survivalist
+namebar_text: A aE -
+
+yo
+& Grazing Gladehart Zé
+
+set_code_hint: DR
+collector_hint: 4S
+
+raw_ocr:
+A aE -
+
+— ron Dasrei, Vran-Nief SUrVIVAaANS ”
+2/2 )
+4s €
+DR] EN Be PAN PANT cant . rn : \
+. y
+
+@ YVU LlAaAyY Balll & AC. :
+4 “Don’t be fooled. If it were as docile as \2
+eg it looks, it would’ve died off long ago.”
+S — Yon Basrel, Oran-Rief survivalist
+
+2/2 '
+014/080 C
+DDP- EN be Rian PANG OAST a Oe
+
+¥ YUU May Baikl & ALL. -
+f “Don’t be fooled. If it were as docile as if
+sm it looks, it would’ve died off long ago.”
+—Yon Basrel, Oran-Rief survivalist x
+2/2 |
+Ora fOBa C
+DDP- EN te RAN PANE Oant ss a Se
+
+me YVU MAY Bald & ALL. J
+“Don’t be fooled. If it were as docileas J
+m it looks, it would’ve dted off long ago.” 2
+—Yon Basrel, Oran-Rief survivalist :
+Lai bs by Ba YAN PhaN trent . vs .
+
+4 a on ~ . . a oe »
+B Grazing Gladehart Ze
+GN BEG eS EN
+
+. &. ae ¥
+ipay ud : :
+
+: : oe . ‘: ts .
+“ «
+
+Creature — Antelope OR
+
+a Landfall — Whenever a land enters {J
+; the battlefield under your control, bs
+wm you may gain 2 life. :
+a
+ta “Don’t be fooled. If it were as docileas &j
+@ it looks, it would’ve died off long ago.”
+—Yon Basrel, Oran-Rtef survivalist v
+
+
+======================================================================
+version: 2026-07-03.1
+timestamp: 2026-07-03 11:04:53
+matched_name: Splinterfright
+matched_set: ISD
+matched_collector: 205
+reason: face OCR 'Assombro Farpado'
+name_hint: QF Noomeia de sua manutengde, coloque
+namebar_text: Assombro Farpado | :
+
+4 ee . 3:
+| Assombro Farpado 24
+. . OT 74 -~Obee
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Assombro Farpado | :
+
+vy
+“ bd ave?
+RR ey re -_
+q af
+
+de curds de criutura mo seq cemuteria. ;
+QF Noomeia de sua manutengde, coloque
+PB os dois cards de topo de secu grumeria fF
+UI SCU COTHIECTIO, '
+* samue Eric Deschamps a. . a/* ”
+rTM Soe Ue) LUbD Warde dt. LL MO .
+
+gode cards de criatura no seu cemiterio. &
+
+‘8 No inicio de sua manutengao, coloque 5
+
+os dois curds do topo de scu grimorio iy
+mcm scu cemiterio,
+
+‘
+
+ae ee
+
+4 de cards de criatura no seu cemitério. fg
+m@ No inicio de sua manuten¢ao, coloque IH
+vs dois cards do tupe de seu grimorio ¢
+cm seu cemiterio. )
+L a
+
+4 >»
+Assombro Farpado 2
+t
+. mo % he - 7.
+. ~ Po
+3 - A an
+~ ° ~~
+re} i. me ’
+ed
+| .
+t
+. v
+™ Criatura — Elemental Wa r
+5 :
+Atropelar f
+O poder ¢ a resistencia de Assombro
+Farpado sdo ambos iguais a0 numero
+de cards de criatura no seu cemitério.
+No inicio de sua manutenc¢ao, coloque %
+os dots cards do topo de seu grimorio FR
+em seu cemiterio. f
+: _ by Dea . € et ° aft ,
+q
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:06:07
+matched_name: Highland Game
+matched_set: KTK
+matched_collector: 135
+reason: face OCR 'Caça do Planalto'
+name_hint: Chianul, na tecedura de Arel y
+namebar_text: 2» wp i £#|' OP
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+7)
+9S/ 2090 ¢
+mT 6 OT tm ieoee Neves Be assell ot SE SSPE at eT
+
+Qo bata wan corce ¢ calegte os Rites '
+Bosuesstarros. | :
+Chaanul, ua tecedura de vlre!
+
+2/1)
+138/260 <¢
+KYK > PY Ot» hos Savign Gaassitl Fe & C 016 Wisedes 06 hee Coot
+
+“Lbata wm cerve ¢ cologue os chifres ‘.
+pg eat cabega dela, Ela pode ouvir os ,
+Bm SUSSULTOS.” >
+Chianul, na tecedura de Arel y
+2/1}
+135/249 ¢
+mT OY te hee Neve ae Ba assent 8 he NOW isa ed the Coat
+
+ma Abata um cervo ¢ cologue os chifres ¥:
+ag ria cabega dela. Ela pode ouvir os
+sussurros.” 3
+-  Chianul, na tecedura de Arel "
+2/1 )
+19S! 2E9 C
+mT ae OT te ome Nee ae Kaan at ae i Se ere
+
+& Caca do Planalto L@
+i .. | ' td a
+*
+B od ——
+\ |
+> “ eer Fa -_~ .
+Criatura — Alce a
+f Quando Caga do Planalto morre, ?
+Mg voce ganha 2 pontos de vida. .
+ra lbata um cervo e¢ cologue os chifres i
+MB ova cabega dela. Ela pode ouvir os
+sussurros.” >
+Chiamal, na tecedura de Arel ’
+2/1 )
+W3S/ 2490 €
+RTs OT tw beome Sevres Baas oor Se Se, en
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:06:38
+matched_name: Uproot
+matched_set: BOK
+matched_collector: 149
+reason: tÃ­tulo OCR '§Uproot Zeek'
+name_hint: —General Takeno, i
+namebar_text: es 3
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+~ hos 2 XI
+letter to the imperial mapmaker S)
+Se ee eS ee
+
+We arrived at the battlefield too tate. .
+Again. Another error on your part, and ?
+vou will have to anstver to me personally.” a
+40
+m@ -—Ceneral Takeno,
+me fetter to the vupertal mapmaker
+% vA
+nee a ee gn Tk, Oe. IO -
+were Hea thier. Unidsoyy iS) ces re. 6 NS & \ |
+AS FR C1003. 2008 Whilands Ul hoc Cove trned piece to AE
+
+i _ We arrived at the battiejield too tate. ‘
+Again. Another error on your part,and
+mm you will have to answer to me personally.” KB
+—General Takeno, i
+
+mB letter to the unperial mapmaker :
+
+m «We arrived at the battlefield too late. Fe
+a Again. Another error on your part,and
+m you will have to answer to me personally.” 7
+—CGeneral Takeno, ve
+letter to the imperial mapmaker y
+
+§Uproot Zeek
+a oY ’ an -
+~ 4yke av \
+Yr,
+
+Ny 1 .- Jf i oy
+v
+m Sorcery — Arcane AE
+fg Put target land on top of its owner’s  F&
+og library. -
+
+y, . ’
+“We arrived at the battlefield too late.
+ea Again. Another error on your part,and =
+ay you will have to answer to me personally.”
+—General Takeno, <
+letter to the unperial mapmaker iB
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:07:08
+matched_name: Scout the Borders
+matched_set: KTK
+matched_collector: 148
+reason: fração+nome KTK #148
+name_hint: Mogat, batedor Sultai
+namebar_text: , Explorar a
+
+@ Explorar as Fronteiras 2
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, Explorar a
+
+> esa, :
+Mogat, batedor Sultai
+140/269 ¢ TONDO D ee Width wee
+mata OT te lames Pace
+
+Psua mae, Goloque O restante cm) seu .
+CCTRITCT LG.
+, . :
+: “Pere store ne ae choices Oo bom) ‘
+Bosco”
+Mowai fbatedor Sultay
+
+140/269 ¢ "SAC 316 Crsanth of the Coon
+TK o PY te latets Pan
+
+sua mao, GColoque 0 restunte em seu
+CCMILET1O, ‘
+cre Sd
+fie estou noo meu elemento: o elemento »
+surpresa.” r
+Mogat, batedor Sultat
+146/269 ¢ Th 1G Risa ed the (ent
+mT > OY tm lates Pane
+
+fm sua mao. Coloque 0 restante em secu ¥
+ya cemilerio. 7
+“eu estou no met édemento:o elemento =
+surpresa.” .
+- » Mogat, batedor Sultat
+14¥/ 369 C Ow NAD NE oe
+mae OY tw Tas Pace
+
+m Explorar as Fronteiras VX. 4
+BY a7
+: Ar
+oc. :
+yO '
+oN, ule :
+woot ar ae ¥
+oo “a oon ¢ . ;
+a) whe: ”
+s*
+feitico wy
+» “
+Revele os cince cards do tope de seu £
+a crimorio. Voce pode colocar um card |
+k de criatura ou terreno dentre eles em Ie
+@suamido. Coloque 0 restante em secu d
+i cCemMilerlo. ¢
+Be Pte estore no meu elemento: o elemento s
+surpresa.” r
+Mogat, batedor Stultai
+148/269 ¢ TH MOC cree tha bee
+mT OY te lamts Paka
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:11:08
+matched_name: Rouse the Mob
+matched_set: JOU
+matched_collector: 109
+reason: face OCR 'Incitar a Turba'
+name_hint: F Setejohn Stanko ee ss
+namebar_text: a Incitar a Turba
+
+Incitar a Turba €
+al
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+a Incitar a Turba
+
+Ls / A _/
+PM eatoh a Stanko SON AEE «SBS RCTS AO wn
+q 4
+
+PRE SEENAD SCLC ELE Uh? PPE UTEIN ITA?
+
+4 Qualquer numero de criaturas alvo [Ss
+go recebe #2°+0 ¢ ganha atropelar ate fs
+4 o final do turno. :
+é
+
+F Setejohn Stanko ee ss
+LOIS ee MLO Rie Ow Sra RTS a oP hae ele
+
+7B LV? QICETL GU? PPE UTTIN AAD,
+
+§ Qualquer numero de criaturas alvo [ig
+fd recebe +2/+0 © ganha atropelar até |.
+
+va 0 final do turno. ‘
+f ;
+’ ee (00 Cock 4553 VOU 8 BS bg ees Ks
+
+Q@IVY GIRT UV PEI. .
+‘a Qualquer numero de criaturas alvo 5
+la ’ ry
+Pg recebe +2/+0 ¢ ganha atropelar ate Ig
+fa O final do turno.
+
+Po >
+1a lh i Ene ap
+a Incitar a Turba ok
+a at neg, 4
+. vA Pal am oe &
+ed y “aSeay~ - ‘
+‘ cS otts cm Aon ‘ x pn e
+‘ =~ ww t_ te ~& S
+f "
+i Magica Instantanea W ;
+é Fe
+he
+S . - s
+a Esforgo --- Incitar a Turba custa 22 FS
+fa a mais para ser conjurado para cada
+; alvo além do primeiro. ;
+“a Qualquer numero de criaturas alvo
+la) ’ ry 4
+fg recebe +2/+0 ¢ ganha atropelar ate [g
+ya Oo final do turno.
+
+S 4
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:13:43
+matched_name: Explosive Entry
+matched_set: NEO
+matched_collector: 139
+reason: rodapé OCR NEO #139
+name_hint: Ma Corda o Prefer os agitardaca
+namebar_text: , Entrada Explosiva | | :
+
+: - ee me. o~é 2 - Sean
+& Entrada Explosiva de
+? . :
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, Entrada Explosiva | | :
+
+GNSIOSUHICNIC,
+TSS 302 C corrtnasen he teetare ~tystory. com’ pe -be
+MEO+&T te Marta Natl TA Woah tthe Cau
+
+Kyat daimive icudiaraa o faboraiario ©
+’ ; a x Se og soe ty ‘pe |
+secrete de Fi Crean tas SOU cd ber Gite | *
+Ma Corda o Prefer os agitardaca :
+GMOS CMEC,
+139/302 C costneces as retere eréguory.com (pt -be
+NEO oHY tr Manta Nat Te eC OS3 Wane de ad the Coon
+
+Katto ¢ lamive irvadiram 0 laboraterto F.
+QZ scerelo de Fin-Guaxtas semi saber que .
+Be rte Verdade oO pretor os aguardava "|
+UNStOSUMMENLC,
+139/302 C cortagees as rwotsce megviory.com’'pe- te
+MEO? YT tr Manta Natt Th SL Wath tthe Cr
+
+3 Katto e Tamiyo tnvadtram o laboratorto {
+fg secreto de Fin-Gitaxias sem saber que
+bs a verdade o pretor os aguardava
+anstosamtente. |
+TEDE EOD © Cortaavon ae ootsee ~hyvtorg com pete
+NEC + FT tar Mamta Natt or a? One
+
+Entrada Explosiva le)
+y fi
+7 : ok . _ 4 ms
+. fe . : . ‘ . ‘ . ‘
+. ° . {
+z -, . > .
+x ° , ‘ ‘ 4 . , '
+a .
+@ Feitico ARS
+a Destrua até um artetato alvo. 4
+yy Coloque um marcador +1/+1] em até 4
+eg ouma criatura alvo. ‘
+Kaito ¢ Tamiyo invadiram o laboratorio f
+fg secrelo de Fin-Gitaxias sem saber que j
+baa verdade oO pretor os aguardava
+ANSLOSQNIENTE,
+TSOL3O2 C Costegew de Metare —~tgitory com pete
+| NEO > hT tw WVamta Natt bi cr: SOP eee Pe
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:16:47
+matched_name: Crackling Emergence
+matched_set: NEO
+matched_collector: 136
+reason: fração+nome NEO #136
+name_hint: 3 disso, sacrifique Emergencia Crepitante ¢ aquele
+namebar_text: 4 Emergencia Crepitante \
+
+7 set aS hee . xt : + o-* Ral ‘
+& Emergéncia Crepitante di
+” .
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+4 Emergencia Crepitante \
+
+1 Be STs ET GPA eae tal gh CUPP ELE Fine steed dade g
+chante qikante dada,
+
+136/302 C oe SPR Sea ee eT
+
+NEO? HT te sow Kane
+
+dose sastiiapoe Pinenicnets Cr prhinte se ape al
+
+TObfene Sabla date tptved ote oo than. dee tlinn: f
+’ i re err fee 4 ea ar aerd pei Fe ee (
+136/302 ¢ Y & C NS2 Warde of the Coon
+HEOcPT tw son Kanc
+
+B Sooo Corpene emcantade sora desta em sez
+Bo disse. Saermhque bamergenens Crepitante ¢ aquele J
+£ terreno ganha indestrouvel ate o ting) de ture 5
+BE runende de coPiriieal Puand oomeiteriil as fetes eo Lae
+Chocente giganto funda.
+136/302 € eh MID Death the boat
+NEO*T te sow Kane
+
+Seo terrene encantade sera destruide, em vez ie
+3 disso, sacrifique Emergencia Crepitante ¢ aquele
+eg terreno ganha indestruuvel ate o final de turne.
+Led
+BB 2 framsigde dv esprritual para o statertal as testes & tde
+chocante giaznte linda,
+tse" tO? € ar in, Sr eee
+NEO 6 PT te lasce Rane,
+
+Emergéncia Crepitante leh
+a
+i
+A . er . ee ve . :
+» . ae ~_ 2
+‘ vw TE . : or Pd
+8 . —_ . ~~ os an ° y .
+- ee r 7
+$ \
+im Encantamento — Aura AR ‘
+'
+: a
+Me Encantar terreno que voce controla y
+vw . . as
+Mg © terreno encantado ¢ uma cnaturt Espirite 3
+3 vermelha 3 3 com impete. Ele aind.ce um terrena.
+Se o terrene encantade cena destruido, em vez s
+3 disso, sacrifque Emergenesia Crepitiunte ¢ aquele f
+eg terreno ganha indestruavel ate © final de turne. ,
+Kk .
+BB of fromsigde dv esperitval para ev maternal aw teses ¢ fe
+chocante quarto Lada.
+tha ser ¢ TAS Ll B ea beh ae
+NEO 0 HY tw las Rane,
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:17:47
+matched_name: Unstoppable Ogre
+matched_set: NEO
+matched_collector: 169
+reason: fração+nome NEO #169
+name_hint: Quando Ogro Irrefreavel entra no
+namebar_text: AQ Osro rrefredvel 2
+—_ =«§s(iaC FY
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+7)
+109/802 € ; .
+SEO*RT we Mania Ree th SLM atthe Oat
+
+es aoe AJ UND db dad, ob OUT UULT ad TG?
+nao pode bloquear neste turne,
+Lora paidars sostore de porta adder.
+rare |
+4/1
+169/302 ¢
+NEOcHT ww Xana Henao Te AC WI2 Wrath df the Coast
+
+OLS Dhed AP Uschbcbdl lal, ad Cilia aly uo
+nao pode bloquear neste turno.
+Tfouma jamats gostou de porta alguma.
+| 4/1 |
+109/802 C¢
+NEO>* bY me Karten Dee Sh STW tatty ofthe Cet
+
+BH NM ALLAPIN? US Dattddilidy ad Cildlilid abv? 13]
+nao pode bloquear neste turno. a
+I a jam i
+' Touma jamais gostou de porta alguna. §
+i
+
+, | 4/1 |
+
+torr tes C
+NEO > HT tor Kavite Ree Sh Mah eat
+
+Ogro Irrefreavel Ze
+a an \
+
+Criatura Artefato — Ogro Guerreiro ®,
+Quando Ogro Irrefreavel entra no
+campo de batalha, a criatura alvo
+nao pode bloquear neste turno.
+
+Touma jamats gostou de porta algnma.
+
+i
+: 4/1 )
+tear to2 ¢
+| NEG* HY te Kavita Messen ar, Sh OP ir ate er |
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:25:39
+matched_name: Kami's Flare
+matched_set: NEO
+matched_collector: 150
+reason: face OCR 'Labareda do Kami'
+name_hint: Labereda do Kami , \
+namebar_text: , Labereda do Kami , \
+
+; et iS a. wae : 2 Bink p +7 , RR
+. Labareda do Kami NG
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, Labereda do Kami , \
+
+Es oA scl Mad hed te de COMPRA, G
+Blas uae ate ferinaa. Jat Tec.”
+
+WO0/3802 C ot Sas Se te ee ed
+
+NEO*ET te Tia Mase
+
+Qooentredar uteri mph bd oe re)
+. 37
+fete Petts Whos de, Jorma. agate rer Oren Oe ‘
+dd at atid Py, la
+I
+i a ed te a atta |
+Pe i Ni Be
+1$0/302 € 7 eC O22 Wauards of the Coan
+MEO PT tw Tia Mas
+
+go controlar uma eriaturns modiciudin, COs
+Digi pant htes, AS PMNs Qite Toe COMTOLT C Os m
+£ Marches sade MESES ayes, J ’
+x oe . 5
+Beds Maia sie tent dado he date compile in,
+Bilas deer ae ferirde, Ja vee”
+180/302 C The MID Dean tthe Coat
+MEOoRT tr Tia Maso
+
+a, Sa | Sea an .
+controlar uma cnatura modificada. (Os we
+Be fguipamentos, ds Auras que tv contra ¢ os
+Be marcadores sdo muedificayees, )
+z
+Bly chants sdo nia dadiva de meu comipauthetro,
+Flas vdeo me fertrda, Ja voce..."
+Werte? C “A Pr, Sr oe re Se
+NEG 6 hT tw Tia Mave
+
+& Labareda do Kami Leys
+* .
+y . > ~~ et
+P} — . w »
+. ~~ h - ‘Wee, s on)
+x tern og
+: ‘ ee ix ~E
+4 Se %* n
+Magica Instantanea ARE
+t
+We
+Me labareda do Kami causa 3 pontos de dane 4
+it criatura ou av planeswalker alve. Labareda 4
+ma do Kami tambem causa 2 pontos de dano :
+2 ao controlador daquela permanente se voce \
+controlar uma crnatura modificada, (O>% wy
+3 Eguipainentos, as Astras gue tod controla ¢ os
+PE marvaderes sdo mositficayees, ) :
+”
+RAs chanias sdo unta dadiva de meu courpauthetre,
+Flas ado me fertrda, Jab voce...”
+tsav tor © 7h an oar Seer ee hd
+NEG 6 HT te Tra Wager
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:26:30
+matched_name: Gift of Wrath
+matched_set: NEO
+matched_collector: 143
+reason: face OCR 'Dádiva da Ira'
+name_hint: Dadiva da Ira 32)
+namebar_text: 7 3 poate ee oa woe pediekink a : a, + s
+a Dadiva da tra 3
+2 i. . on
+eS eS fh AR
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+mae Dataiha, erie Ula Mena de criatura G
+Espirito vermelha 2 2 com ameagar.
+
+148/302 ¢ Sh dL Bea het the bo oe
+
+MEOsHT tor lus
+
+Poameagar. (Pla ser pede sce Alege ite fer 3
+' yy
+PMD OT TGIS CPEs, (
+
+la
+
+4 Quande Dadiea da dra deixar io cumpe 1.
+#edo batadha. crie uma tha de criatura |
+
+hispunite vermedhia 2 2 Com ameay ar,
+148/302 ¢ "S&C 22 Toads of the Cceat
+MEO*HY tw isas
+
+Pameagar. (Liha so pode ser bloquecada por
+Uuads OLE NTIS CVI AS, )
+Quando Dadiva da Ira deixar o campo — £-
+ade batalha, erie uma ficha de criatura
+Espirito vermelha 2 2 com ameagar.
+143/302 C “he 322 Weatde ot the Count
+MEO* HT tar Isis
+
+ameagar. (:la so pode ser blogueada por — &
++B duas ou mars criaturas. )
+4 Quando Dadiva da Ira deixar o campo £3
+ade batalha, crie uma ficha de criatura
+Espirito vermelha 2'2 com ameagar.
+tas 802 C TR OD Leesa beh eae
+NEO > HT tw Eats
+
+Dadiva da Ira 32)
+’
+2 5 &
+5 “< ie, pe ae
+ELC foe, Ck ee
+a - or . & we . , oy ’
+*, w : |
+~ . . * ove stone Var, sp | é 4
+ae rr aa v i 5
+oy 7 ON e
+: OS ? i
+) fe
+? \
+Encantamento — Aura AR. ‘
+* = - :
+% Encantar artefato ou criatura 4
+gy Enquanto a permanente encantada for |
+@uma criatura, cla recebera +2°+2 c tera &
+ameagar. (2a so pode ser blogueada por —
+dias ou mais criaturas.)
+: Quando Dadiva da Ira deixar o campo ;
+ade batalha, crie uma ficha de criatura
+Espirito vermelha 2 2 com ameagar.
+1a8/$02 C Sat Se WS C0 TR oe
+NEO > RT te sas
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:27:29
+matched_name: Ironhoof Boar
+matched_set: NEO
+matched_collector: 148
+reason: fração+nome NEO #148
+name_hint: Kenpi, artesaa de Sokenzan sa)
+namebar_text: (Vavali Casco-de-terro_ 3.
+|. ae VPA
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+AB INSP CO LCM aLS. y
+Kenpi, artesaa de Sokenzan sa)
+148/802 €
+NEO* RT te ANTONE hone Manrastoo Th SSD atthe twat
+
+‘ot ) enh atropelar ate e tinal eo
+CUT,
+K. ity want sare! ae Ni he eee int 5/4
+148/302 C °
+HEO>PY te Awroneo host MANLANEDO Tew C NOT) Waar ud the Cowet
+
++3 4] ¢ panha atropelar ate © final do u
+Curne,
+“Fico felts de ver que volte a carrer, Wikis
+assim ce demas.”
+Keng, artesde de Sokenzan s/4
+1486/3802 C
+NEO* FT te Anpowo hong Manzastoo Th DEW seh tthe Cee
+
+9 ot3'+1 e¢ ganha atropelar ate o final do u
+| turno.
+' “Fico feliz de ver que voltou a correr, mas \
+assim & demats.”” >
+-- Kenji, artesdo de Sokenzan s/4 )
+reel 802 C
+SEG 6 OT ter Awrenie long Manzanton Ce is Oe sc ree
+
+Javali Casco-de-ferro Je
+| y
+lj oe , : vie
+* “i % : ae
+‘ ‘ . aa wy
+. ‘ "A
+Ree “a ‘ ‘
+@ Criatura Artefato — Javali AR.
+} Atropelar, impeto
+Canalizar 1 @. descarte Javah
+Casco-de-ferro: A criatura alvo recebe
++3641] ¢ ganha atropelar ate o final do
+turno.
+“Bice feliz de ver que voltor a correr, mas
+assim ¢ demats.”
+Kenji, artesiio de Sokenzan 34)
+tabsso2 c
+SEO oRT tee Awrcenio long Manrartoo ae i: Siri Sater Geto
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:28:39
+matched_name: Voltage Surge
+matched_set: NEO
+matched_collector: 171
+reason: face OCR 'Surto Voltaico'
+name_hint: d pave, cm vez disse, Surto Voltaice I
+namebar_text: ” eee oer 7. eae - dead p- a  C
+Surto Voltaico
+2 . Fae y ha
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+me pdb, & CA UPS s®, > VOT GIICE g
+causa -#pontos de dano.
+
+Wwaiysso2 € TOR SMe fhe tat
+
+SEO? HT te Rawr Vamuas
+
+q Surto Voltaico causa 2 pontos de duno 8
+a crlatura ou ae planeswalker alve. i
+Seo custo adicional desta magica for 1,
+
+d pave, cm vez disse, Surto Voltaice |
+causa ob pontos de dane,
+
+1W1/ 802 C "PAC D2 Wards of the Coan
+NEO +PT te Rawr VaRcas
+
+@ Surto Voltaico causa 2 pontos de dano
+4a criatura ow ao planeswalker alvo. :
+q Seo custo adicional desta magica for [
+MW page, em vez disso, Surto Voltaice
+causa sb pontos de dano.
+11/302 C€ Ph MIDVear dh hehe Coa
+MEO>*hY to Ramoy Vamuas
+
+4 Surto Voltaico causa 2 pontos de dano B
+a criatura ou ao planeswalker alvo.
+a Se o custo adicional desta magica foi [#
+M pago, em vez disso, Surto Voltaico }
+causa + pontos de dano.
+wisgso2 ¢ oe In, SO Se
+SEG + OT tw Raccey Vameas
+
+A Surto Voltaico e).
+: rw . »
+: \ I i a
+. ome a °
+e Ee ee . ye! ‘ 4
+~ . ., wr rane . . 4
+i” Me i
+Magica Instantanea AR ‘
+a . =e :
+a Como custo adicional para conjurar in
+Mf esta magica, vocé pode sacrificar um
+ya artetato. ;
+Surto Voltaico causa 2 pontos de dano RB
+a criatura ou ao planeswalker alvo,
+fa Se o custo adicional desta magica foi [7
+M pago, em vez disso, Surto Voltaico
+causa + pontos de dano,
+Wise $92 ¢ "A Sl Bsa beh ae
+NEO * FT tee Rance Varcas
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:29:36
+matched_name: The Shattered States Era // Nameless Conqueror
+matched_set: NEO
+matched_collector: 162
+reason: fração+nome NEO #162
+name_hint: Atropelar, impeto
+namebar_text: KZ Conquistador Sem Nome
+
+KZ Conquistador Sem Nome
+1 Efe o,-
+
+set_code_hint: HEO
+collector_hint: 302
+
+raw_ocr:
+KZ Conquistador Sem Nome
+
+GOS ClUaS CO TMOG ¢ ae.
+Historia do Império 3 xe
+162/302 € :
+NEO? FT te Davo Gast TA SEW seth ofthe Cae
+
+BETTE TOTALS UTE CEG ES CL LLES CCTEES CEE LS :
+
+Moesair coma sabestorta de Ryotar a |
+
+} atatnlis, Pudsseerene’ decd le Tabane ¢
+BA ferrananicnte de saute ate ad suenanigde |
+los las ee adiemte da pas” t
+Historia do Imperto J
+
+162/302 ¢
+HEO+PT mw Dane Gant Tew ID Waa id the Cowu
+
+CEE TECUTE CSTE! GEO COUN COTE OLE,
+@ Mesme coma sabedorta de Kyodut a ,
+; maa-los, Passaramese decadas de trabalho e
+derramanicnto de Saugue ate a sMubyugagae t
+dos clas oo udvento da pas.”
+Historia do Imperto rm |
+162/302 € ae
+NEO* PT by Davo Gamurt Teh NID Wet of the Cava
+
+CUTE FOETTE COTM CO UES COTE CTO.
+Mesmo com a sabedoria de Kyodai a
+} guta-los, passaram-se décadas de trabalho e '
+@ derramamento de sangted até a subjugagado
+dos clas ¢ 0 advento da paz.”
+Historia do Impeério “373
+102/302 € Ss
+SEOCRY me (havio Gast Sh SOM ah tthe tee
+
+e Conquistador Sem Nome
+° +, : .
+‘ Nee 7 Se Oat
+’ ~ or ’ \ f - 4
+_ LA eS SS
+\e . 18 an ~ a
+: t ae -
+_ Celatura Encamtamento — Humano Samurai
+Atropelar, impeto
+a No rastro da Guerra dos Kani, Kamigaiva d
+ea cat nton estado de batathas constantes. ;
+Mesmo com a sabedoria de Kyodai a
+} guta-los, passaram-se décadas de trabalho ¢ b
+derramamento de sangtte até a subjtigasdao f
+dos elds ¢ 0 advento da paz.”
+Historia do Impeério é >
+162/302 ¢ (3/3
+SEO>* PT me Dano Guuit Th EW ath ofthe Cau
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:31:54
+matched_name: Vampire Sovereign
+matched_set: M19
+matched_collector: 125
+reason: nome superior OCR
+name_hint: Dallleheld, target opponent loses 5 °
+namebar_text: Vampire Sovereign . RY
+
+. -s = ee - Blase a
+& Vampire Sovereign 3H §
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Vampire Sovereign . RY
+
+oF ss1 c Wa)
+22 + FS Ow Veins Baa “NN 4 en ret)
+
+mm Oalllcheld, targeh Opponent loses 9 °
+lite and vou gain 3 lite. .
+Yor serctee stall be reccarded.” °
+Oveot Lia
+oar/ssic
+2K2 + ES Be VOLKas Baca TOR OND eee tye the © sees
+
+Dallleheld, target opponent loses 5 °
+
+life and vou gain 3 life. .
+mM Your service shall be reccarded.”
+
+-—Queen Lian 77
+O9r/sgsrc 3/4
+2R2 + FS bw dOLK As Bana TR et th eet
+
+DatUcheld, target opponent loses 5 .
+life and you gain 3 life.
+a “Your service shall be rewarded.”
+—Queen Lian
+3/4 )
+I2e 8 SH
+oh ES bw Ditmas Haag ‘ ' 1
+
+Bsa wow
+& Vampire Sovereign 3S
+im) ee ae .
+| ) eo 4
+_ , : -
+. ee ~“. wm,
+Creature — Vampire Noble pd
+a Flying ‘
+When Vampire Sovereign enters the
+battlefield, target opponent loses 3 .
+life and you gain 3 lite. .
+mg Your service shall be rewarded.”
+—Queen Lian
+se 3/4 )
+37; . AN te votes Baa x 4 a a
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:32:31
+matched_name: Hunter of Eyeblights
+matched_set: LRW
+matched_collector: 119
+reason: nome superior OCR
+name_hint: Cacador de Seca-Olhos 32¢
+namebar_text: , a a
+
+Cacador de Seca-Olhos 32
+ee a
+we «2 lo nes
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, a a
+
+NEE LEAL LS dk Ae OM RD OI Cas
+cin des,
+momo bi woM oe eye 3/3
+- 2?
+
+
+28. @: Destrus a crmturca alve Com) um
+trap acter sastee cla
+
+Na Re code tae nat ee dey idee
+
+Pte dse dots eedtquare ran . outa bebe dt Oy a edd
+ore aay Ca
+
+22, @: Destrus a cnatura alws com um
+marcader sabre cla.
+
+Suk corre oma papal gree Pade, mao
+
+Aaridhe £05 cascos so Ad ahora oie sous
+Orenses.
+
+Cacador de Seca-Olhos 32¢
+. 7 m2 7
+“it eM pe OS -
+Tee ane) f .
+ane Pa
+rit é
+AS Q “
+t f 77 p 7
+ne wf, rn
+. . : 5
+‘ ® »~ mere
+" eo ? wma
+= mm
+Criatura — Elfo Assassino
+Quandu Cayader de Seca-hov entrar em .
+lege, seloqgue uN manager +1 +1) sabre a .
+efiutura vive Quc VNe nae controta .
+2@, @: Destrua a criturs alee com um ‘
+murader sobre cha .
+Sno kh corr oman apn grea Pale nae
+Aarinhie Ss case to fed alone: ome peas
+ert dos.
+mmo bie . : ~ SU es 3/3
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:33:06
+matched_name: Savor
+matched_set: BLB
+matched_collector: 109
+reason: código BLB #109
+name_hint: BULB + EN be Kiv Warne
+namebar_text: , - r st me nd MB. sh. am — om - 7 -
+
+4
+we: cee ew ee) Re eee ee ee
+.
+
+set_code_hint: BLB
+collector_hint: 109
+
+raw_ocr:
+, - r st me nd MB. sh. am — om - 7 -
+
+C 0109 ™ & MITE Bunt ofthe S oast
+BLB + EN Pe Kiv WaimiR
+
+> - rn > ou - . bd
+Ae aruifact wih 2, ©, Sacrifice vis
+Mm rtfact: You gum 3 life”) °
+me scibility is in the eve of the beholder.
+Cc 0109 ] & 0 2028 Wizards of the Coat
+BLGB - EN te Krv WaLarr
+
+an artifact with “2, @, Sacrifice this °
+artifact: You gam 3 life.”)
+ms f:dibility is in the eye of the beholder.
+C 0109 A NIE Disa of the cast
+BLB © EN tm Kiv Walkin
+
+an artifact with “2, @, Sacrifice this
+artifact: You gain 3 life.”)
+m Edrbility is in the eye of the beholder.
+C 0109 hw DES edt the © ot
+BULB + EN be Kiv Warne
+
+y >
+Savor Le
+wo ‘ - Aa. . ny
+mo fh ae we i i ~
+
+ATS ae ; .
+‘ ' ot B , bd
+>
+‘Target creature gets -2/-2 untilend JB
+of turn. Create a Food token. (Ir’s >
+an artifact with “2, @, Sacrifice this
+artifact: You gain 3 life.”) ,
+mm Edibility ts in the eye of the beholder.
+CC 0109 YR ME Mande tthe Cust
+BLB + EN te Kev Warnia
+q
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:34:07
+matched_name: Gloomlance
+matched_set: SHM
+matched_collector: 67
+reason: face OCR 'Lança das Trevas'
+name_hint: Lanca das Trevas os
+namebar_text: . Lanca das Trevas ~
+
+Lanca das Trevas 3
+> hgh
+, end |
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+. Lanca das Trevas ~
+
+ferda asada recordayde,
+me falas torn i Gahan Vibe ge
+- am .
+
+COROT Ge Ges od hand UT Gand, .
+é
+. bd e ae Y . . . ¢ ‘ . . . ’ ’ , °
+rae | My re wey | eee he ie ee ay. rei) ree)
+; ‘ . a Ddlads ON fee aan ween N¢ mera ae vee f . °
+gf. taae wy 4a nar V | dedgade!
+eae 7 . . as - '@
+eae laltan Borm t_Gehar Nga. 8, a vie , bl ., 2
+; . boas, ae. . . . soe ¢ %s
+
+controlidor descartara und card. :
+odonoree Porro woduna UpPouds uaia
+Ter, maw os gia’ fica sentem a dor da
+norda rvs cada recor bag aa.
+me faltas harm t Gahar \Abs-3) .* — e . “-
+. a . ty 2 —
+
+controlador descartara um card.
+A morte aferroa a citima apenas wna
+tec, mas os gite ficam sentem a dor da
+perda au cada recordagac.
+ee Jultas beer mt, Galt Srike > - e : ~
+_ )
+
+Lanca das Trevas os
+. \ : ae Ved .
+- . i. bs ‘
+~% - ‘@ e
+. wea 4 .
+a
+lay “ee :
+. ‘ e ¥
+Feitico ws,
+. .
+Destrua a criatura alvo. Se aquela
+criatura for verde eu branca, scu .
+controlador descartara um card.
+A morte aferroa a vitima apenas uma
+tec, mas os qe fica sentem a dor da
+perda asada recordagae.
+me falter term ty Gahat Saket ge
+
+
+======================================================================
+version: 2026-07-03.2
+timestamp: 2026-07-03 11:34:44
+matched_name: Harrowing Journey
+matched_set: DKA
+matched_collector: 67
+reason: nome superior OCR
+name_hint: ® wravessuro Passo de Kraan antes do
+namebar_text: yo
+—_ a ee en Y one -_—- --
+ornada Desgastante 44
+
+«
+
+set_code_hint: PASSO
+collector_hint: 0
+
+raw_ocr:
+Velha Rugstem
+oem James Paick _ “ys. ges 8 1 &
+HR GA ID bode bbe iat 8 . oe
+,
+
+SEES METH EG CEPT E beben Teed sphere Le Fde be .
+; erect OF Puasscr de Aes avifes do .
+: froresh reseM ted iad VOM OOY rove
+: Pad se Ur ud Prapria chda” .
+: Le nye Runt i} .
+MC OUR UES Wade CO Com ELA or im Soe OM Sa
+
+, t wt Jere @ oe & J ras -
+Mm utracvessuro Pussy de Krian antes de :
+Mm poredo-sal oe acaba sempre cerrendo
+
+pared salour a propre cida.” :
+
+Volha Raugstei
+= James Paick ae “y 75%, co et «.
+a OAD wi ede contd arp 8 es wie
+L
+
+ot d iy Lé -
+atravessar 0 Passo de Rruan antes do :
+por-do-sal ¢ acaba sempre correndo
+m para salvara propria vida.”
+Velho Rutstein
+eojames Pack _ yt c . °
+L i
+
+_ >
+—_— a a a a a
+ornada Desgastante 42
+“ .
+‘ y . ~™~ _ : i)
+. oe -
+
+e + . 7 °
+"+ —— 4
+. . ’ >
+é x
+m Feitico vy
+m © jogador alvo compra tres cards ¢
+perde 3 pontos de vida. ‘
+~
+“Tom sempre ton thot que tenta '
+® wravessuro Passo de Kraan antes do :
+Bm por-do-sal ev acaba senipre correndo
+para saloar a propria vida.”
+Velho Rautstein
+aoe James Paick =; “y a Oe ee -
+i a en Se Oe ee SP PO 2 OS OS Oe .™. Me
+qq ”
+
