@@ -64061,3 +64061,6472 @@ Splinter
 TMT © EN be Faens Coren M&O Mle Wizard ot the Coast
 a 4
 
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:00:54
+matched_name: Utrom Scientists
+matched_set: TMT
+matched_collector: 56
+reason: código TMT #56
+name_hint: Tas, tee
+namebar_text: Utrom Scientists —_
+
+| Utrom Scientists
+
+f Utrom Scientists 2
+a ’ ; ;
+Nee) jig ef
+
+set_code_hint: TMT
+collector_hint: 56
+
+raw_ocr:
+Utrom Scientists —_
+
+| Utrom Scientists
+
+a fi wPres . - - i
+,
+technology has proven challengoryg. WW)
+¢C 0056 22h Vian
+TMT © EN & Mikios Lorn  & 0 Sle Wraasd ot thy Cuast
+
+arereranr eet LEE Pa, POR Oe the PPM PED fis bd. L
+{'s 1° rr one 2 yee ee re fey ce penyee tir. py hye . ' roe HM
+SERE CMR LORS CHE AES BAIS SC TABOR S Ton be
+. esce de - 5 ae . ay . - ye f faqs fee : fof
+if PONE dC CS CO fear ail, Yofagey) shin raw ne ceere \
+Reotariis PRES Ces h ih ies Peartits PEE Se
+rea hbid ten tsey: Migds Preece eae cree Peelial st 77)
+Cc 0056 £2026 Viacom.
+TMT - EN Be Mixi6s licen ™ & € 2026 Wizards of the Coat
+
+OCCU MME P Ped, POMEL CRG FROME TU THUSCUME F v
+&
+Csing exoskeletons anid false sknis, the utronis took be
+up residence On hurth after they ship crashed. \
+Rerurnorg dome using only Tnode's promt &
+teohnoalogy has proven challenging. WP)
+Cc 0056 © 226 Viscum
+TMT © EN &® Mixios Licim ! & 0 226 Wiss of the Coast
+
+oe OcCOWe MIMMAPPEea, TemMoce OMe JFOHE tl TESTU 7 bj
+é Using exoskeletons and false skins, the utronis took B
+a up residence on Earth after thetr ship crashed. "f
+8 Returning home using only Earth’s promitive ,
+technology has proven challenging. Wr)
+Cc 0056 ele Vian
+TMT > EN t Mikios licin we MILA Bisa ot the Gas:
+
+Loc AFRO ry tids Precen CMEC VIER _ ‘
+Cc 0056 ©2026 Viacom.
+TMT © EN Be Miki6s Lice ™! & CC R26 Wines af the Coast
+
+| Utrom Scientists Ze
+: a
+, wis a | ?
+er qe ry
+; a . . ' _ 7 Aes y
+ok, a, >
+2 Gey.
+™“ 1
+=> i... & : A
+”.
+We BN
+Tas, tee
+Lo ‘ . a : x
+mo =& \ - fs Aer q
+: iN
+ay
+-
+Ae “Mais
+im Artifact Creature — Utrom Robot Scientist =
+Pe)
+j When this creature enters, tap up to one a
+y@ target creature and put a stun counter on b>
+Ag it. (Ifa permanent cetth a stun counter would 4
+become untapped, remove one frome it mistecad.) fe
+i Using exoskeletons and false skins, the utroms took J
+ba up residence on Farth after their ship crashed. f
+R Returning home using only Earth’s pronitive ‘
+technology has proven challengong. Wr)
+© 0056 le de Vis oan
+TMT EN  Mikios Lorn M&O Dil Wrand of the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:01:22
+matched_name: Ray Fillet, Man Ray
+matched_set: TMT
+matched_collector: 49
+reason: rodapé OCR TMT #49
+name_hint: Ray Fillet, Man Ray 3ek
+namebar_text: Ray Fillet, Man R
+
+4 es th we ON
+Ray Fillet, Man Ray 3
+‘ ” ay 5
+
+set_code_hint: DPE
+collector_hint: 9049
+
+raw_ocr:
+Ray Fillet, Man R
+
+x ° oo
+creature you control: Draw a card, 4
+U 0049 + 226 Vea
+TMT © EN te Minko Fartone M&O lb Rinses ot the Cuast
+a 4
+
+LAPAKC TL. 6 2h 8 cele cde ce dade Perea anes rd ayN.
+Sucrifice Gas toRoae Puta tle) conutor on
+Par eeh TOA, ACTOS OTLEY SE SOPCCT
+2, Remove a +141 counter from a ;
+creature vou control: Draw a card. |
+VU 0049 4 2026 Viacom.
+TMT - EN bey Miexo Fastons T™! & ¢ 2026 Wizards of the Coast
+
+CAINE TL. (£0 3 COPE CEP COPed sd ce hese a4, 4
+Sacrifice this token: Put a +141 counter on
+fargel creattoe. AcHvale only as a sorcery)
+( 2, Remove a +1.+1 counter from a
+creature you control: Draw a card.
+UU 00a9 2326 Viacom.
+TMT © EN > Mirko Fanon ™ & 0 R26 Winans of the Coast
+
+A) LUNOTL. (£0 3d OE UNCEPLUL EE Coles a2,V 5
+Sacrifice this token: Put a +1/+1 counter on
+targel creature. Activate only as a sorcery.)
+ms 2, Remove a +1/+1 counter from a }
+creature you control: Draw a card. 4
+U 9049 DPE Vo as
+TMT © EN be» Minko Fanont DIA Wide et the © ant
+
+U 0049 «2026 Viscum. Ea
+TMT - EN b> Mirxo Faions ™ & © 2026 Winseds of the Coast
+
+4 >
+Ray Fillet, Man Ray 3ek
+: ™ ~- *)
+an . Ba ve,
+6
+fm Legendary Creature — fish Mutant 63
+id .
+i Flying
+When Ray Fillet enters, create a Mutagen
+\ token. (t's an artifact with “1, @,
+Sacrifice tis token: Puta +1'+1 counter on Vy
+fargel creature. Activate only as a sorcery.)
+a 2, Remove a +1/+1 counter from a f
+creature you control: Draw a card.
+3/3 )
+U 0049 2826 Vea
+TMT © EN te Mikko Fanont Bo MA Winasde ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:01:47
+matched_name: Fugitive Droid
+matched_set: TMT
+matched_collector: 40
+reason: rodapé OCR TMT #40
+name_hint: j Fugitive Droid
+namebar_text: j Fugitive Droid
+
+learn Droid a
+
+Fugitive Droid
+
+4 > y Nu -
+f Fugitive Droid
+i ; 4
+
+set_code_hint: VEA
+collector_hint: 9040
+
+raw_ocr:
+j Fugitive Droid
+
+learn Droid a
+
+Fugitive Droid
+
+* BRE TEES POOLE CESNEME RTE. LE PECE TO + OW ,
+death, he fled oe OS the FUGITOID! W1*+*)
+U 0040 2820 Vion .
+TMT + EN t NARENORA BYYTARA ADI A Mls Wizard ot the Coast
+
+@.Sacree cis creacure: Counter Cureget speal fe
+
+Pthat targets anourtifact or creature vou cantrai 7
+el otroah accntone trausterred Picfesser Horoveutys WA
+etd ate dus rotor cycesteene, Bae d for stis love
+
+VU 0040 4 2026 Viacom.
+
+TMT © EN Pe NARENORA Bartana ADI ™ & € 2026 Winands of the Coat
+
+4g 6. Sacrifice Us creature: Counter target spell 7
+that targets an artifact or creature vou control,
+
+Al freak accident transferred Professor Honevoutt’s \
+Benind into his rober assastant. Blamed for Ars omen b
+U 0030 © 2026 Viacom
+TMT © EN be NARENORA Bevtars ADI ™ & 0 NIG Wisse ot the Coast
+
+a 66, Sacrifice this creature: Counter target spell F&
+f that targets an artifact or creature you control. bi
+had
+¢ A freak accident transferred Professor Honeveutt’s "4
+Sound into his robot assistant. Blamed for his own §
+death, he fled ...as the FUGITOID! “1 )
+U 0040 AOL ere
+TMT © EN be NARSNORA BINTAR A ADI Yh & DIN Risande ot the © ast
+
+deal, ne fled rare in aire UC ak TID!
+U 0040 4 2026 Viacom.
+TMT © EN Be NARINORA Bertama ADI ™ 2026 Wizesds of the Coast
+
+@ Fugitive Droid Cy
+, .
+5 y
+‘ ar ene ¢
+t —_
+.. ae & r | é
+ew f
+@ Artifact Creature — Robot Scientist =
+: 4)
+j ‘Phis creature can’t be blocked if an artifact |
+d entered the battlefield under your contro] this By
+Rg turn. £j
+B @, Sacrifice this creature: Counter target spell ly
+i that targets an arufact or creature you control. a
+let
+MAL freak accident transferred Professor Honeveutt ¢
+t mund into his robot assistant. Blamed for his own &
+death, he fled... as the FUGITOID! Th)
+U 9040 82a Vea 1/1
+TMT + EN t NaRENORA BVTARA ADI RO Me Wiad ot the Coast
+qa
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:02:19
+matched_name: Kitsune, Dragon's Daughter
+matched_set: TMT
+matched_collector: 41
+reason: rodapé OCR TMT #41
+name_hint: Kitsune, Dragon’s Daughter 4¢e6K
+namebar_text: Kitsune, Dragon’
+
+set_code_hint: TMT
+collector_hint: 4
+
+raw_ocr:
+Kitsune, Dragon’
+
+as . . . , a
+come [0 VOU with an offering cee ,
+R 004) aa 22s 2e Viacom
+TMT © EN % Ronin Har ™& Sle Wizard ot the Coast
+
+control of two other target creatures
+controlled by different phavers.
+“You figiger for renibisoi, Phan cdid sol 1:
+Cone fe Vor Toda ae Of fortne |
+R 0041 => 4 2026 Viacom.
+TMT - EN tb» Rosin Har ™ fe C2026 Wizards of the Coat
+
+control of two other target creatures
+controlled by different players.
+\ “You hunger for reiburion, T know. And sol \¢
+come to vou teth an offermg oo
+R 0041 ga + 2926 Viacom
+TMT © EN %& Rosin Har Tho D2 Wines ot the Coast
+
+MB control of two other target creatures |
+controlled by different players.
+m You hunger for retribunon, | know. And sol
+come to you with an offering...” ]
+moon erred 6/6 |
+TMT + EN & Roan Harn DD Mvanhe ot the Coast
+
+R 004) &> 4° 2026 Viscum. C76 |
+TMT - EN %&» Rosin Har ™ £26 Wines of the Coast
+
+po >
+Kitsune, Dragon’s Daughter 4¢e6K
+YS ll A yy \
+“YO .
+d ¥ A 4 ‘
+, d. by SS |
+/ - 4. : y .
+or « \ }
+7 a
+‘ -. = ™
+Legendary Creature — Fox Warlock Avatar x,
+m Vigilance
+i Whenever Kitsune enters or deals combat
+m@ damage to a player, you may exchange
+| control of two other target creatures
+controlled by different plavers.
+4 “You Jumper for retribution, I know. And sol p
+come to you with an offering...”
+R 004} ee Fle Vigo 6/6
+TMT + EN t Roan Har RO DD Wistar ot the © cust
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:03:10
+matched_name: Metalhead
+matched_set: TMT
+matched_collector: 44
+reason: código TMT #44
+name_hint: When Metalhead enters, return up to
+namebar_text: ‘Metalhead oo , ‘
+
+Metalhead
+
+4a
+Metalhead 4
+
+set_code_hint: TMT
+collector_hint: 44
+
+raw_ocr:
+‘Metalhead oo , ‘
+
+Metalhead
+
+AM GN efailedd SURMEUES HOZENS OF PSRONG SINTCS, ,
+including boot ninnusy. Wa)
+U 0044 + 82h Viacom
+TMT © EN t& Danits Romanovsxy ™ & 0 NI Wish ot the Coast
+
+@. Sdcriffee another artifact: Puta t+] 4] 7
+counter on Metalhead. He gains menace
+and haste until end of turn. -
+Motaticad staidiates dozens of fialigue siviles,
+pec dedines! Dever PSTN See, “4/4 )
+U 0044 2026 Viacom.
+TMT - EN  Danin Romanorvsxy Te de C 2026 Wizards of the Coat
+
+‘9 o@, sacrifice another artifact! Puta +] +1 u
+counter on Metalhead. He gains menace
+and haste unul end of turn. °
+Metalhead staiudates dozens of fighting styles,
+meludine Poot ninqutsn. 474)
+U 0044 2 2026 Viacom
+TMT © EN b> Danitl ROMANOVSKY MM & 0 Nile Wizards of the Coast
+
+“a @, oacrifice anoter artifact: Vut a +1/+1 z
+counter on Metalhead. He gains menace .
+é and haste unul end of turn. tr
+Ww
+| a Uy
+, Metalhead stmulates dozens of fighting styles,
+including Foot ningutsu. 474)
+U 0044 Doe eV a as
+TMT © EN Be Danith ROmManovsny mw DS Wade cot the © ast
+
+reltecdanst Pood Mette. 4/4)
+U 0044 «21926 Viscum.
+TMT © EN & Danin Romanovsxy et & C X26 Wines of the Coast
+
+F >»
+Metalhead 46k
+; 4
+: (. Gi \ 3
+C NG
+4 0 7 Sige? 2
+
+im Legendary Artifact Creature — Robot Turtle %,
+} When Metalhead enters, return up to
+d one other target artifact or creature to its
+
+owner’s hand. 4
+E @, Sacrifice another artifact: Put a +1.+1 Y
+
+counter on Metalhead. He gains menace
+i and haste unul end of turn.
+wy
+( Metalhead simulates dozens of fighting styles,
+
+tncluding boot mingutst.
+
+4/4 )
+U 0044 + oie Veo
+TMT © EN & Dann Romanovsny ™ & 1 De Wizard ot the Coast
+a 4
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:03:40
+matched_name: Negate
+matched_set: TMT
+matched_collector: 47
+reason: código TMT #47
+name_hint: Jump Ricks?”
+namebar_text: : ae ay ad ee ee,
+
+' Negate
+
+{ Negate
+
+p = eee
+
+set_code_hint: TMT
+collector_hint: 47
+
+raw_ocr:
+: ae ay ad ee ee,
+
+' Negate
+
+{ Negate
+
+. Po
+C¢ 0047 oe Va
+TMT + EN & Rraw VAL ! & 0 de Woah ot the wast
+
+“yor evs seriously OV to do tas team
+quip Ricks?”
+c 0047 2026 Viacom:
+TMT © EN be Ryan Vaut ™ & C 2026 Wirards of the Coat
+
+“you guys seriously try to do this zith |
+jump kicks?”
+\
+C 0047 e 20260 Vim
+TMT © EN by Ryan Vat ™ Aor Daly Wanardhs ot the Coast
+
+4 — a
+“You guys seriously try to do this with
+jump kicks?” }
+|
+C 90047 PodWN as
+TMT + EN b> Ryas Vatct RO DIA ade ot the (get
+
+C 0047 2026 Vikem
+TMT © EN & Ryan Vaut  & C 2026 Winerds of the Coast
+
+4 >
+. Negate Le |
+ae { Dog a , a ; aad ~ \ hax at
+a é
+:
+Counter target noncreature spell. }
+“You guys seriously try to do this with
+Jump Ricks?” }
+. y
+¢ 0047 VoDe2e Naan
+TMT + EN te Ryax Varta ER MIA Want tthe Catt
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:04:08
+matched_name: Retro-Mutation
+matched_set: TMT
+matched_collector: 51
+reason: tÃ­tulo OCR 'Retro- Mutation'
+name_hint: Retro- Mutation
+namebar_text: \ or =
+
+ia stro-Mutation
+
+Retro- Mutation
+
+ARetro-Mutation 2
+. a ule
+t -~ ma~
+
+set_code_hint: TMT
+collector_hint: 5
+
+raw_ocr:
+\ or =
+
+ia stro-Mutation
+
+Retro- Mutation
+
+t also loses all otter creauce (Vpes.
+¢ 005) 6 Pe Vim
+TMT © EN be LEONARDO SANTANNA ™ & 0 dole Binseds ot the Caant
+
+q Ienchanted creature is aTurtle with = fg
+base power and toughness 0 1. It
+can’t attack and loses all abilities.
+(It also loses all other creaddare (\'pes.) 3
+c 005) 2026 Viacom:
+TMT © EN Be LEONARDO SANTANNA ™ & C 2026 Wizards of the Coast
+
+B :nchanted creature is aTurtle with §
+base power and toughness 0°1. It ‘i
+can’t attack and loses all abilities.
+(It also loses all other creattire types.)
+Cc 005) © 2026 Viacom
+TMT © EN be LIONARDO SANTANNA ™ So Nb Words of the Coast
+
+Enchanted creature is a Turtle with
+f base power and toughness 0/1. It .
+m@ can’t attack and loses all abilities. ‘
+(It also loses all other creature types.)
+c 005) Pele Naw
+TMT © EN be LEONARDO SANTANNA “Ro DTA Warde ot the oat
+
+Cc 005! 1° 2026 Viwem
+TMT © EN bm LEONARDO SANTANNA ™ & UC N26 Wears af the Coast
+
+p . >
+% Retro- Mutation 2e
+. / v , |
+| we
+- 2 Be. 1s
+: ~. es ow .
+id
+| Enchantment — Aura %a,
+4
+Flash
+my E:nchant creature
+Enchanted creature is a Turtle with :
+f base power and toughness 0/1. It ‘
+mw can’t attack and loses all abilities.
+(It also loses all other creature types.)
+¢ 905) Dele Viagem
+TMT © EN be LEONARDO SANTANNA ™! & a Win ot the Cast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:04:34
+matched_name: Bespoke Bō
+matched_set: TMT
+matched_collector: 31
+reason: código TMT #31
+name_hint: VOU COMLVOE, sYlip OEY US SOTCOPNY
+namebar_text: i Bespoke BO ~ — \
+
+ion BO —
+
+| Bespoke Bo.
+
+4 ~ . = - 5 -
+(Bespoke BO
+«
+
+; “7 «a.»
+
+set_code_hint: TMT
+collector_hint: 31
+
+raw_ocr:
+i Bespoke BO ~ — \
+
+ion BO —
+
+| Bespoke Bo.
+
+Am */“‘™~ sae. “ Fund vr te MM ,
+you control. Equip only as a sorcery.)
+U aos <2026 Via 1
+TMT © EN te NatHaniee Himawan ™ & 0 Ms Wash ot the Cast
+q 4
+
+Equipped creature gets #2°+1 and -
+Phas vigilance.
+quip 3 (3s.dMach te target creatine 7}
+ver control, Equip only ays @ sereer ve)
+U 0031 2026 Vixcom
+TMT © EN Be NarManice Himawan ™ & C 2026 Wizards of the Coast
+
+Equipped creature gets +2'+1 and :
+has vigilance. &
+Equip 3 (3: Attach to target creature f
+you control, Equip only as a sorcery.)
+U 003} 2026 Viaarm
+TMT © EN De NaTHANIEE Himawan ™ & 0 Is Wigasds of the Coast
+
+4 Equipped creature gets +2/+1 and $
+f has vigilance. r
+- ,
+a Equip 3 (3: Altach to target creature Ff
+you control. Equip only as a sorcery.)
+U 003) BONG
+TMT © EN bm Nati anit Himawan ™ RDA W aed ot the Suet
+
+VOU COMLVOE, sYlip OEY US  SOTCOPNY :
+VU 003) 2026 Vuaem
+TMT © EN Be Narwanice Himawan T! & C 2026 Winacds of the Coaw
+
+| Bespoke BG Ze
+< oy
+5 of we *
+St if aN ;
+Ate? ae
+f V-
+@ Artifact — Equipment 3,
+a
+i When this Equipment enters, return i
+ff up to one other target nonland i
+E permanent to its owner's hand.
+Equipped creature gets +2/+1 and a
+i has vigilance. F
+od
+ie Equip 3 (3: Attach to target creature 7
+you control, Equip only as a sorcery.)
+UOOsl e2e26 Viagem
+TMT © EN be NarHanid Himawan M&O MIA Wish of the Coat
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:05:00
+matched_name: Mind Transfer Protocol
+matched_set: TMT
+matched_collector: 45
+reason: rodapé OCR TMT #45
+name_hint: “You coll experience some discomfort, Then
+namebar_text: ; Mind Sean eR nnNREEE?
+
+. Mind Transfer Protocol
+
+Mind Transfer Pr
+
+y
+aE Ess uammmmeasan mmm se pee meme
+. Mind Transfer Protocol 2
+a es
+
+set_code_hint: TMT
+collector_hint: 865
+
+raw_ocr:
+; Mind Sean eR nnNREEE?
+
+. Mind Transfer Protocol
+
+Mind Transfer Pr
+
+“i SCONYOVT WHE Beconie Qllle dike, y
+FPugiotd
+¢ 0045 © 2026 Via
+TMT © EN be Crers StaMan M&O Dale Wass of the Coast
+
+Loraw a card.
+“Sie coat! OV PeTicHoe NOU! Lascoforl, Thiet,
+ror belie or ors. Ue conc ORES oF Comfort wand .
+ee aqet wpe dl fac ec yeaa. peep ey
+ES COTE reaff SOG VERETAN hdd.
+Porcetotd
+Cc 0045 C2026 Viwxom
+TMT - EN be Cras StAMAN Mt & 0 2026 Wizards of the Coat
+
+Draw a card.
+“You coll experience some discomfort, Then,
+\ for better or worse, the concepts of comfort and
+disconyort Gul beconte quite alien”
+Fuentotd
+Cc 0045 © 2026 Viaaem
+TMT © EN Be Cras Staman ™ Ao Na Wrest of the Coast
+
+fe Uraw a card.
+“You coull expertence some discomfort. Then, |
+m for better or worse, the concepts of comfort and }
+discomfort wil become quite alien.” }
+— Fugitoid
+Cc 00865 REDON on
+TMT © EN Be Cremis Sraman RO MIN Woes ot the Coat
+
+feuciiotd
+Cc 0045 2026 Viwom
+TMT © EN be Cress StAMAN ! & 2026 Wiurasds of the Coast
+
+p >»
+Mind Transfer Protocol Ze ’
+. we O° apres: f
+. ; . e. 7, P
+rl Be > ee “a ~~ = !
+_ 4 = i | Ar Pan
+oN ee
+toy ° a. To
+ih ae iP
+& Instant %a,
+Unul end of turn, target artifact or creature
+j becomes an artifact creature with base
+power and toughness 4/5.
+Draw a card.
+“you coll expertence some discomfort. Then, \
+ae for better or worse, the concepts of comfort and }
+discomfort will become quite alten.”
+—- Fugitoid
+¢ 9045 COM ON tae at
+TMT © EN be CHR, Seaman T&M anh ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:06:24
+matched_name: Ooze Spill
+matched_set: TMT
+matched_collector: 48
+reason: rodapé OCR TMT #48
+name_hint: Ooze Spill Ms
+namebar_text: . Ooze Spill Ms :
+
+' Ooze Spill
+
+Ooze Spill
+
+4
+er
+. Ooze Spill Le
+
+set_code_hint: TMT
+collector_hint: 848
+
+raw_ocr:
+. Ooze Spill Ms :
+
+' Ooze Spill
+
+Ooze Spill
+
+m Lab safety is everyone's business. ¥
+YU 0048 e026 Niacin
+TMT © EN Me Svitisx ViuNov ! & 0 Bide Wiad ot the Covent
+q if
+
+co bore Sy Wy dees cften FAees Chee es. hoede
+ath +) counter OM Kee! creulitre,
+Acnevalte only as a@ sorcery)
+Lith setfety ty CUE VOM S BUSTHeys,
+U 0048 ©2026 Vixcom.
+TMT © EN Pe Svition Veurnov ™ & C 2026 Wizards af the Coat
+
+COE By Vig PhCH EPlle’ Cetin LICH. £ OEE
+a tlit] counter on target creature. |
+' Activate only as a sorcery”)
+Lab safety ts everyone's business.
+U 0048 2026 Viacom
+TMT © EN Pe SviTio Vinson ™ & Ny Winards ot the Coast
+
+| tlie By Vig QUCFEPICE CES LURE. £ EL
+a +I1/+1 counter on target creature.
+Activate only as a sorcery.”) 7
+Lab safety is everyone’s business.
+U 0048 oDeta Nae on
+TMT © EN tm Svetion ViciNoW Y&R MIN etd ed the Cast
+
+U 00848 «2026 Viaxom
+TMT © EN Se SviTiag Viurnov tM & 0 2026 Winerds of the Coast
+
+p >
+. Ooze Spill Lee ’
+ye . Saw
+ay NOs; Py MW
+: mt
+—_r yp ~_ weet
+Pee. sae a ?  e
+& Instant %,
+Counter target spell. Create a
+Mutagen token. (It’s an artifact
+\ with “1, @, Sacrifice this token: Put
+a t+1i+1 counter on target creature.
+Activate only as a sorcery.”) F
+ya
+Lab safety ts everyone's business.
+U 0048 62826 Vien
+TMT © EN Pe Svitise VitrxOv ™ & OMIA Ward ot the © cast
+q d
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:06:54
+matched_name: Retro-Mutation
+matched_set: TMT
+matched_collector: 51
+reason: tÃ­tulo OCR 'Retro- Mutation'
+name_hint: Retro- Mutation
+namebar_text: \ or =
+
+ia stro-Mutation
+
+Retro- Mutation
+
+ARetro-Mutation 2
+. a ule
+t -~ ma~
+
+set_code_hint: TMT
+collector_hint: 5
+
+raw_ocr:
+\ or =
+
+ia stro-Mutation
+
+Retro- Mutation
+
+t also loses all otter creauce (Vpes.
+¢ 005) 6 Pe Vim
+TMT © EN be LEONARDO SANTANNA ™ & 0 dole Binseds ot the Caant
+
+q Ienchanted creature is aTurtle with = fg
+base power and toughness 0 1. It
+can’t attack and loses all abilities.
+(It also loses all other creaddare (\'pes.) 3
+c 005) 2026 Viacom:
+TMT © EN Be LEONARDO SANTANNA ™ & C 2026 Wizards of the Coast
+
+B :nchanted creature is aTurtle with §
+base power and toughness 0°1. It ‘i
+can’t attack and loses all abilities.
+(It also loses all other creattire types.)
+Cc 005) © 2026 Viacom
+TMT © EN be LIONARDO SANTANNA ™ So Nb Words of the Coast
+
+Enchanted creature is a Turtle with
+f base power and toughness 0/1. It .
+m@ can’t attack and loses all abilities. ‘
+(It also loses all other creature types.)
+c 005) Pele Naw
+TMT © EN be LEONARDO SANTANNA “Ro DTA Warde ot the oat
+
+Cc 005! 1° 2026 Viwem
+TMT © EN bm LEONARDO SANTANNA ™ & UC N26 Wears af the Coast
+
+p . >
+% Retro- Mutation 2e
+. / v , |
+| we
+- 2 Be. 1s
+: ~. es ow .
+id
+| Enchantment — Aura %a,
+4
+Flash
+my E:nchant creature
+Enchanted creature is a Turtle with :
+f base power and toughness 0/1. It ‘
+mw can’t attack and loses all abilities.
+(It also loses all other creature types.)
+¢ 905) Dele Viagem
+TMT © EN be LEONARDO SANTANNA ™! & a Win ot the Cast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:07:29
+matched_name: Krang, Master Mind
+matched_set: TMT
+matched_collector: 43
+reason: rodapé OCR TMT #43
+name_hint: Krang, Master Mind 66e0R
+namebar_text: Krang, Master Mi
+
+Krang, Master Mind 6.6
+
+set_code_hint: TIE
+collector_hint: 43
+
+raw_ocr:
+Krang, Master Mi
+
+artifact you control. WH
+1/4
+R 0043 ae + IB 2h Vidoes
+TMT > EN & NaRINDRA BINTARA ADI ™ & 0 Riles Waar ot the Coast
+q 4
+
+YY PIN €2 ANS etade, NR A2CN 2 FH O92 AEs asetvnrun 2 YINUNS|GL \
+than tour cards in hand, draw cards .
+equal to the difference. b
+Krang gets +1 +0 for each other
+artifact vou control.
+
+R 0043 => ) 4 2026 Viacom.
+
+TMT © EN Be Narminpra Bartana ADI tt de C 2026 Wizards of the Coat
+
+vyY 22EN 24 ANS baleen) MASE DOIG 22 <7 ke a4eavu 2 VPUWS b
+than four cards in hand, draw cards ‘
+equal to the difference. -
+Krang gets +1/+0 for each other
+artifact vou control.
+
+R 0043 Ge 20926 Vigeom
+
+TMT © EN b> NaRENoRA Bitar, AOE ™ & 0 Bole Wisarets ot the Coast
+
+va vv £34484 aN UT WwAAtWSE V9 a2 JM a44Ce4Vu 2. VEUL ‘
+than four cards in hand, draw cards $
+4 equal to the difference. p
+i)
+a Krang gets +1/+0 for each other
+artifact you control.
+R 0043 tie De tn Vaan 1/4
+TMT + EN bm NARENDRA BINTAR 4 AUS ™ Dan Baas ct the Coast
+
+|)
+R 0043 > 42026 Viacom. 4)
+TMT © EN te NaRINORA Ben tara ADs  & C W26 Wizards of the Coast
+
+Krang, Master Mind 66e0R
+‘ a if : cian . _
+cual io ‘ ee - A
+,! | oN, a :
+a . a Jd, aK
+m Legendary Artifact Creature — Utrom Warrior %&,
+3 Affinity for artifacts (This spell costs 1
+rf less to cast for each artifact you control.) 4
+When Krang enters, if you have fewer [ff
+than four cards in hand, draw cards
+j equal to the difference. ‘
+if Krang gets +1/+0 for each other i
+artifact you control.
+TMT © EN tm NARENORA BINTARA ADE a Dalai vonde ot the © cast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:08:02
+matched_name: Donatello, Way with Machines
+matched_set: TMT
+matched_collector: 38
+reason: código TMT #38
+name_hint: Donatello, Way with Machines
+namebar_text: Donatello, Way with Machines :
+
+Donatello, Way
+
+Donatello, Way with Machines 2
+
+set_code_hint: TMT
+collector_hint: 38
+
+raw_ocr:
+Donatello, Way with Machines :
+
+Donatello, Way
+
+\ abt wy ye nS eh Fr
+bemg velocity challenged.” Wr)
+U 0038 2520 Viagem
+TMT © EN Be SvETiOW VEUENOV Mf O Dale Wiad ot the Coast
+q 4
+
+Donatello.
+“Cyfornatately, ine locly meartle Mas been
+Naddled by soctety sith tie stereotype of
+boas velocuy challenged.”
+U 0038 £2026 Viacom.
+TMT © EN be SviTioc Veurnov Mt he ¢ 2026 Wizards af the Comt
+
+Donatello. |
+( “Onfortunately, the lowly trtle Nas been
+saddled by society ieith the stereotype of :
+beng velocity challenged.” | Wr)
+U 0038 » 2026 Viacom
+TMT © EN bm SvitTisn ViEisov ™ & 0 N26 Wizards ot the Coast
+
+Mi Donatello.
+“Unfortunately, the lowly turtle has been f
+mm saddled by soctety with the stereotype of —
+being velocity challenged.” Wr)
+U 0038 Area SETOT Sa 1/2
+TMT © EN Bem Svbttew Vicson hy Da arate ot the © oat
+
+beg velocity challenged.”
+U 0038 © 2026 Viacom.
+TMT © EN Be Svetisn Viunov tt & 0 2026 Winscds of the Coast
+
+4 — —— “eee “ =>
+Donatello, Way with Machines 2.¢
+e- ern =
+‘ S - . we a vy
+P ;
+\ Legendary Creature — Mutant Ninja Turtle %,
+mm Flving
+j Whenever an artifact you control
+enters, put a +1/+1 counter on
+4 Donatello.
+me Unfortunately, the lovely turtle has been
+MM saddled by society with the stereotype of
+being velocity challenged.”
+. 1/2 )
+U 0038 lr Visco
+TMT © EN tm Svi tise VEtISOV ™! GO Da Wish ot the © oat
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:08:59
+matched_name: Donatello, Turtle Techie
+matched_set: TMT
+matched_collector: 37
+reason: rodapé OCR TMT #37
+name_hint: Donatello, Turtle Techie 3ek
+namebar_text: "Donatello, Ty rtle Techie _
+
+Donatello, Turtle
+
+Donatello, Turtle Techie 3
+\ . Ae -
+
+set_code_hint: TMT
+collector_hint: 9037
+
+raw_ocr:
+"Donatello, Ty rtle Techie _
+
+Donatello, Turtle
+
+Cc 9037 2 oO82e Vian 0)
+TMT © EN & Ryan Vat 8&0 S26 Wizard ot the Coast
+
+“AVEv sen, for someone so titeliigent, Re.
+Obvious Often clitcdes Vou.”
+Spliiter )
+, 3/4 |
+Cc 0037 42026 Viacom.
+TMT © EN be Ryan Vaut ™ & CC 2026 Wizards of the Coast
+
+“My son, for someone so intelligent, the |.
+1 obvious often eludes you.”
+g— Splinter 7
+3/4 )
+Cc 90037 + 226 Viagem
+TMT © EN b> Ryan VAUt ™ At Nile Wierd of the Coast
+
+\ _
+“My son, for someone so tntelligent, the
+obvious often eludes you.”
+
+mm —Splinter j
+3/4 )
+
+Cc 0037 ee Wi on
+TMT > EN be Ryans Vall MR DD Mand ot the © art
+
+C 0037 4° 2026 Viacom. Wa)
+TMT © EN b& Ryan Vaut ™ & 0 N26 Wrsards of the Coast
+
+4 >
+ee «rN \
+Donatello, Turtle Techie 3ek
+. . eo.
+. °° @
+| ° a |
+l~ oe
+Veze . | ad « . . .
+pik. 94 eee
+‘ > Nie, :
+| “N oa 2 ry ~ rz]
+é »
+{ Legendary Creature — Mutant Ninja Turtle %a,
+When Donatello enters, if you
+control an artifact, draw a card.
+a “Aly son, for someone so intelligent, the
+B obvions often eludes you.”
+‘ —Splinter
+3/4 )
+
+Cc 9037 + 2O82n View
+
+TMT © EN be Ryan Vat ™ & 0 Nils Waar ot the Coast
+
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:09:27
+matched_name: Crustacean Commando
+matched_set: TMT
+matched_collector: 33
+reason: código TMT #33
+name_hint: Crustacean Commando
+namebar_text: Crustacean Commando
+
+Crustacean Commando
+
+Crustacean Com!
+
+y
+Rl
+f Crustacean Commando L
+
+set_code_hint: TMT
+collector_hint: 33
+
+raw_ocr:
+Crustacean Commando
+
+Crustacean Commando
+
+Crustacean Com!
+
+Be SOLON! AINE (OTS OF WEE” ,
+-~Hernian 0/3 )
+¢ 0033 + ode Vea
+TMT © EN ® NaRENDRA BI TARA AOI MEG Bab Wisasdhe ot the Coat
+
+COMEHF OH Ce Fare Creede ddre . wher cdc Cds yds
+“Wonder hat Pro sarin the boxe Pam,
+sob Port Dd forts Of itl”
+Aleriian 073 )
+C 0033 2 2020 Viacom.
+TMT - EN te Narrnora Ben tana ADI CM de € 2026 Wizards of the Coast
+
+COCMECT OW CATEEE CHONG, SECT CL OMUN aS
+a sorcer\.”)
+{ “Wondering what Pve got in the boxe Pain,
+saldter! Ana lots of ul” }
+~Herman 073)
+C 0033 + 226 Viseom.
+TMT © EN bm NARENORA BritaRa ADI ™ &oo Ni2a Wish of the Caras
+
+Pe COMMIT ON CATRCE CICGLHTC, SICTECALE ON GS
+a sorcery.)
+
+m ‘Wondering what I've got in the box? Pain, i
+soldier! And lots of ttl” }
+—Herman ; 073)
+
+Cc 90033 Dee Noa as
+TMT © EN bm NARINORA BINTARA AUS Re DIN Rasaedeot the © ast
+
+TMT + EN > NarRinora Bartana AD ™ & © 2026 Winasds of the Coast
+
+Pp ; >»
+\ Crustacean Commando Le ’
+a s \
+] yg fe. ee
+b a Ed oe j : . .
+
+PS &
+s
+fm Creature — Crab Mutant Soldier %Ga,
+fe When this creature enters, create a
+( Mutagen token. (t's an artifact with
+
+“EL, Sacrifice this token: Put a +1'+1
+
+\ counter on target creature. Activate only as
+AB a sorcery.)
+\ “Wondering what I've got tn the box? Pain, f
+@ soldier! And lots of ttl” ,
+
+—Herman
+
+0/3 )
+Cc 0033 + ole Vian
+TMT + EN & NaRENDRA BI TARA ADI G&D Wistar et the © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:10:11
+matched_name: Buzz Bots
+matched_set: TMT
+matched_collector: 32
+reason: código TMT #32
+name_hint: 7 Buzz Bots a
+namebar_text: Sf buzz bors Bots —ws
+
+7 Buzz Bots a
+
+Buzz Bots
+
+) aT
+@ Buzz Bots L
+‘ .
+
+set_code_hint: TMT
+collector_hint: 32
+
+raw_ocr:
+Sf buzz bors Bots —ws
+
+7 Buzz Bots a
+
+Buzz Bots
+
+Purposes only, of COUrSe. T1*
+¢ 0032 2 2b Vaacom
+TMT © EN % Nistor Ossanvon baac 4&6 Wise ot the Coast
+q 4
+
+Destened for amfouomous polltiaanon, dic 7
+Stocktrontes burr bots souped-up power |.
+fiat aloes for months of nadependent \
+sereice. Lhe optional taser ix for defoustic
+fierposes OLY, OF COUPE. TW
+1/1
+TMT ° EN te Néstor Ossanoon Lrat rhe Dole Winer of the Coast
+
+Designed for autonomous pollination, tie
+Stocktrontcs buzz bot’s souped-up power |.
+plant allows for months of independent fy
+a service. The optional taser ts for defensive f
+purposes only, of course. Th)
+C 0032 » 2026 Viaaam 1/1
+TMT © EN & Nistor Ossanpon Laat ™ & 0 NI6 Wises ot the Coast
+
+Designed for autonomous pollination, the [Tg
+é Stocktronics buzz bot’s souped-up power |
+a plant allows for months of independent "
+Ma service. The optional taser ts for defensive
+purposes only, of course. Th)
+Cc 0032 Sele Waa un
+TMT © EN te Nestor Ossanvos Laat NMDA Wasarate ct the © cast
+
+purposes only, of COUrSe.
+1/1
+Cc 0032 4 2026 Viscum.
+TMT © EN & Nistor Ossannon Lrat ™ & 2026 Winssds of the Coast
+q d
+
+m@ Buzz Bots Le
+a
+
+a ” ;
+
+7 (eS: a @ “ " _
+. » A, ‘a ‘)
+ae? ee
+Na | |
+. \ a . .
+
+@ Artifact Creature — Robot Insect %2
+)
+j Flying, vigilance i
+f§ When this creature dies, draw a card. [@
+E Designed for autonomous pollination, the ei
+i] Stocktronics buzz bot’s souped-up power a
+a plant allows for months of independent "4
+ME service. The optional taser ts for defensive &
+
+purposes only, of course.
+1/1 )
+¢ 0032 Sle Vai
+TMT © EN be Nistor Ossanvow brat MQ Mle Wiad ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:11:00
+matched_name: Sewer-veillance Cam
+matched_set: TMT
+matched_collector: 53
+reason: código TMT #53
+name_hint: a Sewer-veillance Cam
+namebar_text: j ctaicalciiS Cam
+
+| Sewer-veillance Cam —
+
+Sewer-veillance |
+
+4 ~ > N ~
+f, . —————
+‘ Sewer-veillance Cam
+
+set_code_hint: TMT
+collector_hint: 53
+
+raw_ocr:
+j ctaicalciiS Cam
+
+| Sewer-veillance Cam —
+
+Sewer-veillance |
+
+< s is S th ido x 4 id ry
+more cockroach.
+c 0053 Vale Vine a
+TMT © EN > Nocnoras Gai corr ™ & Ne Wins ot the Cwrast
+
+Creature. -
+3 @. Sacrifice this artifact: Draw two cards. $.
+Nee in Neos Sonk tras sole to voted Otc .
+Mr COCRLORH,
+Cc 0053 2026 Vixom
+TMT © EN be Nicnocas Garcoery ™™ gC 2026 Wizards of the Coa
+
+. 7 - - * . 2 ae @
+g creature. %
+| 3 @. Sacrifice this artifact: Draw two cards. .
+Ke
+i No one at New York was going to Notice One f
+more cockroach.
+Cc 005S3 ole Vian
+TMT © EN bm Nicworas GaiGorr ! &6 Ny Wess ot the Cast
+
+“@ creature. bj
+é 3 @, Sacrifice this artifact: Draw two cards. H
+wo \\5
+‘a No one in New York was going to notice one
+more cockroach.
+TMT © EN be NICHOLAS GREGORY ™ ROMINA and ot the © ae
+
+PONE COCRPOACH.
+Cc 0053 U 2026 Viaem
+TMT - EN Bb» Necworas Garcory tt & C 2026 Wizards of the Coast
+
+a Sewer-veillance Cam 6
+‘ a
+‘ ~ \,
+A AS
+x \ _!
+. *
+@ Artifact =|
+ex) J
+Flash |
+d When this arufact enters or leaves the b
+F baulefield, vou may tap or untap target ,
+creature.
+i 3 @. Sacrifice this artifact: Draw two cards. .
+= Vg
+t No one in New York was going to Notice one i
+more cockreach.
+c¢ 0053 eRe2e Vie a
+TMT © EN be Niceor as Gai corr ™ A DI Wizard ot the Coast
+q 4
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:12:00
+matched_name: Return to the Sewers
+matched_set: TMT
+matched_collector: 52
+reason: nome superior OCR
+name_hint: c 00S2 Dele View io
+namebar_text: ; Return “ uc =
+
+' Return to the Sewers
+
+Return to the Se’
+
+y
+Se
+A Return to the Sewers 3
+
+set_code_hint: TMT
+collector_hint: 582
+
+raw_ocr:
+; Return “ uc =
+
+' Return to the Sewers
+
+Return to the Se’
+
+7 es sO TEE TEE REE EO COM TRE. TY
+Leonardo
+¢ 0082 2026 Vie
+TMT EN &® Mixios Lorn ™ & 0 Mle Wizard ot the Coast
+
+ere t ee Cour by My a ee CAEN EOI TE, SEE
+wd +/ +/ CUPeTOh ot Pare! we weren sree ehoMecut:
+ORY iS cf YOrCCR YL
+*. an > ae q + ? . 7 ' . . 74 ae , . H . , - ; .
+We stereo frard aid) fade ata pater the angle.
+Leorande
+Cc 0082 2026 Vawom
+TMT © EN be Mixiés licen ™ & U 2026 Wizards af the Coaw
+
+CPEEPEC DE Ce by WY OU Ce CHIN TOK Lue
+a tlo+] counter on target creature. Acheate
+only as a sorcery”)
+\ “We strtke hard and fade atvay nite the night. 9
+Leonardo
+C 00582 2026 Viacom
+TMT - EN & Mixios Lain Bt Ny Wears ot the Coast
+
+ee SCC E ME ky Wy OUCH Ce CMDS LORE. PU
+a +1/+] counter on target creature. Activate |
+only as @ sorcery.”) '
+m We strike hard and fade away into the night."
+Leonardo
+Cc 00582 SoBe Nea
+TMT © EN Be Mixios facie RDI ake ot the Sst
+
+Leonardo
+Cc 0052 #2026 Viaeom
+TMT © EN be Mixi6s Licen ! & 0 2026 Wenards of the Coast
+
+p >
+. Return to the Sewers Be
+- ———— . .
+, “? ey =. a ” 4 7 ‘
+a
+% Instant %Ga,
+‘Target creature’s owner puts it on their
+chaice of the top or bottom of their library. |
+B You create a Mutagen token. (It’s an
+4 artifact with “1, «, Sacrifice this token: Put
+a +1'+] conater on target creature. Activate ‘
+only as a sorcery.)
+f
+Mm We strike hard and fade away into Ure night.” }
+Leonardo
+c 00S2 Dele View io
+TMT EN &® Mixios Ligin ™& OMIA Rogar ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:12:35
+matched_name: April, Reporter of the Weird
+matched_set: TMT
+matched_collector: 30
+reason: rodapé OCR TMT #30
+name_hint: April, Reporter o
+namebar_text: “April, Reporter of
+
+april, Reporter of he Weird
+
+April, Reporter o
+
+cS ~~ ge
+April, Reporter of the Weird 2
+- ae
+
+set_code_hint: TMT
+collector_hint: 9030
+
+raw_ocr:
+“April, Reporter of
+
+april, Reporter of he Weird
+
+April, Reporter o
+
+Be TIME SIde EICREES C0 COCEP TMICTRUEACHC TLTCSUINS
+don't suck.” Wr )
+U a030 22h Via
+TMT © EN be Paine Voss ™ & 0 Dile Wik ot the Coast
+
+“Prevhance reporting Puyys CCC forse Gian
+Prerordida, AU Hl Satisfied of MMC COND
+Me uh aaiakhes Ue overt in Lise Gite free
+riigsdde HeRels fo cover lileredlachio ivreshpig
+PLO DUR, 2/2
+VU 0030 £2026 Viacom.
+TMT © EN > Pauune Voss dC 2026 Wizards of the Coast
+
+“Preclance reporting pays cven worse tian ,
+tutors, but the sausfaction of uncovering
+\ the ruth makes tt all werth ttl Also the free
+ringside QeRets to cover Mbergalacne iwresiing
+dont suck.” 72 )
+VU 0030 “226 Visewm
+TMT © EN tm Patine Voss TM & 0 Mido Wressds of the Coast
+
+‘ “Freelance reporting pays even worse than
+tutoring, but the sausfaction of uncovering )
+the truth makes tt all worth it! Also the free }
+
+m ringside tickets to cover intergalactic wrestling F
+don’t suck.” TW)
+
+VU 0030 Ae ETO TaN
+TMT © EN Be Patine Voss Y&R Daaabe ot the Cust
+
+U 0030 4° 2026 Viacom. WH)
+TMT © EN Be Pavune Voss Tt & C26 Wises of the Coast
+
+y >»
+—— a ee “ \
+April, Reporter of the Weird 2¢RB
+wy’ Ba
+| i oe
+“ Pa W
+At me ty “A,
+ot
+f we
+P| wl .
+fm Legendary Creature — Human Detective %,
+m™ Whenever April deals combat damage
+{ to a player, draw that many cards, then
+discard a card.
+\ “Freclance reporting pays even toorse than
+nitoriig, but the satisfaction of uncovering ,
+me the truth makes it all worth it! Also the free
+ME ringside lickets to cover intergalactic wrestling
+dow't suck.” 22)
+U 9030 WI Vian 2/2
+TMT © EN te Paine Voss ™ 8 Ds Wrande ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:13:08
+matched_name: Stockman, Mad Fly-entist
+matched_set: TMT
+matched_collector: 54
+reason: código TMT #54
+name_hint: Stockman, Mad Fly-entist 4ek
+namebar_text: | a Fly-entist x
+
+Stockman, Mad f
+
+4 a ee, ae = ee ‘.
+Stockman, Mad Fly-entist 4
+VR
+
+set_code_hint: TMT
+collector_hint: 54
+
+raw_ocr:
+| a Fly-entist x
+
+Stockman, Mad f
+
+¢ 0054 © 22h Vigo
+TMT © EN b> Xavier Rintiro GO Nile Wizard ot the Coast
+
+LEQN AL APO CAEN Ch NCAA.
+Islandeveling 2 62, Drscard this card:
+Search your frovary for ai Island card,
+revedd i, pur mate vorr hak, thei
+Aue)
+| 3/4
+Cc 0054 © 2026 Viacom.
+TMT © EN b> Xavier ipaRo de C 2026 Wizards of the Coat
+
+CSA AL VLAPDOWNCALAG ch Vcd.
+Islandcycling 2 (2, Discard thts card:
+Search your library for an Island card,
+( reveal it, put it imnto your hand, then ,
+shuffle.)
+3/4 |
+Cc 0054 © 2026 Viacom.
+TMT © EN b> Xavier Rintiro ™ & 0 N26 Wisse ot the Coast
+
+r) 2222 UIOWNGAAL A Va.
+Islandcycling 2 (2, Discard this card: |
+Search your library for an Island card, ff
+m reveal it, put it into your hand, then |
+shuffle.) 7
+Cc 0054 Aa TMT Ob 3/4
+TMT © EN bm Xavier Rintiro Dot arabe ot the © a
+
+C 0054 62926 Viacum. Wa
+TMT - EN & Xavier Rinaeo Tho D2 Winerds of che Coast
+
+Stockman, Mad Fly-entist 4ek
+~ :
+r .. . ‘ ‘ *,
+ly ag yr
+, oo.
+Legendary Creature — Insect Mutant Scientist %Ga,
+m Flying
+| When Stockman enters, draw a card,
+\ then discard a card.
+Islandcycling 2 (2, Discard thts card:
+m Search your library for an Island card, FF
+Mm reveal it, put wt into your hand, then
+shuffle.)
+3/4 )
+¢ 0054 2826 Vian
+TMT + EN t Xavirg Rintiao a Dl Wisanteot the © saat
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:13:53
+matched_name: Foot Elite
+matched_set: TMT
+matched_collector: 146
+reason: código TMT #146
+name_hint: Shredder, a reserve guard ieithout equal
+namebar_text: a Foot Elite — ‘
+
+f Foot Elite
+
+Foot Elite
+
+{ Foot Elite x
+Lp
+
+set_code_hint: TMT
+collector_hint: 146
+
+raw_ocr:
+a Foot Elite — ‘
+
+f Foot Elite
+
+Foot Elite
+
+A SAreddte eF, AH PeserVe BUG TUNG equal
+Cc 0146 22h Vian .
+TMT © EN & Jautan Boros ™! © Bade Wasa ot the Coast
+
+turn. f Lda aad cfteors Paha aa “kode yo
+Ait 7 POON iv :
+The Poot bette are Ue personal spades of die
+Shrodibe rot Foxe kc eer seriou cqital
+
+Cc 0146 4° 2026 Viacom.
+
+TMT - EN te Zoutan Boros Te 2026 Wizards of the Coast
+
+turn. (Ldamave and effects that sav “destroy &
+don't destroy i.) .
+The boot Bite are the personal students of the
+Shredder, a reserve guard ieithout equal,
+
+C 0146 26 Via
+
+TMT EN bt Joitan Boros TAO DMIs Wands ot the Coast
+
+turn. (Ldamage and effects that say “destroy” §
+don't destroy it.)
+The Foot Elite are the personal students of the
+Shredder, a reserve guard without equal.
+Cc 0146 Wa /4
+TMT © EN bm Jaottan Bones Sw Dil s arangerthe © ot
+
+C 0146 © 2926 Viscum Wa
+TMT - EN & Zoitan Boros T™! B&O N26 Wizards of the Coast
+
+yo . >»
+Foot Elite 2\*8
+eo a
+2 a
+Creature — Human Ninja %a,
+Whenever this creature attacks, another bl
+target creature you control gets +1/+0 .
+and gains indestrucuble unul end of .
+turn. (Damage and effects that say “destroy” §J
+don’t destroy tt.) :
+The Foot Eltte are the personal students of the
+Shredder, a reserve guard without equal.
+¢ 0146 Bee Wot 2/4
+TMT + EN te Jotan Bones em Data avant ot the © oat
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:15:59
+matched_name: Karai's Technique
+matched_set: TMT
+matched_collector: 152
+reason: nome superior OCR
+name_hint: W( Kara's Technlage
+namebar_text: (Karas Technique:
+
+W( Kara's Technlage
+
+y
+Karai's Technique Les
+
+set_code_hint: TMT
+collector_hint: 2026
+
+raw_ocr:
+(Karas Technique:
+
+W( Kara's Technlage
+
+mM ¢ Target creature gets -3/-3 unul end of turn. I
+UO18s2 © 2a2e Via a
+TMT © EN te Marnras Kounos 6&0 Dada Wound of the Coast
+
+Clheose ane or born
+‘Target creatire vets +304 3 until end of
+LU.
+ePurgel creature vets -3 -3 untl end of turn.
+VU O1S2 U 2026 Vixom
+TMT © EN be Marmias Kouros ™ & € 2026 Winards of the Coa
+
+§ Choose one or both
+1 ¢ Larget creature gets +3°+3 until end of
+} turn.
+° Target creature gets -3--3 unul end of turn.
+U 0182 © 2026 Viaaem
+TMT © EN be Marnias Kouros ™ & 0 dle Wisse ot the Caaat
+
+i
+
+3 Choose one or both | ,
+
+f° larget creature gets +3/+3 until end of "
+
+ym oturn. .
+a ° Target creature gets -3/-3 until end of turn.
+U ONSe2 ae ee
+TMT © EN te Maras KourRos ™ RDI Abe ofthe tae
+
+U 0182 2026 Via~owm
+TMT - EN b> Marmias Koiteos ™! & UU N26 Wines of the Coat
+
+y >
+4 oP e z=
+\ Karai’s Technique LEE
+we G8] Wana.
+, p ‘ = ‘6 ‘¥ : a . 8
+s ZF fel y a aif AHA. : y, a3
+hte POMP
+by) Sneak *@ (¥ou niay cast this spell for *® ‘
+mf vou alo return an unblocked attacker you
+, control to hand during the declare blockers step) |.
+3 Choose one or both
+ci ‘Target creature gets +3/+3 until end of
+eq turn.
+a ° Target creature gets -3/-3 until end of turn. j
+VU O1S2 ODD N tae at
+TMT > EN te Maras Kouros ™ & DA Woah ot the © saat
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:16:27
+matched_name: EPF Point Squad
+matched_set: TMT
+matched_collector: 145
+reason: código TMT #145
+name_hint: ta Lhe Earth Protection Force specializes
+namebar_text: x bere Point Squad Le te
+
+? EPF Point Squad )
+
+EPF Point Squad
+
+y
+& EPF Point Squad Lee
+% ———_———
+
+set_code_hint: TMT
+collector_hint: 145
+
+raw_ocr:
+x bere Point Squad Le te
+
+? EPF Point Squad )
+
+EPF Point Squad
+
+¢ 0145 Delo Vesa
+TMT © EN te Leanna Carossan ™ & 0 Die Wizard ot the Coast
+
+PNot all franans fear he unknown,
+Polke baarth Protection force specializes
+Poa toachig Uie WURNOUH lO fear tiem
+Histecacl,
+2/1
+Cc 0145 4 2026 Viacom.
+TMT © EN be Leanna Caossan eC 2026 Wizards of the Coant
+
+‘¥ Not all humans fear the unknown.
+a olhe Earth Protection Force spectalizes
+ag Ht teaching the unknown to fear then
+mstead. |
+7 2/1 )
+C 0145 » 226 Vise
+TMT © EN be Leanna Caossan ™ &e NIA Wiss ot the Coast
+
+3 Not all humans fear the unknown.
+ta Lhe Earth Protection Force specializes
+Ma in teaching the unknown to fear them
+instead. Wh)
+C 0145 Sere Ne oy 2/t
+TMT © FN Be Leanna Cacisnas SN Me Wiraedeot the © as
+
+Cc 0145 4 2026 Viscum. Wh
+TMT © EN Bm Leanna Carossan Tg 0 D024 Winans of the Coast
+
+. EPF Point Squad Don ee
+? @ 1 ;
+id : y) arth i
+bal : &
+a : s
+7 : . vie
+Creature — Human Soldier %a,
+ka Alliance. Whenever another
+ya creature you control enters, put a
+re +1/+1 counter on this creature.
+Not all humans fear the unknown.
+pa lhe Earth Protection Force specialises
+Maint teaching the unknown to fear then
+instead.
+2/1 )
+¢ 0145 28 lh Veen
+TMT + EN te ltanna Crosnay ™ & 0 DA Wivanteotthe © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:17:09
+matched_name: Mechanized Ninja Cavalry
+matched_set: TMT
+matched_collector: 156
+reason: tÃ­tulo OCR 'f Mechanized Ninja Cavalry'
+name_hint: “Thus ww absolidely ridiculous, Saki Titey
+namebar_text: [ Serra Ninja Cavalry 2
+
+f Mechanized Ninja Cavalry
+
+Mechanized Ninj
+
+if Mechanized Ninja Cavalry L?
+
+set_code_hint: TMT
+collector_hint: 1896
+
+raw_ocr:
+[ Serra Ninja Cavalry 2
+
+f Mechanized Ninja Cavalry
+
+Mechanized Ninj
+
+y “we iM ae wee +
+— Banter Stockman
+i/1 )
+Cc 0156 282e Var
+TMT © EN && Micanit Gori P&C Ds Wistar ot the Coat
+q 4
+
+“Thus ww absolidely ridiculous, Saki Titey
+aren tmeant for raiding! What happened \
+fo te ninpas famous subtietye”
+Banter Steck aren
+1/1
+C O86 422026 Viacom.
+TMT © EN Pe Micmice Grorci ™ & € 2026 Wizards of the Coast
+
++
+i“ This ws absolutely ridiculous, Suki They |
+aren't meant for ride! What happened — ¥
+to the ntnja’s famous subtlety?”
+—Banter Stockman
+2 1/1 )
+C 0186 » 226 Viagem
+TMT © EN be Micmite Grorct ™ ht Is Wisner ot the Coast
+
+t
+f “This is absolutely ridiculous, Saki! They ¢
+og aren't meant for riding! What happened ¥&
+‘# to the ninja’s famous subtlety?”
+—Baxter Stockman TH
+C 01896 AECL SeeTOT Ta 1/1
+TMT © EN be Micmntr Grorce Ya Me teat the Gow
+
+Cc 0186 © 2026 Viscum. 7
+TMT © EN be» Micmece Giorci ™™* C2026 Winasds of the Coast
+
+@ Mechanized Ninja Cavalry 12
+a . y 4 y . . of » pe :
+iy ] f. wt = my y & s
+oe oar 7 are “
+Artifact Creature — Robot Ninja %62,)
+3 When this creature enters, create a ‘|
+fq 1/1 colorless Robot artifact creature @
+§ token. '
+“This ws absolutely ridiculous, Saki! They:
+be aren't meant for riding! What happened &
+'@ to the ninja’s famous subtlety?” '
+
+—Baxter Stockman
+1/1 )
+C O1S6 Dee oa ote
+TMT EN be Micmitl Gores MMI iene et the © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:17:41
+matched_name: The Neutrinos
+matched_set: TMT
+matched_collector: 160
+reason: rodapé OCR TMT #160
+name_hint: Whenever Phe Neutrinos attack, exile
+namebar_text: 4 The Neutrinos -
+
+i The Neutrinos
+
+4 ———————- ————_ ua
+The Neutrinos 28
+ry ; 7 5 . Se ¢ . _. .
+
+set_code_hint: TMT
+collector_hint: 9160
+
+raw_ocr:
+4 The Neutrinos -
+
+i The Neutrinos
+
+as return 10 co € Datleneld UNG VOUF
+control tapped and attacking. W4)
+U 0160 + 22 Vian
+TMT > EN b> Branpos L Hunt ™ & 0 dle Wisse ot thy Cwast
+
++1 +0 until end of turn.
+
+Whenever Phe Neutrinos attack, exile
+
+up to one target creature veu own, then
+-return it to the battlefield under vour
+
+control tapped and attacking. W4)
+U 0160 42026 Viacom.
+TMT + EN te Branpow L Hunt ™ & C 2026 Wizards of the Coat
+
+2 +1/+0 unul end of turn.
+§ Whenever The Neutrinos attack, exile
+up to one target creature you own, then
+Breturn it to the battlefield under your
+control tapped and attacking. “7/4 )
+U 0160 + 2026 Viscum,
+TMT + EN & Branvon L Hunt ™ & tt Nilo Wistar ot the Coast
+
+a +1/+0 until end of turn. - °
+: Whenever The Neutrinos attack, exile :
+: up to one target creature you own, then |
+@ return it to the battlefield under your
+control tapped and attacking. Ws )
+U O160 BD Vi ts
+TMT © EN > Brannos I Hunt ow BD Rasa ot the © ast
+
+control tapped and attacking. V4)
+VU 0160 42026 Viacom.
+TMT © EN t» Branpow L Hunt 1% & 0 026 Wizards of the Coast
+
+y >»
+The Neutrinos Zee
+J ma > * an 4 i . ~
+yf Coe LP yg ao Nea an rie
+‘>  _- Sree vem} &
+5 . So
+c ‘
+m Legendary Creature — Elf Rebel bi, ,
+La :
+a Flying
+a Alhance - Whenever another creature
+ma you control enters, The Neutrinos get
+eg +1/+0 until end of turn.
+! Whenever The Neutrinos attack, exile
+t up to one target creature you own, then
+@ return it to the battlefield under your
+control tapped and attacking.
+2/4 )
+U 9160 82H Vues
+TMT + EN & Branpon | Hunt PN MI Wisarh ot thy © cast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:18:14
+matched_name: Go Ninja Go
+matched_set: TMT
+matched_collector: 149
+reason: rodapé OCR TMT #149
+name_hint: f Go Ninja Go
+namebar_text: leone Go
+
+{ Go Ninja Go
+
+4
+(Gonna go
+| | yar’
+
+set_code_hint: VIA
+collector_hint: 149
+
+raw_ocr:
+leone Go
+
+{ Go Ninja Go
+
+A) ¥ uJ s< u q
+opponent controls.
+U 0149 R26 Via
+TMT © EN Me Patrick Ganas ™& Mls Wosash ot the (cast
+
+ms owner's control.
+© Go Ninja Gro deals damage equal to
+the greatest power among creatures
+vou control to target creature an
+opponent controls.
+U 0149 ©2026 Viacom
+TMT © EN Pe ParaicK Gams ™ & C 2026 Wisards of the Coast
+
+“2 oats owner’s control.
+f° Go Ninja Go deals damage equal to
+fq sthe greatest power among creatures
+§ vou contro] to target creature an
+opponent controls.
+U 0149 2026 Viagem
+TMT © EN Be ParricKx Ganas ™ & Ny Wisse ot the Coast
+
+its owner’s control. .
+ta * Go Ninja Go deals damage equal to.
+| 6tthe greatest power among creatures
+@ = you control to target creature an ,
+opponent controls.
+U 0149 Dobe TON neon
+TMT © EN te Patek Ganas RDA ante ot the Cas
+
+opponent controls.
+U 0149 2026 Vusom
+TMT © EN Bm ParaicKx Gans ™! & 0 2026 Wizards of the Coast
+
+y _ >
+f Go Ninja Go Bx
+é
+> ; ; . \ - ¥ :
+_— ‘ x oF. a ,
+im Sorcery eS)
+P Choose one or both — i
+a ° Exile target creature you control, .
+@ then return it to the battlefield under
+rg its owner’s control.
+o * Go Ninja Go deals damage equalto |
+fa 6uthe greatest power among creatures
+= =you control to target creature an
+opponent controls.
+U O149 fete Nas
+TMT + EN te Pateten Ganas ™ RO DIA Wong ot the © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:18:43
+matched_name: Mechanized Ninja Cavalry
+matched_set: TMT
+matched_collector: 156
+reason: tÃ­tulo OCR 'f Mechanized Ninja Cavalry'
+name_hint: “Thus ww absolidely ridiculous, Saki Titey
+namebar_text: [ Serra Ninja Cavalry 2
+
+f Mechanized Ninja Cavalry
+
+Mechanized Ninj
+
+if Mechanized Ninja Cavalry L?
+
+set_code_hint: TMT
+collector_hint: 1896
+
+raw_ocr:
+[ Serra Ninja Cavalry 2
+
+f Mechanized Ninja Cavalry
+
+Mechanized Ninj
+
+y “we iM ae wee +
+— Banter Stockman
+i/1 )
+Cc 0156 282e Var
+TMT © EN && Micanit Gori P&C Ds Wistar ot the Coat
+q 4
+
+“Thus ww absolidely ridiculous, Saki Titey
+aren tmeant for raiding! What happened \
+fo te ninpas famous subtietye”
+Banter Steck aren
+1/1
+C O86 422026 Viacom.
+TMT © EN Pe Micmice Grorci ™ & € 2026 Wizards of the Coast
+
++
+i“ This ws absolutely ridiculous, Suki They |
+aren't meant for ride! What happened — ¥
+to the ntnja’s famous subtlety?”
+—Banter Stockman
+2 1/1 )
+C 0186 » 226 Viagem
+TMT © EN be Micmite Grorct ™ ht Is Wisner ot the Coast
+
+t
+f “This is absolutely ridiculous, Saki! They ¢
+og aren't meant for riding! What happened ¥&
+‘# to the ninja’s famous subtlety?”
+—Baxter Stockman TH
+C 01896 AECL SeeTOT Ta 1/1
+TMT © EN be Micmntr Grorce Ya Me teat the Gow
+
+Cc 0186 © 2026 Viscum. 7
+TMT © EN be» Micmece Giorci ™™* C2026 Winasds of the Coast
+
+@ Mechanized Ninja Cavalry 12
+a . y 4 y . . of » pe :
+iy ] f. wt = my y & s
+oe oar 7 are “
+Artifact Creature — Robot Ninja %62,)
+3 When this creature enters, create a ‘|
+fq 1/1 colorless Robot artifact creature @
+§ token. '
+“This ws absolutely ridiculous, Saki! They:
+be aren't meant for riding! What happened &
+'@ to the ninja’s famous subtlety?” '
+
+—Baxter Stockman
+1/1 )
+C O1S6 Dee oa ote
+TMT EN be Micmitl Gores MMI iene et the © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:19:27
+matched_name: Tainted Treats
+matched_set: TMT
+matched_collector: 170
+reason: código TMT #170
+name_hint: Tainted Treats Lee
+namebar_text: Tainted Treats = Lé
+
+f Tainted Treats
+
+| Tainted Treats
+
+y
+Tainted Treats dl #4
+
+set_code_hint: TMT
+collector_hint: 170
+
+raw_ocr:
+Tainted Treats = Lé
+
+f Tainted Treats
+
+| Tainted Treats
+
+x * _" id “ “we
+‘ ~ é - 4
+Dr. Jordan Perry
+U O170 © 2026 Viaacmn
+TMT © EN & Jaxon Erascw ™& 0 Ds Wizarch ot the Coast
+q 4
+
+Sacrifice Gus token you gan 2 ltfe
+SSPE CCL TEE te Tene NO,
+No Dyn afrard migesow is the oly course.”
+Dy Jordan Perry
+Uv 0170 2026 Vuxom
+TMT © EN & laxos Bascn de C 2026 Wizards af the Coaw
+
+‘Q Sacrifice Us token: You gam 3 life.”)
+“Sprav tiem wih the antt-mutagen? No,
+quo. Pin afraid ingestion ts the only course.”
+
+Dr. Jordan Perry
+U 0170 2026 Viaaem
+TMT EN & Jaxon Eraicn ™ $0 D026 Wirards ot the Coast
+
+: Sacrifice this token: You gain 3 life.) )
+a “Spray them with the anti-mutagen? No, |
+‘@ 20. Tm afraid ingestion ts the only course.” }.
+— -Dr. Fordan Perry
+YU 0170 Belo Nia on
+TMT © EN be Jaxon Frasce RO DAW ade ot the Coat
+
+JE JOYA Fey Vy! :
+VU 0170 2026 Vixoem
+TMT - EN & laxon Eraice Mt & C 2026 Wizards of the Coast
+
+4 ; >
+Tainted Treats Lee
+t aa
+— ~ a aN noe
+~ we Pa
+' A .
+=
+’ ~~,
+i
+Py Destroy target arufact or creature. If
+m@ its mana value was 4 or less, create a
+NM Food token. (It's an artifact with “2, ,
+Sacrifice this token: You gain 3 life.”)
+“Spray them with the anti-mutagen? No,
+qo. Pint afraid ingestion ts the only course.”
+Dr. Jordan Perry
+U 0170 © 2620 Nuwcm
+TMT © EN & Jaxon Fiascu ™ & 0 De Waandh ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:19:55
+matched_name: Bebop & Rocksteady
+matched_set: TMT
+matched_collector: 140
+reason: código TMT #140
+name_hint: Bebop & Rocksteady, = ‘K
+namebar_text: Bebop & Rocksteady, = ‘K
+
+r sebo »& vocksieni a
+
+|! Bebop & Rockste
+
+Bebop & Rocksteady 1 te &
+
+set_code_hint: TMT
+collector_hint: 140
+
+raw_ocr:
+Bebop & Rocksteady, = ‘K
+
+r sebo »& vocksieni a
+
+|! Bebop & Rockste
+
+ready, ? For Bebop and Rocksteady?
+R 0140 aa + oDd2e Vian
+TMT © EN %& Nistor Ossanvon brat ™ & 0 Sls Wisk ot the Coast
+q 4
+
+; “They i beat vor coun fists, wath a bat, ;
+Be cctth whitte. So don't ov to stop thei, e
+ABoustoriany for vour life! Gebset aud get |
+ready. bor Bebop and Rocksteadye”
+R 0140 => 42026 Viacom. Us
+TMT > EN be Nistor Ossandon Lear ™ & © 2026 Wizards of the Coast
+
+“They'll beat vou with fists, euh a bat, J
+
+woth a knife. So don't ry to stop them, tS
+ee ust riod for your life!’ Get set and get ?
+
+ready, | For Bebop and Rocksteady!” (
+TMT © EN bm Nistor Ossandon Lear ht Ie Witseds ot the Coast
+
+“They'll beat you with fists, with a bat, $
+with a knife. / So don't try to stop them,
+just run for your life! / Get set and get -
+ready, ! For Bebop and Rocksteady!”
+R 0140 ce ATLL TORT ES 1/5
+TMT © EN be Nestor Ossanpos brat A Mla Waasbeot the © ast
+
+R 0140 jp 42026 Viacom. Ti)
+TMT - EN Bb» Nistor Ossandow Lear TM de 2026 Winasds of the Coast
+
+4 ~. an s TT ee _ \ >»
+Bebop & Rocksteady 1 fe %e M
+
+. } . we te
+
+. 7 nA : iS . / q
+
+- Ne of ~~: . _ a
+Legendary Creature — Boar Rhino Mutant %a, ’
+
+'
+
+m Whenever Bebop & Rocksteady attack F
+or block, sacrifice a permanent unless §
+you discard a card. :
+“They'll beat you with fists, with a bat, i
+with a knife. / So don’t try to stop them, |
+
+eg just run for your life! | Get set and get 2
+ready, / For Bebop and Rocksieady!” ‘
+
+R 901490 ae D820 Visgons 1/5
+TMT © EN & Niston Ossanvon Liat AO De With ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:20:21
+matched_name: Putrid Pals
+matched_set: TMT
+matched_collector: 165
+reason: rodapé OCR TMT #165
+name_hint: I Putrid Pals
+namebar_text: rPurid Pals =StSté‘“~SCS:*:*S
+
+| Putrid Pals
+
+4 - en wana Te) ss ate Khem
+Putrid Pals WAT
+
+set_code_hint: VIA
+collector_hint: 165
+
+raw_ocr:
+rPurid Pals =StSté‘“~SCS:*:*S
+
+| Putrid Pals
+
+7)
+?
+Cc 0165 2826 Via
+
+TMT © EN be KEvis StOnAnts RO DIA Wizasdk ot the Coast
+
+- od - a = * SSF See we SE - “NS ee . id aes aS GTR ERE Ee RE ew & &
+A ethe batthehield under vour control this turn. pF
+Me ols ccovkais Gi tiie scivers. loo uauy freaky be
+Me iiitinits doron tere. ‘4
+MMitcRiitan
+Cc 0165 £2026 Viacom.
+TMT © EN Be Kivin Ssomarta Tt & € 2026 Wizards of the Coast
+
+_ a, ” = a SO eSB eae Sl Mf? 8 @ of aa — ,; "7", 70eue eh 8 BO” ow & & ;
+the battlefield under your control this turn. Bs
+“Beaty tcorking or the setcers. Too many freaky Fe
+Se rutants dozen there.” :
+aMuckman =
+Cc 0165 2626 Viacom
+TMT © EN Pe Kevin SION ARTA ™ & 0 Nib Winds of the Coast
+
+” a?’ ” a ww AV SP eee he Be rUL Oe ot earvmclm™“ rv’? e@aeeuwusescaewsewy WS a”
+the battlefield under your control this turn. Ké
+“Beats ecorking in the setzers. Too many freaky &
+Ma nutants down there.” fa
+—-Muckman
+Cc 0116S RECA SET TOET FN
+TMT © EN be KEvi~ SIO ARTA RD Wisette tthe © gee
+
+Cc 0165S 2026 Viacom. Ws
+TMT © EN b> Kevin SrOnARTA Th 2026 Winards of the Coast
+
+Putrid Pals VAC !
+. . ‘ ot fe
+-$% 30 5 Of meee x
+i Se ao ‘Cua ORE
+a: r., * Mk ‘@ * es ‘
+
+. “ : ” me 2 ‘as :
+‘ - ~ :
+‘ . ; . dae
+\
+
+Creature — Human Ooze Mutant 46a
+
+. “i
+m@ Deathtouch e
+Disappear -- This creature enters with wo
++1/+1 counters on it if a permanent left é
+the battlefield under your contro] this turn. Ké¢
+“Beats working in the sewers. Too many freaky &&
+
+AA rutants down there.” ay
+- iMuckman (
+¢ 0165 28 2h Vidco 3/3
+TMT © EN te Kevin Sromanta TM} § 0 Bie Mauanteot the oust
+q d
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:20:45
+matched_name: Punk Frogs
+matched_set: TMT
+matched_collector: 164
+reason: rodapé OCR TMT #164
+name_hint: a Punk Frogs Beams
+namebar_text: Punk Frogs 3
+
+’ Punk Frogs
+
+| Punk Frogs
+
+y
+paca wn ssti3.nnts¢nemm em
+A Punk Frogs ams
+.
+
+set_code_hint: ITE
+collector_hint: 164
+
+raw_ocr:
+Punk Frogs 3
+
+’ Punk Frogs
+
+| Punk Frogs
+
+EV LOE SCUOTUS GME SEMTP, £Ten Va
+Cc 0164 Ite Vaan
+TMT > EN be Micutit Giorci ™ & 0 de Wiad ot the < wast
+
+COMET CEN, CUCM CRD ES CCE ONS Cfrced peer Padys Day
+Word aaejas fer sone merce SOc EP
+2 . : . ry - 1
+Bourn veal Sava thoy doa tesa fren bres
+Bev cot scvords and stuth Eek”
+C 0164 £2026 Viacom.
+TMT eC EN bey Micance Goorci ™ fe C 2026 Wizards of the Coast
+
+COPE OOS, COUT EE COMO SS CHEE PUNE PuVs Do)
+“Wordo waius got some nerve showutge Up on
+moour nat, Saviat they don-twanna fieht but
+they got swords and stuf. Heh.”
+Cc 0164 2026 Viaoum
+TMT © EN be Micmice Grorci ™ & 0 Nile Wiss of the Coast
+
+me CORIO, COMMENT HC UMMeSS CHAE PIaVer Pays 2.)
+mm “Werrdo ninjas got some nerve showmg up on Ig
+our turf. Sayan’ they don't wanna fight but /
+they got swords and stuff. Heh.” )
+C 0164 Ale eT a
+TMT SEN bm Micmnet Grorce YR Me Wisaebe ct the © eat
+
+Cc 0164 4° 2026 Viacom, a)
+TMT © EN be Micatce Giorci ™ & 0 2026 Winesds of the Coast
+
+4 . ; >»
+a Punk Frogs Beams
+5
+7 “ : f
+fk wt oe
+r . aA, cg * 5 . ,
+
+ea all 5,
+ahs - : > 4
+% ‘ .
+Creature — Frog Mutant Rebel %a,
+4
+% Ward 3 (Whenever this creature beconies
+a fhe target of a spell or ability an opponent
+. controls, counter tt unless that player pays 3.)
+$
+i “Weodo noias got sonte nerve shoiwnig up on
+our nap. Sayin’ they don't wanna fight but y
+they got swords and stuff. Heh.” t
+4/5 )
+Cc 0164 Qe 26 Vea
+TMT © EN be Micmrit GlorGs RM Wished the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:21:12
+matched_name: Ice Cream Kitty
+matched_set: TMT
+matched_collector: 150
+reason: nome superior OCR
+name_hint: f Ice Cream Kitty I
+namebar_text: f Ice Cream Kitty |
+
+| Ice Cream Kitty
+
+r, —
+f Ice Cream Kitty 1?
+4
+
+set_code_hint: TMT
+collector_hint: 180
+
+raw_ocr:
+f Ice Cream Kitty |
+
+| Ice Cream Kitty
+
+ed
+¢ 0180 +2820 Vago
+TMT © EN be Maia OLLIVIER-HENRY dle Wrath ot the Coast
+
+5 life. ..
+“Prats not ihat trey mean Ov ‘pet food, \
+dude |
+Michefaivelo
+1/3 |
+Cc 0180 4°2026 Viacum.
+TMT © EN be Mair OLLIVIER- HENRY 1 & € 2026 Wizards of the Comt
+
+. ~ , . I OD IE ERI IRI IAI IEE IIE IIS OIE OE OIE ERE IEE EEE w
+3 life. s
+: “That's notishat they mean by ‘pet food, ;
+dude!” b
+—~-Michelangelo TW)
+Cc 0180 » 226 Vacom
+TMT © EN be Mai OLLIVIER- HENRY ™! &e Mls Wiese ot the Coast
+
+a nt an ISIE EE OEE IEE IEE ISERIES IIE SEES ISIE OIE EIS IIE ISIER ION EE™ °;
+(4 3 life. ‘
+: re » ‘ > ie
+a That's not what they mean by ‘pet food,
+a dude!” 7
+—Michelangelo | Tr}
+1
+Cc 0180 Ara eT /3
+TMT © EN te Mait OLLIVIFR-HENRY SRI Rath otthe out
+
+Cc 0180 42026 Viacom. T3
+TMT - EN &» Mais OLLIVIER- HENRY 8 60 2026 Winseds of the Coast
+
+4 Poin 1 od * 7 “.5 Fa Pane ~~ »
+a ice Cream Kitty Lt
+. a
+a ;
+CL ae &
+M@ Artifact Creature — Food Cat Mutant 263,
+— 5
+j 2, Sacrifice another creature or token: i
+Draw a card. Activate only as a sorcery. fy
+Mg 2, ™, Sacrifice this creature: You gain {J
+i 3 life. i
+a That’s not what they mean by ‘pet food, |
+MS dude!” :
+—Michelangelo
+1/3 )
+¢ 0150 2826 Vian
+TMT © EN te Mait OLLIVIER-HENRY TS) & eo Ma Wizandoot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:21:53
+matched_name: Pizza Face, Gastromancer
+matched_set: TMT
+matched_collector: 163
+reason: código TMT #163
+name_hint: I Pizza face, Gastr
+namebar_text: Pizza Face Gastromancer_ 3
+
+r , tzza Face sstomencer™
+
+| Pizza face, Gastr
+
+Pizza Face, Gastromancer G@4
+
+set_code_hint: TMT
+collector_hint: 163
+
+raw_ocr:
+Pizza Face Gastromancer_ 3
+
+r , tzza Face sstomencer™
+
+| Pizza face, Gastr
+
+A 10, @, Sacrifice Pizza Face: You gain 15 life. ,
+U 0163 + 220 Vian
+TMT © EN he VILUARRIE ™ & 0 de Winey ot the Coast
+
+Vour Conmtroi cas cup. put taree Fb rd
+counters on up tooone other target artifacter pe
+creatine. Taitasn’s a creature. if becomes a de p-
+Mutant creature in addition to ats other tvpes. \
+0, @. Sacritiee Pizza Face: You warn £9 Tite.
+
+VU 0163 ¥ 2020 Viacom.
+
+TMT © EN Be VILLARRTE ™ & € 2026 Winands of the Coat
+
+Vour control Gs turn, put (aree tricot] Le
+counters on up tooone other target arutact or -
+creature. [fitisn’ta creature, it becomes a 00 f-
+Mutant creature in addition to its other tvpes.
+10, @, Sacritice Pizza Face: You gain 135 lite. )
+U 0163 » 2026 Viacom
+TMT © EN be VILLARRTE ™ & 0 N26 Winseds of the Coast
+
+om Vour control Us Curn, put taree r1l'r] ‘
+# counters on up to one other target arufact or |
+é creature. If it isn'ta creature, it becomes a O0/O
+ea Niutant creature in addition to its other types. "f
+0, ¢, Sacrifice Pizza Face: You gain 15 life. :
+U 0163 Dee Via ass
+TMT © EN Bm VILCARRTT ND Riad ot the © raat
+
+VU 0163 42026 Viacom. W74 )
+TMT © EN % VILLARRTE ™ fC 2026 Winasds af the Coast
+
+- = — \
+Pizza face, Gastromancer 3@@E
+ro note | 4 g
+an com ey y 8
+bg r d AS .¢ hee 9) * ‘ ( i. C
+nw ? eNom
+{ rey a
+, ; ae aw > ia 4 f
+ae -Yhn | “ Y
+
+i Legendary Artifact Creature — Food Mutant 40)
+a
+j When Pizza Face enters, create a Food token. |
+FQ Disappear - - At the beginning of your end Re
+A@ step, if a permanent left the battlefield under fi
+E your control this turn, put three +1/+1 ly
+counters on up to one other target artifact or r]
+i creature. If it isn'ta creature, it becomes a 0/0 hy
+a Mutant creature in addition to its other types. y
+
+i 10, ©, Sacrifice Pizza Face: You gain 15 life. ;
+
+2/4 )
+
+U 0163 ee Vian
+TMT + EN t& VILZARRTE RO De Wit ot the (oust
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:22:24
+matched_name: Mouser Mark III
+matched_set: TMT
+matched_collector: 159
+reason: tÃ­tulo OCR 'Mouser Mark III I - rm'
+name_hint: Bspaces, US Mottser ataces can be used toy
+namebar_text: Mouser Mark III | - rm
+
+7 Mouser Mark Ill ~
+
+Mouser Mark III
+
+fF _. ogre =
+fl Mouser Mark III Lé
+4 as
+
+set_code_hint: VEA
+collector_hint: 189
+
+raw_ocr:
+Mouser Mark III | - rm
+
+7 Mouser Mark Ill ~
+
+Mouser Mark III
+
+ae
+Cc 0189 26 Vea
+TMT © EN te Gages TaARKo B&O De Wisatshe ot the Coast
+
+Destgned to get rodents out of sia! .
+Bspaces, US Mottser ataces can be used toy
+selze all sorts of vermiumne
+c 0189 £2026 Viacom.
+TMT - EN be Gast Tanno TM & © 2026 Wizards of the Coast
+
+u&
+Destgned to get rodents out of small |
+spaces, its Motser mazes can be used to
+
+gseise all sorts of vernian! E
+
+Cc 01Ss9 * 326 Viscm /3
+
+TMT © EN Bm Gageie Tarko T&D Wierd ot the Caaat
+
+. bj
+é Destgned to get rodents out of small 1
+Ea spaces, its Mouser maws can be used to ff
+i seise all sorts of vermin! .
+2/3 )
+Cc O99 Doe as
+TMT +e EN te Gagein Tanko Th DTA Wasa ot the Gant
+
+Cc 0189 421926 Viscum. Ws)
+TMT © EN be Gaseriist TARKO Te ee NOI Winer of the Coast
+
+4 ym - + J. Re Pad : = 3 »
+| Mouser Mark III LS
+« Po
+g mu » ' 4 4 me .
+oy anne v4 8 ‘ p
+. : ne Ny
+; ee
+@ Artifact Creature — Robot =|
+fq Vhis creature can’t attack unless you [J
+E control another artifact. fe
+i Designed to get rodents out of small |
+La spaces, its Mouser mais can be used to Y
+E seize all sorts of vermin! A
+2/3 )
+¢ 0189 De 2h Vion
+TMT © EN tm Gasrirs TaAxko ™ & Da Wath ot the (oat
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:23:30
+matched_name: Brilliance Unleashed
+matched_set: TMT
+matched_collector: 141
+reason: rodapé OCR TMT #141
+name_hint: f Brilliance Unleashed
+namebar_text: ! eae ann —_ 4
+
+f Brilliance Unleashed
+
+Brilliance Unleas
+
+y
+Brilliance Unleashed 4¢ ‘
+| | [ .t
+
+set_code_hint: TMT
+collector_hint: 14
+
+raw_ocr:
+! eae ann —_ 4
+
+f Brilliance Unleashed
+
+Brilliance Unleas
+
+4 LA ‘ A ¢ qa a . 4
+Robot arufact creature with flying.
+UoO1satT orO2e Views »
+TMT «© EN & Hoxrounc Kim ™ & 0 Bly Wistar ot the Cust
+q 4
+
+© Choose target arufact curd in vour
+eravevard. Returniat to the battlefield if
+san artifact creature card. Orherwise,
+return ito the battlelield and it’s a 3 3
+Robot arutact creature with tlying.
+VU 0141 02026 Vuxom
+TMT + EN be Hoxyouns Kim ™ & C 2026 Wizards of the Coast
+
+-@° Choose target artifact card in your
+gravevard. Return it to the battlefield if
+it's an artifact creature card. Otherwise,
+return it to the battlefield and it’s a 3-3 |
+Robot arufact creature with flying. |
+
+U O14) 2026 Viaem
+TMT © EN bm» Hoxvounc Kim M™ & 0 N26 Waunds of the Coast
+
+i * Choose target artifact card in your |
+3 graveyard. Return it to the battlefield if
+t it’s an artifact creature card. Otherwise,
+@ return it to the battlefield and it’s a 3/3 qj
+Robot artifact creature with flying.
+U O14) Pete Nene on
+TMT + EN te HoxyouNG Kim ™ AODIAWurde ot the Coast
+
+ObOL aruifact creature with tving.
+VU O41 0.2026 Viaem
+TMT © EN & Hoxvouns Kin ™ & 0 2026 Wizards of the Coast
+
+y >
+Brilliance Unleashed 4¢e2
+Ag . PT Proer
+‘ Sorcery =
+H Choose one or beth
+Mi Brilliance Unleashed deals 3 damage to
+target creature.
+* Choose target artifact card in vour
+graveyard. Return it to the battlefield if
+its an artifact creature card. Otherwise,
+return it to the battlefield and it’s a 3/3
+Robot arufact creature with flying.
+UO14sI e026 Vas »
+TMT © EN te HoxrounG Kim ! & 0 Sle Wards ot the Coast
+q if
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:24:08
+matched_name: Nobody
+matched_set: TMT
+matched_collector: 161
+reason: código TMT #161
+name_hint: I Nobody J fad
+namebar_text: | Nobody
+
+p ts a ~ id ~ < ~
+ff Nobody 1 fa!
+a
+
+ae, >
+
+set_code_hint: TMT
+collector_hint: 161
+
+raw_ocr:
+| Nobody
+
+a7 don t need a name. £m nobody. >
+¢ 0161 Qe Vian
+TMT © EN & YusronG O1nG ™ G0 Sle Wisse of the Coast
+a 4
+
+COP TEN NIV EGET SN Eb EIRL. GOREN bf da Cet ,
+the top card of your Lerary You mia pur
+that card on the bottoi. ) \
+“TP dow t reed a namic. Din nobody.” )
+Cc 0161 2026 Viacum.
+TMT © EN Be Yunonc Onc ™ & € 026 Wizards of the Coast
+
+HRM TUN CIWWTIRE SS ThAER. OLTY Lb. CLAIR UE Ds
+the top card of your library. You may put F
+that card on the bottom.) N
+ee $9 f,
+
+T don’t need a name. P’m nobody.” ,
+Cc 0161 “226 Viseom 3/2
+TMT © EN bm Yunors Ding ™ & 6 N26 Wises ot the Coast
+
+oy bY ko UWE & Lali. OLY 1. (LUUR UE Kj
+the top card of your library. You may put Bi
+E that card on the bottom.) ry
+=
+(
+' “IT don’t need a name. I’m nobody.” :
+Cc 0161 Aen STR] far 3/
+TMT © EN Be YusrtonG inc YN AE Divas ot the © at
+
+Cc O16) 1.2026 Viscum. za
+TMT © EN & Yunons Oinc ! & 0 2026 Wreards of the Coast
+
+| Nobody J fad
+- Pee ae
+7 oa x _
+—~ . &
+ry af of : a "4 ,
+@ Artifact Creature — Human Hero =
+/ When this creature enters, return up A
+ba tO one other target artifact you control &
+; to its owner’s hand. Scry 1. (Look at {i
+the top card of your library. You may put
+that card on the bottom.) ;
+»
+L,
+' “T don’t need a name. Pn nobody.” ;
+3/2 )
+¢c 0161 2026 Visco
+TMT © EN & Yurons DING ™ & 6 Bile Wiss ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:24:43
+matched_name: Baxter Stockman
+matched_set: TMT
+matched_collector: 139
+reason: código TMT #139
+name_hint: Baxter Stockman Zeek
+namebar_text: ‘Baxter Stockman 3
+
+F paxter S ‘ockman ~
+
+Baxter Stockma
+
+Baxter Stockman 3be
+iy , 4 ;
+
+set_code_hint: TMT
+collector_hint: 139
+
+raw_ocr:
+‘Baxter Stockman 3
+
+F paxter S ‘ockman ~
+
+Baxter Stockma
+
+* y me . PN
+“you flatter me, Ms, O'Neil. [ like that. 4
+UO139 2 2028 Veawom
+TMT © EN be RANOY GALLEGOS ™ & Nile ras ot the Coast
+
+Lurg@et aruiface creature vou control gets
++3 +0 and gains first strike and vicihince
+until end ef turn.
+“Sore flatter ime. MS OUN GI 2 lhe aia” |
+U 0139 ¢ 2026 Viacom.
+TMT + EN be Ranvy GAUrGos ™ & € 2026 Wizards of the Coast
+
+oe &#t ae 8 ee eV HHO OED! OM MSS Me S'S BE SRS SD ste 8 .- ~eee ae’
+@ target aruifact creature vou control gets
++3 +0 and gains first strike and vigilance
+until end of turn.
+“You flatter me. Ms, OONed. [like that.”
+U O139 + 2026 Viseum
+TMT © EN bm» Ranoy GausiGos ™ & 0 NI Wierd ot the Coast
+
+oe oe eect it — ens 1 Ra el al we SS BS enews 8 7S 8 eu” = wea ae) Py
+Ag target artifact creature you control gets
++ 3/+0 and gains first strike and vigilance '
+@ until end of turn.
+e
+m “You flatter me, Ms. O'Neil. I like that.” |
+U O39 AEA SOTTOnT Pa
+TMT © EN Be RANOd GALLEGO RD Waar ct the © get
+
+Y 0139 «2026 Viscum. 3)
+TMT © EN &» Randy GAUrGos ™ £0 N26 Winerds of the Coast
+
+yp >»
+Baxter Stockman Zeek
+- —e .
+-_ Ny se 4
+/ y A ;
+‘ at a
+ws wwe
+m Legendary Creature — Human Scientist 42,
+b
+e
+Ly When Baxter Stockman enters, create a 1‘1
+5 colorless Robot artifact creature token.
+Mm At the beginning of combat on your turn,
+@ target artifact creature vou control gets
++3:+0 and gains first strike and vigilance
+until end of turn.
+You flatter me, Ms. O'Neil. [ like that.”
+U O139 2 2826 Viacom 3/3
+TMT + EN & Ranor Gaurcos BU Ne Wizard ot the Coast
+q 4
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:25:11
+matched_name: Genghis Frog
+matched_set: TMT
+matched_collector: 148
+reason: código TMT #148
+name_hint: toKen, Cif s a arated Tee OO Oy Sacrificon
+namebar_text: { Genghis Frog |
+
+f > — Te LN
+Genghis Frog a
+rd ge . a . .
+
+set_code_hint: TMT
+collector_hint: 148
+
+raw_ocr:
+{ Genghis Frog |
+
+BB oLrve ONP Orothers! ERe hlanan reign of terror ty
+around here ends tonight!” T3 )
+U 0148 22828 Vian
+TMT © EN & Zoitan Bonus T&D Wizard ot the Coast
+
+toKen, Cif s a arated Tee OO Oy Sacrificon
+thas focus: Puta tL +) conadter ow farvel
+TOME, ACH ate IY aS dsr CT
+“Pree ale brothers! The nanan role of forvow
+aot Feve chids tonights” 73)
+VU 0148 4 2026 Viacom.
+TMT > EN & Zoutan Boros 1! & C 2026 Wizards of the Coat
+
+@ token. (0s an arnufact GUN NL, ©, Sacrifice
+B this token: Puta +l +l counter on target
+creature, Activate only as a sorcery’)
+“Free our brothers! The hignan reign of terror
+arom here ends tonight!” 1733)
+U 0148 ~ 2026 Viseom
+TMT > EN %& ZoiTan Boros ™ & i N26 Wisssds of the Coast
+
+sag token. (df S an aritfact wun “1, @, Sacrifice |!
+s this token: Put a +1'+1 counter on target
+hE creature, Activate only as a sorcery”)
+me Love our brothers! The human reign of terror
+around here ends tonight!” 3 )
+U 0148 Dede Vea on
+TMT © EN & Jaortan Boros MA DIA sande et the Ce
+
+wrotmd Aere cHds domighi lt” TT }
+U 0148 4 2026 Viacom.
+TMT - EN & Zoran Boros ™!) & 0 26 Wines of the Coast
+
+y >
+wo me Me NN \
+Genghis Frog @eork
+amt, 1% e , a os
+‘om, . 7 7s oi B,
+pam , : x4" 5
+~~, =
+, NL ee
+Th ff i
+ae » ?
+o rr
+>_>
+m Legendary Creature — Frog Mutant Rogue a
+°
+a ‘Trample
+mg Whenever Genghis Frog or another Mutant
+aa vou control enters, create a Mutagen
+token. (It’s an artifact with “1, ©, Sacrifice
+this token: Put a +i/+1 counter on target
+creature. Activate only as a@ sorcery”)
+a “Free our brothers! The human reign of terror Y
+around here ends tonight!” 3)
+U O148 Oe te Vion
+TMT © EN > Zoitan Bons BO MIA Wayans ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:25:57
+matched_name: Mikey & Don, Party Planners
+matched_set: TMT
+matched_collector: 157
+reason: nome superior OCR
+name_hint: r Mikey & Don, Par ) "Planners
+namebar_text: r Mikey & Don, Par ) "Planners ;
+
+Mikey & Don, Par
+
+4 oe ~~ ™ aie o~
+Mikey & Don, Party Planners 2%
+
+set_code_hint: ODE
+collector_hint: 187
+
+raw_ocr:
+r Mikey & Don, Par ) "Planners ;
+
+Mikey & Don, Par
+
+R 0187 ae ode Vian We)
+TMT © EN b> Gagetes Runio M&Ms Wiask ot the Coast
+
+‘@ You may play lands and cast Mutant,
+“@ Ninja, or Turtle spells from the top of vour
+brary. Pt vou cast a creature spell this way,
+that creature enters with an additional }
++1 +1] counter on it.
+R O1S7 => 42026 Viacom. 3/3
+TMT - EN > Gasset RuBi0 ™ & € 2026 Wizards of the Coat
+
+You may play lands and cast Mutant,
+Ninja, or Turtle spells from the top of your
+AB library. If you cast a creature spell this way,
+that creature enters with an additional y
++1/+] counter on it. Wy)
+R O1S7 op © 2026 Viscum 3/3
+TMT © EN b> Gagarin Rusto ™ & 0 R26 Wisasds ot the Coast
+
+ya You may play lands and cast Mutant,
+a Ninja, or Turtle spells from the top of your
+@ library. If you cast a creature spell this way, [
+that creature enters with an additional |
++1/+1 counter on it.
+TMT EN be Gagan Remo  Rlea ausde ot the Cae
+
+R 0187 > 4 2026 Viscum. Ws)
+TMT © EN b> Gagarin RuBI0 Te 2026 Wines of the Coast
+
+4 ~. ae a ee N >
+Mikey & Don, Party Planners 2% * IX
+. vase: >
+if. 2m 138 :
+wah g
+. -o - oe -_
+Legendary Creature — Mutant Ninja Turtle %a,
+i! Ward 2
+fg You may look at the top card of your |
+M@ library any time.
+a You may play lands and cast Mutant,
+g Ninja, or ‘Turtle spells from the top of your
+mM library. If you cast a creature spell this way,
+that creature enters with an additional
++1/+]) counter on it.
+R O1S? EE 2826 Ving om 3/3 )
+TMT © EN b> Gageree Rumo ™ 8&0 Ds Waza ofthe Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:26:39
+matched_name: Slithering Cryptid
+matched_set: TMT
+matched_collector: 168
+reason: código TMT #168
+name_hint: I Slithering Crypti
+namebar_text: ns Cryptid
+
+? Slithering Cryptid
+
+| Slithering Crypti
+
+y
+$A
+& Slithering Cryptid 2
+re : .’
+
+set_code_hint: TMT
+collector_hint: 168
+
+raw_ocr:
+ns Cryptid
+
+? Slithering Cryptid
+
+| Slithering Crypti
+
+¢c 0168 2026 Vian =)
+TMT © EN be NICHOLAS GarGoRy ! &0 Mls Wisardh ot the Coast
+
+Bullen Choi ldtic. sbedba dle Ory aS Co sO Ce
+Lar Siren! Tes suatedtes frtthe bsds cays
+Rkeops Come ue cases! Ee dow't sor ue fogs and
+AM rest sfithices,”
+Cc 0168 4 2026 Viacom.
+TMT + EN be Nicwocas Garcory ™ BC 2026 Wizards of the Coast
+
+me UP Sed Cea. SICH UE OHV US EMOTE NY
+“The Slitherv! He's snatches little kids an?
+mw Reeps Vem in cages! Fle don’t got no legs and
+qust Slthers.”
+Lita 273 )
+C 0168 © 2020 Viagim.
+TMT © EN bm Nicworas Garcory ™ & C D026 Wines of the Coast
+
+mee SUTEEL CPCULUTE. SICEECULE OMY US A MOIETY.)
+ae Lhe Slithery! He's snatches little kids an’
+keeps ‘em in cages! He don’t got no legs and |
+just shthers,” ;
+Cc 0168 2 te Wi ny
+TMT © EN tm NICHOLAS GREGORY S&B Maran ot the Gat
+
+Cc 0168 4 2026 Viacom. WB
+TMT © EN te Nicnoras Gaicory ™ fC O26 Wines of the Coast
+
+4 a >
+(Slithering Cryptid 2)
+a Slithering Cryptid 2%
+
+BS
+PY : “a _. ad. a 4
+, a , ~. — ~~ 1. os
+yy . = Te *. A an . = -
+. ¢ My,
+7 2 2 %
+% ° - “3
+Creature — Fish Mutant %a,
+Ba When this creature enters, create a
+¥ ’ os nee
+$ Mutagen token. (/t’s an artifact with “1, ,
+i Sacrifice this token: Put a +1/+1 counter on
+BB target creature. Activate only as a sorcery.)
+4 “The Slitherv! He's snatches little kids an?
+Reeps ‘em in cages! He don’t got no legs and
+just slithers,” ;
+¢ 0168 82h Vea om
+TMT © EN be NeCHOLAS GR GoRY B&O Dis Wayant ot the Coast
+qa
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:27:49
+matched_name: Punk Frogs
+matched_set: TMT
+matched_collector: 164
+reason: rodapé OCR TMT #164
+name_hint: a Punk Frogs Beams
+namebar_text: Punk Frogs 3
+
+’ Punk Frogs
+
+| Punk Frogs
+
+y
+paca wn ssti3.nnts¢nemm em
+A Punk Frogs ams
+.
+
+set_code_hint: ITE
+collector_hint: 164
+
+raw_ocr:
+Punk Frogs 3
+
+’ Punk Frogs
+
+| Punk Frogs
+
+EV LOE SCUOTUS GME SEMTP, £Ten Va
+Cc 0164 Ite Vaan
+TMT > EN be Micutit Giorci ™ & 0 de Wiad ot the < wast
+
+COMET CEN, CUCM CRD ES CCE ONS Cfrced peer Padys Day
+Word aaejas fer sone merce SOc EP
+2 . : . ry - 1
+Bourn veal Sava thoy doa tesa fren bres
+Bev cot scvords and stuth Eek”
+C 0164 £2026 Viacom.
+TMT eC EN bey Micance Goorci ™ fe C 2026 Wizards of the Coast
+
+COPE OOS, COUT EE COMO SS CHEE PUNE PuVs Do)
+“Wordo waius got some nerve showutge Up on
+moour nat, Saviat they don-twanna fieht but
+they got swords and stuf. Heh.”
+Cc 0164 2026 Viaoum
+TMT © EN be Micmice Grorci ™ & 0 Nile Wiss of the Coast
+
+me CORIO, COMMENT HC UMMeSS CHAE PIaVer Pays 2.)
+mm “Werrdo ninjas got some nerve showmg up on Ig
+our turf. Sayan’ they don't wanna fight but /
+they got swords and stuff. Heh.” )
+C 0164 Ale eT a
+TMT SEN bm Micmnet Grorce YR Me Wisaebe ct the © eat
+
+Cc 0164 4° 2026 Viacom, a)
+TMT © EN be Micatce Giorci ™ & 0 2026 Winesds of the Coast
+
+4 . ; >»
+a Punk Frogs Beams
+5
+7 “ : f
+fk wt oe
+r . aA, cg * 5 . ,
+
+ea all 5,
+ahs - : > 4
+% ‘ .
+Creature — Frog Mutant Rebel %a,
+4
+% Ward 3 (Whenever this creature beconies
+a fhe target of a spell or ability an opponent
+. controls, counter tt unless that player pays 3.)
+$
+i “Weodo noias got sonte nerve shoiwnig up on
+our nap. Sayin’ they don't wanna fight but y
+they got swords and stuff. Heh.” t
+4/5 )
+Cc 0164 Qe 26 Vea
+TMT © EN be Micmrit GlorGs RM Wished the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:28:24
+matched_name: Krang & Shredder
+matched_set: TMT
+matched_collector: 201
+reason: tÃ­tulo OCR 'Krang & Shredder 4e¢'
+name_hint: Drsuphear Atthe bevanning of veur ond
+namebar_text: Krang & Shredde
+
+4 ~~ Oe . ——  g-_ ~-- i \
+Krang & Shredder 4e¢
+
+set_code_hint: TMT
+collector_hint: 183
+
+raw_ocr:
+Krang & Shredde
+
+a . . *
+paving tts mana cost.
+R 0183 a 2826 Viacom
+TMT © EN t% Nistor Ossanoon br aa ™ & OO Ms Wash ot the Coast
+
+Drsuphear  Atthe bevanning of veur ond ,
+
+Step, if a permanent iett dre batticheld .
+
+under vour control this turn, vou may casta
+
+eatd exited with Krane & Shredder without
+
+PAVED HS MUTE Cost,
+
+6/7 |
+
+R O1S3 => 42026 Viacom. 6/7
+TMT > EN be Nistor Ossandon Lear ™ & € 2026 Wizards of the Coast
+
+®
+Disuppear  - Atthe beginning of your end )
+step, if a permanent left the batdefield °
+under vour control this turn, vou may cast a
+( eard exited with Krang & Shredder without
+paving its mana cost.
+R 0183 ae «2020 Viacom 6/7
+TMT © EN be Nistor Ossandon Lear ™ & 6 226 Winusdds of the Coast
+
+‘ Disappear — At the beginning of your end |
+step, if a permanent left the batuleheld ,
+under your control this turn, vou may cast a
+
+card exiled with Krang & Shredder without
+paving its mana cost.
+
+R O1S3 Sir ESOL STORET po
+TMT © EN bm Nestor Ossanvon [eat wa DI yank ot the © ast
+
+R O1S3 > 4 2026 Viacom. OT)
+TMT - EN O& Nistor Ossandon Laat Th 2026 Wines of the Coast
+
+4 >
+Krang & Shredder 4 ‘e's E
+i “ a » *
++ Ds a ’ C i :
+renin ‘i fi eon " we ” ba
+. - 2 i o .
+
+a \
+
+\ Legendary Creature — Utrom Human Ninja &,
+
+Pa Whenever Krang & Shredder enter or attack,
+each opponent exiles cards from the top of ’
+their hbrary unul they exile a nonland card. By
+
+e
+
+{ Disappear —- At the beginning of your end .
+step, if a permanent left the batdefield .
+
+Ae under your control this turn, you may cast a
+
+‘Ecard exiled with Krang & Shredder without
+paving its mana cost.
+
+R O153 <a 82h Viacom
+TMT © EN t% Nistor Ossannon br ae ™ & Mls Wrath of the Coast
+q d
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:38:33
+matched_name: Manhole Missile
+matched_set: TMT
+matched_collector: 94
+reason: código TMT #94
+name_hint: Manhole Missile leh
+namebar_text: ; wd Missile |
+
+‘Manhole Missile Missile. ~~
+
+Manhole Missile
+
+4 .
+. Manhole Missile Nor
+> .
+
+set_code_hint: TMT
+collector_hint: 94
+
+raw_ocr:
+; wd Missile |
+
+‘Manhole Missile Missile. ~~
+
+Manhole Missile
+
+Cc 0094 © 2026 Vuae
+TMT + EN Oe Fania SETLAWAN B&B Wigatds ot the Coast
+
+4 from vour hand on the bottom of .
+evour library. If vou do, draw a card.
+a SAY YER PRAYERS, TOITLES!”
+C 0094 2026 Vuaxon
+TMT © EN Be FAMARixa SETIAWAN ™ & C 2026 Wizards of the Coan
+
+J from your hand on the bottom of — &
+
+‘@ vour library. [f you do, draw a card.
+
+SAY YER PRAYERS, TOITLES!” — ¥
+c 0094 ' 2026 Viacem
+TMT © EN be FamarKxa SETTAWAN  & 0 20s Wines of the Coast
+
+4 from your hand on the bottom of —
+your library. If you do, draw a card. A
+a “SAY YER PRAYERS, TOITLES!” }
+
+IMT EN Be FAUHEKA SP TTAWAN Met DIN Wesatdeod char ren
+
+C 0094 2026 Vaaom
+TMT © EN Se Famarxa SCTIAWAN T! & 0 2026 Winerds of the Coast
+
+GP eee
+; Manhole Missile leh
+»
+., AW) Ae &
+3 : ‘ - we
+ae rn ¥ . , pos “
+x ee € wee . oy
+7 . . . .
+yo fi a {Bae f
+wa Manhole Missile deals 3 damage to :
+e@ target creature. You may putacard &
+from your hand on the bottom of :
+: your library. If you do, draw a card.
+Ma SSAY YER PRAYERS, TOITLES!” — ¥}
+IMT EN te fF Si ‘ ™& Dla Wi Sarena
+q d
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:46:43
+matched_name: Null Group Biological Assets
+matched_set: TMT
+matched_collector: 98
+reason: código TMT #98
+name_hint: Null Group Biological Assets
+namebar_text: Null Group Biological Assets
+
+Null ‘ Biolo Q cal Asset
+
+Null Group Biolo
+
+4a
+; Null Group Biological Assets 2.
+
+set_code_hint: TMT
+collector_hint: 98
+
+raw_ocr:
+Null Group Biological Assets
+
+Null ‘ Biolo Q cal Asset
+
+Null Group Biolo
+
+¢c¢ 0098 2826 Viggo 0)
+TMT EN %® Mixios Lcet ™! & 1 De Wasanh ot the Coast
+
+4 discard a card. If vou do, draw a card. 4
+Pa a compar vcoman. Dui partof the pla *
+ag fon part of tie toa Amd Eero ay cork.”
+Ah
+Cc 0098 ©2026 Viacom.
+TMT © EN te Mixcés licen ™ & C 2026 Wizards of the Cont
+
+“4 discard a card. If you do, draw a card. f
+¥ “Pina company woman. Prt part of the plan. YF
+BS 02 part of the team. And T enjov my work.”
+Lod}
+Cc 0098 » 2026 Viscum
+TMT EN & Mixtos Loin ™ & 0 X26 Wisards ot the Coast
+
+ey @6@weetee 7 Ww & &BSEEaart Neh Ww SES VS OS —_——— eee ind aos ~
+3 discard a card. If you do, draw a card.
+ra ma company tcoman. Pm part of the plan. FF
+cd ’ - . ” *
+Aa J part of the team. And I enjoy my work.
+—Lodi Wh
+Cc 0098 ede Meo
+TMT © EN te Minton bacon ho Me Rayan et the Gast
+
+Cc 0098 4 2026 Viacom. Wh
+TMT © EN Be Mixios licen ™ £0 O26 Wines of the Coast
+
+Null Group Biological Assets 2}
+oy BF
+*. as % ay ry ] . “
+. ' at Pee TON . % +, 4:
+. > : 5 ~ ~ a ‘ ” 4 =
+$e - iin! ) 4 oe
+? ay
+mm Creature — Mutant Mercenary %ai FS
+@ During your turn, this creature has first y
+MA strike. ;
+BE Whenever this creature attacks, you may %
+
+discard a card. If you do, draw a card. xe
+$ “Pin a company woman. Pm part of the plan. FF
+bg Jt part of the team. And I enjoy my work.” F
+
+---Lodi
+
+3/1 )
+¢ 0098 2826 Vian
+TMT EN t& Mixios Lcin AU De Wiad ot the Cast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:47:44
+matched_name: Mutant Town Musicians
+matched_set: TMT
+matched_collector: 97
+reason: rodapé OCR TMT #97
+name_hint: Mutant Town Musicians
+namebar_text: Mutant Town Musicians
+
+‘Mutant Town Musicians ~~
+
+| Mutant Town Mu
+
+; Mutant Town Musicians 2
+
+set_code_hint: TMT
+collector_hint: 937
+
+raw_ocr:
+Mutant Town Musicians
+
+‘Mutant Town Musicians ~~
+
+| Mutant Town Mu
+
+« we R ocr Cease FEC OH iv
+zeouldn') have it any other way.
+2 wee 2/4 |
+Cc 0097 + 22h Vian /
+TMT + EN & Levinxy / LionaRdo Vincent M&O le Wisardh ot the Coast
+a 4
+
+441.40 until end of turn. *
+galfter the Bombo'’s take en thrash nietal
+Bosal for coorvonte . 2. dik’ Shiccna
+cooked TD face Wanye Other Toy, 774)
+Cc 0097 42026 Viacom.
+TMT © EN be Levinny / Leonardo Vincent ™ & € 2026 Wizards of the Coast
+
+me a Ci Ss .
+“§4+1/+0 until end of turn. |
+4 After the Bomb’s take on thrash nietal “
+be sae for everyone... and Sheena j
+couldn't have iw anv other way.
+¢ 0097 © 2026 View
+TMT © EN be Levinny / Lrowaroo Vincant St Rilo Wits ot the Coast
+
+Cn, <> _».
+; +1/+0 until end of turn. a
+f >
+ta After the Bomb’s take on thrash metal 4
+Ma isn’t for everyone... and Sheena
+wouldn't have wt any other way.
+2/4 )
+C 0097 Den Was /
+TMT © EN be Livinny | LionaKnoo VINCENT a Ql Wasa the Coat
+
+couldn 1) have Wo any other way. 774)
+Cc 00937 42026 Viacom.
+TMT © EN & Levinaxy / Laonarovo Vincent Tt & 2026 Wizards of the Coast
+
+= Mutant Town Musicians 22)
+ae m:
+x
+a "
+@ Creature — Mutant Bard Performer ta ‘
+2 as . F]
+: Trample
+Ma Alfiance - Whenever another creature &
+68 you control enters, this creature gets B
++1/+0 untl end of turn. ,
+After the Bomb’s take on thrash metal j
+be isn’t for everyone... and Sheena Fi
+wouldn't have wt any other way.
+Cc 90097 + 38 Venom
+TMT © EN & Livinny / Lronaroo Viencint Gor Mala Wins ot the Coast
+a if
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:48:28
+matched_name: Manhole Missile
+matched_set: TMT
+matched_collector: 94
+reason: código TMT #94
+name_hint: Manhole Missile leh
+namebar_text: ; wd Missile |
+
+‘Manhole Missile Missile. ~~
+
+Manhole Missile
+
+4 .
+. Manhole Missile Nor
+> .
+
+set_code_hint: TMT
+collector_hint: 94
+
+raw_ocr:
+; wd Missile |
+
+‘Manhole Missile Missile. ~~
+
+Manhole Missile
+
+Cc 0094 © 2026 Vuae
+TMT + EN Oe Fania SETLAWAN B&B Wigatds ot the Coast
+
+4 from vour hand on the bottom of .
+evour library. If vou do, draw a card.
+a SAY YER PRAYERS, TOITLES!”
+C 0094 2026 Vuaxon
+TMT © EN Be FAMARixa SETIAWAN ™ & C 2026 Wizards of the Coan
+
+J from your hand on the bottom of — &
+
+‘@ vour library. [f you do, draw a card.
+
+SAY YER PRAYERS, TOITLES!” — ¥
+c 0094 ' 2026 Viacem
+TMT © EN be FamarKxa SETTAWAN  & 0 20s Wines of the Coast
+
+4 from your hand on the bottom of —
+your library. If you do, draw a card. A
+a “SAY YER PRAYERS, TOITLES!” }
+
+IMT EN Be FAUHEKA SP TTAWAN Met DIN Wesatdeod char ren
+
+C 0094 2026 Vaaom
+TMT © EN Se Famarxa SCTIAWAN T! & 0 2026 Winerds of the Coast
+
+GP eee
+; Manhole Missile leh
+»
+., AW) Ae &
+3 : ‘ - we
+ae rn ¥ . , pos “
+x ee € wee . oy
+7 . . . .
+yo fi a {Bae f
+wa Manhole Missile deals 3 damage to :
+e@ target creature. You may putacard &
+from your hand on the bottom of :
+: your library. If you do, draw a card.
+Ma SSAY YER PRAYERS, TOITLES!” — ¥}
+IMT EN te fF Si ‘ ™& Dla Wi Sarena
+q d
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:49:06
+matched_name: Mouser Attack!
+matched_set: TMT
+matched_collector: 95
+reason: tÃ­tulo OCR 'Mouser Attack! I'
+name_hint: Baxter Stockinan
+namebar_text: Mouser Attack! |
+
+‘Mouser Attack! — ——
+
+' Mouser Attack!
+
+4 ,
+; Mouser Attack! le
+4:
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Mouser Attack! |
+
+‘Mouser Attack! — ——
+
+' Mouser Attack!
+
+ie OUEY S OUMENHUSS MUP PeTis 60 OG OMe UEOTE, yy
+Baxter Stockinan
+
+Cc 009s e2l2e Vien
+
+TMT © EN % Farinas Pre ™ & 0 de Waar ot the Coast
+
+Sp)oe Target creature vets #3 #0 and gains first 4
+Yoostrike until end of turn. €
+QoChergitcc all Gunes roman soit busritess, bid
+mB fodays brestress Rappers $2 Bo ORLA ATOR
+Darter Stockitan
+Cc 0088S 2026 Vawom
+TMT © EN be Enixas Pir ™ fe 2026 Wizards of the Coan
+
+Joe Target creature gets +3.+0 and gains first
+§ strike until end of turn. .
+3 “For me, all Chines remain stricdy: business. And .
+mB fodav’s business happens to be exterminauonl” fy
+Banter Stockman
+Cc 0095 © 2026 Vue
+TMT © EN be Eaixas Pir ™ & 0 126 Wands of the Coast
+
+¢ Target creature gets +3/+0 and gains first
+: strike until end of turn. A
+‘ »>
+: “For me, all things remain strictly business. And ¥3
+m@ today’s business happens to be extermination!”
+-— Baxter Stockman
+Cc 0095 OoPade Nase a
+TMT © EN be Faeixas Pim RDI de ot the Cat
+
+Boxter Stockwtan
+Cc 00eSs 2026 Viaawom
+TMT © EN bm Earqas Peat ™ & CC R26 Wonende of the Coast
+
+g Seale abn ene inminent deeded math Pee ann tine: som >
+= Mouser Attack! leh
+,
+2 R
+Zt * O57 = i
+“ “ 3 . ~ ‘ é
+3 ~ 9" Fh y
+ry . # e
+3 ‘:
+im Instant %a FS
+> #
+Z Choose one - st
+re Create a ld colorless Robot artifact %
+Pe creature token. .
+* Target creature gets +3'+0 and gains first §
+strike until end of turn.
+
+g “For me, all things remain strictly business. And ji
+
+BE today’s business happens to be extermination!” |
+Baxter Stockinan
+Cc 0095 oDele Vises ”
+TMT © EN te Faixas Pra M60 ly Woyasdh ot the Coast
+q 4
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:50:44
+matched_name: Mouser Foundry
+matched_set: TMT
+matched_collector: 96
+reason: código TMT #96
+name_hint: Five? Ten, maybe!”
+namebar_text: Mouser foundry =
+
+7 Mouser Foundry -
+
+Mouser Foundry
+
+P
+. Mouser foundry Ls
+i —
+
+set_code_hint: TMT
+collector_hint: 96
+
+raw_ocr:
+Mouser foundry =
+
+7 Mouser Foundry -
+
+Mouser Foundry
+
+MB ferwe? Ten, maybe!” Fy
+- - Baxter Stockman
+Cc 0096 e026 Vawem
+TMT + EN &@ Jaxon Fraicn ™ & 0 Sala Wisasdh ot the Coat
+
+4 @. Sacrifice this artifact: It deals 3
+damage to target creature. -
+“Flr... Tore jincnry sro’ [scaade Tiree? \
+Pecos deny ave!” 4
+Baster Stochiiay
+C 0096 2026 Viacom
+TMT + EN be laxos Bascn ™ & € 2026 Wizards of the Coan
+
+¥ 4, Sacrifice this artifact: It deals 3 v
+} damage to target creature.
+.
+“Hm... How many should [ send? Three? 1
+Pdace? ten, mavbe!”
+Baxter Stockman
+C 0096 2026 Viaem
+TMT - EN && Jaxon Eiascn ™ & oC N26 Wasnt of the Coast
+
+“@ 4 @, Sacrifice this artifact: It deals 3 bi
+é damage to target creature. re
+Ag
+‘ “Hmmm... How many should I send? Three? "
+Five? Ten, maybe!” :
+—-Baxter Stockman
+C 0096 PoP Naw
+TMT CEN be Jaxon Frac RO MIA ede ot the © get
+
+Baxter Stockaan
+Cc 0096 «2026 Vixem
+TMT - EN & Jaxon Exaicn ™ & C O26 Wrtards of the Coast
+
+F _, ; . »
+| Mouser foundry le
+a oy
+q oa 5
+
+, ‘. ia aed —
+Lap VO \ & .
+. . ¢ .
+@ Artifact =I
+‘-
+j When this artifact enters or leaves the a
+d battlefield, create a 1/1 colorless Robot he
+Fa artifact creature token. 4
+N 4 @, Sacrifice this artifact: It deals 3 i}
+i damage to target creature. a
+‘ “Hmmm... How many should I send? Three? A
+. rps » a
+Five? Ten, maybe! ,
+- -Baxter Stockman
+C 0096 e Bele Vue in
+TMT + EN & Jako Finscw ™ & 0 didn Wass ot the Cant
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:51:45
+matched_name: Zog, Triceraton Castaway
+matched_set: TMT
+matched_collector: 111
+reason: nome superior OCR
+name_hint: Zog, Triceraton Castaway 4eR
+namebar_text: "Triceraton Castaway
+
+' ZOg, Triceraton (
+
+Zog, Triceraton Castaway 46
+
+set_code_hint: TMT
+collector_hint: 4
+
+raw_ocr:
+"Triceraton Castaway
+
+' ZOg, Triceraton (
+
+‘ . ~“ > , ° F
+your hand, then shuffle.)
+5/4 }
+¢ ow 226 Vurom
+TMT © EN te Simon Dominic M&O Sle Wiss ot the Coast
+q 4
+
+é Nels) d LC TINININ Lado CLabad. :
+1 Mountainevcling 2. ¢2, Discard *
+my this card: Search vour lerary for a “
+a Voretaen card, reveal tt, pur it ito
+vour fan, thei shuffle)
+. 5/4 !
+
+Cc ov 452026 Viacom.
+
+TMT © EN Pe Simon Dominic dC 2026 Wizards af the Coast
+
+Pm NCAR © UZENIRUN LED LUG. “2
+‘¥ Mountaincveling 2 (2, Discard :
+¢ this card: Search your library for a s
+a Mountain card, reveal tt, put it mito 2
+P your hand, then shuffle.) '
+, 5/4 }
+Cc O1N + 2026 Viawm
+TMT © EN %& Simon Domentc Mt & 0 N26 Wizards of the Coast
+
+; Wcahd © WINN LES2O LUGS. ras
+3 Mountaincycling 2 (2, Discard 3
+ey this card: Search your library for a ;
+a Mountain card, reveal it, put it into
+
+your hand, then shuffle.) a7
+c Ov fe 28 Via oi
+TMT + EN bm Sruo~ Dominic A DIS Wass ot the © at
+
+C Ol 42926 Viacom.
+TMT © EN b> Simon Dominic  & C2026 Wizards of the Coast
+
+p >
+Zog, Triceraton Castaway 4eR
++ a . af Lm Pay
+y Se hg SES
+; R 7 y ‘ ¥ 7 - , 7 Fy? nV?
+x  & Si: Sake
+% Th al Se. ~ ~~ ws
+a . a 4 -, ,. nN
+: vey be .
+3 r & x i
+Legendary Creature — Dinosaur Soldier 2%, ‘
+fa Reach, trample fs
+a When Zog enters, target creature :
+can’t block this turn. s
+Mountaincycling 2 (2, Discard 3
+Z this card: Search your library for a ;
+a Afountain card, reveal tt, put it into
+your hand, then shuffie.) a7
+cow S826 Vos 5/4
+TMT + EN te Simon Dominic ™ MIN Wasa ot the © oat
+q id
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:52:22
+matched_name: Bot Bashing Time
+matched_set: TMT
+matched_collector: 85
+reason: nome superior OCR
+name_hint: I! Bot Bashing Time
+namebar_text: |! Bot Bashing Time
+
+yo
+@ Bot Bashing Time 3
+
+set_code_hint: TMT
+collector_hint: 65
+
+raw_ocr:
+|! Bot Bashing Time
+
+ —Raphael id
+c ooss + 2026 Views ~
+TMT © EN b> Xavitn Rinuigo Me & 0 dada Wash ot the (ast
+a 4
+
+PR RIE LALES CURE TL, ONTO TO TIStO etd. Y
+. 3
+s
+Miccly i” |
+A Raphael ,
+Cc 0085 2026 Vixom.
+TMT -EN > Xarita Risuao tf C 2026 Wasards of the Coa
+
+fe MQ UTIs LULLED, CAMIO TU TIO al. .
+¥Well, Id sav we redecorated the place
+: nicely!” -
+g ---Raphael
+c 0065 o 2026 Vane
+TMT © EN b> Xavier RinasRro MM & oe Mila Wisasds ot the Cuast
+
+Ie LldlS CULT, CAML It AIO aU. zy
+“Well, I'd say we redecorated the place {§
+me nicely!”
+a —Raphael
+
+C 0085 DB DON Ga on
+TMT EN te Xavier Rintieg RDI ade ot the et
+
+Cc 0085 2026 Viawom
+TMT - EN & Xavite RintRo ™! & 0 2026 Wirerds of the Coast
+
+4 Aw Sy. , - see ow . . oe ” = >
+Bot Bashing Time 32)
+. / af ; “ae a \ es
+oa , a aa Si cee
+hd . N J _-_ > Fas
+# ‘:
+e a #
+4 Bot Bashing Time deals 6 damage to y
+rq target creature. If that creature would §
+die this turn, exile it instead. %
+a ‘Well, Id say we redecorated the place 7
+3 nicely!”
+aw — Raphael
+¢ 0085 62026 View an
+TMT EN te Xaving Rintire ™!& 0 Mla Want tthe Cast
+qq d
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:53:28
+matched_name: Casey Jones, Jury-Rig Justiciar
+matched_set: TMT
+matched_collector: 87
+reason: rodapé OCR TMT #87
+name_hint: Casey Jones, meas Justiciar
+namebar_text: Casey Jones, meas Justiciar .
+
+Case ) ones. Jur "Ris ustici
+
+Casey Jones, Jury
+
+Casey Jones, Jury-Rig Justiciar 1 «
+
+set_code_hint: ELE
+collector_hint: 87
+
+raw_ocr:
+Casey Jones, meas Justiciar .
+
+Case ) ones. Jur "Ris ustici
+
+Casey Jones, Jury
+
+B your library in a random order. 4
+2/1 }
+U 0087 > ele Van
+TMT + EN & LoROGAN ™ GO DI Wisarh of the Coast
+q if
+
+ule COP TOUT Caras OF VOU TOPUEN, 5
+} You may reveal an artifact card from «
+Yaamong them and put it into vour *
+hand. Put the reston the bottom of
+vour library ina random order.
+2/1!
+VU 0087 (2026 Viacom.
+TMT © EN Be LORDIGAN PM & € 2026 Wizards of the Coat
+
+BZ UIE LOp LOU Caras Of YOUR MOTALry,. .
+‘g You may reveal an artifact card from >
+$ among them and put it into your “
+3 hand. Put the rest on the bottom of | Fj
+
+your library in a random order. 3
+| 2/1 |
+U 0087 © 2026 Viacom
+TMT © EN Pe LoROIGAN Tt Nh Winesdts of the Coast
+
+ue lOp lour CarQs OF YOUT HOTtary, 3
+: You may reveal an artifact card from #
+fg among them and put it into your ‘
+hand. Put the rest on the bottom of F
+
+your library in a random order.
+2/1 |
+VU 008? ede Vaan
+TMT © EN te LORDHGAN Rs Wisarde ct the © cast
+
+L | .
+U 0087 4 2026 Viacom. Wi
+TMT © EN te LORDIGAN TM fe 2026 Wizards of the Coast
+
+y >
+Casey Jones, Jury-Rig Justiciar 1 @k
+: (ae 5 *
+3 a“ ~ ac) 4. ° > ° ae
+ee | ance yy:
+qd Lae. be io
+a oa Ne f ¢
+. ~ ~ or eee
+— te Lame
+5 2
+P dary C Berserk ys
+A icsendary H =
+oa When Cascy Jones enters, look at :
+the top four cards of your library. :
+You may reveal an artifact card from
+Py among them and put it into your
+ff hand. Put the rest on the bottom of
+B your library in a random order.
+2/1 )
+U 0087 262e Viawo
+TMT © EN te LOROWGAN M&O Dis Waar ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:54:15
+matched_name: Purple Dragon Punks
+matched_set: TMT
+matched_collector: 100
+reason: código TMT #100
+name_hint: Purple oem Punks a
+namebar_text: Purple oem Punks a
+
+| Purple Dragon P
+
+4a
+‘ Purple Dragon Punks de
+
+set_code_hint: TMT
+collector_hint: 100
+
+raw_ocr:
+Purple oem Punks a
+
+| Purple Dragon P
+
+¢ 0100 + 28 Viagem a
+TMT © EN & Rose Buxiamin M&Ms Wisatste ot the Coast
+
+TP These guys ure very, br no reokics.
+They ve fought aad beat evervihing on"
+A ofcvo legs a this area... ONCE Ph Ms |
+— Leonardo 2/2)
+Cc 0100 42026 Viacom.
+TMT - EN b> Rost Bewuamin de C 2026 Wizards of the Coat
+
+‘4 “These guys are voung, but no rookies.
+rg They ve fought and beat everthing on [?
+ba (iso legs in this area... except us.” F
+—Leonardo '
+2/2 }
+Cc 0100 - 326 Vaacoum
+TMT © EN b> Rost Baxumin ™/ 6&0 Di2e Wisse ot the Coast
+
+3 “These gitys are young, but no rookies. A
+a Lhey've fought and beat everything on FF
+Mg fzvo legs in this area... except us.”
+—Leonardo Wr)
+Cc 0100 ae Via as 2/2
+TMT © EN b> Ross Bewtumin Dl Basan ot the © oust
+
+Cc 0100 4226 Viacom. W
+TMT - EN %& Rost Bewumin ™ £0 N26 Winesds of the Coast
+
+gp le
+
+@ Purple Dragon Punks lex
+r ai 4 ° } - ¢
+: ts ON
+t. ne «
+x
+
+* * C
+# mes
+Creature — Human Rogue 46a, ‘
+> i y . 5
+ma @: Add @. Spend this mana only to a
+Wa cast an artifact spell or to activate an Ss
+e@ ability. a
+
+“These guys are young, but no rookies.
+pa They've fought and beat everything on [3
+Ma zo legs in this area... except us.”
+—Leonardo
+2/2 }
+¢ 0100 2 Ie Vea
+TMT © EN te Rose BoxuMin 0 Nb Wiss of the Coast
+q if
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:54:51
+matched_name: Old Hob, Alleycat Blues
+matched_set: TMT
+matched_collector: 99
+reason: código TMT #99
+name_hint: Hob, Alleycat Blues my
+namebar_text: Hob, Alleycat Blues my
+
+Hob. Alleyear Bl ules
+
+Old Hob, Alleyca
+
+Old Hob, Alleycat Blues 4s
+
+set_code_hint: TMT
+collector_hint: 99
+
+raw_ocr:
+Hob, Alleycat Blues my
+
+Hob. Alleyear Bl ules
+
+Old Hob, Alleyca
+
+‘ BS IS MS QQUTHST Utent, Plain ANd SI Ple. ¥
+Etther youre with us, oro.
+4/4 |
+U 0099 2920 Vian
+TMT © EN & Rose Bexumin O06 Wiss ot the Coast
+
+me oe Pew Webbbadbbay Neh LEIS FELINE RTE YAN DO: s
+: ‘
+4 1 ®: Lareet attackine creature token gains x
+py ndestrucuble until end of turn, P
+ee dais ts tes Quay’ Gon, plain avid sii ple. )
+Peether Venere Oe Ms, OR 4/4
+U 0099 42026 Viacom.
+TMT © EN Pe Rost Bowmen  & € 2026 Wizards af the Coat
+
+Lian RAN Bed sd assbay ATA LSEN FEV WAEL VDE hee a a
+“461%: Larget attacking creature token gains
+4 indestrucuble until end of turn. af
+mL his is us aganist Uiem, plain and simple. :
+
+futher voucre tenth us, or 44)
+
+¥ 0099 > 2D26 Vaaam
+TMT © EN b> Rose Baxumin At N26 Wines of the Coast
+
+24. belied < Lohaitataketatad <.) XR LSB JENA WSSU Sty }7s uy
+3 1 *: Target attacking creature token gains
+é indestructible until end of turn. .
+led
+: ee , . , F
+a “This is us against them, plain and siniple.
+Ether youre with us, or... 474)
+U 0099 fee Noa ots
+TMT > EN be Ross BextaMin Sw Da Ravan ct the © as
+
+Pitther voucre tide us, or. “4/4.
+U 0099 4 2026 Viscum.
+TMT © EN && Rost Bexumin Tg 0 2026 Winzesds of the Coast
+
+y >»
+Old Hob, Alleycat Blues 4eR
+. nk ” vos :
+4 St
+? \;
+Legendary Creature — Cat Mutant Rebel %, ‘
+: At the beginning of combat on your turn, "
+“a create a 2/2 red Mutant creature token. It y
+fa gains haste until end of turn. Destroy itat
+the beginning of the next end step. 5
+1 *: Target attacking creature token gains
+indestructible until end of turn. ,
+ME “This is us against them, plain and simple. :
+Ether you're with us, or...”
+4/4 )
+U 0099 282e Vain
+TMT > EN be Rose fanumin ™ B&O M6 Wasatch ot the © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:55:26
+matched_name: Raphael, the Nightwatcher
+matched_set: TMT
+matched_collector: 103
+reason: código TMT #103
+name_hint: Raphael, the Nig!
+namebar_text: P Rar hacl, the Ni Q hewatcher
+
+Raphael, the Nig!
+
+Raphael, the Nightwatcher 2@.«
+
+set_code_hint: TMT
+collector_hint: 103
+
+raw_ocr:
+P Rar hacl, the Ni Q hewatcher
+
+Raphael, the Nig!
+
+R 90103 Se 2 oS2e Voces zm
+TMT © EN  GaiG STAPLUS  & 0 Se Wisash ot the Coast
+
+. bloc hers vio. Ee CHILES rapped und Udo, 5) -
+: &
+4 Attacking creatures vou control have 7
+. - tn
+q double strike. |
+z an’ 7 ' 7 vt
+Prints fo praech in,
+R 0103 => 42026 Viacom.
+TMT © EN be Gare Starus ™ & € 2026 Wizards of the Coast
+
+eB blockers step. He enters tapped and attacking.) \:
+| Attacking creatures vou control have a8
+tg double strike. *
+® y
+P“Time to punch im.”
+R 0103 ae © 2026 Viacom
+TMT © EN b> Gari STAPLES ™! & Xie Wisssds ot the Coast
+
+a blockers step. He enters tapped and attacking.)
+; Attacking creatures you control have 2
+a double strike.
+<4 :
+
+“Time to punch m.” zh
+R 90103 ie Qo re Waa /3
+TMT + EN > Gace Stariis YR Bala Waar ot the Gout
+
+R 0103 &> < 2026 Viscum. WB)
+TMT © EN & Gare STAPUS 1! & C N26 Wisseds of the Coast
+
+y >»
+~______ = giles,
+Raphael, the Nightwatcher 2@eR
+a ? Pe
+hed “4 > * ew. 4 »
+‘ Pd ,) a ~ Fe €
+* ; ) “roy é
+2 . Oe ’ y
+a ee %
+? \
+m Legendary Creature — Mutant Ninja Turtle a, t
+i. f
+me Sneak 182 (You may cast this spell y
+Me for 1 88 if vou also return an unblocked ?
+ea attacker you control to hand during the declare ¥
+blockers step. He enters tapped and attacking.) Fe
+
+@ Attacking creatures you control have
+Fg double strike.
+7.
+
+B Time to punch in.”
+
+R 0103 Le ee Waa 2/3
+
+TMT + EN Me GRaic StaPlis Mile Wivarh ot the Cast
+
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:56:16
+matched_name: Raphael, Most Attitude
+matched_set: TMT
+matched_collector: 101
+reason: código TMT #101
+name_hint: Raphael, Most Attitude 3ek
+namebar_text: t Raphael, Most a mn
+
+P Rat hael Most Attitude
+
+Raphael, Most At
+
+Raphael, Most Attitude 3«
+
+set_code_hint: TMT
+collector_hint: 101
+
+raw_ocr:
+t Raphael, Most a mn
+
+P Rat hael Most Attitude
+
+Raphael, Most At
+
+m (Ulli, Vou ¥ A CsSHCU W GF
+Raphael. “4/3 )
+Uo101 2826 Viacom
+TMT © EN be Troms Caracume rei ais-Keain M&Ms Wizard ot the Coast
+a 4
+
+Jovou control enters, vou may exile the top +
+. . c
+1 card of vour library. 7
+g Whenever Raphacl attacks, untl end of
+turn, vou may plav a card exiled with }
+Raphael. . ~ 4/3)
+VU 0101 € 2026 Viacom.
+TMT © EN be Tromas Craspracain-Krin ™ & € 2026 Wizards of the Coat
+
+@ you control enters, you may exile the top &
+‘card of vour library. g
+-@ Whenever Raphael attacks, unul end of = [°
+Mf turn, vou may play a card exiled with 7
+Raphael.
+U 0101 + 220 Viacom
+TMT © EN b> Thomas Caracmemiain-KeEen ™ & 0 26 Wisards of the Coast
+
+@ you control enters, you may exile the top R
+: card of your library. d
+: Whenever Raphael attacks, until end of = [4
+@ turn, you may play a card exiled with
+Raphael. —W3)
+U O10! Dee Vas /3
+TMT © EN by THOMAS CHAMELRIAIN- KEIN MII Wasa ot the © ast
+
+RO ees 4/3 |
+U O101 £2026 Viacom.
+TMT © EN Be Thomas Cracsrrmiain-Kein £0 N26 Winesds of the Coast
+
+yp >»
+Raphael, Most Attitude 3ek
+rs \ “~ -
+i re am, coal '
+3 4 ro fe 3. 4 % NL: aan t 8
+7 ; om ie” aed =
+i 4 adh 1.
+2 ‘i
+mm Legendary Creature — Mutant Ninja Turtle 6a, ¢
+pen B}
+z Menace (7hus creature can’t be blocked #
+ba except by [cco or more creatures.) ¥
+Ea Alliance © Whenever another creature 4
+you control enters, you may exile the top 5
+card of vour library. >
+Fg Whenever Raphael attacks, until end of [74
+MF turn, vou may play a card exiled with
+Raphael.
+4/3 )
+UO101 2826 Viacom
+TMT © EN & THomas Caer et ais-KEin Te & 1 Dia Wistar ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:57:08
+matched_name: Jennika's Technique
+matched_set: TMT
+matched_collector: 236
+reason: código TMT #236
+name_hint: if Io a a
+namebar_text: 7 Jerks TECHNIQUE 4
+
+JERIIKR'S TECHN
+
+[. -n oe OS 8 a a -
+JENNIKA'S TECHNIQUE OF
+
+OU ’
+A, f
+
+set_code_hint: TMT
+collector_hint: 236
+
+raw_ocr:
+7 Jerks TECHNIQUE 4
+
+JERIIKR'S TECHN
+
+: ACHOLE POU OF &@ WEGPOT — :
+U 0236 ©2026 Vuxorn .
+TMT + EN > Free Sosrcino ™ & ¢ 2026 Wirards of the Coat
+
+q
+
+if Io a a, 7 ,
+‘% fo each creature. ,
+, ; ;
+“Of course it’s dangerous. That’s the
+whole point of a weapon!”
+VU 0236 €2026 Vuxom |
+TMT - EN be rues Sosrcieo ™ & C 2026 Wizards af the Coaw
+qq D
+
+Ay to each. creature. re \:
+
+| | Of course is dangerous. That's the = |
+“whole point'of. aweapon!” sh
+TMT - EN > Pewee Sosatine ™ & C 2026 Winards of the Coast
+
+Dy
+
+RE ed -_ a
+\ to each creature. '
+“Of course it’s dangerous. That's the
+whole point of a weapon!”
+- u 0236 ©2026 Viacom. “
+TMT + EN > Feuer Sosacino re & € 2026 Wizards af the Coast
+q 4
+
+= -- - - - .. a -.. —/
+U 0236 ©2026 Viacom.
+TMT -EN > Faure Sosacizo ™ & C 2026 Wirerds of the Coat
+
+~~ = Sem OO a |
+JENNIKA’S TECHNIQUE Of
+y. “~ ae _’ 4
+lf aie —7 | Wien’ {
+by ee?
+\ Sneak © f
+| Jennika’s Technique deals 2 damage
+« each creature. f
+i “Of course it’s dangerous. That’s the
+} whole point of a weapon!” ;
+rae Ad
+U O236 2026 Viacom
+TMT - EN tw Feet Sosruinoe 6&0 Nile Wisards of the € wast
+q df
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:57:45
+matched_name: Raphael, Tough Turtle
+matched_set: TMT
+matched_collector: 104
+reason: código TMT #104
+name_hint: Raphael, Tough Turtle Ler
+namebar_text: Par hael Tous! h Turtle |
+
+Raphael, Tough 1
+
+4 SS __-- ee
+Raphael, Tough Turtle le
+
+set_code_hint: TMT
+collector_hint: 104
+
+raw_ocr:
+Par hael Tous! h Turtle |
+
+Raphael, Tough 1
+
+| Spline any
+¢ 0104 » 22h Vigo
+TMT + EN te NatHANire Himawan ™ & 0 lb Ward of the Coast
+
+PAger is a dagerous ally. It clouds *
+Q vour pucdymient, you need to control uy lest *
+Ba control you.” |
+Spluuer
+1/3!
+Cc 0104 £2026 Viacom.
+TMT © EN Be NarManice Himawan  & € 2026 Wizards af the Coast
+
+‘§ “Anger ts a dangerous ally. It clouds ;
+your judgment. You need to control tt, lest |?
+Ba? control you.” 4
+Splinter .
+, 1/3 |
+Cc 0104 + 2026 Vaan
+TMT © EN be NarHanire Himawan hi Alb Wisasds ot the Coast
+
+3 “Anger ts a dangerous ally. It clouds 2
+ra your judgment. You need to control it, lest t?
+Ma it control you.”
+-—-Splinter
+1/3 )
+Cc O04 MPN a ot
+TMT + EN be NaATHANIEC Himawas DIA Maar ct the © oat
+
+Cc 0104 42026 Viacom. TT)
+TMT © EN Be NarManice Himawan TM ge 226 Wizards of the Coast
+
+po >
+Raphael, Tough Turtle Ler
+e ta % Pg. .
+. af od @ iq) \ 5
+2 > WH
+Legendary Creature — Mutant Ninja Turtle %a, ‘
+a Alliance Whenever another ®
+yy Creature you control enters, Raphael y
+a deals 1 damage to target opponent. &
+“Anger is a dangerous ally. It clouds
+pa your judgment. You need to control tt, lest
+aa? control you.”
+Splinter
+1/3 )
+¢ 0104 222 Vea
+TMT + EN te NaTHANIEG Himawan M&Ms Wiad ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:58:35
+matched_name: Spicy Oatmeal Pizza
+matched_set: TMT
+matched_collector: 109
+reason: rodapé OCR TMT #109
+name_hint: m Spicy Oatmeal Pizza Zen
+namebar_text: Spicy Oatmeal Pizza a
+
+7 Spicy Oatmeal Pizza
+
+| Spicy Oatmeal Pi
+
+y
+| Spicy Oatmeal Pizza var
+q 7 ,
+
+set_code_hint: ELE
+collector_hint: 109
+
+raw_ocr:
+Spicy Oatmeal Pizza a
+
+7 Spicy Oatmeal Pizza
+
+| Spicy Oatmeal Pi
+
+‘ Raphae: ,
+U 0109 + ele Vaan
+TMT © EN && NicHouas Garcory 60 DT With ot the Coat
+
+2. @. Sacrifes Uds arufact: rou gain 3 lite. +
+“Son, Pb three oe sate fuabaneres fo cue he -
+frcael Ca TAs \
+\
+Raphi :
+yu 0109 ©2026 Vicon.
+TMT © EN be Nicwocas Garcory ™™ & UC 2026 Wizards of the Coa
+
+g 2. @, oacrifice this arulact: you gain 3 hie. ]&
+Souk, DT threz in some habaneros to cut the h-
+heat on this.”
+
+Raphael ,
+U 0109 2028 Vagem
+TMT © EN be Necuotas Gaicory ™ & DI Wizards af the Cast
+
+“a 2, @, oacrifce this artifact: You gain 3 Iie. kj
+é “Yeah, I threw in some habaneros to cut the E
+‘ heat on this.” 4
+—-Raphael :
+U O109 SoPedN aon
+TMT © EN be NicHoras GRiGorr ™ A MAA and ot the Saat
+
+U 0109 «2026 Vuaxom
+TMT - EN &» Necworas Garcory * & CU N26 Werards of the Coast
+
+Dc ae A 4m ts ft pee
+m Spicy Oatmeal Pizza Zen
+« o
+t ® . Nd
+i oe, 2 wv a be id .
+sr AF
+f ‘ta. 9 ._ «
+oe ~ “se a :
+’ Artifact — Food %,
+d When this artifact enters, it deals 4 damage .
+to any target and 3 damage to you. ai
+E 2, @, Sacrifice this artifact: You gain 3 life. by
+“Yoah, I threw in some habaneros to cut the 5
+t heat on this.” 4
+~Raphael :
+U 0109 SDI Ne
+TMT © EN Be NICHOLAS GREGORY ™ BDA Waa ot the © ant
+q if
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:59:04
+matched_name: Wingnut, Bat on the Belfry
+matched_set: TMT
+matched_collector: 110
+reason: código TMT #110
+name_hint: Wingnut, Bat on
+namebar_text: PWinenut Bat on the Belfr
+
+Wingnut, Bat on
+
+Wingnut, Bat on the Belfry ds
+
+set_code_hint: TMT
+collector_hint: 110
+
+raw_ocr:
+PWinenut Bat on the Belfr
+
+Wingnut, Bat on
+
+mm ACH Mie, OETERLOOSE, ATEN Ee LOOM VIRAL, OO, UY
+couldn't that make them evil? Rieht!” 7)
+
+U ond Je2e Vian
+
+TMT + EN & 7Zontan Boros M&O MIs Wiad ot the Coast
+
+J Whenever Winget attacks, cach other 4
+attacking creature wets +) +0 until end ot c
+Bo Lurn. 4
+mM ae, Suretidaese, ancien tee stood Miia, Soy
+code ‘t Thal Te Are PMO We Rrenn” 1/2 )
+U 0110 ¢ 2026 Viacom.
+TMT - EN te Zouman Boros ™ & € 2026 Wizards of the Coast
+
+§ Whenever Wingnut attacks, each other y
+-% attacking creature gets +1/+0 unul end of :
+¢ turn. e
+Bell mie, Screwcloose, arent we goad? Mihm. So,
+Peccouddn’? that make them ecilz Riehtl” TW)
+U o1l0 2920 Viscum
+TMT © EN b> Zcntan Boros 0 N26 Wrtasts ot the Carat
+
+B® Whenever Wingnut attacks, each other %
+: attacking creature gets +1/+0 unul end of a
+turn. >
+¥ '
+x .
+m “Tell me, Screwcloose, aren't we good? Mmhm. So,
+ecouldn’t that make them evil? Right!” Tr)
+U 0110 ai mh Vo hss
+TMT © EN & Jottan Boros RD Wasarabet the © get
+
+cocuddn tT that iatahe thom ccuz Rreohitl” Wr
+VU 0110 42026 Viscum.
+TMT - EN & Zowtan Boros de C 2026 Wizards of the Coast
+
+yo >»
+
+Wingnut, Bat on the Belfry Ler
+; Lemy a ~ zea a 4
+a > Sa a
+. = ¢ “ 7 Og a | €
+neue oo es
+yi Ff A 4 iS
+? \
+i Legendary Creature — Bat Mutant 3 ‘
+: Alfiance -— Whenever another creature you #
+4 control enters, Wingnut gains your choice of ‘"
+ea fiying, menace, or haste until end of turn. :
+4 Whenever Wingnut attacks, each other %
+
+attacking creature gets +1/+0 until end of
+
+turn.
+¥ A
+MI “Toil me, Screwloose, aren't we good? Mmhm. So,
+
+wcouldn’t that make them evil? Right!”
+
+1/2 )
+yu olde ele Vig on
+TMT > EN be Zon tan Boros a QDs Wiad ot the «cast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 15:59:37
+matched_name: Casey Jones, Jury-Rig Justiciar
+matched_set: TMT
+matched_collector: 87
+reason: rodapé OCR TMT #87
+name_hint: Casey Jones, meas Justiciar
+namebar_text: Casey Jones, meas Justiciar .
+
+Case ) ones. Jur "Ris ustici
+
+Casey Jones, Jury
+
+Casey Jones, Jury-Rig Justiciar 1 «
+
+set_code_hint: ELE
+collector_hint: 87
+
+raw_ocr:
+Casey Jones, meas Justiciar .
+
+Case ) ones. Jur "Ris ustici
+
+Casey Jones, Jury
+
+B your library in a random order. 4
+2/1 }
+U 0087 > ele Van
+TMT + EN & LoROGAN ™ GO DI Wisarh of the Coast
+q if
+
+ule COP TOUT Caras OF VOU TOPUEN, 5
+} You may reveal an artifact card from «
+Yaamong them and put it into vour *
+hand. Put the reston the bottom of
+vour library ina random order.
+2/1!
+VU 0087 (2026 Viacom.
+TMT © EN Be LORDIGAN PM & € 2026 Wizards of the Coat
+
+BZ UIE LOp LOU Caras Of YOUR MOTALry,. .
+‘g You may reveal an artifact card from >
+$ among them and put it into your “
+3 hand. Put the rest on the bottom of | Fj
+
+your library in a random order. 3
+| 2/1 |
+U 0087 © 2026 Viacom
+TMT © EN Pe LoROIGAN Tt Nh Winesdts of the Coast
+
+ue lOp lour CarQs OF YOUT HOTtary, 3
+: You may reveal an artifact card from #
+fg among them and put it into your ‘
+hand. Put the rest on the bottom of F
+
+your library in a random order.
+2/1 |
+VU 008? ede Vaan
+TMT © EN te LORDHGAN Rs Wisarde ct the © cast
+
+L | .
+U 0087 4 2026 Viacom. Wi
+TMT © EN te LORDIGAN TM fe 2026 Wizards of the Coast
+
+y >
+Casey Jones, Jury-Rig Justiciar 1 @k
+: (ae 5 *
+3 a“ ~ ac) 4. ° > ° ae
+ee | ance yy:
+qd Lae. be io
+a oa Ne f ¢
+. ~ ~ or eee
+— te Lame
+5 2
+P dary C Berserk ys
+A icsendary H =
+oa When Cascy Jones enters, look at :
+the top four cards of your library. :
+You may reveal an artifact card from
+Py among them and put it into your
+ff hand. Put the rest on the bottom of
+B your library in a random order.
+2/1 )
+U 0087 262e Viawo
+TMT © EN te LOROWGAN M&O Dis Waar ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:01:27
+matched_name: General Traag, Heart of Stone
+matched_set: TMT
+matched_collector: 90
+reason: código TMT #90
+name_hint: General Traag, eart of Stone
+namebar_text: ’ General Tr Traag, Heart of S of Stone 3
+
+General Traag, eart of Stone
+
+General Traag, He
+
+General Traag, Heart of Stone 3.@«
+7 ne See
+
+set_code_hint: TMT
+collector_hint: 90
+
+raw_ocr:
+’ General Tr Traag, Heart of S of Stone 3
+
+General Traag, eart of Stone
+
+General Traag, He
+
+x / AlN ys we ee. oO UO |. bre }
+conquer.” “473 }
+U 0090 22h Vues
+TMT © EN be Kavi Sronantas M&O Mlb Wasassk ot the Coast
+
+do, Greneral Traag deals +} damage to 7
+target creature, |
+“Lord Krany, cco arrice. We obey We |
+COM QUCT TT
+VU 0090 & 2026 Viacom.
+TMT © EN Be Kevin SIDHARTA ™ & C 2026 Winerds of the Coat
+
+do, General Traag deals 4+ damage to fs
+: target creature. -
+“Lord Krang, ive arrive. We obev. We 3
+conquer”
+VU 0090 © 26 Viawom
+TMT EN b> Kavis Sromarta Tf Nile Wisasds of the Coast
+
+a ef
+do, General Traag deals 4 damage to
+E target creature. \
+a “Lord Krang, we arrive. We obey. We
+conquer.” WT)
+YU 0090 al De TOT Ee 4/3
+TMT © EN Re Kevin SronaRts Data Wistar tthe © ost
+
+U 0030 & 2026 Viscum. a3
+TMT © EN bm Kevin Sromarta Te & C2026 Winesds of the Coast
+
+4 >
+General Traag, Heart of Stone 3@e KR
+N, : : ;
+N . 4
+° is . * -e a ee,
+te VT ;
+aw ae a ap 9
+“e S 1, AAS o oa 47 x.
+y a 2
+im Legendary Artifact Creature — Elemental Soldier %a,
+iy
+i ‘Trample
+fE When General Traag enters, you may [#
+; sacrifice another artifact. When you J
+do, General Traag deals 4 damage to
+] target creature.
+F {
+ME Lord Krang, tre arrive. We obey. We
+conquer.”
+4/3 }
+U 0090 De 26 Vises
+TMT © EN be Kevin StOnARts ™& Be Wisath ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:01:57
+matched_name: Rock Soldiers
+matched_set: TMT
+matched_collector: 107
+reason: rodapé OCR TMT #107
+name_hint: I Rock Soldiers
+namebar_text: | Rock Soldiers
+
+Tanck Soldiers a
+
+| Rock Soldiers
+
+y
+‘ , Rock Soldiers 3s
+4
+
+set_code_hint: VEA
+collector_hint: 107
+
+raw_ocr:
+| Rock Soldiers
+
+Tanck Soldiers a
+
+| Rock Soldiers
+
+*
+7)
+Cc 0107 2826 Vea
+TMT © EN te Mixios licen ™ & CO N26 Wizard at the (ast
+
+Ch? QITIG Lal POL PINPPILGT OC MUU ob Cid cit. '
+Catching cncnaes beltecn a reck and ao
+rithed place. \
+Cc 0107 £2026 Viacom.
+TMT EN by Miaiés ice t™ & C 2026 Wizards af the Coast
+
+BUN VATA LAL RCC PANIIT OC AMLUIE alia t. u
+
+Catching encnues between a rock and a}
+
+| hard place.
+¢ 0107 ~ 226 Vian
+TMT SEN b> Mixtos LGitt ™! & 6 M6 Wisse ot the Coast
+
+< CV VILE LAIBLE LAVTILIC ALU GLA. kj
+é Catching enenies between a rock and a E
+: hard place. }
+4/3 )
+Cc 010? Aca eT En
+TMT © EN te Mintos hacrt MW itab ot the © oa
+
+Cc 0107 & 2026 Viacum. a
+TMT © EN be» Mixios Licen ™ £026 Winer of the Coast
+
+@ Rock Soldiers Be
+” =
+a~ f
+@ Artifact Creature — Elemental Soldier =|
+d When this creature enters, destrov up B
+E to one target noncreature artifact. t
+i] Catching enemies between a rock and a j
+? hard place. A
+.
+4/3 }
+¢ 0107 220 Vion
+TMT EN & Mixios licen ™ BOO Nile Wiranh ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:02:21
+matched_name: Hard-Won Jitte
+matched_set: TMT
+matched_collector: 91
+reason: rodapé OCR TMT #91
+name_hint: I Hard-Won Jitte le
+namebar_text: Hard-Won litte ——
+
+| Hard-Won Jjitte
+
+set_code_hint: TMT
+collector_hint: 9009
+
+raw_ocr:
+Hard-Won litte ——
+
+| Hard-Won Jjitte
+
+Ai € CUTE U Wwe cuce. ,
+U O09) V2026 Viawe a
+TMT © EN b> Kim Sako: ™ & 0 Ms Waaeds ot the Cast
+
+a + ao '
+vou control, dguip erly as a@ sorcery.) 7
+q ft teas fitting Ghat the most dangerous \
+turtle bore a @euPpon Of Peace. |
+VU 0091 02026 Vixom
+TMT «© EN Be Kim Soxor ™ & C 026 Wizards of the Coast
+
+. ££ -s ‘ ’ ; - - oF - Bu
+you control. Equip only as a sorcery) 4
+It was fitting that the most dangerous |
+turtle bore a weapon of peace. 3
+¥ 009) 2028 Vucem
+TMT © EN b> Kim Soxor ™ & Mls Wizards ot the Cast
+
+4 you control. Equip only as a sorcery.) :
+
+ba [t was fitting that the most dangerous My
+
+MF turtle bore a weapon of peace. ‘
+U 9009) CoRo De Nata
+TMT © EN be Kim Snao RO DAW nde ot the Coast
+
+U 00891 2026 Vuxom
+TMT © EN &» Kim Soxor S&C 2026 Waunards of the Coast
+
+Po .. , a
+| Hard-Won Jitte le
+4 i a
+; ‘ ; he Be ~ ‘
+ad ~ So
+—_ rT
+€ Artifact — Equipment =
+j i
+d Equipped creature has double strike. fy
+E Equip 2 (2: Altach to target creature hi
+you control. Equip only as a sorcery.) 3
+ba It was fitting that the most dangerous yy
+ME turtle bore a weapon of peace. .
+U 909) © 2o2e Vie in
+TMT + EN te Kim SoKxor ™ & 0 Ma Wash ot the Coast
+q d
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:02:53
+matched_name: April O'Neil, Kunoichi Trainee
+matched_set: TMT
+matched_collector: 3
+reason: rodapé OCR TMT #3
+name_hint: April O'Neil, Kun
+namebar_text: : (April O'Neil, xunoien teaines
+
+( April O'Neil, Kunoichi Train
+
+April O'Neil, Kun
+
+| April O'Neil, Kunoichi Trainee 12
+ ~, SaNe
+- - rn 4 \ <r oa fp
+
+set_code_hint: TMT
+collector_hint: 9003
+
+raw_ocr:
+: (April O'Neil, xunoien teaines
+
+( April O'Neil, Kunoichi Train
+
+April O'Neil, Kun
+
+creatures WIth power 5 or greater.
+2/2 |
+¢ 9003 2026 Viggo
+TMT EN t@ Jo Conoisca PQ Qala Wizards ot the Coast
+q
+
+The Botti aikd tic rest OH Lop tie any
+Order}
+April OONeadl) cairt be blocked by
+creatures With power 3 or greater.
+
+Cc 9003 4 2026 Viacom.
+
+TMT © EN blo Cortisco ™ & C 2026 Wizards of the Coast
+
+the bottom and the rest on top in any
+order.)
+April O'Neil can’t be blocked by
+creatures with power 3 or greater.
+
+Cc 0003 2 26 Vaan
+
+TMT © EN blo Convisco ™* &O Dl Wises ot the Coast
+
+the bottom and the rest on top in any
+order.)
+April O’Neil can’t be blocked by
+creatures with power 3 or greater.
+2/2 )
+C900 ae ere
+TMT > FN te lo Conoisca SR Do et the © net
+
+Cc 90003 s 2026 Viscum. WD)
+TMT - EN lo CorDIScO ™ & oe Nie Wiser of the Coast
+
+4 >
+April O'Neil, Kunoichi Trainee 1 ®
+eP Ne Seay
+Oy +,
+b 4% we oe
+_! fan
+Legendary Creature — Human Ninja %3,
+When April O'Neil enters, scry 2.
+(Look at the top two cards of your
+library, then put any number of them on
+the bottom and the rest on top in any
+order.)
+April O’Neil can’t be blocked by
+creatures with power 3 or greater.
+2/2 }
+c 9003 Dee ny
+TMT EN te lo Conoisco a Dale Rade ot the © at
+q Dy
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:03:27
+matched_name: East Wind Avatar
+matched_set: TMT
+matched_collector: 5
+reason: rodapé OCR TMT #5
+name_hint: Flying, vigilance
+namebar_text: | East Wind Avatar ‘
+
+f East Wind Avatar
+
+East Wind Avatar
+
+y
+| East Wind Avatar 3
+. —
+
+set_code_hint: TMT
+collector_hint: 900S
+
+raw_ocr:
+| East Wind Avatar ‘
+
+f East Wind Avatar
+
+East Wind Avatar
+
+Others to new beginnings.
+2/4 |
+¢ 0005 MVP Via im
+TMT © EN te Anpata Trxrort Moxtatto O&O Dale Wianth obthe Coast
+q
+
+Creature Vou Control enters, CAES
+creature gets +1) #0 until end of turn.
+edoract teas bernon tie werd to gitiide
+OTRAS FO HEL PCOS,
+2/4
+Cc 900s 4° 2026 Viacom.
+TMT © EN Be Anpata Trvtor: Montaito ™ & ¢ 2026 Wizards of the Coat
+
+Creature you control enters, (nis
+creature gets +1/+0 until end of turn.
+Azrael was born on the wind to giuide
+Others to new beginnings.
+2/4 |
+Cc 0005 » Pe Viagem
+TMT © EN b> Anpata Timroa: Montatto “A Dla Wizard ot the (crass
+
+Creature you Control enters, Us
+creature gets +1/+0 until end of turn.
+Azrael was born on the wind to giide
+others to new beginnings.
+2/4 |
+TMT + FN tm ANDRtA Tisror: Mostaiio “RQ SLA Wiabootthe © oat
+
+c¢ 0005 20926 Viscum. Wa
+TMT © EN Pe Anoata Tinroal Montarto TM fe Ns Winssdds of the Coast
+
+4 >
+East Wind Avatar Be
+a ™ a ; t
+" —_ 72.
+wl ,
+we OT,
+Creature — Bird Spirit Avatar %,
+Flying, vigilance
+Alliance — Whenever another
+creature you contro! enters, this
+creature gets +1/+0 until end of turn.
+Azrael was born on the wind to guide
+Others to new beginnings.
+2/4 )
+¢ 0005 Boe Wo ts
+TMT + EN te ANDAs Trsroe Mostatto Mia Ml Muaaboetthe © out
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:03:59
+matched_name: The Last Ronin's Technique
+matched_set: TMT
+matched_collector: 12
+reason: código TMT #12
+name_hint: Lheoy ee wed Reside Aigani, Weer POY ore
+namebar_text: | The a —_ rectus \
+
+f The Last Ronin’s Technique
+
+The Last Ronin’s
+
+The Last Ronin’s Technique 32
+
+set_code_hint: TMT
+collector_hint: 12
+
+raw_ocr:
+| The a —_ rectus \
+
+f The Last Ronin’s Technique
+
+The Last Ronin’s
+
+X TEV STOO OG SEC HU ME CERG EERO EVO
+figmients or (rue spirits no longer mattered.
+UOO012 + Pulte Views mo
+TMT > EN & Anam VOUKtKR RO NI Wiad of the Coast
+
+Coreafte Unree Po dowhite Nim Purdie Spirit
+creature tokens. Tp this spells sneak Cost Wats
+piid. Chev enter tapped and attuckine.
+Lheoy ee wed Reside Aigani, Weer POY ore
+Hilo hits oe feite sMarty dea fogestor Marek
+U 0012 ©2026 Viacom.
+TMT © EN be Adam VOUKER ™ & € 2026 Wurards of the Coamt
+
+Create three Po] white Ninja burtle Spirit
+creature tokens. [f this spell’s sneak cost was
+paid, thev enter tapped and attacking.
+They stood beside him. Whether Hey were
+flgments or trite spurus no longer mattered.
+U 0012 202eViawem
+TMT © EN be Anam YOUKER A DI Wigs of the Coast
+
+Create tnree 1/] white Ninja Lurtle Spirit
+creature tokens. If this spell’s sneak cost was
+paid, thev enter tapped and attacking.
+They stood beside him. Whether they were
+figments or true spirits no longer mattered.
+
+TMT © FN be Anam Youner RIN ede tthe Cet
+
+Piments or rie spars wo longer uiattercd,
+U 0012 2026 Viaowm
+TMT © EN % Anam VYOUKIR ™ & C N26 Wass of the Caa
+
+. ¢ .
+The Last Ronin’s Technique 3
+é
+ES a rp SOA a
+alll or a BN Ue
+Instant %,
+ee! /
+Sneak 1# (You may cast this spell for 1#*
+if vou also return an unblocked attacker vou
+control to hand during the declare blockers step.)
+Create three 11 white Ninja Turtle Spirit
+creature tokens. If this spell’s sneak cost was
+paid, they enter tapped and attacking.
+They stood beside him. Whether they were
+figments or true sptrits no longer mattered.
+YUOOl? Belo Neaw k
+IMT + EN Be Ana Votner RO MIIA Rose dheot the Soaet
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:04:30
+matched_name: Featherbrained Filcher
+matched_set: TMT
+matched_collector: 6
+reason: código TMT #6
+name_hint: Nathiencid, Create a hood COKeN. (ils
+namebar_text: a —— —
+
+f Featherbrained Filcher
+
+Featherbrained |
+
+y
+| Featherbrained Filcher
+“aan J Z -
+
+set_code_hint: TMT
+collector_hint: 6
+
+raw_ocr:
+a —— —
+
+f Featherbrained Filcher
+
+Featherbrained |
+
+pi ean
+U 0006 eI Meso
+TMT EN %& Jaxon Fiacn ™ RD Wasatch ot the Coast
+
+Naltielleid, Creave a Pood COKR CH. ffi 8
+aM artifact cou 2, Sacriflee iis
+foRome you sane 3 bf)
+“AU! Pon Pete!
+()/2
+VU 0006 € 2026 Viacum.
+TMT - EN & Jaxos Brace Mt & € 2026 Wizards of the Coat
+
+Nathiencid, Create a hood COKeN. (ils
+an artifact wuh “2, @, Sacrifice this
+token: You gain 3 life”)
+“AL! Tm Pete!”
+0/2 |
+U 0006 ae Vince
+TMT © EN b> Jaxon Frnice Toe Dida Waza ot the © cast
+
+Oattienela, Create a rood tOKen. (il $
+an artifact with “2, @, Sacrifice this
+token: You gain 3 life.”)
+“HI! Pm Pete!”
+0/2 )
+U 9006 De Ns
+TMT + FEN mb Jaxon Prascn So RIN Wt the © as
+
+U 0006 12026 Viscum O72)
+TMT - EN & Jaxon Erascn ™! & oe NIA Diners of the Coast
+
+yo >»
+Featherbrained Filcher &
+Roa Sg = "
+ae” 5 Joes ~ @®.
+itis $- ~
+Creature — Bird Mutant %,
+Flying
+When this creature leaves the
+battlefield, create a Food token. (It’s
+an artifact with “2, @, Sacrifice this
+token: You gain 3 lyfe.”)
+“HI! Pm Pete!”
+0/2 |
+U 90006 Bee Wats
+TMT + EN te lanon Fran a Qt Wrvarabe ot the © ast
+q ad
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:04:59
+matched_name: Mighty Mutanimals
+matched_set: TMT
+matched_collector: 21
+reason: tÃ­tulo OCR 'I Mighty Mutanimals Ze'
+name_hint: I Mighty Mutanimals Ze
+namebar_text: | Mighty Mutanimals Ze
+
+f Mighty Mutanimals
+
+Mighty Mutanim:
+
+y
+Mighty Mutanimals 2
+?
+
+set_code_hint: REE
+collector_hint: 9021
+
+raw_ocr:
+| Mighty Mutanimals Ze
+
+f Mighty Mutanimals
+
+Mighty Mutanim:
+
+Xx eC CUNT TUN ESE DOV", CaN Te STEP UD TPONone.
+Old Hob WW?)
+U O02! 28 de Viagons
+TMT + EN te Masur Castanon 86 Bile Wisande ot the Coast
+
+Comitrol embers. puta rd of P counter on
+Largel creature vou cemired,
+“Soy ue Wore ius! ¢ Sareemeren Patd ov Pree gcddeds,
+We caer cca Bat Gov. cade coe Str ip ree”
+OME Flob 1
+VU 0021 42020 Viscum.
+TMT © EN be Manure Castanon ™ & C 2026 Wizards af the Coast
+
+control enters, puta +1 +1 counter on
+target creature vou control,
+“yor right, Were just at scrappy band of mutants.
+We canton But boy, can we stir up trouble”
+Old Hob 2/1 |
+U 002! 2826 Viagem
+TMT © EN be Manuit Castanon M&O Doda Wiss ot the Cast
+
+control enters, put a +1;+1 counter on
+target creature you control.
+“Yer right. We're pust a scrappy band of mutants.
+We can't tem. But boy, can we stir up trouble.”
+—Old Hob WW?)
+U 9021 Ree Ser oe
+TMT + EN tm Masud Castanos Su Dele Made et the out
+
+VU 002) * 26 Viacom. Wi
+TMT © EN b> Manure CasTanon TM go Dida Wines of the Coast
+
+y >
+Mighty Mutanimals ZE
+a. an i ~ 6 x / :
+q Lt
+| ow
+‘ . . s
+Creature — Mutant Rebel %,
+When this creature enters, create a 2:2 red
+Mutant creature token.
+Alhance - - Whenever another creature vou
+control enters, put a +1/+1 counter on
+target creature you control,
+“yor right. We're past a scrappy band of nutans.
+We cant eit. But boy, can ice stir up trouble.”
+Old Hob
+2/1 |
+U aoe! de de Viaons
+TMT © EN be Masur Castanos Dds Wayanad ot the Gast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:05:28
+matched_name: Quintessential Katana
+matched_set: TMT
+matched_collector: 23
+reason: rodapé OCR TMT #23
+name_hint: f Quintessential Katana
+namebar_text: B4( Quintessential Katana
+
+f Quintessential Katana
+
+Quintessential K;
+
+i( Quintessential Katana
+es
+
+set_code_hint: TMT
+collector_hint: 9023
+
+raw_ocr:
+B4( Quintessential Katana
+
+f Quintessential Katana
+
+Quintessential K;
+
+you control. Equip only as a sorcery.)
+U 0023 s RIn Van
+TMT + EN & Antnony Diving M&O MIA Wish ot the Coast
+q
+
+Whenever a Ninja vou control enters, >
+J vou may attach this Lquipment to it. -
+Equip 2 ¢2:.1ach te target creaiure
+ver coHmOL Esglap Oy as at Sareery.}
+VU 0023 «2026 Vixom.
+TMT © EN be Antwony Devine ™ & U 2026 Wizards of the Coast
+
+« el a ~ we v
+Whenever a Ninja vou control enters, 4
+[ you may attach this Equipment to it. ¢
+‘ Equip 2 (2: Attach to target creature |
+you control, quip only as a sorcery.)
+U 0023 © 2026 Van
+TMT © EN be Antuony Divine ™ & i MIA Wins of the Coast
+
+3 Whenever a Ninja you control enters, 4
+E you may attach this Equipment to it. 4
+- . ?
+M4 Equip 2 (2:Altach to target creature
+you control. Equip only as a sorcery.) |
+U 9023 BD N a w
+TMT + EN bm ANTHONY Divine RQ A rast the © net
+
+VOU COMEYOE, sg lel ONIN cds cl SOKEETV )
+VU 0023 2026 Vuxaom
+TMT © EN t& Antnony Devine ™ & UC X26 Wrsssds of the Coast
+
+4 - we - vy cay ~ anal + Pane eer »
+1( Quintessential Katana & ):
+« bs
+r
+a is
+——e” “ef
+4( Artifact — Equipment %a,
+. fad
+i Equipped creature gets +1/+1 and has ..
+ri “Whenever this creature deals combat ¢
+; damage, untap it and you gain 2 life.”
+Whenever a Ninja you control enters, *
+[ you may attach this Equipment to it. g
+a
+iy Equip 2 (2: Attach to target creature i
+you control, Equip only as a sorcery.)
+U 0023 6 282e Vue
+TMT © EN te Antony DEVINE ™& 0 A Wuasdh ot the Cast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:06:02
+matched_name: Make Your Move
+matched_set: TMT
+matched_collector: 20
+reason: código TMT #20
+name_hint: a Make Your Move N
+namebar_text: a Make Your Move N
+
+f Make Your Move
+
+Make Your Move
+
+y
+| Make Your Move 2
+
+set_code_hint: TMT
+collector_hint: 20
+
+raw_ocr:
+a Make Your Move N
+
+f Make Your Move
+
+Make Your Move
+
+ssf
+Cc 0020 Dee Viage
+TMT + EN te NaTHANsit Himawas ™ A DIA Wistar ot the Coat
+
+ATE REE ACEO WN GUAT PIRUNN OE or CIE Seated.
+for a moment, Grieve is only relentless
+smoee aad frozen breath.
+Cc 0020 12026 Viaxom
+TMT © EN Be NarManice Himawan ™ & U 2026 Wizards of the Coat
+
+SOP RAL ACUTE Watik PIR oe VE RAL ACRT.
+For a moment, there ts only relentless
+snow and frozen breath.
+Cc 0020 © Dole Vig a
+TMT © EN be NatHAniin Himaway MA MIA Wind ot the Coat
+
+Va VAC ACULE WiIlhh PWR EF UE BAL ALCL.
+For a moment, there is only relentless
+snow and frozen breath.
+c 9029 Pare ee
+TMT © FN bm NaTianie Himawas MR De ateot the © et
+
+C 0020 2026 Viaem
+TMT © EN b> NaTHanire Himawan tM BU NI Wiser of the Coast
+
+a >
+Make Your Move 2
+4 . an
+q\ ero.
+\ a ., a re 4
+of ¢ oom
+Instant %0,
+Destroy target artifact, enchantment,
+or creature with power 4 or greater.
+For a montent, there ts only relentless
+snow and frozen breath.
+¢ 9020 CBee Nee uy
+TMT > EN Be NATHANSIC Himawan RID Wounded the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:06:43
+matched_name: Lita, Little Orphan Amphibian
+matched_set: TMT
+matched_collector: 19
+reason: rodapé OCR TMT #19
+name_hint: Lita, Little Orphan Amphibian
+namebar_text: ; (Lita Little Orphan Amphibian
+
+( Lita, Little Orphan Amphibiz
+
+| Lita, Little Orpha
+
+y
+f Lita, Litthe Orphan Amphibian J
+
+set_code_hint: ITE
+collector_hint: 19
+
+raw_ocr:
+; (Lita Little Orphan Amphibian
+
+( Lita, Little Orphan Amphibiz
+
+| Lita, Little Orpha
+
+Peseta
+u 0019 Ite Vener
+TMT + EN te Anna Pavitt ya BO Dds Wistar of the Coast
+
+© Puta +l +) counter on Lata.
+© Create a ood token. o/s an aiuhaer
+com 2, Saerificn tits tokerm: yar say
+U 0019 ©2026 Viacom.
+TMT © EN Be Anna Pavitew ! & C 2026 Wizards af the Coast
+
+© Puta +1/+1 counter on Lita.
+
+* Create a Food token. (70's an artifact
+cuh “2, , Sacrifice this token: You gain
+‘Serv 1. TW) 7A
+
+VU 0019 Sa BOCA TR OTOL 3)
+TMT © EN Be ANNA Pavitiva ™ AO Die Wistar of the Coast
+
+¢ Put a +1/+1 counter on Lita.
+¢ Create a Food token. (It’s an artifact
+couh “2, @, Sacrifice this token: You gain
+3 life.”)
+¢Scry I. Wh)
+TMT + FN te ANNA Paviilva “A&R a tootthe © at
+
+VU 0019 226 Viscum Wi
+TMT © EN Be ANNA Pavittva Tt D026 Winesds of the Coast
+
+p >
+Lita, Little Orphan Amphibian 1
+\4 : VM
+~ fey muy - Lats » Nees
+‘ ~ a . ft,
+Le de | >
+ee Tug! ool a,
+Legendary Creature — Mutant Ninja Turtle a,
+Alliance — Whenever another creature
+you control enters, choose one that
+hasn’t been chosen this turn.
+«Put a +1/+1 counter on Lita.
+* Create a Food token. (t's an artifact
+euh “2, @, Sacrifice this token: You gain
+3 life.)
+¢ Sery 1.
+: 2/1 )
+U O019 De 2b Vagos
+TMT + EN te Anna Paviitya a Sle Wianteotthe © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:07:13
+matched_name: Agent Bishop, Man in Black
+matched_set: TMT
+matched_collector: 2
+reason: código TMT #2
+name_hint: Otficr, Pick wp tre preces, Vien gel Gen iv
+namebar_text: B (4sent Bishop, = in Black
+
+( Agent Bishop, Man in Black
+
+| Agent Bishop, Mz
+
+y
+( Agent Bishop, Manin Black 2.
+aq A
+
+set_code_hint: TMT
+collector_hint: 2
+
+raw_ocr:
+B (4sent Bishop, = in Black
+
+( Agent Bishop, Man in Black
+
+| Agent Bishop, Mz
+
+x , va . : Pry ” o
+hell off of nw planet. TT
+R Q002 ee 2826 Vaaas
+TMT + EN & Anatian Ronacurs Pra? ™ & 0 Mle Wivanteot the Coast
+q
+
+“Urronis 2. Prtooratous 20. fere’s little
+differcmes to Me. Eb help ane destroy Ue
+Otficr, Pick wp tre preces, Vien gel Gen iv
+hell offet ay plaruect” —
+TMT © EN be ApriAn Ropricutz Piatz Tt & € 2026 Wizards of the Coast
+
+“Uiroms ... Trtceratons ... there’s little
+difference to me. I help one destroy the
+other, pick up the pieces, then get them the
+hell off of nw planet.” —
+R 0002 SS 2b Visas 1/2
+TMT © EN te Apaian Rooricuir Preis TA MIA Wizard ot the Coast
+
+“Utroms ... Triceratons ... there’s little
+difference to me. I help one destroy the
+Other, pick up the pieces, then get them the
+hell off of nry planet.” TT
+TMT © FN be Annan Ronaicues Prese SND aed ct the © out
+
+R 0002 SS + 2026 Visco WT)
+TMT - EN be Apanian Rooricutz Pratz TB 6 N26 Winsedds of the Coast
+
+a >
+Agent Bishop, Manin Black 2x
+AS ye
+‘ " . % “r ‘ iS a
+é ‘He. aa
+an . ‘ . - ‘ re
+~ ,
+~
+Legendary Creature — Human Soldier 63
+At the beginning of combat on your
+turn, put a +1/+1 counter on each of
+up to two target creatures.
+“Utroms ... Triceratons ... there's little
+difference to me. I help one destroy the
+other, pick up the pieces, then get them the
+hell off of ney planet.” TW!
+R 0002 ci 262 Vaan I
+TMT © EN tm Aontan Ronascurs Prare i A vandal the € ast
+q if
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:08:00
+matched_name: Uneasy Alliance
+matched_set: TMT
+matched_collector: 28
+reason: código TMT #28
+name_hint: Uneasy Alliance
+namebar_text: Bf uneasy Aliance _
+
+( Uneasy Alliance
+
+Uneasy Alliance
+
+yo
+( Uneasy Alliance d
+
+set_code_hint: TMT
+collector_hint: 28
+
+raw_ocr:
+Bf uneasy Aliance _
+
+( Uneasy Alliance
+
+Uneasy Alliance
+
+Ch PCR EL Eee Ss Ob COs CFE Flee t Hy
+proper direction.
+Cc 0028 Ie Nia
+TMT © EN te Rose Be wiamin B&O Sa Witarch ot the Cast
+
+Aig SIAMCP TEIN NK Chad « Bade ad. ALNTIN NIN dds Cnn
+Yo creature. You create a lob black Ninja “
+creature token. Activate only as a sorcery,
+Other Porspocttocs cain Mole one find tric
+Prepar dire cai,
+Cc 0028 2026 Vuxcen.
+TMT © EN be Rose Barun  & U 2026 Wizards of the Coaw
+
+My SPEND ALANS CAGED 2 RMA. AssbdtN NALIN SACI NS |
+creature. You create a ll black Ninja [
+creature token. Activate onlv as a sorcery.
+B Other perspectives can hiclp one find the
+proper direenon.,
+C 0028 e226 Vaaem
+TMT © EN by Rost Bewumin A Re Wied ct the Caat
+
+Pg VAWLIAAWN CLE SEUMAA. AAAI VAIVDAGALILNUS 4
+¢ creature. You create a 11 black Ninja
+yy creature token. Activate only as a sorcery.
+Other perspectives can help one find the |
+proper direction.
+C 0028 rr
+TMT © EN bm Rose Besiwin RDI be tthe © et
+
+pre Per ERC LEON,
+C 0028 2026 Viaom
+TMT - EN %» Rost Bewumin T™! & X12 Wines of the Coast
+
+Uneasy Alliance Ud &
+6
+4
+% ~
+: i
+{
+it
+Enchantment — Aura 4a.
+. =a /
+Enchant creature ,
+i@ Enchanted creature can’t attack or block.
+65, Sacrifice this Aura: Exile enchanted s
+creature. You create a lt black Ninja
+} creature token. Activate only as a sorcery.
+Other perspectives can help one find the (
+proper direction,
+¢ 0028 belo Vinee ip
+TMT © EN te Rose BoxtuaMin ™ & Qs Wash ot the Coast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:08:43
+matched_name: High-Flying Ace
+matched_set: TMT
+matched_collector: 9
+reason: nome superior OCR
+name_hint: f Hizh-Flying Ace
+namebar_text: | High-Flying Ace = \
+
+f Hizh-Flying Ace
+
+High-Flying Ace
+
+y
+ag
+
+set_code_hint: TMT
+collector_hint: 9009
+
+raw_ocr:
+| High-Flying Ace = \
+
+f Hizh-Flying Ace
+
+High-Flying Ace
+
+Alo scaricy BOONS NEXE Me.
+Ace Duck 23)
+c 9009 MS2e Vises
+TMT © EN tm Danii Romawovsny ™ B&O Jade Wizandeot the Coast
+
+NOTEEPY,
+we. a re 2 ro. off, ee er
+N foe Me tee Vee, Parricy ee OR Sab doe
+worer Migate ts. ded wager boss to sea seats
+wdee Dra pe
+2/3
+
+Cc 0009 4.2026 Viacum.
+TMT © EN be Dama Romanovsxy Te & ¢ 2026 Wizards of the Coast
+
+sorcery.
+“Nice fo meet vou, Botticellt ... or whatever
+your name tis. Tell your boss to send sante
+SCANICY GOONS NEXT tN”
+Cc 0009 OS De Vise
+TMT © EN b> Danitt ROManovsky ™! A DA Wrst the Coast
+
+sorcery.
+“Nice to meet vou, Botticellt ... or whatever
+your name ts. Tell your boss to send some
+scarler ZOONS Next time.”
+—Ace Duck 273 ) 3
+cc 9009 Sere Wao,
+TMT +e FN bm Danthd ROMANOVSKY SR De ae hoot the © ont
+
+Cc 0009 BS 20926 Viacom Pa
+TMT - EN b>» Darin ROMANOVSKY ™ fo Nis Wises of the Coast
+
+High-Flying Ace Ze
+f
+YR il
+‘ S ~.
+we | ey eet
+é A ,*
+~. fs . a
+Creature — Bird Mutant %a,
+ep ci i a Ra eaanoeansancoall
+Flying
+3 *: Target creature without flying gains
+flying until end of turn. Activate only as a
+sorcery.
+“Nice to meet vou, Botticellt ... or whatever
+your name ts. Tell your boss to send some
+scarier QOONS Next time.”
+—Ace Duck “2/3 )
+Cc 9009 We Wo 2/3
+IMT + EN be Danity ROWANOVSKY le Wisadot the © ont
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:09:19
+matched_name: Koya, Death from Above
+matched_set: TMT
+matched_collector: 11
+reason: nome superior OCR
+name_hint: I Koya, Death fron
+namebar_text: ; (Koya, Death from Above
+
+( Koya, Death from Above
+
+| Koya, Death fron
+
+y
+f Koya, Death from Above 2
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+; (Koya, Death from Above
+
+( Koya, Death from Above
+
+| Koya, Death fron
+
+pet pee af
+Uvool Wether
+TMT © EN & Inna NORINOL ™ B&O Dds Wisande ot the Coast
+
+of the next end step. vou may pay 3 ®.
+It vou don’t, return that card to the
+battlefield under its owner's control,
+“Elello, prev”
+-_ 2/1 '
+yoo £2026 Viacom.
+TMT © EN Be lena Norpsot ™ & € 2026 Wizards of the Coast
+
+a,
+of the next end step, vou may pay 3@®.
+If vou don’t, return that card to the
+batdefield under its owner’s control.
+“Hello, prev”
+2/1 |
+YU OO0ll © 226 Viawun
+TMT © EN bm Iaina Norusat ™ &ot Dade Wisse ot the Coast
+
+a EE DP
+of the next end step, you may pay 3®.
+If you don’t, return that card to the
+battlefield under its owner’s control.
+Hello, prey.”
+: 2/1 )
+U9O0N} raed ery Ba
+TMT +e EN tm lena NORA Se RM Mir eebeeet the © get
+
+U OO 6 226 Vise, WM
+TMT © EN & Jaina Norvsot Tew R24 Wizards of the Coast
+
+po >
+Koya, Death from Above 2
+nO , a 7 3 ee _€
+eae > ow |
+Legendary Creature — Mutant Ninja Bird a
+Flying
+When Koya enters, exile up to one
+other target creature. At the beginning
+of the next end step, you may pay 3®.
+If you don’t, return that card to the
+battlefield under its owner’s control.
+“Hello, prey” ,
+: 2/1 )
+v ool De Wisco
+TMT © EN bm [nina NoRUAOL A Dole Wivarde ot the © oust
+q if
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:09:44
+matched_name: Dimensional Exile
+matched_set: TMT
+matched_collector: 4
+reason: rodapé OCR TMT #4
+name_hint: Nocer boom defouted, diniie Well, vou
+namebar_text: (Dimensional Exile _
+
+7 Dimensional Exile
+
+Dimensional Exil
+
+4 :
+\ Dimensional Exile L
+
+set_code_hint: NIA
+collector_hint: 9004
+
+raw_ocr:
+(Dimensional Exile _
+
+7 Dimensional Exile
+
+Dimensional Exil
+
+COOH LUNA te i © UepfUre. 4
+Donatello
+Uu 9004 e Dele Nia
+TMT © EN te LOROIGAN M&A Wigs ot the Coast
+
+W this Aura leaves the battletield. .
+Nocer boom defouted, diniie Well, vou
+RoC Tanto coi a tiartle before!”
+VU 0004 € 2026 Vuxom
+TMT © EN te LORDIGAN tt & C 2026 Wizards af the Coast
+
+this Aura leaves the battlefield. '
+“Never been defeated, huh? Well, vou
+B never tangled with a turtle before!”
+Donatello
+YU 0004 eDe2e Vee m
+TMT © EN be LoRdIGaNn ™ & 0 Is Witarde ot the Coast
+
+¢ this Aura leaves the battlefield. ’
+a “Never been defeated, huh? Well, you
+never tangled with a turtle before!” |
+~ Donatello
+U 9004 S Pote Na aon
+TMT © EN tm LORDSGAN Re DW atte tthe Get
+
+Donatello
+U 0004 2026 Vixaom
+TMT - EN te» LORDIGAN ™! & 0 N26 Wises of the Coast
+
+p a >»
+j Dimensional Exile LX
+. * , a oN
+. Bes “a va x
+Je RE PB VE
+Enchantment — Aura %,
+——<——— TT 4
+Enchant basic land you control
+@ When this Aura enters, exile target
+fy creature an opponent controls until
+this Aura leaves the battlefield. -
+ad “Never been defeated, huh? Well, you
+never tangled with a turtle before!”
+Donatello
+yu 9004 eoDe2e Nae
+TMT > EN Be LORitGAN ™ B&O Mn Wyant otthe Cast
+q if
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:10:28
+matched_name: Hamato Guardian Stance
+matched_set: TMT
+matched_collector: 8
+reason: rodapé OCR TMT #8
+name_hint: vou, Gulf five ned shown Vou
+namebar_text: x sama Guardian =
+
+f Hamato Guardian Stance
+
+Hamato Guardia!
+
+Hamato Guardian Stance a
+
+set_code_hint: BOD
+collector_hint: 9008
+
+raw_ocr:
+x sama Guardian =
+
+f Hamato Guardian Stance
+
+Hamato Guardia!
+
+X 2 9 & pee S . uv
+. ys
+everything I now.
+¢ 0008 | PO2e Via
+TMT + EN & Jason Rainviicet ™ & 0 MIA Wisand of the Coast
+
+sor nae pra rat card ea ie bottoni)
+“Proorviing vou Riou, Pace sion
+vou, Gulf five ned shown Vou
+ccorvthing PE Rio”
+c 0008 C2026 Viacom.
+TMT © EN be lasonw Rainviet ™ & C 2026 Wizards of the Coast
+
+you may put that card on the bottont.)
+“Everything vou know, [have shown
+you, but Ihave not shown you
+evervihing I kno.”
+Cc 0008 2020 Via m
+TMT © EN bm Jason RAINvIULt ™ At Dl Waar ot the Coast
+
+You may put that card on the bottom.)
+“Everything you know, I have shown
+you, but I have not shown you
+everything I know.”
+Cc 9008 Bod uNa
+TMT + EN bm Iason RaInvitrt OR Dt Wott che © out
+
+rea erve LIne VOT.
+Cc 0008 2026 Viacom
+TMT © EN bm Jason RAINviItLt Tt & 0 2026 Winds of the Coast
+
+y >
+Hamato Guardian Stance &
+OE ed as
+1 re ‘ = 4
+ye ; . f “ wg di Lay ts . ‘
+
+Ae : ror Ree :
+i wv
+—_ i Ls
+Instant %a,
+‘Target creature gets +1/+3 and gains
+flying until end of turn. Scry 1.
+(Look at the top card of your library.
+You may put that card on the botton.)
+“Everything you know, I have shown
+you, but I have not shown you
+everything I know.”
+¢ 9008 Del Naws a
+TMT + EN Be lasow Rainvinet MR De Wud tthe «et
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:11:06
+matched_name: Leonardo, Big Brother
+matched_set: TMT
+matched_collector: 14
+reason: código TMT #14
+name_hint: Leonardo, Big Brother
+namebar_text: ; (Leonardo Big Brother
+
+( Leonardo, Big Brother
+
+| Leonardo, Big Br
+
+a
+(Leonardo Big Bother 23
+FAR CF
+
+set_code_hint: TMT
+collector_hint: 14
+
+raw_ocr:
+; (Leonardo Big Brother
+
+( Leonardo, Big Brother
+
+| Leonardo, Big Br
+
+pcrsacure youcontol af
+Cc 0018 2826 Vuagies
+TMT © EN te INHiUR Lee  & Be Wisandeud the Coast
+
+declare blockers step. Pile cniters tapped
+HU altacRINY, |
+Leonardo gets +1 +0 for cach other
+creature vou control.
+1/3
+c 0014 42026 Viacom.
+TMT © EN te Inltvux Loe ™! & C 2026 Wizards af the Coat
+
+ever eve ys ve F&F iad ee aur Feoewses ewe Vises panded on) areow
+declare blockers step. He enters tapped
+and attacking.)
+Leonardo gets +1/+0 for each other
+creature you control.
+1/3 |
+Cc 0014 220 Vian
+TMT © EN be InHyum La A Ma Wistar ot the Coast
+
+Wee Ve we vw F&F wwe wks FORFAR Se SNK UEC Ee UE vrTt& view
+declare blockers step. He enters tapped
+and attacking.)
+Leonardo gets +1/+0 for each other
+creature you control.
+1/3 )
+TMT © EN Om InHyin lot SR Dl Wand the © out
+
+73
+C 0018 4 2026 Viscum.
+TMT - EN O& InHrun Li Tf N26 Wines of the Coast
+
+a >
+Leonardo, Big Brother 2
+. aa -
+
+a: i AO
+Legendary Creature — Mutant Ninja Turtle 2%,
+Sneak * (You may cast this spell
+for ® if you also return an unblocked
+attacker you control to hand during the
+declare blockers step. He enters tapped
+and attacking.)
+
+Leonardo gets +1/+0 for each other
+creature you control.
+1/3 |
+€¢ 9014 ee Vion
+TMT > EN be INByun Lae oa Ql Wisatate ot tthe © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:11:42
+matched_name: Leonardo, Leader in Blue
+matched_set: TMT
+matched_collector: 16
+reason: código TMT #16
+name_hint: Leonardo, Leader in Blue &
+namebar_text: ; (Leonardo, Leader in Blue
+
+( Leonardo, Leader in Blue
+
+| Leonardo, Leade
+
+y
+f Leonardo, Leader in Blue
+
+set_code_hint: TMT
+collector_hint: 16
+
+raw_ocr:
+; (Leonardo, Leader in Blue
+
+( Leonardo, Leader in Blue
+
+| Leonardo, Leade
+
+M1 #: Leonardo gains first siike unul end of
+turn. 2/1 \
+U 0016 Jute Miao
+TMT © EN be NICHOLAS GREGORY ™ & 0 Bs Waanh ot thy Count
+
+@#ak QR Fetid. “NAY aff ee ane BEE eR Teh ee ere
+When Peonardo enters. it his smeak cost was
+pad, creatures Vou control get 42 Ont
+end of turn.
+1: Loconarde aims first strike untii end of
+turn. Os
+U 0016 £2026 Viacom.
+TMT © EN be Nicwocas Garcory Te! & C2026 Wizards of the Coast
+
+@#aset GFesuede ONAL ET SSS RG7ENE Meee EN NE EE eS
+When Leonardo enters, if his sneak cost was
+paid, creatures you control get +2.4+0 unul
+end of turn.
+1#: Leonardo gains first suke unul end of
+turn. yi
+VU 0016 - te Vian
+TMT © EN be NicHoras GaiGory ™ &o Ds Wisk ot the Coast
+
+&#ée Tssesuivl our... eH 7 ERE tdi. oe A
+
+When Leonardo enters, if his sneak cost was
+
+paid, creatures you control get +2/+0 until
+
+end of turn.
+
+1 #: Leonardo gains first strike unul end of
+TMT 6 EN tm Nr Horas Ger cory Sow Dl arabe et the tot
+
+U 0016 + 2026 Viscum, Em
+TMT © EN bm Nicnoras GRicGory ™™ & ¢ B26 Wines of the Coast
+
+y >
+Leonardo, Leader in Blue &
+ad :
+~ Pee 1 ° “¥,
+ay ~ r ¥, ‘ ~
+io y ' ej, °, -
+
+, eee, “aed ra
+Legendary Creature — Mutant Ninja Turtle a,
+Sneak 3 ## (You may cast this spell for 3% *
+if vou also return an unblocked attacker vou
+control to hand during the declare blockers step.
+
+He enters tapped and attacking.)
+When Leonardo enters, if his sneak cost was
+paid, creatures you control get +2/+0 until
+end of turn.
+1 #: Leonardo gains first strike undl end of
+turn. “D/L )
+
+U 0016 Doe Va a
+
+TMT + EN Be Nac Horas GREGORY So Bs Wasatbeotthe oot
+
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:12:23
+matched_name: Jennika, Bad Apple Big Sister
+matched_set: TMT
+matched_collector: 10
+reason: código TMT #10
+name_hint: Jennika, Bad Apple Big Sister 4%
+namebar_text: : (Jennika, Bad Apple Big Sister
+
+( lennika, Bad Apple Big Siste
+
+| Jennika, Bad Apr
+
+y
+f Jennika, Bad Apple Big Sister 4
+
+set_code_hint: TMT
+collector_hint: 10
+
+raw_ocr:
+: (Jennika, Bad Apple Big Sister
+
+( lennika, Bad Apple Big Siste
+
+| Jennika, Bad Apr
+
+Ay POOP NE THe Teak FrOME Power We COURT De Fea
+ninjas. We can fight for the people!” 373)
+¢c 0010 2282 Vaan
+TMT © EN & InHyun Lat ™ B&O Bly Wish ot the Cust
+
+Vik? POM i, aod l i Lid? cdi, Pow ad if, pie fm
+. soy . an . f, seas : ‘
+Pe Vag ridlicd, Maree sertgithy ..
+NPE TC: sated ftlads, car rare ‘ Predetces ud hone eI Pfr
+yy oye. ‘ ; of, oye iis ‘ye . a er t an mo pq i > . i
+Pod id THe Toa trou ms TOL he he core an Pod!
+MeThilidy, We ca Maree fap fay People. 3/3)
+Cc 0010 4° 2026 Viacom.
+TMT © EN be InHyux lo Te he C 2026 Wizards af the Coat
+
+Vour GOrary for d ftaims card, reveal ut, pul ul
+fo your Aanad, Hen shuffle.)
+“Splinter satd that, once, noyas defended the
+poor and the teak from poser. We could be real
+ninjas. We can fight for the people!” 373)
+Cc 0010 » 2a Viagem
+TMT © EN be InHvoun Ley ™ & 0 N26 Wisse ot the Coast
+
+your library for a Plains cara, reveal tt, put ul
+into your hand, then shuffle.)
+“Splinter said that, once, ninjas defended the
+poor and the weak from power. We could be real
+ninjas. We can fight for the people!” 373)
+Cc 00°%0 AL eer
+TMT © EN mw INNO tt “RO DDS Wasarabet the at
+
+ninjas, We cai figit for the peoples” 373)
+Cc 0010 «2026 Viscons,
+TMT © EN be InHyun Lit T™ g 0 RII Wizards of the Coast
+
+4 >»
+Jennika, Bad Apple Big Sister 4%
+< ). Cl 7 a Malas. .
+
+mF yh” 4
+~ \s A! p a “4
+. = ; we
+. S fons 4 .
+| =
+Legendary Creature — Mutant Ninja Turtle 46a,
+——— LL amare /
+When Jennika enters, create a 2/2 red
+Mutant creature token.
+Plainscycling 2 (2, Discard this card: Search
+your library for a Plains card, reveal it, put it
+into your Rand, then shuffle.)
+“Spliuter said that, once, ninjas defended the
+poor and the iceak from poier. We could be real
+ninas. We can fight for the people!”
+3/3 )
+€ 90%0 Bele Wun
+TMT EN Be INHyenw Lee Me DDN Wisatate ot the © ast
+q
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 16:13:17
+matched_name: Grounded for Life
+matched_set: TMT
+matched_collector: 7
+reason: rodapé OCR TMT #7
+name_hint: f Grounded for Life
+namebar_text: a Grounded for Life “
+
+f Grounded for Life
+
+Grounded for Lif
+
+y
+| Grounded for Life 4
+<2) x a
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+a Grounded for Life “
+
+f Grounded for Life
+
+Grounded for Lif
+
+to dof
+¢ 0007 12026 Via iy
+TMT + EN Me Anpaia Trstoe: Mowtatro ™ & 0 DAW york ot the © cant
+
+PJestroyv target creature.
+“OF colrse TP Rnote chat vou did you
+ahicavs do preetscly ehiat [tokt vou nol
+fo dol”
+¢ 0007 2026 Vixom
+TMT + EN be Anoata Toon: Mortatto ™ & C 2026 Wizards of the Coan
+
+Vestroy target Creature.
+“Of course IT know what vou did! You
+alevays do precisely what [ told you not
+to dof”
+Cc 0007 e 20260 Viaaom
+TMT © EN be Anorta Tinton: Mowtatto ™/ Ao Bla Wass of the Coast
+
+Vestroy target creature.
+“Of course IT Rnow what you did! You
+always do precisely what I told you not
+to do!”
+Cc 0007 re nS
+TMT © FN tm ANDREA Trstort Mosraito RMD Wate the ue
+
+Cc 90007 2026 Viaxaom
+TMT - EN b> Anoria Temtor! Mowtatto ™ Be XI Wisse of the Coast
+
+a >
+Grounded for Life 4%
+nee 8 ‘
+\ f.
+. ae s al,
+rf ‘ ,* of
+r |
+i"
+Instant %,
+‘This spell costs 3 less to cast if it
+targets a tapped creature.
+Destroy target creature.
+“Of course I know what you did! You
+alesays do precisely what I told you not
+to do!”
+Cc 0007 ODN a
+TMT + EN te ANDRA Tixrort Mowtatto ™ A a Waanbet the © cast
+q
+
