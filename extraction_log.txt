@@ -58703,3 +58703,974 @@ R O264 oe > MARVEL
 MSC > EN te Maxim Reagtty A Dito Masends ot the Coast
 qi d
 
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:01:07
+matched_name: Shriekdiver
+matched_set: WAR
+matched_collector: 103
+reason: fração+nome WAR #103
+name_hint: Shataual, da Leanio Boras
+namebar_text: | Guinchador de h
+
+[ Guinchador de Mergulho 2 de Mergulho - ~ .2e
+aS 0 06Ult (‘CS
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+| Guinchador de h
+
+103/204 € am)
+WARSHY te Pore Dima TA NE Lath ol the Cat
+
+ateoo finad de Ubon ,
+?
+. bite CU as raid REE hyde doa ud wre Ny ida’
+‘ a fh CNG Ade its Lode: nO earerre! monet -~
+Struanna, da bootae Boies
+103/264 ¢
+WAR+OT te Poote Ours Te & CS O1G Tia of the Const
+
+ate a final do Cuno, °
+“Ede comats rapide gue nos. Atranam a atouydae &
+Miele engiante ov Leder fazem pontartal”
+Shataual, da Leanio Boras
+103/264 C
+WAR+EY te Prote Dima Sh NT aah el thee Coat
+
+ate o final do Curne. .
+
+“Ele & mats rapide que nos. Atratam a aleny do
+Bele enquanto os Ledew fazem pontaria!”
+
+-— Shauntal, da Legiao Boros
+tos/204 C /
+WARY te Porte Oven Lar Cn i? i SC ee evry
+
+103/264 C Wi)
+WAR*+OCY te Protea Oitmaa ow ND Wea al the Cove
+
+. ee . Bia lem OL we
+Guinchador de Mergulho Ze
+. .
+. £ ,
+. e
+Criatura — Zumbi Ave Guerreiro wy
+. . 7
+Voar .
+1: Guinchador de Mergulho ganha impeto
+ate o final do turno. .
+“Ele co mats rapide que mos. Atratam a atenyao
+dele enguanto os Ledev fazem pontarta!™”
+Shauntal, da Leaiaa Boros
+2/1 )
+TOs 204 C
+WARS HY tee Porte Olea “kh ny Or en ee eT
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:04:38
+matched_name: Yargle, Glutton of Urborg
+matched_set: MUL
+matched_collector: 149
+reason: nome PT palavras 'Yargle, Glutão de Urborg'
+name_hint: Yargle, Glutdo de Urborg
+namebar_text: : Yarn — de os 1
+
+Yargle, Glutdo de Urborg
+
+largie, Giutao dé
+
+~. . ~ gp aN
+Yargle, Glutao de Urborg 4
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+: Yarn — de os 1
+
+Yargle, Glutdo de Urborg
+
+largie, Giutao dé
+
+Wws/2en u os
+OOM-> FY pnw lima CHno Cr ee MO ee ed
+
+? 1) Mei WO e CVAVISLOV UO CU lth haved, ».
+CO) supe gue comet aygiteha harca croc &
+RB SCCM, ULC LOT OSPIP MO COMED IPOH TE
+~ Ife COPD
+9/3 !
+193/269 UV
+OOM-+PY tw» kena Cuoo 72 &C DOIN Tirade of thee Coest
+
+Bm Domne eo ransformou cnt tamna larva. &
+O sapo gue comeu aquela larva cresceu
+me crescelt, ale ton espirtlo voras irromper &
+mle scle corpo.
+118/349 YU 9/3 :
+OOM: py itnay Cn00 Oh SIM Di sarde 4 thee C rast
+
+Deménio o transformou em uma larva. ¥
+O sapo que comeu aquela larva cresceu §
+¢ crescetl, Ale um espirito voraz trromper
+mde seu corpo.
+COM:+#T te limar CHno Cr, re STs See hee ee
+
+118/3¢€9 Vv a
+OOM: PY nw ltmas Cn00 "O&O DMD rarde d tee CU caer
+
+5. . ae” ~ Ti ia. ae N iN
+Yargle, Glutao de Urborg 42
+wl . : se . .
+. F ' : - ( } ) .
+
+xa’ . , :
+. ; * \ ; . ; ‘. . { 7
+‘ , . if Pe ‘ i
+4 . arm. , >
+i & ‘ ,
+Criatura Lendaria — Sapo Espirito Q
+\
+Quando ov tenente de Belzentok, Yar-Kul, B
+tornotese ambictose demats, 0 Senhor
+Demonio 0 trausformou em uma larva. f
+O sapo que come agtela larva creseeu
+¢ crescew, até wm espirtto coras Irroniper f
+mde Seu corpo,
+9/3 )
+Wi3s/3e9 vu
+COM>PhT mw itmae Cn0o he 18D tat et thee Cet
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:08:43
+matched_name: Chosen of Markov // Markov's Servant
+matched_set: DKA
+matched_collector: 55
+reason: face OCR 'Escolhida de Markov'
+name_hint: Escolhida de Markov Ze
+namebar_text: er . ag , “de M . ' .—t
+
+(©) Escolhida de
+
+4 . .
+Escolhida de Markov 28
+' oa ‘Sho a |
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+er . ag , “de M . ' .—t
+
+(©) Escolhida de
+
+q df
+
+i de Markow.
+BY PY
+. ae AT condor dae rma por ose raid
+, ot ’
+e .- we - . i ry Loe . XN ° :
+woe Sseve ArgyR Xs). “y “aa 2/2 |
+“me <A SUT Wass Sed Oe Cot ELE Baa es* 8 =:
+
+m de Markov.
+Blea constierada digma por este grande
+14™
+ore Shove Arevie _e “y * 44. cm 2/2 )
+“OR GI Dh dette on bie ve as . >
+
+de Markov.
+“Pua constderada digna por este grande
+mld...”
+44%
+ame seve Arevie — , ae ro 2/2
+my a ae : I: te _ ‘
+
+3 56 Lad te —s ~ e.; > @N
+oem Steve Arye Ss SY cae
+tw sesh DYES Wea. de cee Coe ELE Saat 8 2:
+
+a >»
+Escolhida de Markov Ze
+. Y —_
+ce S Slt ‘
+a / \ .
+. ‘ lf t % a
+. f- z
+|
+e.Vire um Vampiro desvirado que
+voce controla: Transforme Escolhida JJ
+mde Markov.
+“Pua considerada digna por este grande
+448
+Ne ee hee _ woe
+q d
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:10:57
+matched_name: Dusk Mangler
+matched_set: SNC
+matched_collector: 77
+reason: fração+nome SNC #77
+name_hint: Quando Desmembrader de Ocase contra
+namebar_text: Desmembrador do Ocaso 5
+
+Desmembrador do Ocaso
+
+eee 8 te em tem e ee) Be wate eee ee He
+& Desmembrador do Ocaso 53 4
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Desmembrador do Ocaso 5
+
+Desmembrador do Ocaso
+
+e perde 4 pontos de vida.
+Orr 281 U 3/4
+SNC OT te ANTONIO lend ManreNtoo a, rn: See LT)
+
+A@sbad Nata ye Fo ct pyS AS Aees a | he NON S eNtat. e
+é
+Quando Desmembrader de Ocase contra
+moe campo de batalha, cada oponentye .
+Re saocriticad uma criatura. descarta um card
+ev perde fb pontos de vidae
+077/281 U
+SNC + OT te Awronio fost MANzant DO TWA DOT Wee ofthe Cova
+
+MEA NOUNS APRS tM AMY & ) a NGM FP BARGE, LY}
+Quando Desmembrador do Ocaso entra §
+no campo de batalha, cada oponente
+My sacrifica uma criatura, descarta um card
+e perde - pontos de vida.
+OrF/ 281 U 3/4
+SNC + &T te Avtonio lost Manranto0o TRS Le Qa ta otihe © wu
+
+BG@aed WEEE LA TIL rv aVY & rvrssnuv Maw FF BREED e
+Quando Desmembrador do Ocaso entra &
+no campo de batalha, cada oponente
+™ sacrifica uma criatura, descarta um card
+e perde 4 pontos de vida.
+vite 24tu 5/4
+SNE oT ke ANTONIO TORa Mazes oo 78 . Moat. tou
+
+077/281 U =
+SNC + BY tw Awroio low Manrentoo AS Sr Wea tithe Cee
+
+- cee ee ee wae. aN
+& Desmembrador do Ocaso S@@
+: oe ee : a °
+- .
+af - ft ‘ .
+. ‘ ‘ ‘ ‘
+‘ e
+. a
+4
+Criatura — Horror ey
+Como custo adicional para conjurar esta
+magica, sacrifique uma criatura, descarte Bi
+um card ou pague 4 pontos de vida. :
+Quando Desmembrador do Ocaso entra &
+no campo de batalha, cada oponente
+@ sacrifica uma criatura, descarta um card
+e perde 4 pontos de vida.
+5/4 )
+OF/ alu
+SNC 8 OT te ANTONIO lone Manrantoo TH OW arty tie tou
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:11:44
+matched_name: Undercity Scavenger
+matched_set: RNA
+matched_collector: 88
+reason: fração+nome RNA #88
+name_hint: BM Quando Necrofago do Submunde entra
+namebar_text: ' Necrofago do Su
+
+Necréfago do Submundo 38
+Tr) =
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+' Necrofago do Su
+
+068/239 C a)
+QNA>hT me Tomas HORUS TA AEH sare thee ae
+
+DI COIS PL TL CH UNG Ea tey ad bd
+@ Submunde co em sewtida. use videncne 2 .
+N
+Me Pcie. iar totes qiaaide Mes atinovigui.
+~ apie taraee
+088/259 ¢
+RNAcHYT we Tomasz hom Fe CD19 Wraeede ul the Coast
+
+MarCdaares Th TE CU NCCrOTARO aa .
+a Submundo ¢, em segunda, use videncia 2.
+Mm Picamos mtars fortes quando nos alonentamos &
+~ do fracasse.”
+Tron 373 )
+088/239 C¢
+QNA>wPY we Tomasz roausne Sh ND Diath of thee Co eet
+
+MHAPC dares Tbe CIM wwecrordgo aa .
+Submundo e, em seguida, use videncia 2. &
+Bl tcamos mais fortes quando nos alimentames
+@ do fracusso.”
+- - Jzont “373 )
+086/239 C
+GHA+ kT te Towass Nomunite ir a iy Soe Se Ce
+
+086/259 C W)
+QNAsPY mt Tomasz HOME Teh RIG Wath al the Cane
+
+— Le ee ne Be ane a we
+Necrofago do Submundo 3f
+‘ .
+e~ 4 ,? -
+. . “y - = .
+.
+
+‘ ; § -* q t,. an >
+: a. = & . :
+Criatura — Ogro Guerreiro KON
+
+N
+BM Quando Necrofago do Submunde entra .
+no campo de batalha, voce pode sacrificar
+outta criatura. Se fizer isse, coloque dois
+marcadores +1 +1 em Necrofago do :
+Submundo ¢, em seguida, use videneia 2.
+Bm Pcanies mars fortes quando nos alinicntamos
+mode fracasso.”
+from ZW
+068/237 ¢
+QNA>6T me Tomas ominiee SN LW party ef thee Cant
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:13:11
+matched_name: Pitiless Vizier
+matched_set: AKH
+matched_collector: 103
+reason: fração+nome AKH #103
+name_hint: descarta um card, Vizir Impiedosa
+namebar_text: | Vizir Impiedosa
+
+set_code_hint: AK
+collector_hint: 2
+
+raw_ocr:
+| Vizir Impiedosa
+
+103/269 ¢ a)
+AKM S&T te VOCMAN Bw TA NETH sare ofthe Ut
+
+Pgturne. (Dae ce cfetios gle disc ,
+NS lesteu de a dextran Sood stead .
+morosisleneia for wuaiou daiterior alae
+mide sera colocada no cemiterto de sou
+fone! 472)
+103/269 ¢
+AKH o PT ter Vounan Baca Te he CD17 Weare ud the Coast
+
+mturno. (Dano e efetos gue dizem °
+“destria” nao a destrocm. Se a sud .
+me resistencia for weal ou vifertior a0, clas
+m caida sera colocada no cemiterto de seu
+done, ) “a7 }
+103/269 C 4/2
+AK PT be VOURAt Baw Oh NET Winaeste ool thee Cline
+
+turno. (Dano e efeitos que dizem .
+“destrua” undo a destroem. Se a sua ,
+resistencia for tgual ou inferior a 0, ela
+m ainda sera colocada no cemitério de seu
+done.) “a2 )
+1038/2369 C 4/2
+Amado HT Pe DOR As Ba LP ae ee OO ee TY)
+
+103/269 C az)
+AKH © RY te Vounan Baca TOA NST Winetebe oad the Cet
+
+- a ee mew see) Bae mee eee ke os,
+
+& Vizir Impiedosa 3
+
+- 4 Ly. ra :
+
+z i , :
+
+. \' ’ 4 . : a
+
+_ a / 7 dagf , on e
+
+. y - — ‘
+
+4 by ; iw -. S°
+
+: vas "ua rn
+
+~ _ - .
+
+& Criatura — Minotauro Clérigo &
+
+a Toda vez que voce recicla ou :
+descarta um card, Vizir Impiedosa .
+ganha indestruuvel ate o final do ‘>
+turno. (Dano e¢ efeitos gue dizem °
+“destrua” nao a destroem. Se a sta °
+resistencta for tgual ou tifertor a0, ela t
+
+made sera colocada no cenutério de seu
+dono.)
+
+4/2 )
+103/262 ¢
+AKM > OT me VOUMaAw BK SA TW karte thee Oat
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:15:10
+matched_name: Cruel Deceiver
+matched_set: CHK
+matched_collector: 106
+reason: tÃ­tulo OCR 'F cruel Deceiver'
+name_hint: Writs a dand, Cruel Veceiver gains ’
+namebar_text: . i _ .
+
+F cruel Deceiver
+
+rue eceiver
+
+CfA: ghee Rh
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+. i _ .
+
+F cruel Deceiver
+
+rue eceiver
+
+® ability only once each turn.
+— Nottsuo Se 2/I
+Hr 908 OE Wit otto tod: bee tan
+
+mm ff its aiand, Uruel Deceiver gains -
+m@ “Whenever Cruel Deceiver deals :
+damage to a creature, destroy that .
+m® creature” unul end of turn. Play this -
+ability only once each turn. :
+——eNottsue > See 2/\
+Ie 1008 S008 Wavede ot the Chan dnc He tan OSS :
+
+AP ats a land, Cruel Veceiver gains _
+m@ “Whenever Cruel Deceiver deals .
+damage to a creature, destroy that
+™ creature” unul end of turn. Play this
+ability only once each turn.
+—eoNottsua = ey See 2/i )
+POO. ME Wareite othe Gann dnc bee tant VD. .
+
+Writs a dand, Cruel Veceiver gains ’
+“Whenever Cruel Deceiver deals .
+damage to a creature, destroy that
+® creature” until end of turn. Play this
+ability only once each turn.
+_— Nottsuo a Ny . ee 2/i }
+MEN PONS SNE te otehs Cent be dee tan’ 9
+
+& wo J LJ
+ee ~~. , ~ . “4° . ‘ @\
+ew Nottsugo + Oe Sy Sagtege
+MK 190) NWEW sate at Ohe Caast tis [ne tan 8, Ss.
+
+Cruel Deceiver Le
+d. . We o, Wi aN
+Lop. ph Yay y /\ 3
+: ' ~ ~ f > 1 \ ‘
+3 al } A ‘
+= Creature — Spirit TT
+a : Look at the top card of your library. °
+2: Reveal the top card of your library.
+If it’s a land, Cruel Deceiver gains _
+“Whenever Cruel Deceiver deals .
+damage to a creature, destroy that
+mM creature” unul end of turn. Play this
+ability only once each turn.
+Mg 190) Set at tho Coatdns tee tanto :
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:16:44
+matched_name: Slate Street Ruffian
+matched_set: GTC
+matched_collector: 78
+reason: nome PT palavras 'Rufião da Rua de Ardósia'
+name_hint: Zelinas, recrutador Orchov
+namebar_text: , Rufiao da Rua de Ardosia
+
+Rufio da Rua de Ardésia
+
+Auriao Ga Kula dé
+
+Rufiao da Rua de Ardosia 2
+‘ me N a
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, Rufiao da Rua de Ardosia
+
+Rufio da Rua de Ardésia
+
+Auriao Ga Kula dé
+
+Zelinas, recrutador Orchov
+ae jem Murray | yt om 2/2 )
+won Mae ' noe ets . eo
+
+, Uchensar Gdescarca Ub card. .
+BE Di predose de Porto de ser Psteottcu.
+Me foie, tent can prece Pad cle” -
+Atinas, rooridader Orohee
+. "= . “oo ¢ ~ : ‘N
+8 SANA ear elec Came eS -- 0 &.
+
+delensor Gdescarta uM) card, .
+“DPmpicdose ao ponto de ser psicottce.
+BS fomos wan emprego para ele
+Zelinas, recrutador Orzshov
+ae) Murray ys cx. 2/2
+as a i a ee ee
+
+aecrensor adescarla um Card.
+‘“Imptcdose ao ponto de ser psicotico.
+Temos unt emprego para ele.”
+— Zelinas, recrutador Orshov
+
+2/2
+
+. . - . ~~ \ @.
+ew jem Marry ‘yh 8, ce, 7a)
+a SAW erat ot em ce tye ° cS |
+
+-_- — 7 2 he = nr al : a
+Rufiao da Rua de Ardosia Ze
+. 7°
+. J . - gs)
+- - . a
+. > aN . \@ J ..
+m Criatura — Humano Guerreiro m
+. -s- ~. e
+Toda vez que Rutiao da Rua de
+. . a . -
+Ardosia ¢ bloqueado, o jogador .
+defensor descarta um card. .
+“Empicdese ao ponto de ser psicotico. =f
+mB femos um cmprego para cle
+Zelinas, recrutador Orshow
+aw jun Murray: Lo ; “y! * 4 oe 2/2
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:17:25
+matched_name: Vulturous Aven
+matched_set: DTK
+matched_collector: 126
+reason: fração+nome DTK #126
+name_hint: Quando Aviano Rapace explora uma
+namebar_text: | Aviano Rapace
+
+-_- ~ oe wcow - we Baw wee nee
+& Aviano Rapace 3K
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+| Aviano Rapace
+
+1 9? - le " i:
+perde 2 pontos de vida. WF)
+126/264 C¢
+O'K + &T mr Kir Watare TA NNW sere ofthe Cea
+
+Le Sere ea RUCAPET SE OO Credr edd Faad, «© Eke 3 ods 9
+? StoPefeay MM CVn. ! .
+mg Quando Aviano Rapace explora uma f
+ag oriatura, Voce Compra dois curds ¢
+ar . 9 . way .
+perdc — Pontos dle Vida. 273)
+126/264 ¢
+OTK + OT te Kev Warsi Te CD18 Wiuratde of the Coost
+
+Cebu Fda EMOPTE RING OO CEA FEE, CULES pbs e
+a sacrificar tama crtatiura.) .
+m@ Quando Aviano Rapace explora uma §
+a ocriatura, Voce compra dois cards e
+ry " . i) . | . ry 1:
+perde 2 pontos de vida. IF)
+126/264 ¢C [3
+OTK + OT ter Kiv Watara EWC NIT ath al thee Cer
+
+FECT LE FEMS RMEPTEDANE CR YEE FECE, CULE pire ®
+sacrificar uma criatura.) .
+Quando Aviano Rapace explora uma
+a criatura, voce compra dois cards e
+perde 2 pontos de vida. TW
+tres 204 C 2/3
+OTK HY fe Kiev Wecara hr, a ik OP Oe Te TS
+
+126/264 C Ws)
+OTK « WY te Kiw Warara Te fC N14 Winaeche of the Cow
+
+. ee Wer wae eee
+A Aviano Rapace 3
+a we Fa 7
+. : F ok ‘ , e
+: mS a Ly
+le, se, a
+Criatura — Ave Xama Y
+@ Voar :
+Explorar (Quando esta criatura -
+entra vo campo de batalha, voce pode =
+sacrificar tama criatura.) .
+Quando Aviano Rapace explora uma
+a criatura, Voce compra dois cards e
+perde 2 pontos de vida.
+2/3 )
+W6O/ 264 C
+DO'K + HT we Are Wetara th SIND rah tthe twat
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:17:58
+matched_name: Tithebearer Giant
+matched_set: WAR
+matched_collector: 107
+reason: fração+nome WAR #107
+name_hint: Quando Gigante Porta-dizimos entra no -
+namebar_text: Gigante Porta-dizimos _ .
+
+e Gieante Porta-dizimos sante Porta-dizimos —
+
+| Gigante Porta-di
+
+m Gigante Porta-dizimos 38
+-V
+Wm . o@ A
+
+set_code_hint: PONTO
+collector_hint: 1
+
+raw_ocr:
+Gigante Porta-dizimos _ .
+
+e Gieante Porta-dizimos sante Porta-dizimos —
+
+| Gigante Porta-di
+
+107/264 C zs
+WARY te Wine Tan SA ND Lar lth U wet
+
+7: . bd
+BE OO as racer nae dos cmt
+“> RRR nO YT BT -
+
+in Vee
+107/264 ¢
+WAR > OT te Wrowy Tan S&C 019 Trams of the Coo
+
+* cd e
+“Een scntpre disse gtte ad guerra sel teaathea cout ,
+bags tals, tds osmiawar os craies dos mimugos §
+Bet ches iden cr oh gute elt fi cod mente”
+toevsa
+107/264 C
+WARS E&Y Pe Wiiny Tan TR NH ahd thee C caeet
+
+“Eu sempre disse que a guerra se ganha cont '
+bats chelos, mas esmagar os craitws dos munigos
+com eles udo era o gite et tinha cmt mente”
+Tevsa
+167/204 C 4/5
+WAR eT fe Win Taw LP a iy OPCs errs errs
+
+107/264 C zy)
+WAR? OT te» Wiawy Tan Tow ON Wah ol the Cawet
+
+ae a Ser ea ee
+Gigante Porta-dizimos ex
+Ly
+° .
+wv r
+oo
+. 1 “>? . E >
+° a ae .
+- VY a ¥.
+; a : -
+. rs are f .
+%. & e q ‘ + ‘s
+ac a : Y { .
+> $ Lo
+a * : \ BY
+Criatura — Gigante Guerreiro y
+. ~ . e
+Quando Gigante Porta-dizimos entra no -
+campo de batalha, voce compra um card e | iM
+perde 1 ponto de vidi. C
+“Eu sempre disse que a guerra se ganha cont .
+bate chelos, mas csmtagar os cradtos dos mimiiges
+Recon cles do crao que cl Uindia coh mente”
+Levsea
+1O%/264 :
+WAR HY te Wien Tan TA NTE cal thee twat
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:18:42
+matched_name: Twisted Abomination
+matched_set: SCG
+matched_collector: 76
+reason: nome superior OCR
+name_hint: 4 .Creatite — Zombie Mitane.., QE
+namebar_text: Sr WEB ee a et
+[(iwisted Abomination’ 5
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+me OWAMPCVCINE 2 ( 4, L7iscara tiils a
+i card: Search your library fora Swamp §&
+my card, reveal it, and put it into your 7
+ra hand. Then shuffle your library.) “
+FED DafrBide” Feng TW RAS 5/3 )&
+
+me OWAMPCYCINE 2 ( 4, Liscara tnis a
+3 card: Search your library fora Swamp §
+
+ma card, reveal it, and put it into your i
+va hand. Then shuffle your library.) *
+4 oy
+
+ye OWaMpcyenng © (o> Liscard tits .
+a card: Search your library fora Swamp §&
+Mm card, reveal it, and put it into your 7
+ma hand. Then shuffle your library.) *
+3 A
+e3 pep oe sae” tha . ey | a) EE =
+
+3 -
+bd >
+= wa 0 tee 2 . 7. - —~ fe — ’ —_ >. an) ‘ =
+
+eS Dagens ide wea ay NRA .
+~ at wo gy. 7_ 4 use vw . vel =
+
+a 2 > ey ar ne ne, CREE Vor Oe we ee
+(i a
+. wa .
+® “> = aa
+- - . . coats ge
+‘4 Ce ee 7 ah wo
+oO ’ haa eine ode toll
+if cathes - .& -.. apeuapae “
+4 .Creatite — Zombie Mitane.., QE
+fa ®: Regenerate Twisted Abomination. .
+5 Swampcycling 2 (2, Discard this 3
+a card: Search your library fora Swamp §&
+my card, reveal it, and put tt into your ‘
+ka hand. Then shuffle your library.) “
+BS iypsBue we, Sp ee GRAB)
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:20:32
+matched_name: Night Market Aeronaut
+matched_set: AER
+matched_collector: 67
+reason: fração+nome AER #67
+name_hint: ‘Aeronauta do Mercado Notur
+namebar_text: ‘Aeronauta do Mercado Notur,
+
+' Aeronauta do Me:
+
+ee em ee ee Be ee
+Aeronauta do Mercado Noturno 34
+\ tad
+
+set_code_hint: AER
+collector_hint: 164
+
+raw_ocr:
+‘Aeronauta do Mercado Notur,
+
+' Aeronauta do Me:
+
+SE MONT Prd CACHES QHEDTRG, WEAS BOC...
+hope ct esto vive.” 72 )
+Oer/ib4 C
+AER- &T me Tritt comes Sh NED sat ot thee Cea
+
+fg mareador +) +} scuma permanente §
+gue voce comtrelava deixeu a campo de .
+M Dbatulha neste turn, .
+mCP otc fede Ci nee Uda tas Md
+Made HOO de obo Wr)
+067/164 ¢
+AER? PT wm Trith Lcomon 8 C17? Winns of the Coest
+
+mum marcador +] +1 se uma permanente ®
+que voce controlava deixou o campo de &
+
+m@ batalha neste turne,
+
+Mm eloamorte pode chesar aaanha, mds eye...
+hope de estore vice” 2/2 )
+
+O6?/ 184 C
+
+AER? YT we Tritalcomos OR NT Wiech el thee Cer
+
+um marcador +1'+1 se uma permanente §
+que voce controlava deixou o campode = &
+batalha neste turno,
+
+Bel morte pode chegar amanha, mas hoje...
+hoje eu esto vive” “2/2 )
+
+Oerriwa C
+
+AEM + FY me Tritn ty ores Lr on is Pcs Cae Te
+
+Hole efd Coffee Naa a 2/2 |
+067/184 C
+AER* OY te Trica como FOC RT Winarshe uf the Caveat
+
+ms - - -* mow es —_ BB we ae oe —— -e —
+Aeronauta do Mercado Noturno 3&@
+‘ .
+% mae ‘.
+e . a
+. ®
+Lose e~ ~ ,
+: J ny
+. ‘
+‘ >
+: ¢ » .
+Criatura — Etergénito Guerreiro @
+\
+me Voar .
+Revolta— Aeronauta do Mercado ‘
+Naturno entra no campo de batalha com) [&
+um marecador +1] +1] se uma permanente
+que voce controlava deixou o campo de = &
+batalha neste turno.
+Mm Alanoric pore chegar quand, mas hoje...
+AOJe cle OstOMe loa” “777 )
+oer/sita C /
+AER? &T we Tritalcomos SANT Wh pate ol te Cat
+
+
+======================================================================
+version: 2026-07-04.10
+timestamp: 2026-07-06 10:21:04
+matched_name: Sickle Ripper
+matched_set: SHM
+matched_collector: 77
+reason: face OCR 'Estripador da Foice'
+name_hint: Estrig sdor da Foice -
+namebar_text: , = ador da Foice
+
+Estrig sdor da Foice -
+
+Sl he
+
+Estripador da Foice 1
+. € . '&
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, = ador da Foice
+
+Estrig sdor da Foice -
+
+Sl he
+
+mein San “os > =
+. . _- tat
+wt 7 -
+
+é a) a ,
+°
+° Nok waar f hee no Veh’ rw pire ey Poedilcd
+‘ Arar ae rar ere ae are
+. ee. - “oo *; e_: \V @N
+woe than bon U | ia y ae vie 2/i
+' eo: pets “- O ~ 1 7 are ‘
+
+-1 -1.)
+Sta foie fond forpada na pina frotcrarta
+Le OUI CIN ECTINED.
+
+-4'-1,)
+Sua foice fora forquda na pira funcrarta
+de outro cinzerineo.
+
+2/i
+
+pe than Seat ye "ys ae =
+
+Estripador da Foice 1g
+r Sf 4 >
+: RN 0
+
+8 Re 7 . 0 , %
+YQ” a: a
+ee 4 ry ‘) te
+m Criatura — Elemental Guerreiro ws
+a
+
+Murchar (ista faate causa dante a .
+
+crtaturnas nea forma doo muarcaderes >
+
+-1-t.)
+
+Sta fates ford forjada nia pina frotcrart
+
+de ONITO CIN LEPTHCD,
+
