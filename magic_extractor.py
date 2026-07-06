@@ -843,6 +843,21 @@ class LocalOcr:
         text = text.upper().replace("•", " ")
         text = re.sub(r"\bO(\d{2,4})\b", r"0\1", text)
         text = re.sub(r"[^A-Z0-9]+", " ", text)
+        long_footer_candidates = []
+        for match in re.finditer(
+            r"\b([CMUR])(?:\1)?\s+(0*\d{3,4}[A-Z]?)\b[\s\S]{0,40}?\b([A-Z]{3})\b[\s\S]{0,20}?\b(?:EN|PT)\b",
+            text,
+        ):
+            rarity, number, set_code = match.groups()
+            normalized_number = collector_key(number)
+            if len(re.sub(r"\D", "", normalized_number)) >= 3:
+                long_footer_candidates.append((set_code, normalized_number, rarity, match.start()))
+        if long_footer_candidates:
+            set_code, number, rarity, _position = max(
+                long_footer_candidates,
+                key=lambda item: (len(re.sub(r"\D", "", item[1])), -item[3]),
+            )
+            return set_code, number, rarity
         rarity = ""
         rarity_with_pt_match = re.search(
             r"\b([CMUR])\s+(\d{1,4}[A-Z]?)\s+(?:\d+\s+\d+\s+)?([A-Z0-9]{2,5})\s+(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b",
@@ -850,7 +865,7 @@ class LocalOcr:
         )
         if rarity_with_pt_match:
             rarity, number, set_code = rarity_with_pt_match.groups()
-            return set_code, number, rarity
+            return set_code, collector_key(number), rarity
 
         rarity_match = re.search(
             r"\b([CMUR])\s+(\d{1,4}[A-Z]?)\s+([A-Z0-9]{2,5})\s+(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b",
@@ -858,20 +873,20 @@ class LocalOcr:
         )
         if rarity_match:
             rarity, number, set_code = rarity_match.groups()
-            return set_code, number, rarity
+            return set_code, collector_key(number), rarity
 
         loose_footer = re.search(
-            r"\b([CMUR])\s+0*(\d{1,4}[A-Z]?)\b[\s\S]{0,40}?\b([A-Z]{3})\b[\s\S]{0,20}?\b(?:EN|PT)\b",
+            r"\b([CMUR])\s+(0*\d{1,4}[A-Z]?)\b[\s\S]{0,40}?\b([A-Z]{3})\b[\s\S]{0,20}?\b(?:EN|PT)\b",
             text,
         )
         if loose_footer:
             rarity, number, set_code = loose_footer.groups()
-            return set_code, number, rarity
+            return set_code, collector_key(number), rarity
 
         match = re.search(r"\b(\d{1,4}[A-Z]?)\s+([A-Z0-9]{2,5})\s+(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b", text)
         if match:
             number, set_code = match.groups()
-            return set_code, number, rarity
+            return set_code, collector_key(number), rarity
 
         return "", "", ""
 
@@ -1744,7 +1759,7 @@ class ScryfallDatabase:
         if matched:
             return matched
 
-        card, matched_line = self._exact_english_title_in_text(ocr.raw_text)
+        card, matched_line = self._exact_english_title_in_text(ocr.namebar_text)
         matched = try_match(card, f"tÃ­tulo OCR '{matched_line}'")
         if matched:
             return matched
@@ -2207,7 +2222,7 @@ class ScryfallDatabase:
         ocr = ctx.ocr
         name_present = self._card_name_in_raw_text(card, ocr.raw_text)
         is_hint_card = bool(ctx.hint_card and ctx.hint_card.get("oracle_id") == card.get("oracle_id"))
-        exact_title_card, _ = self._exact_english_title_in_text(ocr.raw_text)
+        exact_title_card, _ = self._exact_english_title_in_text(ocr.namebar_text)
         has_exact_title = bool(
             exact_title_card and exact_title_card.get("oracle_id") == card.get("oracle_id")
         )
