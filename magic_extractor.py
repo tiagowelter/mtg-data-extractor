@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import gzip
@@ -51,7 +51,7 @@ SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
 MTGJSON_ATOMIC_PATH = DATA_DIR / "mtgjson_atomic_cards.json.gz"
 INDEX_PATH = DATA_DIR / "card_index.pkl"
-INDEX_VERSION = 13
+INDEX_VERSION = 20
 # Layouts that reuse real card names but are never scanned as collectible cards;
 # excluded from the fuzzy name/face matching pools.
 _NON_CATALOG_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem", "reversible_card"}
@@ -67,12 +67,12 @@ FIELDS = [
     "Nome",
     "Tipo",
     "Raridade",
-    "Descrição magia",
+    "DescriÃ§Ã£o magia",
     "Custo mana",
     "Cor(cores)",
-    "Preço minimo",
-    "Coleção",
-    "É foil?",
+    "PreÃ§o minimo",
+    "ColeÃ§Ã£o",
+    "Ã‰ foil?",
     "Ano",
     "Poder",
     "Qtd",
@@ -82,9 +82,9 @@ RARITY_PT = {
     "common": "Comum",
     "uncommon": "Incomum",
     "rare": "Rara",
-    "mythic": "Mítica",
+    "mythic": "MÃ­tica",
     "special": "Especial",
-    "bonus": "Bônus",
+    "bonus": "BÃ´nus",
 }
 
 RARITY_EN = {
@@ -111,24 +111,88 @@ TESSERACT_CANDIDATES = [
 ]
 
 MANUAL_PT_TRANSLATIONS = {
+    "Dwarven Warriors": {
+        "printed_name": "An\u00f5es Guerreiros",
+        "printed_type_line": "Criatura \u2014 An\u00e3o",
+        "printed_text": (
+            "{T}: A criatura-alvo com poder igual ou inferior a 2 n\u00e3o pode ser bloqueada at\u00e9 o final do turno. "
+            "Outros efeitos podem ser usados depois para aumentar o poder da criatura acima de 2."
+        ),
+        "preferred_set": "4ED",
+    },
+    "Joven": {
+        "printed_name": "Joven",
+        "printed_type_line": "Criatura Lend\u00e1ria \u2014 Humano Ladino",
+        "printed_text": "{R}{R}{R}, {T}: Destr\u00f3i o artefato alvo que n\u00e3o seja criatura.",
+        "preferred_set": "HML",
+    },
+    "Earth Elemental": {
+        "printed_name": "Elemental da Terra",
+        "printed_type_line": "Criatura \u2014 Elemental",
+        "printed_text": "",
+        "preferred_set": "4ED",
+    },
     "Maze Glider": {
         "printed_name": "Planador do Labirinto",
-        "printed_type_line": "Criatura — Elemental",
-        "printed_text": "Voar\nAs criaturas multicoloridas que você controla têm voar.",
+        "printed_type_line": "Criatura â€” Elemental",
+        "printed_text": "Voar\nAs criaturas multicoloridas que vocÃª controla tÃªm voar.",
     },
     "Opal Lake Gatekeepers": {
         "printed_name": "Porteiros do Lago de Opala",
-        "printed_type_line": "Criatura — Vedalkeano Soldado",
+        "printed_type_line": "Criatura â€” Vedalkeano Soldado",
         "printed_text": (
             "Quando Porteiros do Lago de Opala entrar no campo de batalha, "
-            "se você controlar dois ou mais Portões, poderá comprar um card."
+            "se vocÃª controlar dois ou mais PortÃµes, poderÃ¡ comprar um card."
         ),
     },
     "Murmuring Phantasm": {
         "printed_name": "Fantasma Murmurante",
-        "printed_type_line": "Criatura — Espírito",
+        "printed_type_line": "Criatura â€” EspÃ­rito",
         "printed_text": "Defensor",
     },
+    "Immolation": {
+        "printed_name": "Imola\u00e7\u00e3o",
+        "printed_type_line": "Encantar Criatura",
+        "printed_text": "A criatura-alvo ganha +2/-2.",
+        "preferred_set": "4ED",
+    },
+    "The Brute": {
+        "printed_name": "O Bruto",
+        "printed_type_line": "Encantar Criatura",
+        "printed_text": (
+            "A criatura-alvo ganha +1/+0.\n"
+            "{R}{R}{R}: Regenera a criatura-alvo encantada pelo Bruto."
+        ),
+        "preferred_set": "4ED",
+    },
+    "Flare": {
+        "printed_name": "Detona\u00e7\u00e3o",
+        "printed_type_line": "M\u00e1gica Instant\u00e2nea",
+        "printed_text": (
+            "Detona\u00e7\u00e3o causa 1 ponto de dano a qualquer alvo. "
+            "Compre um card no in\u00edcio da manuten\u00e7\u00e3o do pr\u00f3ximo turno."
+        ),
+    },
+    "Shatter": {
+        "printed_name": "Estilha\u00e7ar",
+        "printed_type_line": "M\u00e1gica Instant\u00e2nea",
+        "printed_text": "Destr\u00f3i artefato-alvo.",
+        "preferred_set": "4ED",
+    },
+    "Tunnel": {
+        "printed_name": "T\u00fanel",
+        "printed_type_line": "M\u00e1gica Instant\u00e2nea",
+        "printed_text": "Enterra a barreira-alvo.",
+        "preferred_set": "4ED",
+    },
+}
+
+PREFERRED_PRINT_SETS = {
+    "Dwarven Warriors": "4ED",
+    "Joven": "HML",
+    "Earth Elemental": "4ED",
+    "Dwarven Blastminer": "ONS",
+    "Spikeshot Goblin": "MRD",
 }
 
 
@@ -156,6 +220,8 @@ COMMON_PT_OCR_WORDS = {
     "conjurar",
     "magica",
     "magicas",
+    "magia",
+    "magias",
     "criatura",
     "criaturas",
     "terreno",
@@ -307,7 +373,7 @@ AMBIGUOUS_SET_CODE_WORDS = {
 
 def is_plausible_namebar(text: str) -> bool:
     cleaned = clean_ocr_line(text or "")
-    words = re.findall(r"[A-Za-zÀ-ü]{3,}", cleaned)
+    words = re.findall(r"[^\W\d_]{3,}", cleaned, flags=re.UNICODE)
     if not words or len(words) > 6:
         return False
     if not any(len(word) >= 4 for word in words):
@@ -315,7 +381,7 @@ def is_plausible_namebar(text: str) -> bool:
     alpha = sum(ch.isalpha() for ch in cleaned)
     if cleaned and alpha < len(cleaned) * 0.35:
         return False
-    title_words = re.findall(r"\b[A-ZÀ-Ü][a-zà-ü]{2,}\b", cleaned)
+    title_words = re.findall(r"\b[^\W\d_]{3,}\b", cleaned, flags=re.UNICODE)
     if not title_words and len(words) <= 3:
         return False
     return True
@@ -325,7 +391,7 @@ def _namebar_line_score(line: str) -> int:
     score = sum(1 for word in line.split() if len(word) >= 4)
     if "," in line:
         score += 5
-    if re.match(r"^[A-ZÀ-Ü]", line):
+    if re.match(r"^[^\W\d_]", line, flags=re.UNICODE):
         score += 2
     return score
 
@@ -364,6 +430,10 @@ def clean_card_text(value: str) -> str:
     value = value.replace("\r\n", "\n").replace("\r", "\n")
     value = re.sub(r"\s*\n\s*", " ", value)
     return re.sub(r"\s+", " ", value).strip()
+
+
+def title_words(value: str) -> list[str]:
+    return [word for word in normalize_text(value).split() if len(word) >= 3 or word in {"a", "an", "of", "to"}]
 
 
 def collector_key(value: str) -> str:
@@ -640,7 +710,7 @@ class LocalOcr:
     def extract(self, image: Image.Image) -> OcrResult:
         if not self.available():
             raise RuntimeError(
-                "Tesseract OCR não foi encontrado. Instale o Tesseract e reinicie o app."
+                "Tesseract OCR nÃ£o foi encontrado. Instale o Tesseract e reinicie o app."
             )
 
         image = crop_possible_app_screenshot(image.convert("RGB"))
@@ -833,7 +903,7 @@ class LocalOcr:
             words = normalized.split()
             if not words or all(word in ignored for word in words):
                 return -100
-            title_words = re.findall(r"\b[A-ZÀ-Ü][a-zà-ü]{2,}\b", candidate)
+            title_words = re.findall(r"\b[^\W\d_]{3,}\b", candidate, flags=re.UNICODE)
             value = min(len(words), 5)
             value += len(title_words) * 3
             if len(title_words) >= 2:
@@ -844,7 +914,7 @@ class LocalOcr:
             value -= sum(2 for word in words if word in {"instant", "sorcery", "artifact", "enchantment", "land"})
             value -= sum(1 for word in words if word.isdigit())
             if re.search(
-                r"[©™]|\b(?:h?illus|iilus|iilug|inus|tilus|tilug|tl?lus|tlug|tlust|titus|hust)\b|"
+                r"[Â©â„¢]|\b(?:h?illus|iilus|iilug|inus|tilus|tilug|tl?lus|tlug|tlust|titus|hust)\b|"
                 r"wizards|coast|wasatch|anthony|palumbo|paliso",
                 candidate,
                 re.IGNORECASE,
@@ -864,9 +934,9 @@ class LocalOcr:
                 value -= 20
             if "," in candidate:
                 value += 12
-            if re.match(r"^[A-ZÀ-Ü][a-zà-ü]+,", candidate):
+            if re.match(r"^[^\W\d_]+,", candidate, flags=re.UNICODE):
                 value += 15
-            if re.search(r"[^a-zA-ZÀ-ü0-9\s\-',]", candidate):
+            if re.search(r"[^\w\s\-',]", candidate, flags=re.UNICODE):
                 value -= 10
             return value
 
@@ -876,7 +946,7 @@ class LocalOcr:
 
     @staticmethod
     def _parse_collector(text: str) -> tuple[str, str, str]:
-        text = text.upper().replace("•", " ")
+        text = text.upper().replace("â€¢", " ")
         text = re.sub(r"\bO(\d{2,4})\b", r"0\1", text)
         text = re.sub(r"[^A-Z0-9]+", " ", text)
         long_footer_candidates = []
@@ -977,20 +1047,20 @@ class ScryfallDatabase:
         bulk_data = bulk.json()["data"]
         default_cards = next(item for item in bulk_data if item["type"] == "default_cards")
 
-        log("Baixando Default Cards do Scryfall para reconhecer impressões...")
+        log("Baixando Default Cards do Scryfall para reconhecer impressÃµes...")
         self._download_file(default_cards["download_uri"], SCRYFALL_CARDS_PATH, log)
 
-        log("Baixando lista de coleções...")
+        log("Baixando lista de coleÃ§Ãµes...")
         sets = requests.get("https://api.scryfall.com/sets", timeout=60, headers=HTTP_HEADERS)
         sets.raise_for_status()
         SETS_PATH.write_text(json.dumps(sets.json(), ensure_ascii=False), encoding="utf-8")
 
-        log("Baixando traduções do MTGJSON AtomicCards...")
+        log("Baixando traduÃ§Ãµes do MTGJSON AtomicCards...")
         self._download_file("https://mtgjson.com/api/v5/AtomicCards.json.gz", MTGJSON_ATOMIC_PATH, log)
 
         if INDEX_PATH.exists():
             INDEX_PATH.unlink()
-        log("Base baixada. Recriando índice local...")
+        log("Base baixada. Recriando Ã­ndice local...")
         self.load(force_rebuild=True, log=log)
 
     @staticmethod
@@ -1020,14 +1090,14 @@ class ScryfallDatabase:
             return
         self._norm_cache = {}
         if not SCRYFALL_CARDS_PATH.exists():
-            raise FileNotFoundError("Base não encontrada. Clique em Atualizar base primeiro.")
+            raise FileNotFoundError("Base nÃ£o encontrada. Clique em Atualizar base primeiro.")
 
         if INDEX_PATH.exists() and not force_rebuild:
-            log("Carregando índice local...")
+            log("Carregando Ã­ndice local...")
             with INDEX_PATH.open("rb") as handle:
                 state = pickle.load(handle)
             if state.get("index_version") != INDEX_VERSION:
-                log("Índice antigo detectado. Recriando...")
+                log("Ãndice antigo detectado. Recriando...")
                 return self.load(force_rebuild=True, log=log)
             self.__dict__.update(state)
             self.loaded = True
@@ -1093,7 +1163,7 @@ class ScryfallDatabase:
                         seen_face_choices.add(key)
 
         if MTGJSON_ATOMIC_PATH.exists():
-            log("Lendo traduções em português...")
+            log("Lendo traduÃ§Ãµes em portuguÃªs...")
             self.mtgjson_pt_by_name = self._load_mtgjson_portuguese()
             for english_name, translation in MANUAL_PT_TRANSLATIONS.items():
                 self.mtgjson_pt_by_name[normalize_text(english_name)] = translation
@@ -1382,7 +1452,7 @@ class ScryfallDatabase:
     def _fuzzy_namebar(self, namebar_text: str) -> dict | None:
         # Evaluate every plausible namebar line and keep the match whose name is
         # most fully present in the line it came from. This stops a short name
-        # (e.g. the plane "Naya") from winning over a fuller one ("Medalhão de
+        # (e.g. the plane "Naya") from winning over a fuller one ("MedalhÃ£o de
         # Naya") just because a noisier line was scored higher.
         best_card = None
         best_score = (-1, -1.0, -1)
@@ -1572,12 +1642,20 @@ class ScryfallDatabase:
         # Prefer the name bar (the card title) over face names: a single common
         # word in the body (e.g. the creature type "Goblin") can match a split
         # card's face ("Weird // Goblin") and give a misleading hint.
-        namebar_pt, _ = self._fuzzy_portuguese_text(ocr.namebar_text, namebar_mode=True)
-        if namebar_pt and self._distinctive_name_in_raw_text(namebar_pt, ocr.raw_text):
+
+        namebar_pt, namebar_pt_name = self._fuzzy_portuguese_text(ocr.namebar_text, namebar_mode=True)
+        if namebar_pt and (
+            self._distinctive_name_in_raw_text(namebar_pt, ocr.raw_text)
+            or self._best_name_coverage(namebar_pt, normalize_text(namebar_pt_name)) >= 1
+        ):
             return namebar_pt
         namebar_en = self._fuzzy_namebar(ocr.namebar_text)
         if namebar_en and self._distinctive_name_in_raw_text(namebar_en, ocr.raw_text):
             return namebar_en
+        card, _matched_line = self._fuzzy_english_title_in_text(ocr.raw_text)
+        if card and self._distinctive_name_in_raw_text(card, ocr.raw_text):
+            return card
+
         pt_words_card, pt_words_name = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
         if (
             pt_words_card
@@ -1626,9 +1704,9 @@ class ScryfallDatabase:
             all_pt_words = [word for word in normalized_pt_name.split() if len(word) >= 3]
             first_word = all_pt_words[0] if all_pt_words else ""
             if len(all_pt_words) > 1 and first_word:
-                if not any(words_fuzzy_match(first_word, word, 88) for word in raw_words):
+                if not any(words_fuzzy_match(first_word, word, 86) for word in raw_words):
                     continue
-            if len(match_words) == 1 and match_words[0] not in raw_words:
+            if len(match_words) == 1 and not fuzzy_word_count(match_words, raw_words, threshold=86):
                 continue
             matches = fuzzy_word_count(match_words, raw_words)
             required = min(3, len(match_words)) if len(match_words) >= 3 else min(2, len(match_words))
@@ -1655,6 +1733,76 @@ class ScryfallDatabase:
 
     def _oracle_has_collector(self, oracle_id: str, collector: str) -> bool:
         return collector in self.oracle_collectors.get(oracle_id, set())
+
+    def _manual_portuguese_title_in_text(self, raw_text: str) -> tuple[dict | None, str]:
+        if not raw_text:
+            return None, ""
+        import difflib
+
+        manual_names = {
+            normalize_text(data.get("printed_name", "")): english_name
+            for english_name, data in MANUAL_PT_TRANSLATIONS.items()
+            if data.get("printed_name")
+        }
+        manual_names = {key: value for key, value in manual_names.items() if key}
+        if not manual_names:
+            return None, ""
+        normalized_raw = normalize_text(raw_text)
+        compact_raw = re.sub(r"\s+", "", normalized_raw)
+        raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
+        best_card = None
+        best_name = ""
+        best_score = 0.0
+        for line in raw_text.splitlines():
+            cleaned = clean_ocr_line(line)
+            words = title_words(cleaned)
+            if not words or len(words) > 4:
+                continue
+            candidate = words[0]
+            if candidate in COMMON_PT_OCR_WORDS or candidate in COMMON_EN_OCR_WORDS:
+                continue
+            if process and fuzz:
+                match = process.extractOne(candidate, manual_names.keys(), scorer=fuzz.ratio)
+            else:
+                matched_name = ""
+                matched_score = 0.0
+                for manual_name in manual_names:
+                    score = difflib.SequenceMatcher(None, candidate, manual_name).ratio() * 100
+                    if score > matched_score:
+                        matched_name = manual_name
+                        matched_score = score
+                match = (matched_name, matched_score, None) if matched_name else None
+            if not match:
+                continue
+            matched_name = match[0]
+            if match[1] < 72:
+                continue
+            english_name = manual_names[matched_name]
+            card = self._fuzzy_name(english_name, strict_words=True, min_score=99, prefer_en=True)
+            if not card:
+                continue
+            same_oracle_cards = [
+                item
+                for item in self.cards
+                if item.get("lang") == "en" and item.get("oracle_id") == card.get("oracle_id")
+            ] or [card]
+            artist_ok = any(
+                self._artist_name_in_raw_text(item, normalized_raw, compact_raw, raw_words)
+                for item in same_oracle_cards
+            )
+            support = self._best_oracle_support(card, raw_text)
+            if not artist_ok and support < 2:
+                continue
+            if candidate[:1] != matched_name[:1] and not (artist_ok or support >= 2):
+                continue
+            score = float(match[1]) + support * 20 + (25 if artist_ok else 0)
+            if score > best_score:
+                best_score = score
+                best_card = card
+                best_name = MANUAL_PT_TRANSLATIONS[english_name]["printed_name"]
+        if best_card:
+            return best_card, best_name
+        return None, ""
 
     def _build_match_context(self, ocr: OcrResult) -> OcrMatchContext:
         fractions = self._collector_fractions_in_text(ocr.raw_text)
@@ -1758,7 +1906,7 @@ class ScryfallDatabase:
     ) -> tuple[dict | None, str, str]:
         """Strongest possible signal: a collector fraction (e.g. "198/249")
         whose printing also has its name in the OCR text. The footer number and
-        the card name agree, so this beats every fuzzy path — and it is robust
+        the card name agree, so this beats every fuzzy path â€” and it is robust
         to a mangled set code (``IMA`` read as ``IM AS``) because the set is
         derived from the card-count total instead of the OCR'd letters."""
         for collector, total in ctx.fractions:
@@ -1788,28 +1936,60 @@ class ScryfallDatabase:
             candidates = self._print_candidates(ocr.set_code.upper(), collector_key(ocr.collector_number))
             if candidates:
                 card = self._pick_best_print_candidate(candidates, ocr.raw_text)
-                matched = try_match(card, f"código {ocr.set_code.upper()} #{ocr.collector_number}")
+                matched = try_match(card, f"cÃ³digo {ocr.set_code.upper()} #{ocr.collector_number}")
                 if matched:
                     return matched
 
         card, set_code, collector_number = self._find_by_fraction_and_name(ocr.raw_text, ctx)
         if card:
-            return finalize(card, f"fração+nome {set_code} #{collector_number}")
+            return finalize(card, f"fraÃ§Ã£o+nome {set_code} #{collector_number}")
 
         card, set_code, collector_number = self._find_print_in_ocr_text(ocr.raw_text)
-        matched = try_match(card, f"rodapé OCR {set_code} #{collector_number}")
+        matched = try_match(card, f"rodapÃ© OCR {set_code} #{collector_number}")
         if matched:
             return matched
 
         card, matched_line = self._exact_english_title_in_text(ocr.namebar_text)
-        matched = try_match(card, f"tÃ­tulo OCR '{matched_line}'")
+        matched = try_match(card, f"tÃƒÂ­tulo OCR '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._fuzzy_english_title_in_text(ocr.namebar_text)
-        matched = try_match(card, f"tÃ­tulo superior OCR aproximado '{matched_line}'")
+        matched = try_match(card, f"tÃƒÂ­tulo superior OCR aproximado '{matched_line}'")
         if matched:
             return matched
+
+        card, matched_line = self._exact_english_title_in_text(ocr.raw_text)
+        if card and self._best_oracle_support(card, ocr.raw_text) < 5:
+            card = None
+        matched = try_match(card, f"tÃƒÂ­tulo OCR bruto '{matched_line}'")
+        if matched:
+            return matched
+
+        card, matched_line = self._fuzzy_english_title_in_text(ocr.raw_text)
+        matched = try_match(card, f"tÃƒÂ­tulo OCR aproximado '{matched_line}'")
+        if matched:
+            return matched
+
+        card, matched_line = self._exact_english_title_in_text(ocr.raw_text)
+        if card and self._best_oracle_support(card, ocr.raw_text) < 3:
+            card = None
+        matched = try_match(card, f"tÃƒÂ­tulo OCR bruto '{matched_line}'")
+        if matched:
+            return matched
+
+        namebar_pt, namebar_pt_name = self._fuzzy_portuguese_text(ocr.namebar_text, namebar_mode=True)
+        if namebar_pt and (
+            self._card_name_in_raw_text(namebar_pt, ocr.raw_text)
+            or self._best_name_coverage(namebar_pt, normalize_text(namebar_pt_name)) >= 1
+        ):
+            matched = try_match(namebar_pt, f"nome superior PT OCR '{namebar_pt_name}'")
+            if matched:
+                return matched
+
+        manual_pt_card, manual_pt_name = self._manual_portuguese_title_in_text(ocr.raw_text)
+        if manual_pt_card:
+            return finalize(manual_pt_card, f"nome PT manual OCR '{manual_pt_name}'")
 
         pt_words_card, pt_words_name = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
         if (
@@ -1832,12 +2012,6 @@ class ScryfallDatabase:
             if matched:
                 return matched
 
-        namebar_pt, namebar_pt_name = self._fuzzy_portuguese_text(ocr.namebar_text, namebar_mode=True)
-        if namebar_pt and self._card_name_in_raw_text(namebar_pt, ocr.raw_text):
-            matched = try_match(namebar_pt, f"nome superior PT OCR '{namebar_pt_name}'")
-            if matched:
-                return matched
-
         namebar_en = self._fuzzy_namebar(ocr.namebar_text)
         namebar_line = best_namebar_line(ocr.namebar_text) or normalize_ocr_name(ocr.namebar_text)
         if namebar_en and (
@@ -1849,7 +2023,7 @@ class ScryfallDatabase:
                 return matched
 
         card, set_code, collector_number = self._find_by_collector_fraction(ocr.raw_text, ctx)
-        matched = try_match(card, f"fração collector {set_code} #{collector_number}")
+        matched = try_match(card, f"fraÃ§Ã£o collector {set_code} #{collector_number}")
         if matched:
             return matched
 
@@ -1860,22 +2034,22 @@ class ScryfallDatabase:
                 return matched
 
         card, matched_line = self._exact_english_self_reference_in_text(ocr.raw_text)
-        matched = try_match(card, f"auto-referência OCR '{matched_line}'")
+        matched = try_match(card, f"auto-referÃªncia OCR '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._exact_english_title_in_text(ocr.raw_text)
-        matched = try_match(card, f"título OCR bruto '{matched_line}'")
+        matched = try_match(card, f"tÃ­tulo OCR bruto '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._fuzzy_english_title_in_text(ocr.raw_text)
-        matched = try_match(card, f"título OCR aproximado '{matched_line}'")
+        matched = try_match(card, f"tÃ­tulo OCR aproximado '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._exact_english_name_in_text(ocr.raw_text)
-        matched = try_match(card, f"nome inglês OCR '{matched_line}'")
+        matched = try_match(card, f"nome inglÃªs OCR '{matched_line}'")
         if matched:
             return matched
 
@@ -1898,7 +2072,7 @@ class ScryfallDatabase:
         matched = try_match(card, f"texto OCR '{matched_line}'")
         if matched:
             return matched
-        raise LookupError("Não consegui encontrar a carta na base local.")
+        raise LookupError("NÃ£o consegui encontrar a carta na base local.")
 
     @staticmethod
     def _card_name_matches(card: dict, name_hint: str) -> bool:
@@ -1919,7 +2093,7 @@ class ScryfallDatabase:
         """Pick a printing from footer/copyright evidence other than an exact
         collector match: the set card-count total (e.g. ".../81" -> the only
         printing in an 81-card set) and then the copyright year (e.g. the
-        "© 1993-2011" range disambiguates the 2011 printing)."""
+        "Â© 1993-2011" range disambiguates the 2011 printing)."""
         if not same_oracle_cards:
             return None
         paper_cards = [
@@ -1958,7 +2132,7 @@ class ScryfallDatabase:
     def _flavor_scores(self, cards: list[dict], raw_text: str) -> dict[int, tuple[int, int]]:
         """(proper-noun hits, content-word hits) of each card's flavor text in
         the OCR. Flavor is stored in English, but proper nouns in an attribution
-        ("—Sheoldred, Whispering One") are spelled the same across languages, so
+        ("â€”Sheoldred, Whispering One") are spelled the same across languages, so
         they still anchor a match against a Portuguese scan."""
         raw_words = set(normalize_text(raw_text).split())
         scores: dict[int, tuple[int, int]] = {}
@@ -2054,6 +2228,24 @@ class ScryfallDatabase:
             if item.get("lang") == "en" and item.get("oracle_id") == oracle_id
         ]
         collectors = self._collector_numbers_in_text(raw_text)
+        pt_card = self.portuguese_for(card)
+        preferred_set = (
+            (pt_card or {}).get("preferred_set")
+            or PREFERRED_PRINT_SETS.get(card.get("name", ""), "")
+        ).upper()
+        meaningful_collectors = {
+            collector
+            for collector in collectors
+            if (re.sub(r"\D", "", collector) and int(re.sub(r"\D", "", collector)) >= 20)
+        }
+        if preferred_set and not meaningful_collectors:
+            preferred = [
+                item
+                for item in same_oracle_cards
+                if (item.get("set") or "").upper() == preferred_set
+            ]
+            if preferred:
+                return preferred[0]
 
         def set_in_text(item: dict) -> bool:
             code = (item.get("set") or "").upper()
@@ -2087,7 +2279,9 @@ class ScryfallDatabase:
         compatible = self._artist_compatible_prints(compatible, raw_text)
         context_pick = self._print_from_context(compatible, raw_text)
         if not collectors:
-            return context_pick or self._earliest_print(compatible, card)
+            if context_pick:
+                return context_pick
+            return self._earliest_print(compatible, card)
         current_collector = collector_key(card.get("collector_number"))
         if current_collector in collectors:
             return card
@@ -2327,6 +2521,11 @@ class ScryfallDatabase:
         has_exact_title = bool(
             exact_title_card and exact_title_card.get("oracle_id") == card.get("oracle_id")
         )
+        exact_raw_title_card, _ = self._exact_english_title_in_text(ocr.raw_text)
+        has_exact_raw_title = bool(
+            exact_raw_title_card and exact_raw_title_card.get("oracle_id") == card.get("oracle_id")
+            and self._best_oracle_support(card, ocr.raw_text) >= 3
+        )
         self_reference_card, _ = self._exact_english_self_reference_in_text(ocr.raw_text)
         has_self_reference = bool(
             self_reference_card and self_reference_card.get("oracle_id") == card.get("oracle_id")
@@ -2349,10 +2548,11 @@ class ScryfallDatabase:
         )
         # When this card's own name is the title read clearly from the image, a
         # collector number that carries an OCR digit error (e.g. 215 read as 219)
-        # must not veto it — the name is the stronger signal.
+        # must not veto it â€” the name is the stronger signal.
         strong_name = (
             (name_present and is_hint_card)
             or has_exact_title
+            or has_exact_raw_title
             or has_self_reference
             or has_fuzzy_title
             or has_exact_name
@@ -2390,9 +2590,17 @@ class ScryfallDatabase:
                 # "Zhur-Taa Goblin" into "Senate Griffin").
                 if self._hint_card_shares_set(ctx.hint_card, (card.get("set") or "").upper()):
                     return False
-        if has_exact_title or has_self_reference or has_exact_name:
+        if has_exact_title or has_exact_raw_title or has_self_reference or has_exact_name:
             return True
-        if has_fuzzy_title and self._distinctive_name_in_raw_text(card, ocr.raw_text):
+        if has_fuzzy_title and (
+            self._distinctive_name_in_raw_text(card, ocr.raw_text)
+            or self._artist_name_in_raw_text(
+                card,
+                normalize_text(ocr.raw_text),
+                re.sub(r"\s+", "", normalize_text(ocr.raw_text)),
+                [word for word in normalize_text(ocr.raw_text).split() if len(word) >= 3],
+            )
+        ):
             return True
         if self._print_evidence_in_ocr(card, ctx):
             return True
@@ -2595,7 +2803,7 @@ class ScryfallDatabase:
                     en_name = candidate_name
             # A name that only explains part of what was read (e.g. the single-word
             # plane "Naya") must not win over a candidate that explains more of it
-            # (e.g. "Medalhão de Naya"), even when English is normally preferred.
+            # (e.g. "MedalhÃ£o de Naya"), even when English is normally preferred.
             if en_card and pt_card and en_card.get("oracle_id") != pt_card.get("oracle_id"):
                 en_cov = self._hint_word_coverage(en_name, normalized_hint)
                 pt_cov = self._hint_word_coverage(pt_name, normalized_hint)
@@ -2638,7 +2846,7 @@ class ScryfallDatabase:
         """How many significant words of ``card_name`` appear in the read text.
 
         Used to decide, between two candidate names, which one better explains
-        what the OCR actually read — so a short substring match cannot beat a
+        what the OCR actually read â€” so a short substring match cannot beat a
         fuller one.
         """
         name_words = [word for word in normalize_text(card_name).split() if len(word) >= 3]
@@ -2685,8 +2893,16 @@ class ScryfallDatabase:
                     compact_score = 0
                     if compact_pt_name in compact_raw:
                         compact_score = len(pt_words) * 120 + len(compact_pt_name)
-                    elif fuzz and fuzz.partial_ratio(compact_pt_name, compact_raw) >= 94:
-                        compact_score = len(pt_words) * 110 + len(compact_pt_name)
+                    elif fuzz:
+                        compact_ratio = fuzz.partial_ratio(compact_pt_name, compact_raw)
+                        if compact_ratio >= 94:
+                            compact_score = len(pt_words) * 110 + len(compact_pt_name)
+                        elif (
+                            compact_ratio >= 80
+                            and len(pt_words) == 1
+                            and len(raw_words) <= 3
+                        ):
+                            compact_score = int(compact_ratio) + len(compact_pt_name)
                     if compact_score > best_word_score:
                         best_word_score = compact_score
                         best_word_name = pt_name
@@ -2694,12 +2910,26 @@ class ScryfallDatabase:
                         continue
                 all_pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 3]
                 first_word = all_pt_words[0] if all_pt_words else ""
+                normalized_pt_tokens = normalize_text(pt_name).split()
+                has_short_article = bool(
+                    normalized_pt_tokens
+                    and normalized_pt_tokens[0] in {"a", "o", "as", "os"}
+                    and len(pt_words) == 1
+                )
                 if len(all_pt_words) > 1 and first_word:
                     first_raw_word = raw_words[0] if raw_words else ""
-                    if not words_fuzzy_match(first_word, first_raw_word, 88):
-                        continue
+                    if not words_fuzzy_match(first_word, first_raw_word, 86):
+                        if not (len(first_word) <= 2 and fuzzy_word_count(pt_words, raw_words, threshold=86)):
+                            continue
                 if len(pt_words) == 1 and len(raw_words) > 1:
-                    continue
+                    if not (
+                        (
+                            (len(all_pt_words) >= 2 and len(first_word) <= 2)
+                            or has_short_article
+                        )
+                        and fuzzy_word_count(pt_words, raw_words, threshold=86)
+                    ):
+                        continue
                 matches = fuzzy_word_count(pt_words, raw_words)
                 required = min(3, len(pt_words)) if len(pt_words) >= 3 else min(2, len(pt_words))
                 if matches < required:
@@ -2733,7 +2963,7 @@ class ScryfallDatabase:
                     all_pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 3]
                     first_word = all_pt_words[0] if all_pt_words else ""
                     if len(all_pt_words) > 1 and first_word:
-                        if not any(words_fuzzy_match(first_word, word, 88) for word in words):
+                        if not any(words_fuzzy_match(first_word, word, 86) for word in words):
                             continue
                     if len(pt_words) == 1 and len(words) > 2:
                         continue
@@ -2755,8 +2985,7 @@ class ScryfallDatabase:
         if all(re.fullmatch(r"\d+|[0-9wubrgcxyz]+", word) for word in extras):
             return True
         if (
-            matched_size >= 2
-            and len(extras) == 1
+            len(extras) == 1
             and re.fullmatch(r"[a-z]{2,4}", extras[0])
             and extras[0] not in COMMON_EN_OCR_WORDS
             and extras[0] not in COMMON_PT_OCR_WORDS
@@ -2772,18 +3001,20 @@ class ScryfallDatabase:
         ignored = COMMON_EN_OCR_WORDS | COMMON_PT_OCR_WORDS | {"again", "letter"}
         for line in raw_text.splitlines():
             cleaned = clean_ocr_line(line)
-            words = [word for word in normalize_text(cleaned).split() if len(word) >= 3]
-            if not words or len(words) > 3:
+            if re.search(r"[\u2013\u2014]", cleaned):
+                continue
+            words = title_words(cleaned)
+            if not words or len(words) > 4:
                 continue
             lines_seen += 1
-            if lines_seen > 80:
+            if lines_seen > 260:
                 break
             for size in range(min(5, len(words)), 0, -1):
                 candidate = " ".join(words[:size])
                 if candidate not in choices:
                     continue
                 first_word = words[0]
-                if len(first_word) < 5 or first_word in ignored:
+                if len(first_word) < 4 or first_word in ignored:
                     continue
                 if size < len(words) and not self._title_extra_words_are_noise(words, size):
                     continue
@@ -2793,9 +3024,30 @@ class ScryfallDatabase:
         return None, ""
 
     def _fuzzy_english_title_in_text(self, raw_text: str) -> tuple[dict | None, str]:
-        if not raw_text or not process or not fuzz:
+        if not raw_text:
             return None, ""
+        import difflib
+
         choices = self._en_norm_choices()
+        choice_keys = list(choices.keys())
+
+        def extract_one(candidate: str, keys, scorer=None):
+            if process and fuzz:
+                return process.extractOne(candidate, keys, scorer=scorer or fuzz.ratio)
+            best_key = ""
+            best_score = 0.0
+            for key in keys:
+                score = difflib.SequenceMatcher(None, candidate, key).ratio() * 100
+                if score > best_score:
+                    best_key = key
+                    best_score = score
+            return (best_key, best_score, None) if best_key else None
+
+        one_word_choices = {
+            normalized_name: choice
+            for normalized_name, choice in choices.items()
+            if len(normalized_name.split()) == 1 and len(normalized_name) >= 5
+        }
         compact_choices = {}
         for normalized_name, choice in choices.items():
             name_words = normalized_name.split()
@@ -2815,6 +3067,23 @@ class ScryfallDatabase:
         best_line = ""
         best_score = 0.0
         lines_seen = 0
+        normalized_raw = normalize_text(raw_text)
+        compact_raw = re.sub(r"\s+", "", normalized_raw)
+        raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
+
+        def best_supported_print(card: dict) -> tuple[dict, int]:
+            oracle_id = card.get("oracle_id")
+            same_oracle = [
+                item
+                for item in self.cards
+                if item.get("lang") == "en" and item.get("oracle_id") == oracle_id
+            ]
+            candidates = same_oracle or [card]
+            scored = [(self._rules_text_support_score(item, raw_text), item) for item in candidates]
+            scored.sort(key=lambda item: item[0], reverse=True)
+            support, supported_card = scored[0]
+            return supported_card, support
+
         for line in raw_text.splitlines():
             cleaned = clean_ocr_line(line)
             if re.search(r"[\u2013\u2014]", cleaned):
@@ -2823,29 +3092,76 @@ class ScryfallDatabase:
             if not words or len(words) > 4:
                 continue
             lines_seen += 1
-            if lines_seen > 90:
+            if lines_seen > 260:
                 break
             first_word = words[0]
             if len(first_word) < 4 or first_word in ignored:
                 continue
-            if len(first_word) >= 8 and compact_choices:
-                compact_match = process.extractOne(first_word, compact_choices.keys(), scorer=fuzz.ratio)
-                if compact_match and compact_match[1] >= 94:
+            if len(words) == 1 and len(first_word) >= 5 and one_word_choices:
+                match = extract_one(first_word, one_word_choices.keys(), scorer=fuzz.ratio if fuzz else None)
+                if match and match[1] >= 88:
+                    original_name, card_index = one_word_choices[match[0]]
+                    card = self.cards[card_index]
+                    card, support = best_supported_print(card)
+                    if support >= 4:
+                        score = float(match[1]) + support * 20 + 1
+                        if score > best_score:
+                            best_score = score
+                            best_card = card
+                            best_line = cleaned
+            if len(first_word) >= 8 and compact_choices and process and fuzz:
+                compact_match = extract_one(first_word, compact_choices.keys(), scorer=fuzz.ratio)
+                if compact_match and compact_match[1] >= 76:
                     original_name, card_index = compact_choices[compact_match[0]]
-                    score = float(compact_match[1]) + len(normalize_text(original_name).split()) + 1
+                    card = self.cards[card_index]
+                    card, support = best_supported_print(card)
+                    if compact_match[1] < 94 and (
+                        support < 6 or not self._card_name_in_raw_text(card, raw_text)
+                    ):
+                        continue
+                    score = (
+                        float(compact_match[1])
+                        + len(normalize_text(original_name).split())
+                        + 1
+                        + support * 20
+                    )
                     if score > best_score:
                         best_score = score
-                        best_card = self.cards[card_index]
+                        best_card = card
                         best_line = cleaned
             for size in range(min(4, len(words)), 1, -1):
                 candidate = " ".join(words[:size])
-                match = process.extractOne(candidate, choices.keys(), scorer=fuzz.ratio)
-                if not match or match[1] < 88:
+                candidate_words = candidate.split()
+                candidate_keys = []
+                for normalized_name in choice_keys:
+                    name_words = normalized_name.split()
+                    if len(name_words) > size:
+                        continue
+                    if len(name_words) < size and not self._title_extra_words_are_noise(candidate_words, len(name_words)):
+                        continue
+                    if not all(
+                        candidate_word[:2] == name_word[:2]
+                        or (
+                            len(candidate_word) >= 4
+                            and len(name_word) >= 4
+                            and candidate_word[1:] == name_word[1:]
+                        )
+                        for candidate_word, name_word in zip(candidate_words[: len(name_words)], name_words)
+                    ):
+                        continue
+                    candidate_keys.append(normalized_name)
+                if not candidate_keys:
+                    continue
+                match = extract_one(candidate, candidate_keys, scorer=fuzz.ratio if fuzz else None)
+                if not match or match[1] < 86:
                     continue
                 original_name, card_index = choices[match[0]]
                 name_words = normalize_text(original_name).split()
-                if len(name_words) != size:
+                if len(name_words) > size:
                     continue
+                if len(name_words) < size and not self._title_extra_words_are_noise(candidate.split(), len(name_words)):
+                    continue
+                candidate_name_words = candidate.split()[: len(name_words)]
                 if not all(
                     candidate_word[:2] == name_word[:2]
                     or (
@@ -2853,13 +3169,20 @@ class ScryfallDatabase:
                         and len(name_word) >= 4
                         and candidate_word[1:] == name_word[1:]
                     )
-                    for candidate_word, name_word in zip(candidate.split(), name_words)
+                    for candidate_word, name_word in zip(candidate_name_words, name_words)
                 ):
                     continue
-                score = float(match[1]) + size
+                card = self.cards[card_index]
+                card, support = best_supported_print(card)
+                artist_ok = self._artist_name_in_raw_text(card, normalized_raw, compact_raw, raw_words)
+                if match[1] < 88 and not artist_ok:
+                    continue
+                score = float(match[1]) + size + support * 20
+                if artist_ok:
+                    score += 25
                 if score > best_score:
                     best_score = score
-                    best_card = self.cards[card_index]
+                    best_card = card
                     best_line = cleaned
         if best_card:
             return best_card, best_line
@@ -3020,6 +3343,16 @@ class ScryfallDatabase:
         support_words = list(dict.fromkeys(support_words))
         return fuzzy_word_count(support_words, raw_words, threshold=88)
 
+    def _best_oracle_support(self, card: dict, raw_text: str) -> int:
+        oracle_id = card.get("oracle_id")
+        same_oracle = [
+            item
+            for item in self.cards
+            if item.get("lang") == "en" and item.get("oracle_id") == oracle_id
+        ]
+        candidates = same_oracle or [card]
+        return max((self._rules_text_support_score(item, raw_text) for item in candidates), default=0)
+
     def _exact_english_self_reference_in_text(self, raw_text: str) -> tuple[dict | None, str]:
         if not raw_text:
             return None, ""
@@ -3152,7 +3485,7 @@ class ScryfallDatabase:
                     (
                         item
                         for item in foreign_items
-                        if item.get("language") in {"Portuguese", "Português", "Portuguese (Brazil)"}
+                        if item.get("language") in {"Portuguese", "PortuguÃªs", "Portuguese (Brazil)"}
                     ),
                     None,
                 )
@@ -3167,11 +3500,18 @@ class ScryfallDatabase:
 
     def portuguese_for(self, card: dict) -> dict | None:
         oracle_id = card.get("oracle_id") or card.get("name")
+        manual = self.mtgjson_pt_by_name.get(normalize_text(card.get("name", "")))
         candidates = self.pt_by_oracle.get(oracle_id, [])
         if not candidates:
-            return self.mtgjson_pt_by_name.get(normalize_text(card.get("name", "")))
+            return manual
         same_set = [item for item in candidates if item.get("set") == card.get("set")]
-        return same_set[0] if same_set else candidates[0]
+        selected = same_set[0] if same_set else candidates[0]
+        if manual and (
+            not ((selected or {}).get("printed_type_line") or (selected or {}).get("type_line"))
+            or not ((selected or {}).get("printed_text") or card_faces_text(selected or {}, "printed_text"))
+        ):
+            return manual
+        return selected
 
     def to_row(self, card: dict, foil: bool) -> list[str]:
         pt_card = self.portuguese_for(card)
@@ -3187,7 +3527,7 @@ class ScryfallDatabase:
         set_name = card.get("set_name") or set_info.get("name") or ""
         released_at = card.get("released_at") or set_info.get("released_at") or ""
         finishes = card.get("finishes") or []
-        foil_value = "Sim" if foil or finishes == ["foil"] else "Não"
+        foil_value = "Sim" if foil or finishes == ["foil"] else "NÃ£o"
 
         row = [
             bilingual(card.get("name", ""), pt_name),
@@ -3251,7 +3591,7 @@ class MagicExtractorApp:
         self.busy_widgets.append(foil_check)
         add_button(4, "Copiar linha", self.copy_row)
         add_button(5, "Copiar Google Docs", self.copy_google_docs)
-        add_button(6, "Copiar com cabeçalho", self.copy_with_header)
+        add_button(6, "Copiar com cabeÃ§alho", self.copy_with_header)
         add_button(7, "Salvar Excel", self.save_excel)
         add_button(8, "Atualizar base", self.download_database, pady=12)
 
@@ -3293,7 +3633,7 @@ class MagicExtractorApp:
                 self.busy_widgets.extend([minus_button, plus_button])
                 continue
             entry = ttk.Entry(right, textvariable=self.field_vars[field])
-            if field == "Descrição magia":
+            if field == "DescriÃ§Ã£o magia":
                 entry = ttk.Entry(right, textvariable=self.field_vars[field])
             entry.grid(row=row_index + 1, column=1, sticky="ew", pady=3)
 
@@ -3319,7 +3659,7 @@ class MagicExtractorApp:
             lang_note = "por+eng" if self.ocr.por_available else "eng (instale por no Tesseract para cartas PT)"
             self.log(f"OCR pronto: {self.ocr.tesseract_path} | {lang_note} | v{APP_VERSION}")
         else:
-            self.log(f"OCR indisponível: instale o Tesseract para extrair texto da imagem. | v{APP_VERSION}")
+            self.log(f"OCR indisponÃ­vel: instale o Tesseract para extrair texto da imagem. | v{APP_VERSION}")
 
     def log(self, message: str) -> None:
         if threading.get_ident() != self.main_thread_id:
@@ -3367,7 +3707,7 @@ class MagicExtractorApp:
         self.result_banner.configure(text="", bg="SystemButtonFace", fg="SystemWindowText")
 
     def show_duplicate_alert(self, row_number: int) -> None:
-        message = f"Carta já existe na linha {row_number} de {EXCEL_PATH.name} — não foi adicionada de novo."
+        message = f"Carta jÃ¡ existe na linha {row_number} de {EXCEL_PATH.name} â€” nÃ£o foi adicionada de novo."
         self.duplicate_alert.configure(text=message)
         self.show_result_banner(message, "duplicate")
 
@@ -3437,7 +3777,7 @@ class MagicExtractorApp:
         if isinstance(grabbed, list) and grabbed:
             self.set_image(Image.open(grabbed[0]))
             return
-        messagebox.showwarning("Sem imagem", "Não encontrei imagem na área de transferência.")
+        messagebox.showwarning("Sem imagem", "NÃ£o encontrei imagem na Ã¡rea de transferÃªncia.")
 
     def open_image(self) -> None:
         file_path = filedialog.askopenfilename(
@@ -3538,12 +3878,12 @@ class MagicExtractorApp:
                 self.show_duplicate_alert(existing_row)
                 self.log(
                     f"Preenchido: {row[0]} | {reason} | "
-                    f"Já existe na linha {existing_row} de {EXCEL_PATH.name} — não foi adicionada de novo"
+                    f"JÃ¡ existe na linha {existing_row} de {EXCEL_PATH.name} â€” nÃ£o foi adicionada de novo"
                 )
                 messagebox.showwarning(
-                    "Carta já existe",
-                    f"\"{row[0]}\" já está na linha {existing_row} de {EXCEL_PATH.name}.\n\n"
-                    "Os campos foram preenchidos, mas a carta não foi adicionada de novo ao Excel.",
+                    "Carta jÃ¡ existe",
+                    f"\"{row[0]}\" jÃ¡ estÃ¡ na linha {existing_row} de {EXCEL_PATH.name}.\n\n"
+                    "Os campos foram preenchidos, mas a carta nÃ£o foi adicionada de novo ao Excel.",
                 )
         except Exception as exc:
             self._fail_extract(job_id, str(exc), ocr_result)
@@ -3614,7 +3954,7 @@ class MagicExtractorApp:
         value = "\t".join(FIELDS) + "\n" + "\t".join(self.row_values())
         self.root.clipboard_clear()
         self.root.clipboard_append(value)
-        self.log("Cabeçalho e linha copiados.")
+        self.log("CabeÃ§alho e linha copiados.")
 
     def save_excel(self) -> None:
         row = self.row_values()
