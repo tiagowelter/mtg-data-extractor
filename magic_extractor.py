@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import json
 import gzip
@@ -67,12 +67,12 @@ FIELDS = [
     "Nome",
     "Tipo",
     "Raridade",
-    "DescriÃ§Ã£o magia",
+    "Descrição magia",
     "Custo mana",
     "Cor(cores)",
-    "PreÃ§o minimo",
-    "ColeÃ§Ã£o",
-    "Ã‰ foil?",
+    "Preço mínimo",
+    "Coleção",
+    "É foil?",
     "Ano",
     "Poder",
     "Qtd",
@@ -82,9 +82,9 @@ RARITY_PT = {
     "common": "Comum",
     "uncommon": "Incomum",
     "rare": "Rara",
-    "mythic": "MÃ­tica",
+    "mythic": "Mítica",
     "special": "Especial",
-    "bonus": "BÃ´nus",
+    "bonus": "Bônus",
 }
 
 RARITY_EN = {
@@ -134,20 +134,20 @@ MANUAL_PT_TRANSLATIONS = {
     },
     "Maze Glider": {
         "printed_name": "Planador do Labirinto",
-        "printed_type_line": "Criatura â€” Elemental",
-        "printed_text": "Voar\nAs criaturas multicoloridas que vocÃª controla tÃªm voar.",
+        "printed_type_line": "Criatura — Elemental",
+        "printed_text": "Voar\nAs criaturas multicoloridas que você controla têm voar.",
     },
     "Opal Lake Gatekeepers": {
         "printed_name": "Porteiros do Lago de Opala",
-        "printed_type_line": "Criatura â€” Vedalkeano Soldado",
+        "printed_type_line": "Criatura — Vedalkeano Soldado",
         "printed_text": (
             "Quando Porteiros do Lago de Opala entrar no campo de batalha, "
-            "se vocÃª controlar dois ou mais PortÃµes, poderÃ¡ comprar um card."
+            "se você controlar dois ou mais Portões, poderá comprar um card."
         ),
     },
     "Murmuring Phantasm": {
         "printed_name": "Fantasma Murmurante",
-        "printed_type_line": "Criatura â€” EspÃ­rito",
+        "printed_type_line": "Criatura — Espírito",
         "printed_text": "Defensor",
     },
     "Immolation": {
@@ -710,7 +710,7 @@ class LocalOcr:
     def extract(self, image: Image.Image) -> OcrResult:
         if not self.available():
             raise RuntimeError(
-                "Tesseract OCR nÃ£o foi encontrado. Instale o Tesseract e reinicie o app."
+                "Tesseract OCR não foi encontrado. Instale o Tesseract e reinicie o app."
             )
 
         image = crop_possible_app_screenshot(image.convert("RGB"))
@@ -914,7 +914,7 @@ class LocalOcr:
             value -= sum(2 for word in words if word in {"instant", "sorcery", "artifact", "enchantment", "land"})
             value -= sum(1 for word in words if word.isdigit())
             if re.search(
-                r"[Â©â„¢]|\b(?:h?illus|iilus|iilug|inus|tilus|tilug|tl?lus|tlug|tlust|titus|hust)\b|"
+                r"[©™]|\b(?:h?illus|iilus|iilug|inus|tilus|tilug|tl?lus|tlug|tlust|titus|hust)\b|"
                 r"wizards|coast|wasatch|anthony|palumbo|paliso",
                 candidate,
                 re.IGNORECASE,
@@ -946,7 +946,7 @@ class LocalOcr:
 
     @staticmethod
     def _parse_collector(text: str) -> tuple[str, str, str]:
-        text = text.upper().replace("â€¢", " ")
+        text = text.upper().replace("•", " ")
         text = re.sub(r"\bO(\d{2,4})\b", r"0\1", text)
         text = re.sub(r"[^A-Z0-9]+", " ", text)
         long_footer_candidates = []
@@ -1047,20 +1047,20 @@ class ScryfallDatabase:
         bulk_data = bulk.json()["data"]
         default_cards = next(item for item in bulk_data if item["type"] == "default_cards")
 
-        log("Baixando Default Cards do Scryfall para reconhecer impressÃµes...")
+        log("Baixando Default Cards do Scryfall para reconhecer impressões...")
         self._download_file(default_cards["download_uri"], SCRYFALL_CARDS_PATH, log)
 
-        log("Baixando lista de coleÃ§Ãµes...")
+        log("Baixando lista de coleções...")
         sets = requests.get("https://api.scryfall.com/sets", timeout=60, headers=HTTP_HEADERS)
         sets.raise_for_status()
         SETS_PATH.write_text(json.dumps(sets.json(), ensure_ascii=False), encoding="utf-8")
 
-        log("Baixando traduÃ§Ãµes do MTGJSON AtomicCards...")
+        log("Baixando traduções do MTGJSON AtomicCards...")
         self._download_file("https://mtgjson.com/api/v5/AtomicCards.json.gz", MTGJSON_ATOMIC_PATH, log)
 
         if INDEX_PATH.exists():
             INDEX_PATH.unlink()
-        log("Base baixada. Recriando Ã­ndice local...")
+        log("Base baixada. Recriando índice local...")
         self.load(force_rebuild=True, log=log)
 
     @staticmethod
@@ -1090,14 +1090,14 @@ class ScryfallDatabase:
             return
         self._norm_cache = {}
         if not SCRYFALL_CARDS_PATH.exists():
-            raise FileNotFoundError("Base nÃ£o encontrada. Clique em Atualizar base primeiro.")
+            raise FileNotFoundError("Base não encontrada. Clique em Atualizar base primeiro.")
 
         if INDEX_PATH.exists() and not force_rebuild:
-            log("Carregando Ã­ndice local...")
+            log("Carregando índice local...")
             with INDEX_PATH.open("rb") as handle:
                 state = pickle.load(handle)
             if state.get("index_version") != INDEX_VERSION:
-                log("Ãndice antigo detectado. Recriando...")
+                log("Índice antigo detectado. Recriando...")
                 return self.load(force_rebuild=True, log=log)
             self.__dict__.update(state)
             self.loaded = True
@@ -1163,7 +1163,7 @@ class ScryfallDatabase:
                         seen_face_choices.add(key)
 
         if MTGJSON_ATOMIC_PATH.exists():
-            log("Lendo traduÃ§Ãµes em portuguÃªs...")
+            log("Lendo traduções em português...")
             self.mtgjson_pt_by_name = self._load_mtgjson_portuguese()
             for english_name, translation in MANUAL_PT_TRANSLATIONS.items():
                 self.mtgjson_pt_by_name[normalize_text(english_name)] = translation
@@ -1452,7 +1452,7 @@ class ScryfallDatabase:
     def _fuzzy_namebar(self, namebar_text: str) -> dict | None:
         # Evaluate every plausible namebar line and keep the match whose name is
         # most fully present in the line it came from. This stops a short name
-        # (e.g. the plane "Naya") from winning over a fuller one ("MedalhÃ£o de
+        # (e.g. the plane "Naya") from winning over a fuller one ("Medalhão de
         # Naya") just because a noisier line was scored higher.
         best_card = None
         best_score = (-1, -1.0, -1)
@@ -1906,7 +1906,7 @@ class ScryfallDatabase:
     ) -> tuple[dict | None, str, str]:
         """Strongest possible signal: a collector fraction (e.g. "198/249")
         whose printing also has its name in the OCR text. The footer number and
-        the card name agree, so this beats every fuzzy path â€” and it is robust
+        the card name agree, so this beats every fuzzy path — and it is robust
         to a mangled set code (``IMA`` read as ``IM AS``) because the set is
         derived from the card-count total instead of the OCR'd letters."""
         for collector, total in ctx.fractions:
@@ -1936,45 +1936,45 @@ class ScryfallDatabase:
             candidates = self._print_candidates(ocr.set_code.upper(), collector_key(ocr.collector_number))
             if candidates:
                 card = self._pick_best_print_candidate(candidates, ocr.raw_text)
-                matched = try_match(card, f"cÃ³digo {ocr.set_code.upper()} #{ocr.collector_number}")
+                matched = try_match(card, f"código {ocr.set_code.upper()} #{ocr.collector_number}")
                 if matched:
                     return matched
 
         card, set_code, collector_number = self._find_by_fraction_and_name(ocr.raw_text, ctx)
         if card:
-            return finalize(card, f"fraÃ§Ã£o+nome {set_code} #{collector_number}")
+            return finalize(card, f"fração+nome {set_code} #{collector_number}")
 
         card, set_code, collector_number = self._find_print_in_ocr_text(ocr.raw_text)
-        matched = try_match(card, f"rodapÃ© OCR {set_code} #{collector_number}")
+        matched = try_match(card, f"rodapé OCR {set_code} #{collector_number}")
         if matched:
             return matched
 
         card, matched_line = self._exact_english_title_in_text(ocr.namebar_text)
-        matched = try_match(card, f"tÃƒÂ­tulo OCR '{matched_line}'")
+        matched = try_match(card, f"título OCR '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._fuzzy_english_title_in_text(ocr.namebar_text)
-        matched = try_match(card, f"tÃƒÂ­tulo superior OCR aproximado '{matched_line}'")
+        matched = try_match(card, f"título superior OCR aproximado '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._exact_english_title_in_text(ocr.raw_text)
         if card and self._best_oracle_support(card, ocr.raw_text) < 5:
             card = None
-        matched = try_match(card, f"tÃƒÂ­tulo OCR bruto '{matched_line}'")
+        matched = try_match(card, f"título OCR bruto '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._fuzzy_english_title_in_text(ocr.raw_text)
-        matched = try_match(card, f"tÃƒÂ­tulo OCR aproximado '{matched_line}'")
+        matched = try_match(card, f"título OCR aproximado '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._exact_english_title_in_text(ocr.raw_text)
         if card and self._best_oracle_support(card, ocr.raw_text) < 3:
             card = None
-        matched = try_match(card, f"tÃƒÂ­tulo OCR bruto '{matched_line}'")
+        matched = try_match(card, f"título OCR bruto '{matched_line}'")
         if matched:
             return matched
 
@@ -2023,7 +2023,7 @@ class ScryfallDatabase:
                 return matched
 
         card, set_code, collector_number = self._find_by_collector_fraction(ocr.raw_text, ctx)
-        matched = try_match(card, f"fraÃ§Ã£o collector {set_code} #{collector_number}")
+        matched = try_match(card, f"fração collector {set_code} #{collector_number}")
         if matched:
             return matched
 
@@ -2034,22 +2034,22 @@ class ScryfallDatabase:
                 return matched
 
         card, matched_line = self._exact_english_self_reference_in_text(ocr.raw_text)
-        matched = try_match(card, f"auto-referÃªncia OCR '{matched_line}'")
+        matched = try_match(card, f"auto-referência OCR '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._exact_english_title_in_text(ocr.raw_text)
-        matched = try_match(card, f"tÃ­tulo OCR bruto '{matched_line}'")
+        matched = try_match(card, f"título OCR bruto '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._fuzzy_english_title_in_text(ocr.raw_text)
-        matched = try_match(card, f"tÃ­tulo OCR aproximado '{matched_line}'")
+        matched = try_match(card, f"título OCR aproximado '{matched_line}'")
         if matched:
             return matched
 
         card, matched_line = self._exact_english_name_in_text(ocr.raw_text)
-        matched = try_match(card, f"nome inglÃªs OCR '{matched_line}'")
+        matched = try_match(card, f"nome inglês OCR '{matched_line}'")
         if matched:
             return matched
 
@@ -2072,7 +2072,7 @@ class ScryfallDatabase:
         matched = try_match(card, f"texto OCR '{matched_line}'")
         if matched:
             return matched
-        raise LookupError("NÃ£o consegui encontrar a carta na base local.")
+        raise LookupError("Não consegui encontrar a carta na base local.")
 
     @staticmethod
     def _card_name_matches(card: dict, name_hint: str) -> bool:
@@ -2093,7 +2093,7 @@ class ScryfallDatabase:
         """Pick a printing from footer/copyright evidence other than an exact
         collector match: the set card-count total (e.g. ".../81" -> the only
         printing in an 81-card set) and then the copyright year (e.g. the
-        "Â© 1993-2011" range disambiguates the 2011 printing)."""
+        "© 1993-2011" range disambiguates the 2011 printing)."""
         if not same_oracle_cards:
             return None
         paper_cards = [
@@ -2132,7 +2132,7 @@ class ScryfallDatabase:
     def _flavor_scores(self, cards: list[dict], raw_text: str) -> dict[int, tuple[int, int]]:
         """(proper-noun hits, content-word hits) of each card's flavor text in
         the OCR. Flavor is stored in English, but proper nouns in an attribution
-        ("â€”Sheoldred, Whispering One") are spelled the same across languages, so
+        ("—Sheoldred, Whispering One") are spelled the same across languages, so
         they still anchor a match against a Portuguese scan."""
         raw_words = set(normalize_text(raw_text).split())
         scores: dict[int, tuple[int, int]] = {}
@@ -2548,7 +2548,7 @@ class ScryfallDatabase:
         )
         # When this card's own name is the title read clearly from the image, a
         # collector number that carries an OCR digit error (e.g. 215 read as 219)
-        # must not veto it â€” the name is the stronger signal.
+        # must not veto it — the name is the stronger signal.
         strong_name = (
             (name_present and is_hint_card)
             or has_exact_title
@@ -2803,7 +2803,7 @@ class ScryfallDatabase:
                     en_name = candidate_name
             # A name that only explains part of what was read (e.g. the single-word
             # plane "Naya") must not win over a candidate that explains more of it
-            # (e.g. "MedalhÃ£o de Naya"), even when English is normally preferred.
+            # (e.g. "Medalhão de Naya"), even when English is normally preferred.
             if en_card and pt_card and en_card.get("oracle_id") != pt_card.get("oracle_id"):
                 en_cov = self._hint_word_coverage(en_name, normalized_hint)
                 pt_cov = self._hint_word_coverage(pt_name, normalized_hint)
@@ -2846,7 +2846,7 @@ class ScryfallDatabase:
         """How many significant words of ``card_name`` appear in the read text.
 
         Used to decide, between two candidate names, which one better explains
-        what the OCR actually read â€” so a short substring match cannot beat a
+        what the OCR actually read — so a short substring match cannot beat a
         fuller one.
         """
         name_words = [word for word in normalize_text(card_name).split() if len(word) >= 3]
@@ -3485,7 +3485,7 @@ class ScryfallDatabase:
                     (
                         item
                         for item in foreign_items
-                        if item.get("language") in {"Portuguese", "PortuguÃªs", "Portuguese (Brazil)"}
+                        if item.get("language") in {"Portuguese", "Português", "Portuguese (Brazil)"}
                     ),
                     None,
                 )
@@ -3527,7 +3527,7 @@ class ScryfallDatabase:
         set_name = card.get("set_name") or set_info.get("name") or ""
         released_at = card.get("released_at") or set_info.get("released_at") or ""
         finishes = card.get("finishes") or []
-        foil_value = "Sim" if foil or finishes == ["foil"] else "NÃ£o"
+        foil_value = "Sim" if foil or finishes == ["foil"] else "Não"
 
         row = [
             bilingual(card.get("name", ""), pt_name),
@@ -3591,7 +3591,7 @@ class MagicExtractorApp:
         self.busy_widgets.append(foil_check)
         add_button(4, "Copiar linha", self.copy_row)
         add_button(5, "Copiar Google Docs", self.copy_google_docs)
-        add_button(6, "Copiar com cabeÃ§alho", self.copy_with_header)
+        add_button(6, "Copiar com cabeçalho", self.copy_with_header)
         add_button(7, "Salvar Excel", self.save_excel)
         add_button(8, "Atualizar base", self.download_database, pady=12)
 
@@ -3633,7 +3633,7 @@ class MagicExtractorApp:
                 self.busy_widgets.extend([minus_button, plus_button])
                 continue
             entry = ttk.Entry(right, textvariable=self.field_vars[field])
-            if field == "DescriÃ§Ã£o magia":
+            if field == "Descrição magia":
                 entry = ttk.Entry(right, textvariable=self.field_vars[field])
             entry.grid(row=row_index + 1, column=1, sticky="ew", pady=3)
 
@@ -3659,7 +3659,7 @@ class MagicExtractorApp:
             lang_note = "por+eng" if self.ocr.por_available else "eng (instale por no Tesseract para cartas PT)"
             self.log(f"OCR pronto: {self.ocr.tesseract_path} | {lang_note} | v{APP_VERSION}")
         else:
-            self.log(f"OCR indisponÃ­vel: instale o Tesseract para extrair texto da imagem. | v{APP_VERSION}")
+            self.log(f"OCR indisponível: instale o Tesseract para extrair texto da imagem. | v{APP_VERSION}")
 
     def log(self, message: str) -> None:
         if threading.get_ident() != self.main_thread_id:
@@ -3707,7 +3707,7 @@ class MagicExtractorApp:
         self.result_banner.configure(text="", bg="SystemButtonFace", fg="SystemWindowText")
 
     def show_duplicate_alert(self, row_number: int) -> None:
-        message = f"Carta jÃ¡ existe na linha {row_number} de {EXCEL_PATH.name} â€” nÃ£o foi adicionada de novo."
+        message = f"Carta já existe na linha {row_number} de {EXCEL_PATH.name} — não foi adicionada de novo."
         self.duplicate_alert.configure(text=message)
         self.show_result_banner(message, "duplicate")
 
@@ -3777,7 +3777,7 @@ class MagicExtractorApp:
         if isinstance(grabbed, list) and grabbed:
             self.set_image(Image.open(grabbed[0]))
             return
-        messagebox.showwarning("Sem imagem", "NÃ£o encontrei imagem na Ã¡rea de transferÃªncia.")
+        messagebox.showwarning("Sem imagem", "Não encontrei imagem na área de transferência.")
 
     def open_image(self) -> None:
         file_path = filedialog.askopenfilename(
@@ -3878,12 +3878,12 @@ class MagicExtractorApp:
                 self.show_duplicate_alert(existing_row)
                 self.log(
                     f"Preenchido: {row[0]} | {reason} | "
-                    f"JÃ¡ existe na linha {existing_row} de {EXCEL_PATH.name} â€” nÃ£o foi adicionada de novo"
+                    f"Já existe na linha {existing_row} de {EXCEL_PATH.name} — não foi adicionada de novo"
                 )
                 messagebox.showwarning(
-                    "Carta jÃ¡ existe",
-                    f"\"{row[0]}\" jÃ¡ estÃ¡ na linha {existing_row} de {EXCEL_PATH.name}.\n\n"
-                    "Os campos foram preenchidos, mas a carta nÃ£o foi adicionada de novo ao Excel.",
+                    "Carta já existe",
+                    f"\"{row[0]}\" já está na linha {existing_row} de {EXCEL_PATH.name}.\n\n"
+                    "Os campos foram preenchidos, mas a carta não foi adicionada de novo ao Excel.",
                 )
         except Exception as exc:
             self._fail_extract(job_id, str(exc), ocr_result)
@@ -3954,7 +3954,7 @@ class MagicExtractorApp:
         value = "\t".join(FIELDS) + "\n" + "\t".join(self.row_values())
         self.root.clipboard_clear()
         self.root.clipboard_append(value)
-        self.log("CabeÃ§alho e linha copiados.")
+        self.log("Cabeçalho e linha copiados.")
 
     def save_excel(self) -> None:
         row = self.row_values()

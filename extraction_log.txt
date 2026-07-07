@@ -103036,3 +103036,2751 @@ ares ety: sty Rieet oct bs Nat Mose ERE Ts
 
 Illus. Dan Pravicr 2/2
 
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:27:38
+matched_name: Spikeshot Goblin
+matched_set: MRD
+matched_collector: 108
+reason: tÃƒÂ­tulo OCR 'I Spikeshot Goblin'
+name_hint: opal se O10 52 S001 dards bebe Co ae Inc7 SOR, GP 1 heen
+namebar_text: a Goblin \
+
+I Spikeshot Goblin
+
+Spikesnot VODIT
+
+" Spikeshot Goblin Z
+
+set_code_hint: SE
+collector_hint: 6
+
+raw_ocr:
+a Goblin \
+
+I Spikeshot Goblin
+
+Spikesnot VODIT
+
+fa Aurting people.
+gre Dae Oe Lee oe
+
+BEE ALES ON BEANE af
+a The path of a goblin shaman ts a 2
+yi journey through a thousand ways of $
+‘i hurting people. .
+Fe Alan’ Pollack: 2 ge cae ee 1/2 ;
+apt eB 1075-5001 Bian bebe ae Ine SONG, SP 7 AER
+
+CiICalule OF plidyel?. *
+a The path of a goblin shaman ts a 3
+a journey through a thousand ways of I
+a Aurting people. s
+Peeenmcgpe cara 1/2 3
+Spleens CMenls ; © SPADE. sr PRL a 5 aa
+
+¢ teehee tie nal .
+@ The path of a goblin shaman ts a s
+a journey through a thousand ways of r
+Pa hurting people.
+
+* r i MCU LLC
+
+am . i S oy a ao a. S: %
+Pe) RRS wz
+Oreo. oe 0) ah eye "ede “2b et 424 << ta- 2 eS a -
+
+Feats bere ny rrevrer: a
+2 | ce V2)
+opal se O10 52 S001 dards bebe Co ae Inc7 SOR, GP 1 heen
+
+Ae rrevrpers a
+A . . — 7 = “1/2 |
+? mal se {05-90} yee . wobehe Cag Ine? on re of: 6% '-ae «vents 2
+
+B FERRE EET EK AUN EE a
+a . —_ = 1/2.)
+0 “Pt . oe ae es, SR ROS }
+3 wast 15-50) red . egg ne ee es. ‘. 0% '"-s0 sons 2
+
+y FOGLE beresy rrevpeys a
+ee a POLE CK eA GE Re ee
+7 ain 73-5001 wt tha Nn Sf 6? SE De AO ose sete
+
+) AULEUING peopre. es
+A! i
+poppe Alan Pollack: 3°68) ve Bf ena /2 In
+2 eal ae B 1015-0) Betdands bebe Cag Ino SOU, OF 1 eh
+
+4 4. -— 2 . —_ _ °. - whe MP ae if
+oP eB 10> S00) ipaands vlehe Co 2g. Ines JORG, C2 1S eer ey -
+
+fre 2Alan Pollack: te ae Stel 1/2 )..
+2 pel ae 0 1075-001 Be lands ol ee, ee la Hore he
+
+. ° wbebe Cragin de oT 0 2. ? .
+
+ey S28 0 OT Oe ae
+
+pe a? OE ne Ce 1a.
+Spikeshot Goblin Ze BK
+2 : Se 5
+\. rat
+: PN _ %
+eer YO OG
+7 . fave Rg an
+, Creature — Goblin Shaman ~o,, B
+a
+Mj 2, «: Spikeshot Goblin deals a
+‘a damage equal to its power to target
+; creature or player. ¢
+a The path of a goblin shaman is a s
+ra journey through a thousand ways of f
+fa Aurting people.
+Seeger FREINEN 1/2 )¥
+a ek ees PL ete PE aNey Y “4
+gre Dare a ee Lee oe
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:32:36
+matched_name: Spikeshot Goblin
+matched_set: MRD
+matched_collector: 108
+reason: título OCR 'I Spikeshot Goblin'
+name_hint: opal se O10 52 S001 dards bebe Co ae Inc7 SOR, GP 1 heen
+namebar_text: a Goblin \
+
+I Spikeshot Goblin
+
+Spikesnot VODIT
+
+" Spikeshot Goblin Z
+
+set_code_hint: SE
+collector_hint: 6
+
+raw_ocr:
+a Goblin \
+
+I Spikeshot Goblin
+
+Spikesnot VODIT
+
+fa Aurting people.
+gre Dae Oe Lee oe
+
+BEE ALES ON BEANE af
+a The path of a goblin shaman ts a 2
+yi journey through a thousand ways of $
+‘i hurting people. .
+Fe Alan’ Pollack: 2 ge cae ee 1/2 ;
+apt eB 1075-5001 Bian bebe ae Ine SONG, SP 7 AER
+
+CiICalule OF plidyel?. *
+a The path of a goblin shaman ts a 3
+a journey through a thousand ways of I
+a Aurting people. s
+Peeenmcgpe cara 1/2 3
+Spleens CMenls ; © SPADE. sr PRL a 5 aa
+
+¢ teehee tie nal .
+@ The path of a goblin shaman ts a s
+a journey through a thousand ways of r
+Pa hurting people.
+
+* r i MCU LLC
+
+am . i S oy a ao a. S: %
+Pe) RRS wz
+Oreo. oe 0) ah eye "ede “2b et 424 << ta- 2 eS a -
+
+Feats bere ny rrevrer: a
+2 | ce V2)
+opal se O10 52 S001 dards bebe Co ae Inc7 SOR, GP 1 heen
+
+Ae rrevrpers a
+A . . — 7 = “1/2 |
+? mal se {05-90} yee . wobehe Cag Ine? on re of: 6% '-ae «vents 2
+
+B FERRE EET EK AUN EE a
+a . —_ = 1/2.)
+0 “Pt . oe ae es, SR ROS }
+3 wast 15-50) red . egg ne ee es. ‘. 0% '"-s0 sons 2
+
+y FOGLE beresy rrevpeys a
+ee a POLE CK eA GE Re ee
+7 ain 73-5001 wt tha Nn Sf 6? SE De AO ose sete
+
+) AULEUING peopre. es
+A! i
+poppe Alan Pollack: 3°68) ve Bf ena /2 In
+2 eal ae B 1015-0) Betdands bebe Cag Ino SOU, OF 1 eh
+
+4 4. -— 2 . —_ _ °. - whe MP ae if
+oP eB 10> S00) ipaands vlehe Co 2g. Ines JORG, C2 1S eer ey -
+
+fre 2Alan Pollack: te ae Stel 1/2 )..
+2 pel ae 0 1075-001 Be lands ol ee, ee la Hore he
+
+. ° wbebe Cragin de oT 0 2. ? .
+
+ey S28 0 OT Oe ae
+
+pe a? OE ne Ce 1a.
+Spikeshot Goblin Ze BK
+2 : Se 5
+\. rat
+: PN _ %
+eer YO OG
+7 . fave Rg an
+, Creature — Goblin Shaman ~o,, B
+a
+Mj 2, «: Spikeshot Goblin deals a
+‘a damage equal to its power to target
+; creature or player. ¢
+a The path of a goblin shaman is a s
+ra journey through a thousand ways of f
+fa Aurting people.
+Seeger FREINEN 1/2 )¥
+a ek ees PL ete PE aNey Y “4
+gre Dare a ee Lee oe
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:33:28
+matched_name: Sun Titan
+matched_set: PM11
+matched_collector: 35★
+reason: nome PT palavras 'Titã de Sol'
+name_hint: rain, eee
+namebar_text: 
+set_code_hint: TURN
+collector_hint: 3
+
+raw_ocr:
+a So Illus. Gary Ruddell 1/1
+: _ M4 & © 1993-2002 Titan of che Cant, Inc. 190350 ~
+
+De Jace up any time for its morph cost.) ie
+Se “Life is too short for something ikea [EB
+: hunk of rock to get in my way.” Oe
++4
+Uy Tae Se AS Ea. PELIST RY OG SOE on,
+Co RGSS "SAR ong ear Ot ie ter ie RISO
+
+a: Bo Oo : e a: A lel ee ' at
+Ki Jace up any time for its morph cost.) ri
+we wy
+es Life is to0 short for something ikea [TB
+tel Aunk of rock to get in my way.” ca
+ro REV Bg nga et Gf ie a Soe IOS Bk
+
+iy face up any time for its morph cost.) |
+an “Life is.too short for something like a |
+ma hunk of rock to get in my way.”
+
+ae Ilus. Gary Ruddell 11
+—— 7 1M && C 1995-2002 Waears of the Coast, Jac. 19350 a» OS
+
+*- ’
+ReneS 2 | Mus: Gary Ruddell™ pig
+
+beeen nce en, |
+
+.- . ‘ . . ~ ie + Po rs - ° , ie
+a) : ne ae * pte cA Teg Bier ew Be ' -_.
+
+™ SEE: L LLAESoeR Cres USE CENC TICLE] | nae T
+
+ah -. ey LIS d Fy ARG Pere T
+. . a) ys +: ween Je ah aol perenne aN of 4
+ar ee EN ey SEE TT men eg ete J ]
+Merge NET ed
+. oe, oy we - wim"? . eo, as es =. oh te ‘ Fy ’ « - ae
+
+Sur aA on ee ee kk
+
+¥ Lo]
+
+oF > 0 ge : . “3 : +h
+SNES COT hs S ATV SEIG Dat” |
+
+i cue + « ro fer ; COV oe 4 NS " (J be Xt, . '
+
+920 Fe Eg POR Es ee ant Reo e OO *
+
+5 ae a , . ‘ .4 . ‘ . . o. H ! ‘
+
+tee Ay wt oe. Ay St72 Sh I es ae to, 2S ne RNG i 3! tn euse ~ neath
+
+a . Rall — wr wr '
+< » ee “a, . ‘ - nd eve AMS g*.7 we . a . ‘ . ° , te, a
+rN . ° ees om” ° ro Ae g pion. ° mae , ee - -
+“4 | BUEN cS ALY ACAI ie ly. Pree 1)
+. o* *: +. op Ey ‘ rey te aes 145. ~~ ‘ Taran, eget . wate 4 j ]
+\w- . . .* a i ee : . ’ ay Snes Sa ee & wep tl. 1
+
+a Pr, Ca EE '
+. * a ’ ‘ve bef: j .
+
+oe nee tae \ a ae
+ww °° . “eat: Pha op mh “sys isc . s . ' -*
+om oo, -_r ot ye ev A bef .-
+oft, "oe 74 - e ae or. . . . P ene fe .
+
+— Dwarven Blastminer  — (s- OO
+T ies Sasa
+ny . oa ; of Ps ‘ t a)
+rain, eee
+Creature — Dwarf a a
+2., : Destroy target nonbasic land.
+Morph. @. (You:may play this face
+down as a 2/2: creature for 3. Turn it
+ae face up any time for its morph cost.)
+hunk of rock:to get in my way.”
+OS Illus. Gary Ruddel
+(Mee 1093-2008 aay Ruddel 196350 1/1
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:34:57
+matched_name: Earth Elemental
+matched_set: 4ED
+matched_collector: 188
+reason: título OCR aproximado 'Garth Glemental Tole)'
+name_hint: Ius, Dan Frazier Als5
+namebar_text: Is a : ied yy 7
+
+Garth Glemental OOK
+| ‘ 3 _~
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Is a : ied yy 7
+
+Thus. Dan Frazier AS5
+
+rag) fo tne land they uinaoi, tneyltaRea = i ul
+ee] long-term view of things, scorning the ff
+
+bs impetuous haste of short-lived mortal WA
+
+.-¢ creatures. nya
+
+é rma ag
+
+c ANAS
+Thee ae om LORn AFR: eT ERY ary BNP,
+
+ATU tis SAD RACE eae ONL Reo
+ra voy Ve AE ae ORT Ribs bedeateeD PEF & Ret Sas, 3).
+
+0 Ine land ley mnaou, they take a
+
+‘long-term view of things, scorning the Ti
+mam ' impetuous haste.of short-lived mortal 7
+j Mus DaniFravier APB:
+
+OE EES AS fodAg - 6 sd sredtcaie
+Te eA LS oe Pe rae a . Jom ye > it
+MCR RE CET, eite a COPE f a
+
+oe Es ee *, : “ haa ~~ “yo aan
+
+. ABE ERD Mog 3% J utr, os Ave a Rey, ; pt
+
+ez ee tgs fa 4 "ee u pope is ve $ y
+
+les * a . car 1 Ee wee at dD tee ey > ae
+
+Ilus, Dan Frazier 4/5
+
+| :
+Ius, Dan Frazier Als5
+
+‘ .4 ‘ .
+Rpraprre ger ars MV ye . are ’ i" ug are oA -—_ to ee ' ; +p, oe . WE en
+
+cc ee wre gr ve =
+De ge
+> oe. . ., f
+>: - =, "oe. “ | i , ae, ei A ‘ an . By ; o'.
+be . | us; Dandsrazier. ‘ a) 4 - “ re . ie . wo ‘*. - _
+*y us fi: rn Peon. J 4d, ray woes e sec,
+t. Ayaiytecs me . , sage. . “7, 4h --" 7
+, a . _ * —_ ———e
+
+id -
+p Ws; DamPrazier Tg,
+
+
+yf . : . ry
+Wiis; DaniPriner cs Okie be Ae
+
+pelliureanrarier: arate. OM AE
+
+= .- ee ore gr eee
+> 7s eee ON ov, ey, they
+*y US, ‘J? tgs tes ale 1 j ig aoe ugha . "Ay ~* te ’ =. ee
+t. dais’ coe 8 : re cfu, rar ve Hayy wide ee
+r , ae eee . ao Pee “ee ea. oa end, - = —_
+:_ oe Sg te ee
+
+Garth Glemental Tole)
+& > Ly ,
+“a a) ” “4
+. ‘ , ‘ “hg
+- + QMeee. . ia A :
+“sr re, oy 2 Vf a Ge
+. es! BR |
+Summon Elemental
+“ys MELEE PETIT a GIS\; 50) eG
+EAA ACARI BT CAD LES MBSE AN EC ey Ck
+‘eRe og gallop Wale Mee Rage
+he ~4 ‘Axe. rf ee di ef °
+IHus, Dan Frazier Al5
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:36:21
+matched_name: Mite Overseer // Mite Overseer
+matched_set: AONE
+matched_collector: 4
+reason: rodapé OCR AONE #4
+name_hint: earl, *. Lan's wes AT oad 4 o sXe.” “a Hae: o “y — = , . a_ oh - A wd
+namebar_text: a7 <a
+
+Joven BOHM
+(Ae
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+a7 <a
+
+Jilus. Douglas Shuler 3/3
+1075 Wuanterd the Costing Al ngite resersent,
+
+Mm. thief as. I: But Eron hates you i
+“HMus-Boughs Shuler 3
+S195 Wuanteol the Crasuine, Allie cesernas,
+
+bee thief as I. But Eron hates you ee
+RG even more.” a
+el —Chandler oe
+eWossDouglas'Shuler® 2.0... TS. ‘B73
+
+Bn she SR PR LS REAR AT S EG ee. ool
+RTE FOF he EVO) ALES MOIE vor
+b att IPT E wed , ee 7  ogtt RIS ey . x +”
++e ‘a ste STEN ST ee ‘, wes Br) oh An e ’ a ats . "Se
+8. Ps. Pa a en a Saar os — so
+Illus. Douglas Shuler 3/3
+2 IOS Wunder’ the Caer, ine All ngitte reseevedt.
+
+- J llus..Douglas Shuler | 3/3,
+
+@
+‘ (oe
+io eY « * my - + ‘ * ° Mt
+' Oe ; eey see dee ce4 5 a “ er Sean wd. : _o rat _ — e_-*
+
+be ot
+. “3 Se s 4 1p fap > - =: - -¢@ - ° ‘ _—- - @ .
+SIOSALIOUAIC af{s “wet *° S
+Ba ~Nertearen AONE . Ld IT BE eye : ae Sot
+bow mee BBP ARON, RS RELY OIE oC a8
+
+-*.5 on . ~ hb =. Fyre rs 7o 4 bh.
+a N 6 y pa C T e nt r ° 4 ". moll i + o- ©. _— - 2 rv: ,- a
+a” hs poo oe <= : - SR Bee + oom eee Oe .
+
+A ee a gM 28 Baas ak ED)
+
+- - of oN an” Bh Das Yes ee a an "a £ ™
+
+sMassDougls Shaler.’ ay. ESS 8 93/3)
+af “ , “7. . . s Ly pe nyt OT ea eS
+
+- . $e
+@
+ity Ss, eee ot” ry x ° ‘at - . r e om - 5 48 = e tel
+™~ Jilin} FOWOMS SIL cor or<4 Se 4 - eis
+: pte ee ~e > ° ay ay cee ar) - - - baad
+earl, *. Lan's wes AT oad 4 o sXe.” “a Hae: o “y — = , . a_ oh - A wd
+
+Q 4 ' oe ge . vo. Tt
+
+_ +@ 7
+ee a “ss, rah te wt OT ary °. ° e 3-0 ae . -s . ‘o . . ’ = Ps ‘ ray and
+MQ eres "= eee See me > ‘\.2 "B)
+
+: wit’ ° Saary sors dre Oe - Sy . “ ‘<2 Rg Pe oo fi L a q =. e_ J ‘ a *
+
+Joven ©0060
+
+I
+
+4 — yv . . sa
+
+_ ieee
+
+Summon Legend a
+4 mee Blo x Ta } :
+POLINCL GALT SVS ACT AI Ce. 7 oY.
+PEELS TI SE OR SUI
+ee ite = ry: bePaiigs= pg res = ee. |
+
+Illus. Douglas Shuler
+
+a eral eee Coast tne All egiite resetyeit, 3/3
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:37:36
+matched_name: Food Coma
+matched_set: WOE
+matched_collector: 308
+reason: nome PT palavras 'Coma Alimentar'
+name_hint: Bote se sce cuts eliios bara
+namebar_text: ) — q
+
+_ Anées Guerreciros
+
+Anées Guerrciros Hi
+| yy a
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+) — q
+
+_ Anées Guerreciros
+
+us Aes by So heehee A Lie Woes ¥ 7
+Rust. Douglas Shuler Lil
+
+mee €=tUrNO. Vials tarde naqueie ComDa- Bae
+ime: te, pode-se usar outros efeitos para;
+waa): AUMentar oO: poder da criaturaa um §f
+
+mm Valor maior do que 2. ~~ _
+
+fen turno. Mais tarde naquele comDa- same
+Lew] . te, pode-se usar outros efeitos para [iF
+| aumentar o poder da criaturaa um Ba
+7 valor maior do que 2. a
+Mae Danse Siuer cs SS
+
+Aa ead co ata ae SS rere
+Bote se sce cuts eliios bara
+* ARS NR ag SAID SPACEY PERT
+POcheare Dea copia AU
+Walo® maior dowdue. 2a ene Py:
+
+Kust. Douglas Shuler 1/1
+
+
+
+porte VRS el pes vol by ort r’ve = ce a Sanereare ©2 01 D
+p eae sap ased 1 terry <8 5 HE
+
+4
+te Sow ele. --
+s ww Tr one i. fo": +0 nek he raf ° . .“ : a ‘, .: “ eg . i 3 -t <
+
+nips Doueas Salers PT. aaa BAT
+SINR A dnb gaphine Sse Gann ea a
+
+FARI995 pS rae se sera. 3 as ised
+
+- GY995 | vad the Cijani: Ing, Todos os dteeicos reservados, fit
+
+SONOS Mipdetyol the OF 6 Tidon op deseonreseradly. A SLE
+
+Andes Guerrciros ~—AO
+SS 7
+<i ae oat Oy a rh
+™~™
+Invecar Andes
+‘de: Uma criatura-alvo com poder
+Pmenor ou, igudl-a'2 torna-seimpos-
+PE RR AP cee ALTE RE TSR
+POLE er TLRS cr Aeon “ess “gl
+Raimmentarry OOO TAURINE EOLA pst
+4 tte tes Raut 7 aye oe i a Ne . . er a
+12 Ae 5 by Age ete ae ghee So a mmattaltel oe
+fiust. Douglas Shuler Lil
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:40:36
+matched_name: Sisters of the Flame
+matched_set: DRK
+matched_collector: 74
+reason: nome superior PT OCR 'Irmãs da Chama'
+name_hint: int Qbhie Cease, Saez Thdoe Ov dtesionncservedins 25 SSIES
+namebar_text: Irmas da Chama
+
+Irmas.da Chama Oot
+| -
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Irmas da Chama
+
+Hust. Jesper Myrfors 2/2
+
+> _e . “lot e ea
+am Nos somos muitas mechas comparti- e
+am thando.o mesmo sebo; nds enchemos o Wats
+i célt Com as cinzas de nossas presas. re
+
+Rye” . _
+mem Nos somos muitas mechas comparti- i
+a? | lhando o mesmo sebo; nos enchemos o tgs
+ee ce com as cinzas de nossas presas.
+NE erage UME ae ee SVE wee
+anlipsrJeaner Myr fares. sence TET 2) if:
+
+, ° Sars, C2 CWC! YY) yee eel ek
+aes orate es Meciassconparn.
+ust. Jesper Myrfors. | 9/2.
+
+
+e |
+non
+a
+Nae
+4
+
+int Qbhie Cease, Saez Thdoe Ov dtesionncservedins 25 SSIES
++ . On ryt epee ae TRL Le nate co taf 2 ° - te j .” 2
+
+oa Var PKA | nerd t at .2'@ ae . et BY 2)
+sTiteray eer OE a Seng a (WA
+Ee ea le fe tein mms F
+
+ing ONEE MSE! aacge EE RCD O
+oe TSS TERRE MYT LOG) sacle Gs: ba RAE
+
+ORO AE obie (a tee Thdn oy drwoareyerwntig, |
+
++ Gi09$ 9 4 ihe Chou: “Todos op durgttoa reservadion, - : YZ
+
+LORS Wis ike ak Taino deere. nied
+
+Irmas da Chama 066
+me
+* ~
+Invocar Irmas
+40% Adicione,®;4 sua reserva de ma-
+una. Use esta Rabilidade.como uma
+anemica de intetrupeao;.
+Sax somos muitas methias comparti-. ;
+te. . PONE an vo. :
+Hust. Jesper Myrfors, 2/2,
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:41:42
+matched_name: Wall of Heat
+matched_set: LEG
+matched_collector: 170
+reason: título OCR bruto 'Wall of heat 06'
+name_hint: IMus, Richard Shamas -
+namebar_text: 
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+| IHus, Richard ‘Chamas 2/6 |
+
+mae Sound jor a waterfall.... va
+
+SOUNG JON WALEITGE. «+5.
+IMus, Richard Shamas - W6.
+
+Mus, Richard Chomas 2/6
+
+LZ. >. 2 als ts athe 7 rit aan a plat cad er wr fo"!
+| INus, Richard Chomas y) /6
+
+
+
+'
+
+| ae ,
+INus, Richard ‘Thamas - y) /6
+
+
+yy : wee t. we, ‘ 1. whee “her . i ee Nae -- me : om E
+’ ; ea ot ae? hp Teer +, ; -—o'® @. e+ .!
+
+
+Wall of heat 06
+"Sen
+Mus, Richard fhosnias 216
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:42:40
+matched_name: Wall of Stone
+matched_set: LEA
+matched_collector: 182
+reason: título OCR 'Wall of Stone'
+name_hint: fm thwart ground-based troops, ik
+namebar_text: . z OF Tone 7 per
+
+Wall of Stone
+
+ee
+
+Wall of Stone Oe:
+, ) we * -
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+. z OF Tone 7 per
+
+Wall of Stone
+
+ee
+
+bie sts rae SO ee |
+Hlus. Dan Brazier 0/8
+
+eS PROUMAID. £HESE WMNERTY CUWaTRS Kg
+ry? thwart ground-based troops, ''
+\2'} providing welcome reltef for weary pees
+'43| warriors who defend the land. hi ;
+te
+1 Oo R ‘pezas ey = ie pee ae = Seb OUTER zt
+Sd be oink aerate dae sleet oats hae eA
+
+we) PROUT. £HESE MMIENLY CULWaAIRS 4
+fm thwart ground-based troops, ik
+mam providing welcome relief for weary _
+man «warriors who defend the land. coe
+- F
+I. . ;
+
+IILULATECOAELS 2ESC- TLC CLAS: "
+igs fe e sho Sk at eid: oS a ION Cire '
+
+Ur ue FILO rick MAT EYOORS. iy tine. wes
+
+$ sets Se NO od eT EONS SS Ae |
+
+abed ds ltras sep LG : 249 4 RS) PV
+
+of . : sper ci he ors rs Er = ye y ie nha ~ “ ‘4
+
+WOO Kf OFS Ks 16) Taga iis Ys a rae
+
+| ap Se RE OL) ADE CCE BTS Sa a
+
+Hus, Dan Prazier 0/8
+
+|
+Whus, Dan Mravzier 0/8
+
+ne ae |
+~* r “4, of, ve a * rote ‘ . , c - -¢ . 7 ~ ¢ ats Oe ‘.
+Mind Dainiagicn., . ee Te OR
+
+ary ; eel ea a he » Nee er “1 ee
+
+
+: , i ar .
+
+Jt wa
+. ~ oy ae ; , . nn . . -. _ -¢ _ < ball or a en °.
+Sins BIER. | ee TE OAR Og
+[she need eG te Fl yee efat te, . Pan “s d
+ee pete ot a Mine rr a : ae we Nae OO, wt
+
+eS. . , OT AT o. @ a" 4. Sys
+aah ei nhs year aise ght dds M rove Sat ae RY
+
+. “ -¢ Dee Bue. a an ve a
+“ a — nr re mo coo . Se Ae , an ‘ y
+’ > wd t ‘ ’ ; aS a a “\s . cyl , ray a) ae oer . “S , o** am PP < A
+
+Wall of Stone 1 eile)
+h . errs
+\ rm; Wg “y
+| ae Bea
+, a
+coe eee on . ; . thy.
+a ARE
+" ’ . ot - ‘ - fy "3 fl
+p an bs nn aay M fi }
+i Lineal :
+I
+Suminon Wal
+Te ape a Tg ee ae sat
+igh Sp sep oe Oa
+CUTIES ISOETDAT OTS dy St ahs er strength
+2 «RE SE bee TSS NE ty SE
+BLOM IPCE IIL SOFIE EESTONES OU 7 oa
+Bes. Jan Drazier O/8
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:43:32
+matched_name: Enslaved Scout
+matched_set: ALL
+matched_collector: 71b
+reason: título OCR 'Enslaved Scout oe'
+name_hint: Ilus, Rebecca Guay
+namebar_text: Gnelaved Beoue | 7 , :
+
+Enslaved Scout oe
+
+seaves pacout |
+
+4
+-Gnslaved Scout  * -” OE
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Gnelaved Beoue | 7 , :
+
+Enslaved Scout oe
+
+seaves pacout |
+
+| Aus, Rebecca Gary: a 212."
+. y
+
+* 1 _ e, Fy i _ ne gee ya:
+oy antly as lon as the parks oy dread,
+
+“| General are hil “|
+ao Lg
+6 wl
+2 ne hr. OME aa ATS ba, i eee reg hie
+
+J antiy as lony as the paths ov tres. [
+.! General tare hike fee
+e
+° a
+fi |. an
+' 4
+BOP ae Ores: <3(5 RY ity a ey i) | ae
+
+: onty as long as the paths we tread.” |
+Me icneral Varchitd
+, Aluy Rebecca Gory: : 2/2:
+q 4
+
+Be o-e ener, er ee sot meet
+Se Se
+q i
+
+“t+ oe .
+' afin. . . . ' woales
+ro a i Aids
+. - ' . ° ‘ :
+
+- - u ‘ : : ‘ ‘  -
+
+. - ory f) e . bh ‘ “4 . .
+
+ha Mate user. oe a BMY
+feet Peoeg aol “al eee ye | twe-ef ied
+
+- - ory i) e . bh ‘ “4 . .
+
+L
+
+L
+
+4 >
+Enslaved Scout Oo)
+| . ‘ ‘n>
+~ £.; p- -¥ AN Wee
+= aieg, a: > eeu
+Summon Goblin a “ey
+2: Muuntainwalk until end of turn
+“Even the baxest creatures may serve
+a purpose. Stil, their lives need be
+ony as long as the paths te Iread.”
+—General Varchi
+Ilus, Rebecca Guay 242
+a y
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:43:51
+matched_name: Enslaved Scout
+matched_set: ALL
+matched_collector: 71b
+reason: título OCR 'Enslaved Scout oe'
+name_hint: Ilus, Rebecca Guay
+namebar_text: Gnelaved Beoue | 7 , :
+
+Enslaved Scout oe
+
+seaves pacout |
+
+4
+-Gnslaved Scout  * -” OE
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Gnelaved Beoue | 7 , :
+
+Enslaved Scout oe
+
+seaves pacout |
+
+| Aus, Rebecca Gary: a 212."
+. y
+
+* 1 _ e, Fy i _ ne gee ya:
+oy antly as lon as the parks oy dread,
+
+“| General are hil “|
+ao Lg
+6 wl
+2 ne hr. OME aa ATS ba, i eee reg hie
+
+J antiy as lony as the paths ov tres. [
+.! General tare hike fee
+e
+° a
+fi |. an
+' 4
+BOP ae Ores: <3(5 RY ity a ey i) | ae
+
+: onty as long as the paths we tread.” |
+Me icneral Varchitd
+, Aluy Rebecca Gory: : 2/2:
+q 4
+
+Be o-e ener, er ee sot meet
+Se Se
+q i
+
+“t+ oe .
+' afin. . . . ' woales
+ro a i Aids
+. - ' . ° ‘ :
+
+- - u ‘ : : ‘ ‘  -
+
+. - ory f) e . bh ‘ “4 . .
+
+ha Mate user. oe a BMY
+feet Peoeg aol “al eee ye | twe-ef ied
+
+- - ory i) e . bh ‘ “4 . .
+
+L
+
+L
+
+4 >
+Enslaved Scout Oo)
+| . ‘ ‘n>
+~ £.; p- -¥ AN Wee
+= aieg, a: > eeu
+Summon Goblin a “ey
+2: Muuntainwalk until end of turn
+“Even the baxest creatures may serve
+a purpose. Stil, their lives need be
+ony as long as the paths te Iread.”
+—General Varchi
+Ilus, Rebecca Guay 242
+a y
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:44:25
+matched_name: Wall of Fire
+matched_set: LEA
+matched_collector: 181
+reason: título OCR 'Wall of Fire i'
+name_hint: erecay, WIT UIO OO Op yTt ah Wie"
+namebar_text: Wall of Fire i
+
+Wall of Fire OoE¢
+| Coe de bi: ae
+
+set_code_hint: 4S
+collector_hint: 33
+
+raw_ocr:
+Wall of Fire i
+
+wt ete tee Oe ew cs ttt CadY el
+IHlus. Richard Thomas 0/5
+
+* barrier, searing the soul of any creature | at
+xed allempting to pass through us terrible pi.
+pt bursts of flame. ki
+
+eo ds VAY Oat 3, SEZ Ane. ~ . LZ). Cel ae rey a i
+PaaS ck rare VU):
+ay eters sled: emanes 1 Mie a) erates
+
+] _ barrier, searing the soul of any creature Tin
+| Bani et aa through its.terrible 7
+een bursts of flame. .
+
+_ dilus-Richard Thomas © “fy:
+
+Fy NIN et OA RLS DAT AS NE CORY SORA N.S On OO
+erecay, WIT UIO OO Op yTt ah Wie"
+vl *@h bes ° ye" i] ) es ‘ts “ese > .
+RY a _ et pin “ arse e-44 . A--<y : at cts
+rd Go Sb ES 4 ret ohh tet? “a rn
+{ilus. Richard Thomas 0/5.
+
+| |
+Illus. Richard Thomas 0/5.
+
+7 dllus¢ Richard Thomas: 4 33 4S EN O/5;
+
+ee er—“Cti‘CSCsCSCSCSCsSséséi‘S®
+
+ve . Pe . <8 "4S ai Ft >,
+~~. Wlusp Richard Thomas .. ..° °*% . “7 ,? O/5i
+0) erection et es a ntannee Joe oe ten , Poca te
+ae ae kha oN a qe | Suet a ee “
+a ee a * ae oe © ta oep Sw
+
+C—C—i‘CiéSS
+~ Illusp Richard Thomas... 5
+st asians _ ee es ee. Wa td doa” . Set 7 Nas sO)
+
+| filus,; Richard Thomas - 0/5:
+
+get im) wow
+ta. ee. é . o, ars rs fg era x - Ss. -. i Tew. bd Ten iF a
+=. Ilusp Richard Thomas’. 3 33. "HS x = 0/2
+
+polls Reeflard "Thomas: cksiad) MSS EOE
+
+a . o, rn, . ty ro - . oo -%* cA
+-. Jlusp Richard Thomas... ..° °*% . 2 "Ase
+
+Sat SE Sp aes Me
+Oo wit las ven maa . . egies! ett son Mog a re “es : _ ge! ary
+
+Wall of Fire 066
+
+a Lag MD iy 6
+
+VASE Sap | ea te).
+‘ ’ a
+BOQ) (2a
+Summon Wall
+SOUN Ont end oft |
+(Coniureg romana bors Ie | Seas
+eM ue cate re RE ses Satan)
+
+IHus, Richard Thomas 0/5
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:45:34
+matched_name: Brassclaw Orcs
+matched_set: FEM
+matched_collector: 49a
+reason: título OCR bruto 'Brassclaw Orcs OO'
+name_hint: PREETI GLAS TAC OROTE CTL J
+namebar_text: - Brassclaw Ores |
+
+' ) vol * ae . oo hie . 7 eed * on
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+- Brassclaw Ores |
+
+' ) vol * ae . oo hie . 7 eed * on
+
+~_Ilus. Roti Alexander ee 3/2. |
+
+AGE! SHERIRAS TAGS ORACONAR' ANG -. Aas
+S| Arsenate comnasah umprepared. TO
+Re) “efibeny is eastek to defeat”: 2c: ER
+| ‘—“Sarpadian Empires; vol. IV: . - gg
+k Fol TEE SFT a eh st ee eer wo 5 2 ra¥’
+FTE ATE ande: aga RL RC ai
+
+(ASOD dose sade ate eh ehbiae  t OE
+
+im) dgninng.raids on icatian and Sh
+% | —Sarpadian Empires, vol. IV ore
+
+] PREETI GLAS TAC OROTE CTL J
+' Teg gt cde et | Nhat dl [Fass eorr<2 2 gt Ge yates & Fi
+oo et SR Ta RDB Sy ST SSS a POG eg,
+] MECN ETAT EOLORIEG CUAULEREIS ED REEL OE ak ee “ot
+wy ha ats haee! i’ era ee Sew eas nn wae alte y ree, rr ,
+ees est he wieaan Pe Pe cents iAte
+. \ gd aRSLC OS Feats Care eS Po, ave boy te ot
+et es ARATE TDS Ef cae ay Wie SUE eS oo ty
+Po ctmepivedi(abkcregletsshe IQS teNA CG on #
+OTRAS eR eae | ote FG
+; Poe ae es Pe oe CSP) oF SE ae WE ;
+T eS Sab orsg rhe Stic? oe :
+: ‘ vf Le ; . . B an . = ; ~+ ‘3/9 ‘
+. ‘ | y < Ta » P -. s-, a f . e
+sparta sone ‘s . ~ We Pm em ane °
+. a wee .
+
+-, ae > ie i
+- - ‘ Sd . / eRe te - :
+- ~~» a Wer et ae ar _ “V1 IOM
+fats eo Ae wl o> enie Dt IS a
+
+, per so le
+
+CU Rm PN CAMNIET: fF
+_ 1994 Wizards of che Coass, Inc, Alirightsreveryed,
+
+_ - 81994 Wizards of the Coast, Inc, Alright reveryed, 2
+
+_: wang a aa Vass Atete ws wpe a . se . : A " ) Pay a5
+BANS izards of the Coot, Inc, A rights reseryed,
+
+7%
+
+Pa .
+ae Be ‘ Tre 1/7) 3
+S| . on . - Te -@ ; " ; ‘ “9 aye e 4e 1S 1 ;
+
+‘| e ela me '* a lt re “4 * 6 ‘ea,
+
+“ACH, ee 4 od ee, i: SR EIS COE
+aw ‘ Sos ore. aak y(,) 5A tieel ‘ or py) ~, By Le A'y f,
+PARES OD | vena
+
+_ | 1994 Wizards of the Coast, Inc, Alirightsreseryed,
+
+ Ulusniub aeianelsr By
+_ Bisvey ards of the Coarz, Inc, AS rights reseryed._ |
+
+. eye ae
+‘ wag ra 2 ey “ °. ae viptee ete cl .* ‘ bd eo . ° ; Aa ‘ a
+tN sub eels yelp 2 1 OfB
+_B 1994 Wizards of die Const, Inc. Al rights reveryed,
+
+Brassclaw Orcs OO
+: ~ ,
+ws, ¢ f
+» é
+: , ¥ § .
+:,
+Summon Orcs ONE
+~ THlus. Roh Alexander 3/2.
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:46:26
+matched_name: Balduvian Barbarians
+matched_set: ICE
+matched_collector: 172
+reason: título OCR 'Balduvian Barbarians'
+name_hint: i, —Kjeldor: Ice ‘Civilization
+namebar_text: _—_— — LA
+
+Balduvian Barbarians
+
+Ralduvian Barbarians OE
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+_—_— — LA
+
+Balduvian Barbarians
+
+—kKyeldaor: ice Civilization
+
+PAY LECe CWEETE EFEU [rr vveweres 7s Ss VIVES EEE TEN ‘ -
+way. They thought of the Balduvians |
+- { as an ‘amusing model’ of their ..
+“Sy forebears’ culture.” |
+| —Kjeldor: Ice Civilization 4
+ani e Sore Sine Atigus rere a HZ
+
+eg PAV UECS VESTED SFO PLE UUVEwTTS SFT NU we wee “ee |
+| way. They thought of the Balduvians |"
+4 as an ‘amusing model’ of their ethy
+3. forebears’ culture.” ee
+2.| —Kjeldor: Ice Civilization -
+
+me way. They thought of the Balduvians Fi
+aa 2S.an ‘amusing model’ of their -
+may Jorebears’ culture.”
+me —Weldor: Ice Civilization :
+
+CO roe Er NS oe TES My ae .
+
+
+
+
+g 995: of ulse ao’ i. * . ” ~~ - 3f 4}
+— ~~~ ‘lea. . ~ om .
+
+aa ee EEE EE ELISA! ANA EE |
+
+“Ulus Slane Poole 4 ly
+C1995 Wi of the Coast. fac. AN nghis reserved. —~
+
+“E1995 Wiastvot the Coat, toc. All rights reserved. 4
+
+Balduvian Barbarians  Q600
+GP orm. ae
+Bria “NO SOBaki os A?
+Vv rey B 4 Ri ; ete tt . a
+SOR ee? kee eet A. | tere © eb,
+war fey. SM ore et See eee ee een
+Summon Barbarians. _  €
+‘Barbarian raids were aconcernto §
+. those leving:in the northwest
+"provinces, but the-Skyknights never _
+dealt ‘coith the problem in.a systematic §
+| way. They thought of the Balduvians. |
+ie . 08.07 amusing model”: of thetr
+dorebears? culture.”
+i, —Kjeldor: Ice ‘Civilization:
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:46:57
+matched_name: Fire Drake
+matched_set: DRK
+matched_collector: 62
+reason: título OCR 'Fire Drake'
+name_hint: ASS US, aman aga as be raed sae Sete Oy rae
+namebar_text: . po fo oN i
+
+Fire Drake
+
+Fire Drake oer
+_ | - . N | BN i ,
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+. po fo oN i
+
+Fire Drake
+
+bese ge eS ea a
+Mus, Christopher Rush 1/2
+
+i Sd Pa ry a
+{) Cannot spend more than @in =
+= this way each turn. 3
+
+me cannotspend more than? in jim
+
+wa fonda th 4 4 —- we eh war tf en in|
+. any) Cote ape! 3 tc \ TOrect zt iiGyiers:
+ee SSE Pe ep LMR 3
+
+vl ate -4 eae fost Pee lS, er ys.
+ro A ab a oe: a ecisvtean tae: wy)
+to9M, Og, 5 Lee At, Woe ie xp
+
+4. fa ? ° ee
+
+Iilus, Christopher Rush 1/2
+
+| |
+Mus. Christopher Rush 1/2
+
+SU re eee 17
+
+LS: ve * ee eg ; "4 an prose ( are Seer es SS . ; ne va
+‘ , : LES ‘ ORY a Nero an — ae
+
+NO Bee NA ad etl ew ft bef:
+.. ap )oe eee rarer) i) _* “qe. °° are ee 2, tt . vate, : oe ee
+
+
+ae | 7) oD. a aN oa Re we o” fs rey a SN bol at - ‘ - 2 oO ‘ Ay
+ASS US, aman aga as be raed sae Sete Oy rae
+
+mlilives ChiriscaphicrRUeh oot CSR ae ALT:
+fiat ata SOR oy ee
+
+
+Fire Drake 066
+. _ . ™~“ ‘ ’
+po RIN
+
+Summon Drake or
+
+; @ a) EOD shal And: ayegitas a YOU,
+ERIS UAT OA GH TLL Tee cee TAT
+va nee ee ea ie LES y eee ' be |
+
+lus. Christopher Rush 1/2
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:47:38
+matched_name: Wall of Lava
+matched_set: ICE
+matched_collector: 223
+reason: título OCR bruto '- Wall of Lava i Tele)'
+name_hint: peer sallard, Task Mage I
+namebar_text: , wT. ie; ~ " NS
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Ee ene
+* SIlus; Pete Venters. 1/3. |
+
+—o Pee
+i? don’t see every day.” [aa
+—Faya Ballard, Task Mage fat
+
+me don’t see every day.” — =
+S 3 —Jaya Ballard, Task Mage i
+
+ae Joe Ba, INANE _
+peer sallard, Task Mage |
+
+te - wo oY SAAT a ae sm ree , i aol one ool hee en ns 3!
+| ‘ ug; CTer € tersu at YS J o . sso 7 \ ‘) f° d A
+
+Nt praesent ee te wt (on : a ag, % A!
+~ ia eee wn eee ° Paw. ° aie? re t . 7 pe Oe ne fan ry . , ws '
+oot my ' an Se eet Pde om Nae oo Yue “Tee 2 or ok ; see *
+
+“Lk q
+bia celtie Gia eat iptarrened 2 LED
+
+of 4:
+
+ar ARSENE ee
+
+et .
+rsaG xy ods cot —- SSRIS, YS wr SOE - . BT
+is bios A Eee PRE STORER Stale cas oe oh TE IPAS)
+
+et 4? ala =i fate SR A ER ares -- e-F0Se
+
+“yl oie Yous Tae sAI pas evened _
+am a) > re
+
+Bee ne a ne rn me me - e  - wot
+_ GA99S Wirdkda of the Cow, Inc. Alt rights revered, —-
+
+= oo: a ee ae ee ae ee :
+
+- Wall of Lava i Tele)
+et wer? Nivhy wot ‘ .
+7 ¥-. Bb if . s. ear e se 7 "
+. : se , NN ° ws i ’
+{ . ry :
+ee. A ates XS, by ee See
+oe ae hi Say
+~ tLe rane “ wom Ge an t:
+Summon Wall Ee
+er tlieluntlend oftun =
+eS agra OE |
+~ TIhus. Pere Venrers . 1/3. |
+i
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:48:11
+matched_name: Wall of Dust
+matched_set: LEG
+matched_collector: 168
+reason: título OCR bruto 'Wall of Dust Of'
+name_hint: a , fay ae ely
+namebar_text: . \ aE. 48 ee
+
+Wall of Dusr Pay
+
+set_code_hint: OF
+collector_hint: 1
+
+raw_ocr:
+. \ aE. 48 ee
+
+| IHus. Richard Thomas 1/4 |
+
+be An ever-moving swarm of dust fs Z
+4 engulfs and disorients anything that [RR
+ees comes near. \*d
+ye 4 Me gt
+bel. ea Wey aits SAD io 51 Pena aa t woe agw cee
+
+pellins sicher Thomas. muse, 4 aay
+
+Anever-noving swarm ofdust
+ie engulfs. and disorients anything that 7
+
+Een eT OLR INEPT Dea FST. o.38, le
+
+in culiede. ‘O 4 tere oe ad
+
+rn Cre Poprfhee of EE VIA @ ea'h PY)
+
+’ - a en , ‘e fe aan ¥. yoy i >. vie. *
+
+Mo. “A. See Spe’. . O% oo ahie . rd , ee F,°4°%l
+IHlus, Richard Thomas 1/4
+
+| seers SPF Pe Ae TP vee lle 9)
+IHus, Richard Thomas 1/4
+
+. nae te 29 PF 2 .
+"oe hen git tt oe Yale wes ‘, elven c a - 7 ye ee:
+7 1 Of es ENE -- eS a gts TNT Tg “An
+ee .
+
+t INuss-Richard Thomas... ... : "S03 +2 1/4:
+Pale regtay, ors ye Lee ee by, rare >, Bean ' ‘ 7 pe 6
+\ ran yh ‘eps Pen rene an nt Gay Sa i} ‘ co Nyt
+. wet soe oe 4. peta he feed ee ary Po > on We ‘ wat a
+
+i; Jilus:-Richard Thomas, 0. 2 88 Th
+
+_- Tilus,. Richard Thomas oe a 1/4:
+
+: - *: \ -"» ey ' . . ‘spe ~s;.a.
+=. Wings Richard Thomas Ay velsy cpt iS rca Wf? Ste
+
+‘ oe oe gary’? 7aN. NS. er * «Vv apc dy wi bevel i ' ! . * a 5 { q ’ ; °
+i ease le apt at Ae ht al EY oT Gt
+
+fe CA a OC” SO
+
+Wall of Dust Of
+4 Ti : rye - : we = a fy
+A: 3 fo Nab ge nt
+RRMA pi ess
+a , fay ae ely
+pocmnay§ 7 ae s b, Si
+AY nS RN ee
+ae : pa sy is ak tee SOR
+ — bah pr Al 2ee ¥
+Summon Wall
+in ONcreatuiresty fey. Kec ROY BNF : Of: x!
+ip TRO, nae age ay in OST ae is ,
+fof wily . : mo. Coca
+Mlus, Richard Thomas 1/4
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:48:56
+matched_name: Searing Spear
+matched_set: M13
+matched_collector: 147
+reason: título superior OCR aproximado 'Searing Spear Askari a?)'
+name_hint: aa,t Ss RTE Ra eee, OL iz
+namebar_text: oa "Cine
+
+Searing Spear Askari a?)
+3 PIM SS Wa rs GZ. . Po a
+OE ho Se
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+oa "Cine
+
+Tata hy ERC ay 007 (7 OAS GR eget 8S AS
+Illus. Richard Kane Ferguson 2 12 |
+{
+
+1 @&: Searing opeéar Askari cannot be
+‘blocked by only one creature this turn.
+Me When the other soldiers of Zhalfir fall, the
+askaris:will yet stand.
+Illus: Richard Kane Ferguson. 2 /2.
+
+1 @: Searing opear ASKarl Cannot be :
+mm blocked by only one creature this turn. [EEN
+Mm When the other soldiers of Zhalfir fall, the ¥
+
+askaris will yet stand.
+Mus Richard Kane Ferguson® “ 3y9.,
+
+of l Wo RASS lesbale 7 pears SKz Cannot: D B; nr
+ha pore a PUERTO WOR AUD SCAS ECT ian ic WE aA NT RRC SEE po
+blocked by only one-creature this turn: <
+iW heh die ocher'soldiets'of Zhalfir fall, rhs’ My
+Hlus. Richard Kane Ferguson 2/2
+
+Iilus: Richard Kane Ferguson. - 2/2.
+
+4 r.
+, Ea SEES : Ao. .c19s | eres POR mere eine an 79
+A eevee be tr a ep es a Cee! 9: rn ae Si
+7m tl AS RICHAIC Ca cls Caeser EN Se ‘& 12}
+ae ty Beachy 7S Seer oR oH » oh Ee a f+ -. >,’ J , . .
+
+ie
+a, a
+S Ax a , - aos a tn oN py
+e aoe et: fae f ‘4% ie [: y
+yHIGEARI wor ais 28 ep ihe were 2 She add
+: . is 5) oe += eat cgontn foe “ = —— =
+“2428 =.
+
+es,
+aa,t Ss RTE Ra eee, OL iz
+Richard Kane herp Bias Mp Th et Wot “Accas
+
+we . - : — gta Pee ,
+
+a wwe % @on- all % 5 @ 7+ . a Dye . he! d ~ a. ’ «:? ‘ on
+
+is . ‘ - : . “o*.@ Cae i bag tt ey Ow the moa we o>) ne 1 el SYP i
+
+- > @ . . , i . or, , . ; .
+
+=> ys? ard Kane: sone: (HEE Sea,
+
+‘ ‘ B. . aaa lteter, ® ve “* «6 wt Cr 2 i - o.b ". 4 ,
+
+ne ¥. 4) i-s.. . ‘5 vs oir "> I 7 tf woe L% ey UN 9 tte’ =) ". amt 4 ve Pa ” * . fe
+coed ve ‘ , ’ , te, a, ‘ \ ‘ \ i a , wey ls t eae ~~. “4 a ee Tz °
+
+oy Bg a
+MLE Te (oy RIChATG Kaneie ore SOlIge ast cr 9) ,
+
+athe Sede: Kes f- srr. ball | Fe reson ice ee ty “ Fad .
+Uap Bora nt - OBES FS a Pee oe PA
+
+(9 oe -@eeeae Ff _— ee - awn 7 Gawtteer Te em — " ier — +--+ -+-ommmpee FU ‘
+EGS RICHES CTE TISOL ole a ae
+‘ ‘ . a dd ; sores’ epee. money wep sh . ,- _ A ¢’ 7 , } }
+
+Saad ‘ ‘=> cy ‘- ~ 7 7 re te . ~ oe . : = eS °.
+
+Cenk - ga ,
+ae atte ely Se Speers ts Se - PAPL
+_ if : ss way y ~ so ft we at - ye Re ol fe
+ma rr a renee a itty, ae |
+9195¢ 4 hal aaa
+ady Ar DW
+
+mae ee Fr ee,
+Searing Spear Askari Be |
+too . ~ Wf rome
+pary \: wi - os. Uy
+'N See ae ss .
+: ; A % ae Fd 7 waite! = 1
+} ae ~“ ene Bene A
+ot . ro Guudd oa aoe sy ~ :
+v7 af my AF - Pr Sat 4, } i. a
+"fa UR ae _—_ oa tf oS
+‘ . ' * rae wy ae
+RS Fx ZT. a gy a0) \
+m Rak Oy Ol es y gi! '
+oe * Sg D ied , . -
+iz ‘pa Se. Mie Kae
+I eet ab Hy oe
+. :
+Summon Knight RS
+“eater raaly rg ty Ear ERAN a ae NRE NRESES By PERE ~,
+pres faeces aa aba maT PF pea Sy ps bam: 5
+EIT ICATTIC AULA LS Res SR FAURE CLOG ak Cane ak
+Boel TORS OA Nite yaaletas Shige :
+Illus. Richard Kane Ferguson 2/2 |
+1
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:50:53
+matched_name: Grizzled Wolverine
+matched_set: ICE
+matched_collector: 192
+reason: título OCR bruto '' Grizzled Wolverine - °° QO'
+name_hint: TPP. + Wee De) ee eee bh. ee 1 Se ‘afl ui zfs. ra) dev, aot
+namebar_text: ' ) ond a ) -, , e
+
+Gi Vez c Vc € t sé
+t
+Fifi }
+3 Z Te i on
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+' ) ond a ) -, , e
+
+tied pelvdiises ee atts 0s 7 Ue oe eee fr.‘ '
+allah anes Re aaa ae
+
+xe ‘“D WMAares wasey waa wwe —oe ee
+“| “Before you release a Wolverine from |"
+= | the trap, make sure it’s-really dead.” zx
+3) —Lovisa Coldeyes, i ‘BRS
+=| Balduvian Chieftain Bett
+USNS Grea wa lp
+
+xe ‘“D WMAares wasey waa wwe —oe ee
+“| “Before you release a Wolverine from |"
+= | the trap, make sure it’s-really dead.” zx
+3) —Lovisa Coldeyes, i ‘BRS
+=| Balduvian Chieftain Bett
+USNS Grea wa lp
+
+” PbS we \ has aa 1. Ye wy y Ne A DA tac we &';'' es. Me 8 0 {
+te ' my ; a PONS ee ~ ges! Re Wri an ta CK. 7 >
+Bn pore oeu release @. Woleteine. frovn . Bie
+ee 2 trap, make sures’ really dead.”
+
+a Louisa Coldeyes® 39.5." >
+tom ‘ ' . ote
+rey ——_ “9 ee eee . Pon. . . aan . . ~ ° . 7 ee, : ~ °
+polllussGorneltts Brudis ot 2/2.
+
+hel we ’ a i
+i j
+
+om Wa Se ee im ‘ oe . ant ' tee - oy, =A “oe 4G
+iy ay tale, Le 4 Sig taee “Sepa ery anes Ra ONT ; ath “3 etsy
+
+ee
+
+_ Buss es of the Cabin, 56, Ail gpas reserved 92 We
+
+1 LOUOPS Shales of the Cokde, tog, AD dgpas revcrved 5! Os
+
+me ~ 12
+RLY faced OOP ey OTe Se ee ork othe 6'f ce, ~~. Get eo, tad !
+“af fem, Gs este las terry: ¢ esi pecs! Meee _t 0% _* CMS, ‘3)
+“ee t o% ~ $0 hb Cos . ‘Sad ; Ne A. %. +. Py ten Rees) he
+
+AP NORS Se baials of rh pn, tees righas reece Yi 7 ae Na 6 SS The
+TPP. + Wee De) ee eee bh. ee 1 Se ‘afl ui zfs. ra) dev, aot:
+
+ag aati ea .
+
+
+
+' Grizzled Wolverine - °° QO
+Jot ye , J
+, Peal
+| 2: +2/+0 until end of turn, Use
+my this ability.only-when a creature is fi
+fc assignedsto block: Grizzled: Wolver-
+| tinelandionlyonceeachturn-....:
+Oe Cie eran, aks stra real a
+eet ovse Coldeyeste AMES
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:51:35
+matched_name: Goblin Balloon Brigade
+matched_set: LEA
+matched_collector: 153
+reason: título OCR 'Goblin Balloon Brigade'
+name_hint: pose, e.lhlUlelhlDltC le ll eee tll ll elleDtttt”~C a me ena «ae... .———- ewe. see
+namebar_text: . i _— — " 7
+
+Goblin Balloon Brigade
+
+Goblin Balloon Brigade (
+ea MSs
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+. i _— — " 7
+
+Goblin Balloon Brigade
+
+| THus. Andi Rusu 1/1 |
+
+QUA Grrows ana THOTE IOCRS. ae
+oe “Uh, yeah boss, but et
+bey how do we.get down?” no
+a UC Vepelee- Se Te re Git TiWwT ST ere val
+
+Many Sock hace Hn}
+“Uh, Seah boss, but
+_ —how'do.wesget-down?”
+| Mus, Andi Rusu. i 1 / a
+
+OVE ace pes TE ee GA MS Feed
+fy ' ‘ : Fel kl eee er ony » we BAe ey: Lan
+: we PO a? PAT era re een Ok ire Daler heen Le eee See Fr
+PRE LC ZURLIO ODER ELA COTTE LS
+Hlus. Andi Rusu 1/1
+
+| REREBC LSM Pe 2: "STS TNE” SPEYER, fo OAT
+| IHus. Andi Rusu 1/1 :
+
+[ie weg iy We Tok » Saree ae TA TT Be .
+co llluss-AndiRusu.. ¢ og OY  T/t:
+
+| - W mae 7 —, . "TTF - 7 - 7 “¢
+
+! J llus:: Andi Rusu, Oo Sen Tae ' . | 1/1:
+
+ee,
+| Mlus;AndiRusu 1/1:
+
+“Mus Andi:Rusu... oe ON ee ae
+( “J walt: . « Lok a oe . we rm, © te Va : ¢ |
+
+, pose, e.lhlUlelhlDltC le ll eee tll ll elleDtttt”~C a me ena «ae... .———- ewe. see...
+Jes Tee wm i’ ve@etee-e,.* UT : rs — >
+. ea coe eee narra . . le ‘ ~ ce i? fe
+\ grey? A ae | 1 ee a ae ’ oa. ? ot ae .
+- ey : _ " RUE? ' vt se ef ate ‘te rege’: ‘ J Stier Bal e - . . er
+wet Bile A A SS QUES gay aa 1 4,
+
+Hus; Andi: Rusu. a U/l
+\ ae ie en! wt $e. oo ut, Aw ee , C0 te ‘
+° ’ . ‘ o. et. fee “ae * . e a ry . e- . -~ oT
+
+Goblin Balloon Brigade €)
+> a ~ .
+\ \\\pStIO ed o/
+
+ONY No!
+
+nn \ VAT - wos y
+
+4 K q ah ,~ Ns Se \ i
+
+. s . ‘ i “af
+
+- 4 a en |e GT
+
+‘ LS, (a a | roy NS
+Summon Goblins
+THus. Andi Rusu 1/1
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:52:14
+matched_name: Orcish Conscripts
+matched_set: 5ED
+matched_collector: 255
+reason: título OCR aproximado 'Orcish Conscripts .. . 9'
+name_hint: ion aoe Cg aiigetarnd eS EAE
+namebar_text: Oreish Conseripes 7
+
+) Del Lh SL. WB ST
+
+OrcishConsertpts
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+Oreish Conseripes 7
+
+) Del Lh SL. WB ST
+
+Cannot be assigned to block unless ald
+f:2{ at least two other creatures are also tiv
+Na assigned to block. ys
+
+TEALYOUCITS tee as ate ay
+ion aoe Cg aiigetarnd eS EAE
+
+7 ee RT —,,
+i Cannot be assigned to block unless RP:
+f4 at least two other creatures are also fax
+
+| assigned to block. es
+} f sSe
+on 5 ke ry) ey ‘ ras H “A SSS 9 waae of a §, $i 7
+aon Le apes ine See £3 See
+
+ie , atleast two other‘creatures‘are-also
+; MlgsDougins Shuler QD
+
+‘a0 . . a. ~
+ulate Saal" ae OY “BID
+AN OD eA at a =", a
+- i a
+
+a
+
+
+E ae
+- at s
+
+. 2 . na
+‘ Re. is Fs GO a ae Ve Lo Pot em ae E “at
+‘. ‘ 7 we ey MN a a~ wee tL}
+oy a & S fe : :,* Al re ow *, fe vs alg, --¢ * id “gr ay % a)
+. ote ba ere C2 -~, we wr: _»% ~~ ; qs,
+
+
+C1995 Wirdnts of the Coast, Inc. All rights reserved. . he
+
+. GAS Wieteds of the Coase, Inc, All rights reserved. = ale
+
+Orcish Conscripts .. . 9
+
+Sale 8 +
+“i >. \
+
+SummonOres ss
+Cannot be declared as attacking
+sateialso declared.as attacking.
+“Gannot be assignéd to block unless i
+cavleast two othercreataresare also
+
+J assigned torblocke< "se fe
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:53:11
+matched_name: Mountain Goat
+matched_set: ICE
+matched_collector: 203
+reason: título OCR 'Mountain: Goat §'
+name_hint: Nile Cyrnalingteal,, AY
+namebar_text: l 60 at
+
+: Mountain: Goat  §
+
+set_code_hint: ANY
+collector_hint: 8
+
+raw_ocr:
+l 60 at
+
+WY) Olessing. & just Rnow t's @ sign that a
+“| dinner is on the way.” aN
+se <| —Kilazina Jansdotter, Leader of the }
+ae] Order of the Sacred Torch ie
+
+MW) Olessing. 4 just Rnow i's a@ sign that ta
+si] dinner is on the way.” a
+R<| —Klazina Jansdotter, Leader of the [Rs
+ae| Order of the Sacred Torch faye:
+
+: { ne CGS , clits Br | § RO ewes: as. NS ae ° 7 ne
+
+Be See JUSE NOW TE S G.Sign inal A
+Bae Kidzina Jansdouse; Leader of the. |
+
+Wi © Order ofthe Sacred Torch
+-MMusCorneliusBrudi
+
+7 dlls; Cornelis Budi
+PSE ete Budi 2 gc an
+ee ire,
+Hah
+
+is Cu ertdlinginenelt. any 1
+
+- q-
+
+P a 4 ~ os . rrrGe (atone 3? wo ran , . -_ ‘ ° ree
+S199 Wo tt Cia The Al dgesroyered, 7 2 a WAL
+
+ow <<”
+cake ° om ays e : ~ 7. peo we -~ BML ef oa ow . os
+) 1 ~ wh Vol Aat-wy, rys: 4 rir) ‘0 ate we ° ver wary cs I
+SAAC! La BY pe te ng he.” 2"; “i 4 if , 5] .
+a ca < Ses ‘S naan J " : + ae ss =,1C-. ° wer. }
+
+° Ames ’ ’ vr ~ at) ' ov7,¥4 eee t reserved. oe ea et. lap “f+
+
+Nile Cyrnalingteal,, AY
+
+C1995 Winks of the Coass, Inc. All righhs revered. _ ~—l
+
+Ue Co reidlingienely 8 any iT
+
+Mountain Goat €
+_
++. Deets
+(
+
+Summon Goat oo ES
+“ tape ON ca ’ wes ee. . : a
+‘sMountainwalk 0-4 !
+ty Kolkore hassmibar tocapturea:
+EADS Cis)? i eater gg
+RN Gas (US COLE EZGGen UE de
+195 erp a BS ALICORIOTE ARMS
+
+Mlus..Cornclius Brudi 1/1
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:53:43
+matched_name: Raging Goblin
+matched_set: P02
+matched_collector: 114
+reason: título OCR 'I Raging Goblin . ='
+name_hint: ena eruaaesc 7, gece os GP
+namebar_text: | Raging Goblin . =
+
+i Raging Goblin
+
+nagging UO : _
+
+a Raging Goblin ,
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+| Raging Goblin . =
+
+i Raging Goblin
+
+nagging UO : _
+
+:
+
+Ne ae me ee ET EG VAN ¥
+nse apes “y CaN a one ‘
+pes Dae a ee Be Leet oe
+
+ee ClOET Cb COMEN GHACT VOUT COMO?) x
+€ He raged at the world, at his family, at}
+4 dus life. But mostly he just raged. x
+
+OS OE POE IED 4
+a He raged at the world, at his family, at
+a hus life. But mostly he just raged. f
+gets S36 IF ae ct eee CS a. of
+
+py CUITE bb CUINES UMUC! YOUUT COMET. } i
+@ He raged at the world, at his family, at 2
+a his hfe. But mostly he just raged. if
+eee Age OS
+
+oo ~r3e ly . , aan . r au ‘9
+ah, Soret ey ARG Weg . 2 Ne < tres UN .
+Get Dales. a a oe ee Soe fe lie a ae
+
+“ray aemueneny, <perezons wry WI
+
+
+
+: \
+
+
+Saree peers oy EY
+UPS tk 205) 0) spb Ree Ro OPON, E Ee wv:
+
+ieee Se NE rt
+
+EC ET EK SOE
+Raging Goblin o BE
+' at ust a Up .
+(ar - r \
+4 ae Pac} oe : d
+3 : is
+eRe NN x
+¢ K
+ia Creature — Goblin ww EK
+¢ “
+: "
+c , &
+4 Haste (This creature may attack the
+; turn it comes under your control.) ¥
+ba He raged at the world, at his family, at F
+fa his life. But mostly he just raged. f
+f Re
+ena eruaaesc 7, gece os GP
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:54:29
+matched_name: Goblins of the Flarg
+matched_set: DRK
+matched_collector: 70
+reason: título OCR 'Goblins of the Flarg'
+name_hint: 1 Dwarves, bury Gobli
+namebar_text: rE
+
+Goblins of the Flarg
+
+Goblins of the Flarg ‘
+By te we. Crt eae ay 4 are EL ST PR
+rn Reo CAE
+
+set_code_hint: KEA
+collector_hint: 3
+
+raw_ocr:
+rE
+
+Goblins of the Flarg
+
+welt ce ee a tee ae
+| Illus. Tom Wanerstrand 1/1 |
+
+mel DTD
+1 Dwarves, bury Gobli
+
+TH oblins o 4: Ss
+
+R| Flarg. the #F"
+2 iA
+‘s ‘ MY
+
+fm Dwarves, bury Goblins‘ofthe Him
+lus:TomW fnerstrand WE
+
+sayy ASE Oey KS OBLIT he LEC er 3
+
+a . 7 , Te mts A ,. eee wT . 3 . Kea de “. .
+
+ata re 1 ae ae white nie a
+
+‘ c&. ray OPI as) Rie Bees, ee
+Mlus. Tom Wanerstrand 1/1
+
+|
+Iilus, Tom Wanerstrand 1/]
+
+ite PORN on pO 0 14 p SS Ine Si i ee, ane a
+7 Lluss Tomy anerstrand: | ae Sse) So SAE
+
+1
+7,llussTomiWanerstrand:, | or 7 T/A:
+
+q
+
+Se,
+
+> Muss TomiWanerstrand:. o2 7 wEE
+
+‘ “oN gtertey ore Vie, ae 7 aa rr ae are vies eta * . be oa
+
+t - eyo cae fy rg a. se -¢.- ee
+- flees, ° coal tay es . ‘ “S +t ee, ee — - cope
+
+
+" @ | 4
+plus Tom Wanerstrands, . giv = o1 pus
+yy ras S . oy a ° . ‘ yo oe , ‘ ame !> G 0, ‘ - en i. - . A '
+
+Aus X- = - _k PEW. eEy ae abe, ee dedum nd ~s - ; 2 Th ge i ar - re: —ar eo. - JL Cae
+pulllos Toni WAneretrandy. eS "SR
+‘ . a te. 4 Qa a" wow, Yes vt ad ..e ~ bs = 40 . dece < iy
+ORME i eee phys ade sata Ae, SEES
+
+l. “Sade | wet... carpet. a, _— "lity nd i a did i
+7,AlussTomiWinerstrand: oe 76 E/TS
+
+Goblins of the Flarg €)
+a . oot me ae F
+i nt r pss ca RK Mes mA.
+
+) . ee Fe a Bee rk ,
+Summon Goblins “oe
+ree = " tig twee wy te en ‘
+Shy eee ewe Meas “Soni oe tgs
+IHlus, Tom Wanerstrand 1/1
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:55:09
+matched_name: Anaba Ancestor
+matched_set: HML
+matched_collector: 65
+reason: título OCR '- Anaba Ancestor'
+name_hint: Summon Ghost a I
+namebar_text: - Anaba Ancestor
+
+| ; ~ ee ; 7
+
+~ Anaba Ancestor one
+oe SUN ggg
+
+set_code_hint: SET
+collector_hint: 2
+
+raw_ocr:
+- Anaba Ancestor
+
+| ; ~ ee ; 7
+
+Illus. Anson Maddocks 1/1
+
+pbs andthe souliof the Hoynelands I
+fe | 297 eternally intherdebrs’
+Illus: Anson Maddocks _ . T/1-
+
+Rae tribe and the soul of the Homelands. | WR
+me ant eternally in their-debt.”” | a4
+me —TJaysir a
+© MlusrAnson:Maddocks PATE
+
+Bite CAME CunOhare Liomclauns. 14
+. ’ ia Sree is C7 “ , -- sade “ . NY S . wey . sh, i:
+) WRAY a RO ae ao oS ee ATR
+' ERC. Vis’ eect tes 256
+. ve < oo. m ~ had ~ aD iat heat ran, a
+A ~ce tlle pad, U5 eT 4. a “es web el ee
+Illus, Anson Maddocks 1/1
+
+eet
+Illus: Anson Maddocks - . 1/1.
+
+8 “ wee = ‘ “ge - - an, - o ‘ - « e . oy
+
+prs te p SSA ime ° O'S i re
+PY AY cee ecepryedt 2 A 3 ; .* m & wre
+
+YS 7 BEA ST cae i - (OR Bae a wake NF
+
+ah J hae ro AE f PREY SS”. IRE -
+
+ee
+
+“wre - wi¢
+Urry a elit
+a om aN ie On . . “Nig, oe seeeryed, cs * ew . (< ace
+oe Us era ee —— -
+
+| ee, .-<
+
+. 4 ae.
+
+ro 4@ ee Z = ~~
+ SussAnson:Maddocks: 2.0.02 SET eS pray
+ad PND * ; Mots wr ~ I . a a an “S ‘ “: al a. wy hae . * we _ * 2 - : gf:
+* a . " . . _ —. waee > . - . Ve oe ben et , . « * - +6 i‘ ‘ _—
+
+co a . 7 - - +8 8 9g .* ° ° - “, ba _
+a 4 ~ : ol : ors . Ga see an . bd esc ot! - TF abe [+4 - t
+
+
+site ay WO, aces coba tee’  S WAl Ar.
+AY o.6e “3 ; .* m & read '
+nd . ashes fy se. P< ; or ‘. s{ Ogun mee a = te 2 < “ le ¥ .
+
+Anaba Ancestor 13)
+,
+. ’ : .
+— » wo.” i, Uf. Le |
+aa . . / ~~ {
+wo od os > og Thy a
+uy’ a a 5 =, / |
++ f~= ‘ .
+wd: ? %' f St Z Ms ‘ r - |
+: ei Sth?
+i. i re yt
+a lv “
+Summon Ghost a |
+te Ane Soar, ok on gt ab ge an
+Illus. Anson Maddocks 1/1
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:55:41
+matched_name: Atog
+matched_set: 3ED
+matched_collector: 139
+reason: título OCR 'I Atog . ; / Oo'
+name_hint: Ability vot must sacrifice one of
+namebar_text: 7 e Cd. . hd
+
+| Atog . ; / Oo
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+7 e Cd. . hd
+
+, Ilfus. % Jesper Myriors 1.2 |
+
+f N ATEY VME Vv OGG FEF CSF OVEI WEY «eet
+| legendary Atogs devoured intricate ee
+sa tools to further their own twisted wR
+mH growth. Ns
+
+Li ee
+
+Tus, GJesper Mystorsy © 2k
+
+het A Fey ot EN at Web hdd MELE Che SA SI og
+Gt Porytired U tap {lloyd Tip) Teezie bd 48 «J
+re a ah el oR Monte USE RA Sd ODS RPO, BE ORO: ASCO Fe Ke5- YOO
+tice ne eiey ay : ; - - . =
+(4a tyd Cpt. en a ‘ A) . tee .
+rere , es ‘a *s, ‘, . eee Se, .! ‘ ft 0 ae
+be ge 2 a RT ae tient: He
+‘ > Tye eee '%.
+lfus. © Jesper Muyrtars L'2
+
+. . a ra . ct re oe Sh nn oe Pe we
+ius. © Jesper Myrtars Li2
+
+et 27 Pan Pe . es ot se -. Lid | . 1 eek
+BN ee an en eee Mee EE
+
+= as ve
+Jesper’ Miyctio
+“oe .- as =
+
+
+
+a
+,. oe ‘ _ Te 7 - wv a - <- .-, tw . = ee
+28, ', ' : _ 9 - es -- Z oi lft se. _ .. wate waren Se ones
+a : . fo’ afte wie AL cs e.¢. Ve, oh Pa
+mo I a ek ae a det Tae? yay 4
+on ea eo wee > @ » ae.
+
+oe oe ile Le PE ran ik aie oi Cae Ae aed
+
+. eo ee vo Fee ee - v3 ?> 7 eet: wr Ae
+
+i Nias, OFesper’Muctorsy 2% .
+Be ee ene oe Ee ee RY
+
+
+Avog 1 Te)
+
+; AT ae sO
+- ean Cn TT Lae
+
+Summon Atog
+.0¢:#2/42. Bach time:you use this
+iapteguegey St a eye ; y
+Ability vot must sacrifice one of
+a pres Sug Ai BAS DEESESN ONG 30 ih Spo ve
+esi Alley CRIOUTEA EBERICOLE
+
+Be REE SARS tS LVN Fe
+Illus. @Jesper Myrfors Li2.
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:56:24
+matched_name: Dwarven Soldier
+matched_set: FEM
+matched_collector: 53c
+reason: título superior OCR aproximado 'Dwarven Boldier OE'
+name_hint: ve, lost.” -~-Sarpadian Empires, vol. Te
+namebar_text: MuUarven DQadaw a
+
+4
+Dwarven Boldier OE
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+MuUarven DQadaw a
+
+}. “ss”... eee
+q
+
+wil fended thelr walled city-states agains "|
+mi the Orcs, their civilization was the y;
+So! first to falt, aind its name was sadly ty
+ve, lost.” -~-Sarpadian Empires, vol. Te
+drome at
+
+. headed their walled city-states against ,
+w the Orcs, their civilization was the |
+first to fall, aiad its mare twas sadly
+
+-) bos. Sarpadian Empires, vol. [ \
+NM NN Bs el aes at fag . . PRE
+1 ea64 ise’ od dix Cabo Ine. Altar emerged, ba
+
+Wes | ferxied ‘thelr. walled city-states agaist TAR
+
+MM the Orcs, their civilization was the
+
+Be fifo Fol, and is name wassady, TM
+
+i.” —-Sespadian Empires, vol. |
+qi y
+
+ee poste aoe °
+q df
+
+eye
+-loe feeye ogy oe Zi
+eS Mca FE tthe le lel Uber recarce!
+
+: pe
+he Spun antics Zh
+nererk ss 3 Pasar Oo date: Slr fas bere evearvelt
+
+ha Gaye baat ee AP
+cielle. ee een Rene are
+Aare 3 Pisa Fo Cate: Slag fen See mare!
+
+TO TI - : - aan
+He Gye gauss BY
+S L408 ‘Disanli'ed thee {Sogn fae Ui gfe rererant
+
+. rm UJ
+She Sou haa ulce Al
+eS Mca Eth lle te irs nave!
+
+Soo Sah tbr. roe a
+weet Tsay Fp eh ee a
+qi ,
+
+Hoe desut toa cihoses a
+ewe 8 Mca FE gh ele fel Ube it rear!
+
+F >
+Dwarven Soldier P19)
+eae» <4
+~ 4 ~
+at |
+> ag
+*. cS
+- Ay
+Summon Dwarf no]
+EA Donat ser Soldier blocks or is
+xBlocked SY: Ones, ‘it gets +0/+2.
+Pee OED OR Re ree iy, or EE
+dt>tA7Z2 OA Lire ate Pryas digs “A!
+Ulus. Davglas Shuler . 2/1
+q y
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:57:04
+matched_name: Dwarven Lieutenant
+matched_set: FEM
+matched_collector: 52
+reason: título superior OCR aproximado 'Dwarven Licutenant e'
+name_hint: Ny, = Satpadian Empires;wokTV""
+namebar_text: = 3 mg A
+
+Dwarven ui cuten ant ;
+
+Dwarven Licutenant e
+ne fa { Fm
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+= 3 mg A
+
+Dwarven ui cuten ant ;
+
+~ us. Jeff A. Menges a 1/2, |
+
+snr <r RAMP AL SE Lr SIMS REP veer en was _ A
+twa batde:moving upland down’ the lities : WAR
+"a ée Per th ACR 1 Ie ie SCs Oe pee “aay ra’
+Ny, = Satpadian Empires;wokTV""
+pS TUBS TERA MenBes 5 gh HREM ML 2
+
+i] , battle; moving up'and down the lines ¥E*
+“ext 00 rally their troops:and boost morale.” fig
+ra .—Sarpadian Empires, vol. IV nie
+se : r
+iS i ea SE rr ws, ef: are Fe. ° he. ar ae ; Ay ”)
+4 uss SiS Md PTE CSS * re a se wide > *. . fe
+
+pa AE AO NSS weg Os ,
+, dtrbetlry ary aot Chere snes; TTI ASE “¢ Ret it: Fis Ph '
+, S Pees Pr one aiane Bae on NN ote o Nit ERS OE Hi
+"Io Depilyoyite AEC ESI DIRS a iO SR ae f ;
+we aoe bf eee ee ee yr ee et Ft . .
+vet tae Tk s'est Pe LP ee ne wpe
+oh Se me -leu re 78S :
+pag! : ho . 12+ ata. ;
+. PCSus) gee. AS ee miei a
+
+af
+) - = .
+ra L i eee eo. eee ee ms cat . ce gts Be - oe 3
+. . “1m ° aad ~ te, . z= _— _ - bt : . an .
+“ mf . ‘ oie Prehi ' Jy. TNT PT ~
+. oe cote an) ald ~ vy oe 1
+. ade Ov, eee aA it alte. week, wh} bce *- FS oy be: ye. nae
+coor ne SNS i sea este ANE aA loc IS
+Met SNL sete. Bret
+
+|
+D1 Re sof the Céast ine, AL Fights Teveryed, ~
+
+oy Dirt i . my Pied O. > VETER S Ti | ~ ~ ‘ — . i ' . : ‘ WP
+gS ee aU Sea se aerved =
+
+- . re "he - : > ee c ‘4 so Nr, ae Ped : ° « . - ar . . We ‘
+| a +04 ° nd I - . . ' . an ar re
+ve? lose N ~" of : Coast, Int, Al rights Teverysd, et
+
+‘
+: - . -_
+” me. ’ 3e rw ‘ao Ss Me we ° wv a ‘ fj a
+READ 1900 ereerels od the Coane, YOO Al vighaty Bret oth. oad
+Late NY abide aha abel: ola ciraalshed > pty SOUS ae Oe
+
+D1 Re sof the Céast ine, AL Fights Teveryed, ~
+
+rtp raw af Ube Cokxt Une, All rights reserved, - |
+
+yo, D194 Naands of the Coast, Int, Alirights reveryed,
+
+Dwarven Licutenant e206
+
+‘ph { iw
+br ee 7 ty.
+= 7 Ne .
+a5, 4
+p elt o, b.
+Summon Dwarf we
+OER ETRE Peo eiéact ly) tO tin th
+Iilus. Jeff A. Menges 1/2.
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:57:40
+matched_name: Orcish Librarian
+matched_set: ICE
+matched_collector: 209
+reason: título superior OCR aproximado '“OrcishLibrarian ='
+name_hint: NeeI Us hungry, need food.... begs
+namebar_text: “OrcishLibrarian =
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+* IIlus, Phil: Foglio . 1/1 |
+
+-p,| YemMaining four on top Of your Mess:
+-vs| library in any order. qe
+Me! Us hungry, need food.... Ate
+mei| Lots of books.... Hmm.... ‘Ne
+
+fey remaining four on top of your Mg.
+af library in any order. ‘ae
+Nee| Us hungry, need food.... begs
+a Lots of books.... Himm.... yd
+pe Geil hes gate ue mal : E; at) Hs
+ban nd EER ae Ph aga NR STS ie ae
+
+-semMaining touron-top ol your om
+ehingry med fonds. |
+- Jilus:-Phil:Foglio - 1/1
+
+{> Free Gg ,
+Ime, .
+toe - oe = ~
+tas vo 69" a , > cr tree Tw ge
+a Me) t . 7 . . . Poem tok -- ha) os cate
+; MlussPhiliBoglio.,. 3 oo sg. PT Yq
+oe ee : , a ae Po -e 0 pe CLAY
+. ae a Moor et ge i Se en mae! - -¢,
+pieteee tt tag ca eninge bee ee ES ea Ney s. ery
+ee See on ne os a we et te Bt
+
+
+: i, eae Pri * aa rnCrns lot oo ek’ -. . - 4
+
+Act a re ate , A ae, ' _o . ee! ; | Al
+_SNINS ote of the Conte tog AM ea revered
+
+oe at:
+ws v.. ny rtf ~~. . . f oe tiny . ™ ial - &e os eo." ’ Re? ° 2
+| pee A ewes. AIRE, eho * Ser -S, Age Ae +e ane § J .
+oad ve & 33% ) Ben ) Av: ’ ye r,). ood reserved: ae ? ee | ~~ om:
+NS FAR AP Se NV CB eg te, Mae ply, pee LS.
+
+ee ae ov “. .
+
+. § ne mem TT ee me mee ce]. -oee an
+os Meal Frosty : AA
+OH1905 fy of the Coatt, tne. Alf ngtas reserved. — _ ale
+
+- ' a ae OY SY ; ; -44 ‘ . . : i" _°
+bisa. elite ke eit, toc. Alfrightareserved. fl
+
+Orcish Librarian 06
+4 susie e a eae My eee roe :
+\ jo vdewe oat ¢ 7 “urn he ae .
+= oo, ae! * Pret!
+See) lst Lak (SF Yeh ,
+Summon Ore &
+23: Take the top eight cards of
+(Your libraty;-cemove four of them
+‘aerandom:fromithe game. Put the
+EOS CAS Ghee gee TNS SN gets it ares
+sremaining four ontop ofyour:,
+puibra any Ode aetis ?-.7 ‘s “ee
+Lots Of GOORS SSH Mibe eo >!
+* Silus, Phil: Foglio 1/1
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:58:14
+matched_name: Goblin Tinkerer
+matched_set: MIR
+matched_collector: 180
+reason: título OCR 'I Goblin Tinkerer _'
+name_hint: -Imuwita, Zhalfirin artificer, last words
+namebar_text: s. = 8 4 .
+
+| Goblin Tinkerer _ ;
+
+z= _— =
+
+Goblin Tinkerer v1)
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+s. = 8 4 .
+
+| Goblin Tinkerer _ ;
+
+z= _— =
+
+BTA ee Bd es Ay Un Lh lg a2 Enea, eae
+IIlus. Hannibal King 1/2 |
+
+MDinkerery
+““Can'they'dothat® |
+-Imuwita, Zhalfirin artificer, last words
+Illus: Hannibal King | 1/2
+
+mm “Can they do that?”
+me —Ilmwita, Zhalfirin artificer, last words
+
+STR et
+gS Bo : meet fe aed
+ST Tey tran | Bed GO sf eae 3 “OY (ae
+C5) ey Ae guy . SN gel terse YO eke 2Y
+Ie iG BY Py Pa Be > ye Aral 5" me TS Cefn
+Dn: ARE) oOt ae wine REE - tr? ti
+bw | PIU OPEN) sie. enya
+. Hannibal King ee
+
+ERE
+~ Tilus:- Hannibal King 1/2
+
+‘-
+‘a - a,;° rd y y, « o * ~~ - . a. : a}
+wit ah ae 2 be ye as, PERL BANC ABas reserved 2 Woe: -~ * ae
+
+“Ss
+PD a
+S ny ORE ren SB
+Toe as a
+We peistetloe lg ASOT ot AR Bee NOS A SEL
+e., NO GPE MTS ook AU | Mi mabgr o,f ri elias
+ty): -te>.
+
+Sy SRR Ain gmt iggh cabge Mani a Se BAUS Py
+
+t
+ie Peis ssstsi‘(issiCid
+~-
+i ot . nt: }
+was. oe greene -
+-~ vy : aoe bY sp eam ore! rae . * re ” ° .
+Tits 1 eed, jee ewe ete 4S ary ¥ ee Sl a ts
+js AS ° Ha ni bf “4009. . om ie oy ae fre Piet eT eee ee
+ap mm teen te te .. +e ~ ee er a ee -* .° ' ‘ae
+ob . ry 7 0,8 9p : eee re | .s - zs ;
+. Ladies = ley ayes so @e . a a pt 7 iy .
+2 toe . fv, VET, a Cor git hee ~ 7 a” 2 . a
+a a “ rss 7 “My, ; - ‘“ Als ees m7
+; t .-: Ta a ot, :
+
+“Cm i.
+oes: : rie
+Pw AR. "me PAE ete we, ere ry 4
+
+~ na, , re 5 . , -. . 5 be
+cMSUN Se Ternnival: iat gs as Oa a ae we
+e RY maven f. ge = nen a _ ag SE ‘eo  ¢ ey? 5 2 Me a wn 7 gan ,*
+wi pega tee WeNaK M9 CSB ALOT 8 ORE 4 Be sre 32 ¢ J
+es me en wg ahi 00a os 5F.- ye Be
+ERAGE ESD, SOLAN TBS PONS. TO = eT ES
+
+
+REA, Temes 8p AS oP AS rR - ns. a Cre ep tet Puree $2 aA
+NiO ISOM ENA Re LOaie dae UC pas eeperved 2 Tey? 8
+Se EAS 8 REO CET AO REE SOS ALE BF Be
+
+Goblin Tinkerer OF.
+i | ae oe ~ '
+loc mi
+rage , re
+hee ae
+~. ¥ f j Teer
+= <i ane
+I ba‘ a, AN
+| > Sea !
+HEN See (ies Sire es 5 eg paint na
+Illus. Hannibal King 1/2 |
+
+
+======================================================================
+version: 2026-07-06.13
+timestamp: 2026-07-07 18:58:42
+matched_name: Canyon Wildcat
+matched_set: 8ED
+matched_collector: 181
+reason: título OCR 'Canyon Wildcat'
+name_hint: s- i a aw iveleA VUIEVTY Write Musete yy GAS GEES FEL WEE q
+namebar_text: , —
+
+Canyon Wildcat
+
+Ve chee annem! RD me ghee Ame edie <0 = bon ae ey wehe le cae
+| Canyon Wildcat Li
+
+set_code_hint: 
+collector_hint: 
+
+raw_ocr:
+, —
+
+Canyon Wildcat
+
+mm tracking sense and ability to climb walls. K
+ar) nd astrh: iran ~ arr 2 horns :
+
+ee ES REEDS) 4
+@ ln the warrior kingdom of Keld, the cats
+: used inthe hunt are prized for their :
+ig e ope ry i
+f tracking sense and ability to climb walls. [5
+. =" p_ Pal URED a DESEO A eas ~ ete mm ot ¥
+
+CONIC G4 LVICUMtGiihe
+@ In the warrior kingdom of Keld, the cats
+a used in the hunt are prized for their Pp
+ba tracking sense and ability to climb walls. k
+Whe wre HAST: eae WL AN -~
+
+‘ COMtIONs G4 LVIGCUMIGIN. } <
+@ In the warrior kingdom of Keld, the cats
+& used in the hunt are prized for their t
+mm tracking sense and ability to climb walls. ;
+TTF A La ‘ te . 5 -¢ . an an . a “~. Se . ?
+
+Mae CFCC DOM UME UUVHELY CY CLEMY With.
+ye SREP OR Li Os
+
++ id oF WOW FV OTE Ay VPYUFEGY WILE Muesce BL VEESTFEY CHLEEEVDs q
+?
+
+« . ome aay? AY? F : \. .: goo *!
+
+ow as UMM 1 to abas hepa. es) . Bea. 2-etnm .
+
+.° [ WOW IV ETO Ay VwWwWFEvYy UWFite MuUesse GAY UEETTEU CALC E We q
+?
+
+As oe . x Sa’ ) me ry. 6 oy ‘ ie eso chao f
+
+Pratt Bes ITT CCE Sn) US) SE SP ee
+
+:- | a AW IV ele a MVUIEVY WIELE Muesee GAY VEGIFEY CY LEEEVDs q
+od
+
+, P 2 ow F o'e. | e AG om ome 2/I
+
+wn Sadia f AR ay > , Cae co “an 7: ne as Pa
+U re. ET Se a Pa Oe OU Se eY .s. 2 ewe.
+
+s- i a aw iveleA VUIEVTY Write Musete yy GAS GEES FEL WEE q
+2
+
+“he oy o : 4 24 F Qrra i is See,
+
+ee te £97) aaa er ae ~ i : Lf ae roo. an oo.
+
+Aare OS® bg SN ee Oe eo a eee ee
+
+ne CP UCKINE SENSE ANU QGOULLY [0 CLUNO Was. t3
+Ep SOL! RLY ys
+
+yt
+PMS ati), bepttr.ss DSIRE TOON 2/1 )g
+
+: . i
+See ery TE
+Wow ) Ta 0 WSC ae eo eee.
+
+VD he athena nna nih emrnrre! WR) me eann Fo nn Se i ad eeataatehane Ol
+a Canyon Wildcat Lek
+: _ _ y4 ) ay 4
+. ae a |) a
+a . ~ sO S
+im Creature — Cat @ EF
+4 “
+a Mountainwalk (This creature is £
+ia unblockable as long as defending player
+: controls a Mountain.) x
+ia In the warrior kingdom of Keld, the cats
+a used in the hunt are prized for their e
+fa tracking sense and ability to climb walls. k
+
