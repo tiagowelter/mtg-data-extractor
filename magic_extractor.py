@@ -17,7 +17,7 @@ import requests
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
-from PIL import Image, ImageEnhance, ImageGrab, ImageOps, ImageTk
+from PIL import Image, ImageEnhance, ImageFilter, ImageGrab, ImageOps, ImageTk
 
 try:
     import pytesseract
@@ -45,16 +45,16 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-04.10"
+APP_VERSION = "2026-07-06.13"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
 MTGJSON_ATOMIC_PATH = DATA_DIR / "mtgjson_atomic_cards.json.gz"
 INDEX_PATH = DATA_DIR / "card_index.pkl"
-INDEX_VERSION = 12
+INDEX_VERSION = 13
 # Layouts that reuse real card names but are never scanned as collectible cards;
 # excluded from the fuzzy name/face matching pools.
-_NON_CATALOG_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem"}
+_NON_CATALOG_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem", "reversible_card"}
 EXCEL_PATH = APP_DIR / "MagicCollection.xlsx"
 DEBUG_PATH = APP_DIR / "last_extraction_debug.txt"
 DEBUG_LOG_PATH = APP_DIR / "extraction_log.txt"
@@ -301,6 +301,7 @@ AMBIGUOUS_SET_CODE_WORDS = {
     "STA",
     "THE",
     "UMA",
+    "VOC",
 }
 
 
@@ -734,6 +735,29 @@ class LocalOcr:
         lower_footer = lower_footer.resize((lower_footer.width * 6, lower_footer.height * 6))
         lower_contrast = ImageEnhance.Contrast(lower_footer).enhance(2.5)
         lower_inverted = ImageOps.invert(lower_contrast).point(lambda pixel: 255 if pixel > 110 else 0)
+        copyright_footer = original_footer.crop(
+            (0, int(original_footer.height * 0.56), int(original_footer.width * 0.95), original_footer.height)
+        )
+        copyright_footer = copyright_footer.resize((copyright_footer.width * 8, copyright_footer.height * 8))
+        copyright_contrast = ImageEnhance.Contrast(copyright_footer).enhance(3.0)
+        copyright_sharp = ImageEnhance.Contrast(copyright_footer.filter(ImageFilter.SHARPEN)).enhance(3.0)
+        copyright_light = copyright_contrast.point(lambda pixel: 255 if pixel > 70 else 0)
+        copyright_binary = copyright_contrast.point(lambda pixel: 255 if pixel > 80 else 0)
+        copyright_inverted = ImageOps.invert(copyright_contrast).point(lambda pixel: 255 if pixel > 170 else 0)
+        copyright_sharp_binary = copyright_sharp.point(lambda pixel: 255 if pixel > 110 else 0)
+        wide_copyright = original_footer.crop(
+            (0, int(original_footer.height * 0.52), int(original_footer.width * 0.98), original_footer.height)
+        )
+        wide_copyright = wide_copyright.resize((wide_copyright.width * 8, wide_copyright.height * 8))
+        wide_copyright = ImageEnhance.Contrast(wide_copyright).enhance(3.0)
+        wide_copyright_light = wide_copyright.point(lambda pixel: 255 if pixel > 70 else 0)
+        low_copyright = original_footer.crop(
+            (0, int(original_footer.height * 0.64), int(original_footer.width * 0.98), original_footer.height)
+        )
+        low_copyright = low_copyright.resize((low_copyright.width * 8, low_copyright.height * 8))
+        low_copyright = ImageEnhance.Contrast(low_copyright).enhance(3.0)
+        low_copyright_light = low_copyright.point(lambda pixel: 255 if pixel > 70 else 0)
+        low_copyright_binary = low_copyright.point(lambda pixel: 255 if pixel > 90 else 0)
         lang = self.ocr_lang if self.por_available else "eng"
         return "\n".join(
             [
@@ -741,6 +765,13 @@ class LocalOcr:
                 pytesseract.image_to_string(binary, lang=lang, config="--psm 6"),
                 pytesseract.image_to_string(inverted_binary, lang=lang, config="--psm 6"),
                 pytesseract.image_to_string(lower_inverted, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(copyright_light, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(copyright_binary, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(copyright_inverted, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(copyright_sharp_binary, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(wide_copyright_light, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(low_copyright_light, lang=lang, config="--psm 6"),
+                pytesseract.image_to_string(low_copyright_binary, lang=lang, config="--psm 6"),
             ]
         )
 
@@ -812,7 +843,12 @@ class LocalOcr:
             value -= sum(3 for word in words if word in ignored)
             value -= sum(2 for word in words if word in {"instant", "sorcery", "artifact", "enchantment", "land"})
             value -= sum(1 for word in words if word.isdigit())
-            if re.search(r"[©™]|wizards|coast|wasatch|anthony|palumbo|paliso", candidate, re.IGNORECASE):
+            if re.search(
+                r"[©™]|\b(?:h?illus|iilus|iilug|inus|tilus|tilug|tl?lus|tlug|tlust|titus|hust)\b|"
+                r"wizards|coast|wasatch|anthony|palumbo|paliso",
+                candidate,
+                re.IGNORECASE,
+            ):
                 value -= 50
             if "/" in candidate or re.search(r"\b\d{3,}\b", candidate):
                 value -= 25
@@ -1440,7 +1476,7 @@ class ScryfallDatabase:
                     if len(candidate) < matched_len * 0.55:
                         continue
                     matched_words = match[0].split()
-                    if len(matched_words) == 1 and match[0] not in candidate.split():
+                    if len(matched_words) == 1 and candidate != match[0]:
                         continue
                     if match[1] > best_score:
                         best_score = match[1]
@@ -1542,10 +1578,16 @@ class ScryfallDatabase:
         namebar_en = self._fuzzy_namebar(ocr.namebar_text)
         if namebar_en and self._distinctive_name_in_raw_text(namebar_en, ocr.raw_text):
             return namebar_en
+        pt_words_card, pt_words_name = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
+        if (
+            pt_words_card
+            and len(normalize_text(pt_words_name).split()) >= 2
+            and self._distinctive_name_in_raw_text(pt_words_card, ocr.raw_text)
+        ):
+            return pt_words_card
         face_card, _ = self._find_by_face_names_in_text(ocr.raw_text)
         if face_card and self._distinctive_name_in_raw_text(face_card, ocr.raw_text):
             return face_card
-        pt_words_card, _ = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
         if pt_words_card and self._distinctive_name_in_raw_text(pt_words_card, ocr.raw_text):
             return pt_words_card
         if ocr.name_hint and self._likely_name_hint(ocr.name_hint):
@@ -1764,13 +1806,27 @@ class ScryfallDatabase:
         if matched:
             return matched
 
+        card, matched_line = self._fuzzy_english_title_in_text(ocr.namebar_text)
+        matched = try_match(card, f"tÃ­tulo superior OCR aproximado '{matched_line}'")
+        if matched:
+            return matched
+
+        pt_words_card, pt_words_name = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
+        if (
+            pt_words_card
+            and len(normalize_text(pt_words_name).split()) >= 2
+            and self._distinctive_name_in_raw_text(pt_words_card, ocr.raw_text)
+        ):
+            matched = try_match(pt_words_card, f"nome PT palavras '{pt_words_name}'")
+            if matched:
+                return matched
+
         face_card, face_name = self._find_by_face_names_in_text(ocr.raw_text)
         if face_card and self._distinctive_name_in_raw_text(face_card, ocr.raw_text):
             matched = try_match(face_card, f"face OCR '{face_name}'")
             if matched:
                 return matched
 
-        pt_words_card, pt_words_name = self._fuzzy_portuguese_words_in_text(ocr.raw_text)
         if pt_words_card and self._distinctive_name_in_raw_text(pt_words_card, ocr.raw_text):
             matched = try_match(pt_words_card, f"nome PT palavras '{pt_words_name}'")
             if matched:
@@ -1803,6 +1859,30 @@ class ScryfallDatabase:
             if matched:
                 return matched
 
+        card, matched_line = self._exact_english_self_reference_in_text(ocr.raw_text)
+        matched = try_match(card, f"auto-referência OCR '{matched_line}'")
+        if matched:
+            return matched
+
+        card, matched_line = self._exact_english_title_in_text(ocr.raw_text)
+        matched = try_match(card, f"título OCR bruto '{matched_line}'")
+        if matched:
+            return matched
+
+        card, matched_line = self._fuzzy_english_title_in_text(ocr.raw_text)
+        matched = try_match(card, f"título OCR aproximado '{matched_line}'")
+        if matched:
+            return matched
+
+        card, matched_line = self._exact_english_name_in_text(ocr.raw_text)
+        matched = try_match(card, f"nome inglês OCR '{matched_line}'")
+        if matched:
+            return matched
+
+        card, matched_line = self._find_by_text_signature(ocr.raw_text)
+        if card:
+            return finalize(card, f"assinatura texto+artista '{matched_line}'")
+
         if ocr.name_hint and self._likely_name_hint(ocr.name_hint):
             normalized_hint = normalize_ocr_name(ocr.name_hint)
             card = None
@@ -1833,7 +1913,9 @@ class ScryfallDatabase:
 
         return difflib.SequenceMatcher(None, normalize_text(card_name), normalize_text(name_hint)).ratio() >= 0.72
 
-    def _print_from_context(self, same_oracle_cards: list[dict], raw_text: str) -> dict | None:
+    def _print_from_context(
+        self, same_oracle_cards: list[dict], raw_text: str, *, include_tolerant_year: bool = True
+    ) -> dict | None:
         """Pick a printing from footer/copyright evidence other than an exact
         collector match: the set card-count total (e.g. ".../81" -> the only
         printing in an 81-card set) and then the copyright year (e.g. the
@@ -1862,14 +1944,15 @@ class ScryfallDatabase:
         # sits on the lowest-contrast line, so OCR mangles a digit (e.g. "2010"
         # read as "1010"). Recover it by matching each printing's release year
         # against the OCR allowing one wrong digit.
-        release_years = {(item.get("released_at") or "")[:4] for item in context_cards}
-        release_years = {year for year in release_years if re.fullmatch(r"\d{4}", year)}
-        tolerant = self._years_in_copyright(raw_text, release_years)
-        if tolerant:
-            target = max(tolerant)
-            matches = [item for item in context_cards if (item.get("released_at") or "")[:4] == target]
-            if len(matches) == 1:
-                return matches[0]
+        if include_tolerant_year:
+            release_years = {(item.get("released_at") or "")[:4] for item in context_cards}
+            release_years = {year for year in release_years if re.fullmatch(r"\d{4}", year)}
+            tolerant = self._years_in_copyright(raw_text, release_years)
+            if tolerant:
+                target = max(tolerant)
+                matches = [item for item in context_cards if (item.get("released_at") or "")[:4] == target]
+                if len(matches) == 1:
+                    return matches[0]
         return None
 
     def _flavor_scores(self, cards: list[dict], raw_text: str) -> dict[int, tuple[int, int]]:
@@ -1945,10 +2028,12 @@ class ScryfallDatabase:
     def _years_in_copyright(raw_text: str, candidate_years: set[str]) -> set[str]:
         normalized = re.sub(r"[OoQ]", "0", raw_text)
         normalized = re.sub(r"[lI|]", "1", normalized)
-        tokens = set(re.findall(r"\d{4}", normalized))
+        tokens = set(re.findall(r"(?<!\d)\d{4}(?!\d)", normalized))
         found = set()
         for year in candidate_years:
             for token in tokens:
+                if year[:2] != token[:2]:
+                    continue
                 if sum(a != b for a, b in zip(year, token)) <= 1:
                     found.add(year)
                     break
@@ -1989,8 +2074,14 @@ class ScryfallDatabase:
                     return card
             return set_matches[0]
 
-        # With no readable set/collector, the flavor text on the card is the
-        # strongest remaining signal for which reprint this is: discard the
+        strong_context_pick = self._print_from_context(
+            same_oracle_cards, raw_text, include_tolerant_year=False
+        )
+        if strong_context_pick and not collectors:
+            return strong_context_pick
+
+        # With no readable set/collector/year, the flavor text on the card is
+        # the strongest remaining signal for which reprint this is: discard the
         # printings whose flavor contradicts the scan before falling back.
         compatible = self._flavor_compatible_prints(same_oracle_cards, raw_text)
         compatible = self._artist_compatible_prints(compatible, raw_text)
@@ -2019,16 +2110,26 @@ class ScryfallDatabase:
         text = raw_text.upper()
         collectors = set()
         for match in re.finditer(r"\b([0-9OIL]{1,4}[A-Z]?)\s*/\s*[0-9OILSE]{1,5}\b", text):
-            collectors.add(ocr_collector_key(match.group(1)))
+            collector = ocr_collector_key(match.group(1))
+            total_raw = match.group(0).split("/", 1)[1]
+            total_raw = total_raw.translate(str.maketrans({"O": "0", "I": "1", "L": "1", "E": "8", "S": "5"}))
+            total_match = re.match(r"\s*(\d{1,5})", total_raw)
+            if total_match and ScryfallDatabase._is_likely_collector_fraction(collector, int(total_match.group(1))):
+                collectors.add(collector)
         tokens = re.findall(r"[A-Z0-9]+", text)
         for index, token in enumerate(tokens[:-1]):
             normalized_token = token.translate(str.maketrans({"O": "0", "I": "1", "L": "1"}))
             normalized_next = tokens[index + 1].translate(str.maketrans({"O": "0", "I": "1", "L": "1", "E": "8", "S": "5"}))
             if re.fullmatch(r"0*\d{1,4}", normalized_token) and re.fullmatch(r"\d{1,5}", normalized_next):
+                if not re.search(r"\d", tokens[index + 1]):
+                    continue
                 total = int(normalized_next)
+                if total > 999:
+                    continue
                 number_match = re.match(r"0*(\d+)", normalized_token)
-                if number_match and int(number_match.group(1)) <= total:
-                    collectors.add(collector_key(normalized_token))
+                collector = collector_key(normalized_token)
+                if number_match and ScryfallDatabase._is_likely_collector_fraction(collector, total):
+                    collectors.add(collector)
             right_window = tokens[index + 1 : index + 6]
             if (
                 re.fullmatch(r"S\d{1,3}[A-Z]?", token)
@@ -2226,10 +2327,36 @@ class ScryfallDatabase:
         has_exact_title = bool(
             exact_title_card and exact_title_card.get("oracle_id") == card.get("oracle_id")
         )
+        self_reference_card, _ = self._exact_english_self_reference_in_text(ocr.raw_text)
+        has_self_reference = bool(
+            self_reference_card and self_reference_card.get("oracle_id") == card.get("oracle_id")
+        )
+        fuzzy_title_card, _ = self._fuzzy_english_title_in_text(ocr.raw_text)
+        fuzzy_namebar_title_card, _ = self._fuzzy_english_title_in_text(ocr.namebar_text)
+        has_fuzzy_title = bool(
+            (
+                fuzzy_title_card
+                and fuzzy_title_card.get("oracle_id") == card.get("oracle_id")
+            )
+            or (
+                fuzzy_namebar_title_card
+                and fuzzy_namebar_title_card.get("oracle_id") == card.get("oracle_id")
+            )
+        )
+        exact_name_card, _ = self._exact_english_name_in_text(ocr.raw_text)
+        has_exact_name = bool(
+            exact_name_card and exact_name_card.get("oracle_id") == card.get("oracle_id")
+        )
         # When this card's own name is the title read clearly from the image, a
         # collector number that carries an OCR digit error (e.g. 215 read as 219)
         # must not veto it — the name is the stronger signal.
-        strong_name = (name_present and is_hint_card) or has_exact_title
+        strong_name = (
+            (name_present and is_hint_card)
+            or has_exact_title
+            or has_self_reference
+            or has_fuzzy_title
+            or has_exact_name
+        )
         if not strong_name and self._ocr_contradicts_card(card, ctx):
             return False
         if (
@@ -2263,6 +2390,10 @@ class ScryfallDatabase:
                 # "Zhur-Taa Goblin" into "Senate Griffin").
                 if self._hint_card_shares_set(ctx.hint_card, (card.get("set") or "").upper()):
                     return False
+        if has_exact_title or has_self_reference or has_exact_name:
+            return True
+        if has_fuzzy_title and self._distinctive_name_in_raw_text(card, ocr.raw_text):
+            return True
         if self._print_evidence_in_ocr(card, ctx):
             return True
         if self._card_name_in_raw_text(card, ocr.raw_text):
@@ -2348,16 +2479,52 @@ class ScryfallDatabase:
         words = normalized.split()
         if len(words) < 1 or len(words) > 6:
             return False
+        if {
+            "hlus",
+            "iilug",
+            "illus",
+            "iilus",
+            "ilus",
+            "inus",
+            "tlug",
+            "illustrated",
+            "illustration",
+            "hust",
+            "tilug",
+            "tilus",
+            "titus",
+            "tllus",
+            "tlus",
+            "tlust",
+            "wizards",
+            "coast",
+            "rights",
+            "reserved",
+        }.intersection(words):
+            return False
         rules_words = {
             "changeling",
             "this",
             "card",
             "every",
             "creature",
+            "creatures",
             "type",
             "whenever",
             "target",
             "until",
+            "each",
+            "player",
+            "players",
+            "play",
+            "bury",
+            "cannot",
+            "spend",
+            "turn",
+            "number",
+            "snow",
+            "covered",
+            "swamps",
             "magic",
             "gathering",
             "colecao",
@@ -2368,6 +2535,10 @@ class ScryfallDatabase:
             "causa",
             "dano",
             "damage",
+            "creatures",
+            "bury",
+            "cannot",
+            "spend",
             "ataca",
             "ataque",
             "bloquear",
@@ -2581,7 +2752,17 @@ class ScryfallDatabase:
     @staticmethod
     def _title_extra_words_are_noise(words: list[str], matched_size: int) -> bool:
         extras = words[matched_size:]
-        return all(re.fullmatch(r"\d+|[0-9wubrgcxyz]+", word) for word in extras)
+        if all(re.fullmatch(r"\d+|[0-9wubrgcxyz]+", word) for word in extras):
+            return True
+        if (
+            matched_size >= 2
+            and len(extras) == 1
+            and re.fullmatch(r"[a-z]{2,4}", extras[0])
+            and extras[0] not in COMMON_EN_OCR_WORDS
+            and extras[0] not in COMMON_PT_OCR_WORDS
+        ):
+            return True
+        return False
 
     def _exact_english_title_in_text(self, raw_text: str) -> tuple[dict | None, str]:
         if not raw_text:
@@ -2609,6 +2790,272 @@ class ScryfallDatabase:
                 original_name, card_index = choices[candidate]
                 if len(normalize_text(original_name).split()) == size:
                     return self.cards[card_index], cleaned
+        return None, ""
+
+    def _fuzzy_english_title_in_text(self, raw_text: str) -> tuple[dict | None, str]:
+        if not raw_text or not process or not fuzz:
+            return None, ""
+        choices = self._en_norm_choices()
+        compact_choices = {}
+        for normalized_name, choice in choices.items():
+            name_words = normalized_name.split()
+            if len(name_words) < 2:
+                continue
+            compact_name = "".join(name_words)
+            if len(compact_name) >= 8:
+                compact_choices.setdefault(compact_name, choice)
+        ignored = COMMON_EN_OCR_WORDS | COMMON_PT_OCR_WORDS | {
+            "again",
+            "illus",
+            "letter",
+            "wizards",
+            "coast",
+        }
+        best_card = None
+        best_line = ""
+        best_score = 0.0
+        lines_seen = 0
+        for line in raw_text.splitlines():
+            cleaned = clean_ocr_line(line)
+            if re.search(r"[\u2013\u2014]", cleaned):
+                continue
+            words = [word for word in normalize_text(cleaned).split() if len(word) >= 3]
+            if not words or len(words) > 4:
+                continue
+            lines_seen += 1
+            if lines_seen > 90:
+                break
+            first_word = words[0]
+            if len(first_word) < 4 or first_word in ignored:
+                continue
+            if len(first_word) >= 8 and compact_choices:
+                compact_match = process.extractOne(first_word, compact_choices.keys(), scorer=fuzz.ratio)
+                if compact_match and compact_match[1] >= 94:
+                    original_name, card_index = compact_choices[compact_match[0]]
+                    score = float(compact_match[1]) + len(normalize_text(original_name).split()) + 1
+                    if score > best_score:
+                        best_score = score
+                        best_card = self.cards[card_index]
+                        best_line = cleaned
+            for size in range(min(4, len(words)), 1, -1):
+                candidate = " ".join(words[:size])
+                match = process.extractOne(candidate, choices.keys(), scorer=fuzz.ratio)
+                if not match or match[1] < 88:
+                    continue
+                original_name, card_index = choices[match[0]]
+                name_words = normalize_text(original_name).split()
+                if len(name_words) != size:
+                    continue
+                if not all(
+                    candidate_word[:2] == name_word[:2]
+                    or (
+                        len(candidate_word) >= 4
+                        and len(name_word) >= 4
+                        and candidate_word[1:] == name_word[1:]
+                    )
+                    for candidate_word, name_word in zip(candidate.split(), name_words)
+                ):
+                    continue
+                score = float(match[1]) + size
+                if score > best_score:
+                    best_score = score
+                    best_card = self.cards[card_index]
+                    best_line = cleaned
+        if best_card:
+            return best_card, best_line
+        return None, ""
+
+    def _exact_english_name_in_text(self, raw_text: str) -> tuple[dict | None, str]:
+        if not raw_text:
+            return None, ""
+        choices = self._en_norm_choices()
+        best_card = None
+        best_line = ""
+        best_score = 0
+        lines_seen = 0
+        for line in raw_text.splitlines():
+            cleaned = clean_ocr_line(line)
+            words = normalize_text(cleaned).split()
+            if not words or len(words) > 9:
+                continue
+            lines_seen += 1
+            if lines_seen > 100:
+                break
+            for size in range(min(6, len(words)), 1, -1):
+                for start in range(0, len(words) - size + 1):
+                    candidate = " ".join(words[start : start + size])
+                    if candidate not in choices:
+                        continue
+                    original_name, card_index = choices[candidate]
+                    name_words = normalize_text(original_name).split()
+                    if len(name_words) != size:
+                        continue
+                    distinctive_words = [
+                        word
+                        for word in name_words
+                        if len(word) >= 4
+                        and word not in COMMON_EN_OCR_WORDS
+                        and word not in COMMON_PT_OCR_WORDS
+                    ]
+                    if not distinctive_words:
+                        continue
+                    card = self.cards[card_index]
+                    support = self._rules_text_support_score(card, raw_text)
+                    if support < 4:
+                        continue
+                    score = support * 100 + size
+                    if score > best_score:
+                        best_score = score
+                        best_card = card
+                        best_line = cleaned
+        if best_card:
+            return best_card, best_line
+        return None, ""
+
+    @staticmethod
+    def _artist_name_in_raw_text(card: dict, normalized_raw: str, compact_raw: str, raw_words: list[str]) -> bool:
+        artist = normalize_text(card.get("artist", ""))
+        if not artist:
+            return False
+        if artist in normalized_raw:
+            return True
+        compact_artist = re.sub(r"\s+", "", artist)
+        if len(compact_artist) >= 7 and compact_artist in compact_raw:
+            return True
+        artist_words = [word for word in artist.split() if len(word) >= 3]
+        return bool(artist_words) and all(word in raw_words for word in artist_words)
+
+    def _find_by_text_signature(self, raw_text: str) -> tuple[dict | None, str]:
+        if not raw_text:
+            return None, ""
+        normalized_raw = normalize_text(raw_text)
+        compact_raw = re.sub(r"\s+", "", normalized_raw)
+        raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
+        best_by_oracle: dict[str, tuple[int, dict]] = {}
+        for card in self.cards:
+            if card.get("lang") != "en" or card.get("layout") in _NON_CATALOG_LAYOUTS:
+                continue
+            if not self._artist_name_in_raw_text(card, normalized_raw, compact_raw, raw_words):
+                continue
+            score = self._rules_text_support_score(card, raw_text)
+            if score < 8:
+                continue
+            oracle_id = card.get("oracle_id") or card.get("name")
+            current = best_by_oracle.get(oracle_id)
+            if current is None or score > current[0]:
+                best_by_oracle[oracle_id] = (score, card)
+        if not best_by_oracle:
+            return None, ""
+        ranked = sorted(best_by_oracle.values(), key=lambda item: item[0], reverse=True)
+        best_score, best_card = ranked[0]
+        if best_score < 10:
+            return None, ""
+        if len(ranked) > 1 and ranked[1][0] > best_score - 3:
+            return None, ""
+        return best_card, best_card.get("artist", "")
+
+    @staticmethod
+    def _self_reference_line_context(words: list[str], index: int) -> bool:
+        following = words[index + 1 : index + 4]
+        previous = words[max(0, index - 3) : index]
+        action_words = {
+            "attacks",
+            "becomes",
+            "blocks",
+            "can",
+            "cant",
+            "cannot",
+            "costs",
+            "deals",
+            "dies",
+            "enters",
+            "exiles",
+            "gains",
+            "gets",
+            "has",
+            "leaves",
+            "loses",
+            "may",
+            "must",
+            "pays",
+            "regenerates",
+            "returns",
+            "sacrifices",
+            "taps",
+            "untaps",
+        }
+        lead_words = {"when", "whenever", "if", "as", "or", "then"}
+        return bool(
+            (following and following[0] in action_words)
+            or (len(following) >= 2 and following[1] in action_words)
+            or (previous and previous[-1] in lead_words and following and following[0] in action_words)
+        )
+
+    @staticmethod
+    def _rules_text_support_score(card: dict, raw_text: str) -> int:
+        ignored = COMMON_EN_OCR_WORDS | COMMON_PT_OCR_WORDS | {
+            "about",
+            "also",
+            "another",
+            "could",
+            "these",
+            "those",
+            "unless",
+            "would",
+        }
+        raw_words = [word for word in normalize_text(raw_text).split() if len(word) >= 4]
+        rules_text = " ".join(
+            [
+                card_faces_text(card, "type_line"),
+                card_faces_text(card, "oracle_text"),
+                card_faces_text(card, "flavor_text"),
+                card.get("artist", ""),
+            ]
+        )
+        support_words = [
+            word
+            for word in normalize_text(rules_text).split()
+            if len(word) >= 5 and word not in ignored
+        ]
+        support_words = list(dict.fromkeys(support_words))
+        return fuzzy_word_count(support_words, raw_words, threshold=88)
+
+    def _exact_english_self_reference_in_text(self, raw_text: str) -> tuple[dict | None, str]:
+        if not raw_text:
+            return None, ""
+        choices = self._en_norm_choices()
+        ignored_names = COMMON_EN_OCR_WORDS | COMMON_PT_OCR_WORDS | MTG_KEYWORD_NAME_STOPWORDS
+        best_card = None
+        best_line = ""
+        best_score = 0
+        lines_seen = 0
+        for line in raw_text.splitlines():
+            cleaned = clean_ocr_line(line)
+            words = normalize_text(cleaned).split()
+            if not words or len(words) > 10:
+                continue
+            lines_seen += 1
+            if lines_seen > 90:
+                break
+            for index, word in enumerate(words):
+                if len(word) < 5 or word in ignored_names or word not in choices:
+                    continue
+                original_name, card_index = choices[word]
+                if len(normalize_text(original_name).split()) != 1:
+                    continue
+                if not self._self_reference_line_context(words, index):
+                    continue
+                card = self.cards[card_index]
+                support = self._rules_text_support_score(card, raw_text)
+                if support < 4:
+                    continue
+                score = support * 100 + min(len(word), 20)
+                if score > best_score:
+                    best_score = score
+                    best_card = card
+                    best_line = cleaned
+        if best_card:
+            return best_card, best_line
         return None, ""
 
     def _fuzzy_ocr_text(self, raw_text: str) -> tuple[dict | None, str]:
