@@ -45,13 +45,16 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-08.14"
+APP_VERSION = "2026-07-08.16"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
 MTGJSON_ATOMIC_PATH = DATA_DIR / "mtgjson_atomic_cards.json.gz"
 INDEX_PATH = DATA_DIR / "card_index.pkl"
-INDEX_VERSION = 23
+INDEX_VERSION = 24
+# Latin-script languages whose printed names (from foreign-only printings in
+# the Scryfall bulk, e.g. FBB French "Lunettes d'Urza") join the name pools.
+_FOREIGN_NAME_LANGS = {"fr", "es", "it", "de", "pt"}
 # Layouts that reuse real card names but are never scanned as collectible cards;
 # excluded from the fuzzy name/face matching pools.
 _NON_CATALOG_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem", "reversible_card"}
@@ -476,6 +479,13 @@ def ocr_collector_key(value: str) -> str:
     value = value.translate(str.maketrans({"O": "0", "I": "1", "L": "1"}))
     value = re.sub(r"^[568](\d{3}[A-Z]?)$", r"\1", value)
     return collector_key(value)
+
+
+def normalized_phrase_in_text(normalized_name: str, normalized_raw: str) -> bool:
+    """Word-boundary containment: "lich" must not match inside "willich"."""
+    if not normalized_name:
+        return False
+    return bool(re.search(rf"\b{re.escape(normalized_name)}\b", normalized_raw))
 
 
 def words_fuzzy_match(expected: str, word: str, threshold: int = 82) -> bool:
@@ -1057,6 +1067,8 @@ class ScryfallDatabase:
         self.name_choices: list[tuple[str, int]] = []
         self.pt_name_choices: list[tuple[str, int]] = []
         self.face_name_choices: list[tuple[str, int]] = []
+        self.foreign_name_choices: list[tuple[str, int]] = []
+        self.foreign_names_by_oracle: dict[str, list[str]] = {}
         self.set_booster_max: dict[str, int] = {}
         self.oracle_collectors: dict[str, set[str]] = {}
         self.loaded = False
@@ -1087,6 +1099,45 @@ class ScryfallDatabase:
 
     def _face_norm_choices(self) -> dict[str, tuple[str, int]]:
         return self._normalized_choices("face", self.face_name_choices)
+
+    def _foreign_norm_choices(self) -> dict[str, tuple[str, int]]:
+        return self._normalized_choices("foreign", self.foreign_name_choices)
+
+    def _build_foreign_names(self) -> None:
+        """Printed names of Latin-script foreign printings, mapped to their
+        English counterpart. These cover foreign-only sets (FBB, 4BB, REN,
+        RIN...) whose cards otherwise have no name in any matching pool."""
+        self.foreign_name_choices.clear()
+        self.foreign_names_by_oracle.clear()
+        en_index_by_oracle: dict[str, int] = {}
+        for index, card in enumerate(self.cards):
+            if card.get("lang") != "en" or card.get("layout") in _NON_CATALOG_LAYOUTS:
+                continue
+            oracle_id = card.get("oracle_id") or card.get("name")
+            en_index_by_oracle.setdefault(oracle_id, index)
+        en_keys = {normalize_text(name) for name, _index in self.name_choices}
+        pt_keys = {normalize_text(name) for name, _index in self.pt_name_choices}
+        seen = set()
+        for card in self.cards:
+            if card.get("lang") not in _FOREIGN_NAME_LANGS:
+                continue
+            if card.get("layout") in _NON_CATALOG_LAYOUTS:
+                continue
+            oracle_id = card.get("oracle_id") or card.get("name")
+            en_index = en_index_by_oracle.get(oracle_id)
+            if en_index is None:
+                continue
+            printed_names = [card.get("printed_name") or ""]
+            for face in card.get("card_faces") or []:
+                printed_names.append(face.get("printed_name") or "")
+            for printed_name in printed_names:
+                printed_name = printed_name.strip()
+                key = normalize_text(printed_name)
+                if not key or key in seen or key in en_keys or key in pt_keys:
+                    continue
+                seen.add(key)
+                self.foreign_name_choices.append((printed_name, en_index))
+                self.foreign_names_by_oracle.setdefault(oracle_id, []).append(printed_name)
 
     def download(self, log) -> None:
         DATA_DIR.mkdir(exist_ok=True)
@@ -1168,6 +1219,8 @@ class ScryfallDatabase:
         self.name_choices.clear()
         self.pt_name_choices.clear()
         self.face_name_choices.clear()
+        self.foreign_name_choices.clear()
+        self.foreign_names_by_oracle.clear()
         self.set_booster_max.clear()
         self.oracle_collectors.clear()
 
@@ -1235,6 +1288,8 @@ class ScryfallDatabase:
                             self.face_name_choices.append((part, index))
                             seen_face_choices.add(part_key)
 
+        self._build_foreign_names()
+
         state = {
             "cards": self.cards,
             "sets": self.sets,
@@ -1245,6 +1300,8 @@ class ScryfallDatabase:
             "name_choices": self.name_choices,
             "pt_name_choices": self.pt_name_choices,
             "face_name_choices": self.face_name_choices,
+            "foreign_name_choices": self.foreign_name_choices,
+            "foreign_names_by_oracle": self.foreign_names_by_oracle,
             "set_booster_max": self.set_booster_max,
             "oracle_collectors": self.oracle_collectors,
             "loaded": True,
@@ -1500,6 +1557,14 @@ class ScryfallDatabase:
             candidates.append(normalized_all)
         return candidates
 
+    def _foreign_names_for(self, card: dict) -> list[str]:
+        oracle_id = card.get("oracle_id") or card.get("name")
+        names = []
+        for printed_name in self.foreign_names_by_oracle.get(oracle_id, []):
+            names.append(printed_name)
+            names.extend(split_face_values(printed_name))
+        return names
+
     def _best_name_coverage(self, card: dict, line: str) -> int:
         """Best coverage of any of the card's names against a namebar line."""
         normalized_line = normalize_text(line)
@@ -1512,6 +1577,7 @@ class ScryfallDatabase:
             printed = pt_card.get("printed_name") or pt_card.get("name") or ""
             names.append(printed)
             names.extend(part.strip() for part in re.split(r"\s*/\s*", printed))
+        names.extend(self._foreign_names_for(card))
         return max((self._hint_word_coverage(name, normalized_line) for name in names if name), default=0)
 
     def _fuzzy_namebar(self, namebar_text: str) -> dict | None:
@@ -1549,7 +1615,11 @@ class ScryfallDatabase:
             # ("Seeker" inside "Mindseeker"). Plain ratio keeps fuller names in
             # the candidate pool, then word coverage chooses the title that
             # explains the most OCR words.
-            for choices in (self._en_norm_choices(), self._pt_norm_choices()):
+            for choices in (
+                self._en_norm_choices(),
+                self._pt_norm_choices(),
+                self._foreign_norm_choices(),
+            ):
                 if not choices:
                     continue
                 for match in process.extract(normalized, choices.keys(), scorer=fuzz.ratio, limit=12):
@@ -1644,13 +1714,14 @@ class ScryfallDatabase:
                 part = part.strip()
                 if part:
                     names.append(part)
+        names.extend(self._foreign_names_for(card))
         normalized_raw = normalize_text(raw_text)
         raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
         for card_name in names:
             if not card_name:
                 continue
             normalized_name = normalize_text(card_name)
-            if normalized_name and normalized_name in normalized_raw:
+            if normalized_phrase_in_text(normalized_name, normalized_raw):
                 return True
             name_words = [
                 word for word in normalized_name.split() if len(word) >= 4 and word not in COMMON_PT_OCR_WORDS
@@ -1791,7 +1862,10 @@ class ScryfallDatabase:
             if len(all_pt_words) > 1 and first_word:
                 if not any(words_fuzzy_match(first_word, word, 86) for word in raw_words):
                     continue
-            if len(match_words) == 1 and not fuzzy_word_count(match_words, raw_words, threshold=86):
+            # A single distinctive word is weak evidence: at 86 an OCR noise
+            # token passes ("cone" for "Clone", English "controler" for
+            # "Controlar"). Require a near-exact read.
+            if len(match_words) == 1 and not fuzzy_word_count(match_words, raw_words, threshold=90):
                 continue
             matches = fuzzy_word_count(match_words, raw_words)
             required = min(3, len(match_words)) if len(match_words) >= 3 else min(2, len(match_words))
@@ -2575,13 +2649,14 @@ class ScryfallDatabase:
                 part = part.strip()
                 if part:
                     names.append(part)
+        names.extend(self._foreign_names_for(card))
         names = [name for name in names if name]
         if not names:
             return False
         normalized_raw = normalize_text(raw_text)
         for card_name in names:
             normalized_name = normalize_text(card_name)
-            if normalized_name and normalized_name in normalized_raw:
+            if normalized_phrase_in_text(normalized_name, normalized_raw):
                 return True
             name_words = [word for word in normalized_name.split() if len(word) >= 4]
             required_matches = 2 if len(name_words) >= 2 else 1
@@ -2617,12 +2692,13 @@ class ScryfallDatabase:
             printed_name = pt_card.get("printed_name") or pt_card.get("name") or ""
             names.append(printed_name)
             names.extend(part.strip() for part in re.split(r"\s*/\s*", printed_name) if part.strip())
+        names.extend(self._foreign_names_for(card))
 
         normalized_raw = normalize_text(raw_text)
         raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
         for card_name in (name for name in names if name):
             normalized_name = normalize_text(card_name)
-            if normalized_name and normalized_name in normalized_raw:
+            if normalized_phrase_in_text(normalized_name, normalized_raw):
                 return True
             name_words = [
                 word
@@ -2998,6 +3074,19 @@ class ScryfallDatabase:
         raw_words = [word for word in normalize_text(raw_text).split() if len(word) >= 3]
         if namebar_mode:
             compact_raw = re.sub(r"\s+", "", normalize_text(raw_text))
+            # Lines whose only significant token is a single word: the natural
+            # shape of a one-word card name ("Gelar", "Aríete") in the title
+            # crop. Compared token-to-token so a short name is never found
+            # inside a longer word ("gelar" inside "congelar").
+            single_line_words = []
+            for namebar_line in raw_text.splitlines():
+                line_words = [
+                    word
+                    for word in normalize_text(clean_ocr_line(namebar_line)).split()
+                    if len(word) >= 3
+                ]
+                if len(line_words) == 1 and len(line_words[0]) >= 4:
+                    single_line_words.append(line_words[0])
             best_word_card = None
             best_word_name = ""
             best_word_score = 0
@@ -3026,6 +3115,28 @@ class ScryfallDatabase:
                         best_word_name = pt_name
                         best_word_card = self.cards[index]
                         continue
+                elif (
+                    single_line_words
+                    and len(pt_words) == 1
+                    and 4 <= len(compact_pt_name) <= 7
+                    and compact_pt_name not in COMMON_PT_OCR_WORDS
+                    and compact_pt_name not in MTG_KEYWORD_NAME_STOPWORDS
+                ):
+                    # Short one-word names never reach the compact branch
+                    # (>= 8 chars); accept them only when a namebar line reads
+                    # as exactly that word.
+                    best_ratio = max(
+                        (fuzz.ratio(compact_pt_name, word) for word in single_line_words),
+                        default=0,
+                    )
+                    min_ratio = 82 if len(compact_pt_name) >= 6 else 88
+                    if best_ratio >= min_ratio:
+                        compact_score = int(best_ratio) + len(compact_pt_name)
+                        if compact_score > best_word_score:
+                            best_word_score = compact_score
+                            best_word_name = pt_name
+                            best_word_card = self.cards[index]
+                            continue
                 all_pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 3]
                 first_word = all_pt_words[0] if all_pt_words else ""
                 normalized_pt_tokens = normalize_text(pt_name).split()
@@ -3132,7 +3243,10 @@ class ScryfallDatabase:
                 if candidate not in choices:
                     continue
                 first_word = words[0]
-                if len(first_word) < 4 or first_word in ignored:
+                # Multi-word exact matches may start with a short word ("Rod of
+                # Ruin", "The Brute"); single-word candidates stay at >= 4.
+                min_first = 3 if size >= 2 else 4
+                if len(first_word) < min_first or first_word in ignored:
                     continue
                 if size < len(words) and not self._title_extra_words_are_noise(words, size):
                     continue
@@ -3205,6 +3319,10 @@ class ScryfallDatabase:
         for line in raw_text.splitlines():
             cleaned = clean_ocr_line(line)
             if ":" in cleaned or re.search(r"[\u2013\u2014]", cleaned):
+                continue
+            # A digit surrounded by words is rules text ("deals 1 damage to
+            # target"), never a title; mana-cost digits only trail the name.
+            if re.search(r"[a-z]\s+\d+\s+[a-z]", normalize_text(cleaned)):
                 continue
             words = [word for word in normalize_text(cleaned).split() if len(word) >= 3]
             if not words or len(words) > 4:
@@ -3504,6 +3622,7 @@ class ScryfallDatabase:
             return None, ""
         choices = self._en_norm_choices()
         ignored_names = COMMON_EN_OCR_WORDS | COMMON_PT_OCR_WORDS | MTG_KEYWORD_NAME_STOPWORDS
+        normalized_raw = normalize_text(raw_text)
         best_card = None
         best_line = ""
         best_score = 0
@@ -3538,7 +3657,13 @@ class ScryfallDatabase:
                         continue
                     card = self.cards[card_index]
                     support = self._rules_text_support_score(card, raw_text)
-                    if support < 4:
+                    # Old printings whose oracle text was errata'd ("Justice"
+                    # -> "this enchantment") barely overlap the printed text,
+                    # so oracle support stays low. A name repeated across the
+                    # scan is self-reference evidence on its own.
+                    occurrences = len(re.findall(rf"\b{re.escape(candidate)}\b", normalized_raw))
+                    min_support = 2 if (size == 1 and occurrences >= 2) else 4
+                    if support < min_support:
                         continue
                     score = support * 100 + min(sum(len(word) for word in name_words), 30)
                     if score > best_score:
