@@ -45,7 +45,7 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-08.16"
+APP_VERSION = "2026-07-08.17"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
@@ -398,6 +398,19 @@ AMBIGUOUS_SET_CODE_WORDS = {
     "THE",
     "UMA",
     "VOC",
+    # Real set codes that are also common English words in rules text; they
+    # only count as print evidence in true footer shape (language code next).
+    "ALL",
+    "BOT",
+    "CON",
+    "DIS",
+    "DOM",
+    "EVE",
+    "ICE",
+    "MAT",
+    "ONE",
+    "WAR",
+    "WHO",
 }
 
 
@@ -973,7 +986,7 @@ class LocalOcr:
             value -= sum(2 for word in words if word in {"instant", "sorcery", "artifact", "enchantment", "land"})
             value -= sum(1 for word in words if word.isdigit())
             if re.search(
-                r"[©™]|\b(?:h?illus|iilus|iilug|inus|tilus|tilug|tl?lus|tlug|tlust|titus|hust)\b|"
+                r"[©™]|\b(?:h?illus|iilus|iilug|inus|tilus|tilug|tl?lus|tlug|tlust|titus|hust|mlus[et]?|mus)\b|"
                 r"wizards|coast|wasatch|anthony|palumbo|paliso",
                 candidate,
                 re.IGNORECASE,
@@ -1507,16 +1520,36 @@ class ScryfallDatabase:
         found.update(self._symbol_set_codes_in_text(raw_text, known_sets))
         return found
 
+    def _is_guessed_set_code(self, set_code: str, token: str) -> bool:
+        """True when the code came from fuzzy correction rather than a literal
+        or curated-fix read of the token."""
+        return set_code != token and self.OCR_SET_FIXES.get(token, "") != set_code
+
+    @staticmethod
+    def _footer_shape_context(tokens: list[str], index: int) -> bool:
+        """True footer shape around a set-code token: a language code on the
+        right ("WOE PT") or a zero-padded collector ("0178") on the left. A
+        stray number from the copyright strip ("109%", "1095") never has the
+        leading zero."""
+        left_window = tokens[max(0, index - 4) : index]
+        right_window = tokens[index + 1 : index + 5]
+        if any(value in {"EN", "PT", "ES", "FR", "DE", "IT", "JP", "KO"} for value in right_window):
+            return True
+        return any(re.fullmatch(r"0\d{2,3}[A-Z]?", value) for value in left_window)
+
     @staticmethod
     def _set_token_has_print_context(tokens: list[str], index: int) -> bool:
         token = tokens[index]
         left_window = tokens[max(0, index - 4) : index]
-        right_window = tokens[index + 1 : index + 5]
         if token not in AMBIGUOUS_SET_CODE_WORDS and not (
             len(token) == 3 and token.isalpha()
         ):
             return True
-        if any(value in {"EN", "PT", "ES", "FR", "DE", "IT", "JP", "KO"} for value in right_window):
+        # A word that shows up in normal rules text ("one", "war", "the") is
+        # only a set code in true footer shape.
+        if token in AMBIGUOUS_SET_CODE_WORDS:
+            return ScryfallDatabase._footer_shape_context(tokens, index)
+        if ScryfallDatabase._footer_shape_context(tokens, index):
             return True
         for value in left_window:
             number_match = re.fullmatch(r"0*(\d{3,4})[A-Z]?", value)
@@ -1645,6 +1678,49 @@ class ScryfallDatabase:
                     best_score = score
                     best_card = card
         return best_card
+
+    def _fuzzy_foreign_namebar(self, namebar_text: str) -> tuple[dict | None, str]:
+        """Match the title crop against foreign printed names (FBB French,
+        4BB Spanish...). Old foreign cards have no footer, so a fuzzy namebar
+        read anchored by one solid name word ("dUrza" -> "Urza") is the only
+        signal available."""
+        if not namebar_text or not process or not fuzz:
+            return None, ""
+        choices = self._foreign_norm_choices()
+        if not choices:
+            return None, ""
+        best_card = None
+        best_name = ""
+        best_score = 0.0
+        for candidate in self._namebar_candidates(namebar_text):
+            normalized = normalize_text(candidate)
+            candidate_words = [word for word in normalized.split() if len(word) >= 3]
+            if not candidate_words or len(candidate_words) > 5:
+                continue
+            compact = re.sub(r"\s+", "", normalized)
+            if len(compact) < 8:
+                continue
+            for match in process.extract(normalized, choices.keys(), scorer=fuzz.ratio, limit=5):
+                if match[1] < 82:
+                    continue
+                original_name, card_index = choices[match[0]]
+                name_words = [word for word in match[0].split() if len(word) >= 4]
+                if not name_words:
+                    continue
+                compact_name = re.sub(r"\s+", "", match[0])
+                if fuzz.ratio(compact, compact_name) < 84:
+                    continue
+                if not any(
+                    words_fuzzy_match(name_word, word, 85)
+                    for name_word in name_words
+                    for word in candidate_words
+                ):
+                    continue
+                if float(match[1]) > best_score:
+                    best_score = float(match[1])
+                    best_card = self.cards[card_index]
+                    best_name = original_name
+        return best_card, best_name
 
     def _find_by_face_names_in_text(self, raw_text: str) -> tuple[dict | None, str]:
         if not raw_text or not self.face_name_choices or not process or not fuzz:
@@ -1828,13 +1904,29 @@ class ScryfallDatabase:
             normalized_hint = normalize_ocr_name(ocr.name_hint)
             if is_plausible_namebar(normalized_hint):
                 card = self._fuzzy_name(normalized_hint, strict_words=False, min_score=76)
-                if card and self._distinctive_name_in_raw_text(card, ocr.raw_text):
+                if (
+                    card
+                    and self._hint_supports_card(card, ocr.name_hint)
+                    and self._distinctive_name_in_raw_text(card, ocr.raw_text)
+                ):
                     return card
             if is_plausible_namebar(ocr.name_hint):
                 card = self._fuzzy_name(ocr.name_hint, strict_words=True, min_score=84)
-                if card and self._distinctive_name_in_raw_text(card, ocr.raw_text):
+                if (
+                    card
+                    and self._hint_supports_card(card, ocr.name_hint)
+                    and self._distinctive_name_in_raw_text(card, ocr.raw_text)
+                ):
                     return card
         return None
+
+    @staticmethod
+    def _hint_supports_card(card: dict, hint: str) -> bool:
+        """A one-word card name matched out of a long hint line is a phrase
+        hit (flavor "a bencao do Divino" -> "Bênção"), not a title read."""
+        hint_words = [word for word in normalize_text(hint).split() if len(word) >= 3]
+        name_words = normalize_text(card.get("name", "")).split()
+        return len(name_words) > 1 or len(hint_words) <= 3
 
     def _fuzzy_portuguese_words_in_text(self, raw_text: str) -> tuple[dict | None, str]:
         if not raw_text or not self.pt_name_choices:
@@ -1846,6 +1938,17 @@ class ScryfallDatabase:
         normalized_lines = [
             (normalize_text(line), [word for word in normalize_text(line).split() if len(word) >= 3])
             for line in raw_text.splitlines()
+        ]
+        # Words on short, title-like lines. A name whose evidence is a single
+        # word must come from one of these: an exact token inside a longer
+        # line (copyright garbage "... bo sabia a rine", or the flavor line
+        # "A Gloria surgiu de dentro dela") is not name evidence.
+        short_line_words = [
+            word
+            for _normalized_line, line_words in normalized_lines
+            if line_words and len(line_words) <= 3
+            for word in line_words
+            if len(word) >= 4
         ]
         best_word_card = None
         best_word_name = ""
@@ -1864,8 +1967,13 @@ class ScryfallDatabase:
                     continue
             # A single distinctive word is weak evidence: at 86 an OCR noise
             # token passes ("cone" for "Clone", English "controler" for
-            # "Controlar"). Require a near-exact read.
-            if len(match_words) == 1 and not fuzzy_word_count(match_words, raw_words, threshold=90):
+            # "Controlar"), and at 90 "pagar" still reads as "Apagar". Require
+            # a near-exact read on a title-like line, and at least 5 letters —
+            # 4-letter tokens ("alem") show up verbatim in OCR garbage.
+            if len(match_words) == 1 and (
+                len(match_words[0]) < 5
+                or not fuzzy_word_count(match_words, short_line_words, threshold=92)
+            ):
                 continue
             matches = fuzzy_word_count(match_words, raw_words)
             required = min(3, len(match_words)) if len(match_words) >= 3 else min(2, len(match_words))
@@ -2114,6 +2222,13 @@ class ScryfallDatabase:
         if matched:
             return matched
 
+        # A collector fraction agreeing with a strongly-present name outranks
+        # every fuzzy title path (it also protects against namebar noise that
+        # happens to read like a short foreign card name, e.g. "SEIS").
+        card, set_code, collector_number = self._find_by_fraction_and_name(ocr.raw_text, ctx)
+        if card:
+            return finalize(card, f"fração+nome {set_code} #{collector_number}")
+
         namebar_pt, namebar_pt_name = self._fuzzy_portuguese_text(
             ocr.namebar_text, namebar_mode=True
         )
@@ -2127,6 +2242,12 @@ class ScryfallDatabase:
         if matched:
             return matched
 
+        foreign_card, foreign_name = self._fuzzy_foreign_namebar(ocr.namebar_text)
+        if foreign_card:
+            matched = try_match(foreign_card, f"nome estrangeiro OCR '{foreign_name}'")
+            if matched:
+                return matched
+
         if ocr.set_code and ocr.collector_number:
             candidates = self._print_candidates(ocr.set_code.upper(), collector_key(ocr.collector_number))
             if candidates:
@@ -2134,10 +2255,6 @@ class ScryfallDatabase:
                 matched = try_match(card, f"código {ocr.set_code.upper()} #{ocr.collector_number}")
                 if matched:
                     return matched
-
-        card, set_code, collector_number = self._find_by_fraction_and_name(ocr.raw_text, ctx)
-        if card:
-            return finalize(card, f"fração+nome {set_code} #{collector_number}")
 
         card, matched_line = self._exact_english_self_reference_in_text(ocr.raw_text)
         matched = try_match(card, f"auto-referencia OCR '{matched_line}'")
@@ -2255,6 +2372,8 @@ class ScryfallDatabase:
                 card = self._fuzzy_name(normalized_hint, strict_words=False, min_score=76)
             if not card and is_plausible_namebar(ocr.name_hint):
                 card = self._fuzzy_name(ocr.name_hint, strict_words=True, min_score=84)
+            if card and not self._hint_supports_card(card, ocr.name_hint):
+                card = None
             matched = try_match(card, f"nome OCR '{ocr.name_hint}'")
             if matched:
                 return matched
@@ -2573,6 +2692,10 @@ class ScryfallDatabase:
                         continue
                     if tokens[lookahead + 1] not in language_codes and (set_code, collector) not in self.by_print:
                         continue
+                    if self._is_guessed_set_code(set_code, tokens[lookahead]) and not (
+                        bool(total) or self._footer_shape_context(tokens, lookahead)
+                    ):
+                        continue
                     card = candidate_from(set_code, collector, True)
                     if card:
                         return card, set_code, collector
@@ -2622,6 +2745,17 @@ class ScryfallDatabase:
                         or self._set_token_has_print_context(tokens, lookahead)
                         or fixed_print_context
                     )
+                    # A fuzzy-guessed code (rules-text "once" -> ONE, "Cont"
+                    # -> CON) needs true footer shape around the token; the
+                    # raw token's own shape proves nothing about a guess.
+                    if (
+                        has_print_context
+                        and not bool(total)
+                        and not fixed_print_context
+                        and self._is_guessed_set_code(set_code, tokens[lookahead])
+                        and not self._footer_shape_context(tokens, lookahead)
+                    ):
+                        has_print_context = False
                     card = candidate_from(set_code, collector, has_print_context)
                     if card:
                         return card, set_code, collector
@@ -2752,6 +2886,13 @@ class ScryfallDatabase:
         has_exact_name = bool(
             exact_name_card and exact_name_card.get("oracle_id") == card.get("oracle_id")
         )
+        # The foreign-namebar matcher applies its own strict gates (full and
+        # compact ratio plus an anchor word), so agreeing with it is strong
+        # evidence — often the only kind an old foreign card can produce.
+        foreign_namebar_card, _ = self._fuzzy_foreign_namebar(ocr.namebar_text)
+        has_foreign_namebar = bool(
+            foreign_namebar_card and foreign_namebar_card.get("oracle_id") == card.get("oracle_id")
+        )
         # When this card's own name is the title read clearly from the image, a
         # collector number that carries an OCR digit error (e.g. 215 read as 219)
         # must not veto it — the name is the stronger signal.
@@ -2762,6 +2903,7 @@ class ScryfallDatabase:
             or has_self_reference
             or has_fuzzy_title
             or has_exact_name
+            or has_foreign_namebar
         )
         strong_print = self._print_evidence_in_ocr(card, ctx) or self._print_pair_occurrences(card, ctx) >= 2
         if not strong_name and self._ocr_contradicts_card(card, ctx):
@@ -2785,6 +2927,8 @@ class ScryfallDatabase:
         if strong_print:
             return True
         if has_exact_title or has_exact_raw_title or has_self_reference or has_exact_name:
+            return True
+        if has_foreign_namebar:
             return True
         if has_fuzzy_title and (
             self._distinctive_name_in_raw_text(card, ocr.raw_text)
@@ -2898,6 +3042,8 @@ class ScryfallDatabase:
             "tllus",
             "tlus",
             "tlust",
+            "mlus",
+            "mluse",
             "wizards",
             "coast",
             "rights",
@@ -3118,7 +3264,7 @@ class ScryfallDatabase:
                 elif (
                     single_line_words
                     and len(pt_words) == 1
-                    and 4 <= len(compact_pt_name) <= 7
+                    and 5 <= len(compact_pt_name) <= 7
                     and compact_pt_name not in COMMON_PT_OCR_WORDS
                     and compact_pt_name not in MTG_KEYWORD_NAME_STOPWORDS
                 ):
