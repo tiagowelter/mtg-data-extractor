@@ -181762,3 +181762,1258 @@ exilta) MR Nerf eit..
 183/269 &
 ELO + HT me Gamo Stixsza TA LK ath of thee Oat
 
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 17:55:59
+matched_name: Night of the Sweets' Revenge
+matched_set: WOE
+matched_collector: 178
+reason: nome superior PT OCR 'Noite da Vingança dos Doces'
+name_hint: campo de batalha, erie uma ficha de Comida, dda
+namebar_text: Noite da Vinganca dos Doces
+
+| Noite da Vineanca dos Doce
+
+| Noite da Vinganc
+
+Noite da Vinganca dos Doces 3
+;
+
+set_code_hint: THE
+collector_hint: 32
+
+raw_ocr:
+Noite da Vinganca dos Doces
+
+| Noite da Vineanca dos Doce
+
+| Noite da Vinganc
+
+final de turno, sendo Xo numero de Comndas que
+vose controha Adve semente como um teitige.
+y 0106 BONN DA tthe baat
+WOE -PT te Lrowarno Santayana
+
+BAS Connduis que voce comtrola tem @ Adnrone :
+5 @@® scoctoue Norte da Virunga dos Doses As fe
+Bcriturnis que voce Comtrena reseberm tN +N teu "
+MB tisnalafe turste. sendo Noe numer abe Charmndias que
+vece comtrel: Ato Somente comin Ui beige
+vy 0178 Re MISC ed the Cost
+WOE -PT te Lionaapo Savtanna
+
+BAS Conndas que voce controls tem @: Adienone
+e
+5 P@ ssontique Norte da Vinsunga dos Doces: As
+Be CTLIUAS que Voce Control resebem +X +N ate o
+tinal de turmo. sende Noo numero de Comnuias que
+vee) controhe AGVe Sementy Como ulm fertiye,
+UV 01086 eh MIND a nid th. boat
+WOE - PT tw Lrowamno Savtaves
+
+Pa As Comidas que voce control tem " @: Adicione
+§ a”. t "
+Se 5 @@, sacritique Nowe dit Vinganya dos Doces: As I
+criaturas que Voce controla recebem +X +X ate o v
+final do turne, sende X o numero de Comidas que &
+voce controla, Adve somente como um feiige.
+Varese “s ee Sea ee
+WDE FT Re LEOWAMO SANTANWA
+
+vege conmtrok: AtVve Semente Comets betrges
+Vv 0178 He NDNA ia ee thee Coot
+WOE -PT te Lionampo Savtawes
+
+uv 0178 e & C 32) Wisads of the Coo
+WOE -PT ti Leonampo Satan
+
+uv 0178 ~~ &C DI) Wise of the Coou
+WOE -PT tt Lronanpo SANTARRA
+
+Vv 0178  & C 2) Wisanhh of the Coss
+WOE -PT te Lromando SArTAKRA
+
+hese centtpobh. tive scmmente semper dn beatige
+Vv 0178 AC DI) Wied c€ the Coot
+WOE -PT te Lronaapo Santana
+
+Neco wutttbeh NGS eG se bre mte seormtee tpt featiy
+uv 0178 S&C DI) Wish of the Coos
+WOE -PT te Lronampo Santana
+
+ee
+vu o178 ve & © 3029 Wiamwds of the Coss
+WOE -PT i> icomuapo Satan
+
+vu 0178 Te & C DI) Wiasds of the Cas
+WOE -PT i Lronmanpo Saxtanma
+
+m Noite da Vinganca dos Doces 3@
+4
++
+h
+% .
+“% t nt
+’ nN NA a ee Fi.
+| 7 . ' ~ - é a
+—_ i “.e.. a ys
+ts
+m Encantamento RAR
+: .
+Quando Noite da Vinganga dos Doces entrar no
+campo de batalha, erie uma ficha de Comida, dda
+Be tur artefata com "2. 0 sacrifique este arifato line Ae
+k ganhia 3 pontos de crda”.) i
+ad . . . . +. .
+As Comidas que voce contruola tem“ @: Adictone d
+=". '
+5 @@® sacntique Nowe da Vinganga dos Doces: As
+criituras que voce control recebem +X +X ate a ¥
+final do turne. sendeo Xo numero de Comrdas que &
+voce controla, Adve somente como um felge.
+vans Th RIM et ih at
+WOE PT be Lowen SasTauns
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 17:56:42
+matched_name: Fangs of Kalonia
+matched_set: MH3
+matched_collector: 153
+reason: nome superior PT OCR 'Presas de Kalonia'
+name_hint: Me frrer isso, SMPSONae Mid Crna alee eM Seu
+namebar_text: ? Presas de Kalonia
+
+| Presas de Kaloni
+
+F ore ac ) @ Kalo ia " --
+
+g See Wniat a 5 a2 Trina
+
+4
+SCAN I alba
+a Presas de Kalonia 14
+' @ ™®’&?*- ~ 2 ~—e 2” ,
+
+set_code_hint: THE
+collector_hint: 2024
+
+raw_ocr:
+? Presas de Kalonia
+
+| Presas de Kaloni
+
+F ore ac ) @ Kalo ia " --
+
+g See Wniat a 5 a2 Trina
+
+Jizer isso, SUOSTUHa “Na criaturda Gio cI Seu 7
+texto por “ent cada criatira”.)
+VU O1S3 ™ & MD Bank ot the Cast
+MH3 + PT te Leanna Crosvas
+
+. Rd letlladal Ay hee Cid det ALR Ted! Lela l Labs Oc Akan
+B+) +1 dessa forma. ‘
+BSobrecarga 4 ®M@® Toce pode conmrar esta 2
+Bonagica pagando sew custo de sobrecarga. Se
+Me frrer isso, SMPSONae Mid Crna alee eM Seu
+Pexto por “emt cada crn}
+
+U O83 ™ & 0 2028 Wizards of the Coast
+MHS - PT te Leanna CROssan
+
+SE ee ee ee >
++1 +] dessa forma. ;
+Sobrecarga 4 @@ (loce pode conjurar esta ba
+
+magica pagando seu custo de sobrecarga, Se P
+fizer isso, subsania “na criatura advo” emt set ,
+texto por “em cada criaturna”.)
+
+U 0183 & 0 D028 Wiss ot the Coast
+
+MH3-PT te Liana Crossan
+
+. REALL YER CN Add ARERR UGE Pa AN y
+é +1/+1 dessa forma.
+ha Sobrecarga 4@@ (bdce pode conjurar esta 2
+magica pagando seu custo de sobrecarga. Se .
+fizer isso, substtua “na criatura alvo” ent seu 2
+texto por “emt cada criattra”.)
+U O1S3 KR DDE aatteot the Got
+MH3 > PT Pe ltasya Carrsnan
+
+Pexlo por “emt cada cra}
+U 0183 ™ & 0 2028 Wizasds of the Coast
+MH3-PT me Lianna Crossan
+
+VU O1s3 re & C 2024 Wizards af the Coat
+MHS - PT mm Leanna CaOssan
+
+VU 0183 Te & 2024 Wizards af the Coast
+MHS - PT me Leanna CAOSsan
+
+U 0183 re f © 2024 Wizards of the Coaat
+MHS - PT mm Leas Caossan
+
+PON Por “eM Cada GENE
+U 0O1S3 C2024 Wizards of the Coast
+MHS -PT te Leanna Caossan
+
+” ic es oe booq, a a a . ‘ ary t Ly a , 4
+BN Poe OPE CE CVE Lt
+VU 0183 Te & C 2024 Wizards af the Comt
+MHS - PY mm Leanna CROSSAn
+
+q >
+
+VU 0183 Ts & © 2024 Wizards of the Coast
+MHS -PT mm Leas CROSSAN
+
+u 0183 ™ & C 2024 Wizards of the Coast
+MHS -PT mm Lea Caossan
+
+f e
+@ Presas de Kalonia L®@ !
+
+Ry _ ag:
+
+t e -~ = ied . ~ . .
+: Ge an. “oe
+. ar Af ase . ay
+3 Fr 4 es ms po id one
+
+MG SRL 8
+
+j | ty SQ. Sead y 5
+
+t _/ En an . - he .
+SoS Vg ~~ OO
+
+i) , ~ bs
+Feitico <b
+
+py Coloque um marcador +1/+1 na criatura E
+
+r alvo que vocé controla, depois dobre o y
+
+N numero de marcadores +1/+1 em cada Re
+
+a criatura que tenha recebido um marcador '
+
+4 +1/+1 dessa forma. :
+
+pa Sobrecarga 4 (Locé pode conjurar esta in
+m magica pagando seu custo de sobrecarga. Se 2
+
+fizer isso, substitua “na criatura alvo” ent seus
+texto por “em cada criauiva”.)
+UO1S3 YR MIDS BR anteootthe oust
+MH3 + PT te lianws Crossan
+q id
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 17:57:17
+matched_name: Ghirapur Guide
+matched_set: JMP
+matched_collector: 400
+reason: título OCR 'Ghirapur Guide -'
+name_hint: coon olttside Wie fairgrounds, Ghirapiur ps
+namebar_text: Ghirapur Guide -
+
+| Ghirapur Guide
+
+
+~ e . . - ) . ~~ = ame 8 mee we NO Bw 8 :
+
+a Ghirapur Guide Zé
+A Sf ;
+ae 4g. ms
+
+set_code_hint: JMP
+collector_hint: 3030
+
+raw_ocr:
+Ghirapur Guide -
+
+| Ghirapur Guide
+
+
+~ e . . - ) . ~~ = ame 8 mee we NO Bw 8 :
+
+way a city of wonders, ,
+400 u 3/2
+IMPs EN Be SCOTT Muay TW ath ofthe Cet
+
+preeweek o OM GNSS CEES CUE dd,
+Peatvgoers secre deftented to ftucd that
+coon olttside Wie fairgrounds, Ghirapiur ps
+Mm ras Oey at drones,
+W791
+3/2
+400 U
+JMP EN & ScoTT Merny Teh DW Tah the Cont
+NN oe
+
+BPP r oS OT Iss UES CUTE,
+O Patreoers were deltelited to find that j
+mcven outstde the farrgrovoids, Ghirapur
+
+was a city of wonders.
+400 uU
+IMP + EN te SCOTT Muarwt She NIK sate of thee Cnet
+
+Mae PPUVEL & UF ICsd Ulls CUTTT. 7
+Fairgoers were delighted to find that i
+Beven outside the fairgrounds, Ghirapur :
+was a city of wonders.
+3/2 )
+499 u
+JMR EN te SCOTT Mary oe rs Os eee
+
+400 u EA
+IMP «+ EN ty ScoT? Merny "Oh ND Wiehe of thee Cait
+‘ ‘
+
+400 u “3/2
+SMP + EN te Scott Merny Te & C DD Wisards of the Coon
+A
+N\
+
+400 u 3/2
+JMP + EN te Scott Miarny Tea C WD Waa of the Coou
+\
+“A
+
+400 CY) 3/2
+JMP + EN te Scott Miarny Tea C WW Warardhe od the Coo
+Y
+XN
+
+400 u =
+JMP + EN te ScoTt Merny Tem C WD) Trade id the Covet
+.
+NX
+
+400 u
+JMP + EN te Scott Miarny Tea C WD Waa of the Coou
+\
+“A na
+
+400 u se
+JMP oe EN > Scomt Munruy Te & C 3030 Wiaards of the Coons
+
+\
+
+XN 7
+
+400 u te
+JMP + EN > Scott Muaray Te & C 3030 Whaaeds of the Coon
+
+\
+
+A .
+
+a Ghirapur Guide 2¢
+1 (a ” : 3 . "| ‘
+? + vs SY
+\. | pO as
+t ‘ j . .
+mm Ct CD
+io ne
+¢
+Creature — Elf Scout QR
+. ;
+2 @: Target creature you control ;
+i can’t be blocked by creatures with Le
+My power 2 or less this turn. d
+Fairgoers were delighted to find that :
+Becven outside the fairgrounds, Ghirapur ?
+was a city of wonders.
+3/2 |
+49009 u
+SM EN tee SCOTT MUM or ty Ceo nee Be
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 17:57:58
+matched_name: Needletooth Pack
+matched_set: FDN
+matched_collector: 108
+reason: título OCR '@ Needletooth Pack 3@é'
+name_hint: Needletooth Pac
+namebar_text: Needletooth Pack . A
+
+NeedIetooth mack )
+
+Needletooth Pac
+
+y
+@ Needletooth Pack 3@é
+
+set_code_hint: FON
+collector_hint: 2024
+
+raw_ocr:
+Needletooth Pack . A
+
+NeedIetooth mack )
+
+Needletooth Pac
+
+—Vreten Reid ‘
+U 0108 4/5
+FON + EN t& Monztri Be 2024 Wizards at the Coast
+q 4
+
+@ control. ,
+BO Narre s gredles! predators someCi Mes COMIC x
+ay sma! packages. A lot of small packages.” Ff
+byoren Rerd
+U 0108
+FON + EN b>» Monzier t™ & © 2024 Wizards of the Coast
+
+fa control. “q
+
+t:
+
+“Nature's greatest predators sometumes cone f&
+* . bb »
+
+in small packages. A lot of small packages.”
+—Breren Reid We"
+
+U 0108
+
+FON - EN te Monztat ™& © O28 Wizards af the Coast
+
+a control.
+mm Nature’s greatest predators sometimes come
+in small packages. A lot of small packages.” &
+—Vivien Reid |
+U 0108 4/5
+FON +> EN t& Monzini ™ Go DI Wiaardds ot che Coast
+
+Y 0108 Za
+FON - EN ®t» MonzTer ™ & & 2024 Wizards of the Coast
+
+U 0108 “a5
+FON - EN &» Monzraet ™ & C 2024 Wizards of the Coast
+
+VU 0108 Zs
+FON - EN te Monzrer ™ & C 2024 Wizards of the Coast
+
+U 0108 “a5
+FON - EN St» MonzTer ™ & C 2024 Wizards of the Coast
+
+U 0108 a5.
+FON - EN i» Monzret ™ & © 2024 Wizards of the Coast
+
+2)
+VU 0108
+FON - EN te Monzrer ™ & C 2024 Wizards of the Coast
+
+U 0108 Guo
+FON -EN > Monzrar Tt & © 2024 Wizards of the Coast
+. 5
+
+U 0108 Gua
+FON «EN i> Monzras T™ & © 2024 Wizards of the Coast
+qi 5
+
+[Needletooth Pack 3 @@] Pack 3ae |
+: ‘ . oe 4 ., . ; * ’ wa
+: \
+Creature — Dinosaur “yk
+4 Morbid - - At the beginning of your end E
+ry step, if a creature died this turn, put two
+'@ +1/+1 counters on target creature you ff}
+i control. 2
+ae Nature's greatest predators sometimes come §&
+in small packages. A lot of small packages.” &
+—Wivten Reid ‘
+“4/5 |
+VU 9108
+FON + EN t Monztri M$ DOD Wizards ot the Coast
+.
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 17:58:41
+matched_name: Full Steam Ahead
+matched_set: OTJ
+matched_collector: 164
+reason: nome superior PT OCR 'A Todo Vapor'
+name_hint: Boipecavers de Prospertdaide, ¢ Sus WOwOS ’
+namebar_text: A Todo oe - 34
+
+row Vapor -
+
+A Todo Vapor
+
+a v = ~as..- lane a whew ane = bet tate. . -_ =
+
+me on SE SS Poua S =. =
+
+a
+paca ett Matic sn sronistecsstie
+m A Todo Vapor 3@4
+
+set_code_hint: CHE
+collector_hint: 9164
+
+raw_ocr:
+A Todo oe - 34
+
+row Vapor -
+
+A Todo Vapor
+
+a v = ~as..- lane a whew ane = bet tate. . -_ =
+
+me on SE SS Poua S =. =
+
+CONGHEOVES Se Acitclaraa ComMt a Midis Pura ?
+destruigdo.
+U 0164 ™ B&O DOD Wizards ot the Conant
+OT) + PT te INKOGNIT
+
+BOLOQUCaAda POD TMldls A Uilia CrIdtudba.
+BO trom descarrlado rasgou as ras t
+Boipecavers de Prospertdaide, ¢ Sus WOwOS ’
+
+SB comdutores se delicianwn com a widis pura |
+destruc,
+
+U 0164 t™t & © 2024 Wizards of the Coast
+
+OT) ¢ PT te INKOGNIT
+
+mw UlIOGUCdAd POT Tlldis GO Ullld Cllaltula . ~
+.
+QO trem descarruado rasgou as ruas Li
+mB pecatels de Prosperidade, & Scus NOTOS ¢
+condutores se deliciaram com a midis pura ;
+destruigdao.
+U 0164 TM & D026 Wizards cd the Coast
+OTS © PT be INKOGHIT
+
+we VIOUUCAGd POT Iidls GC Ullla Cridltuld . b.
+: O trem descarrilado rasgou as ruas .
+impecarvets de Prospertdade, e seus novos >
+condutores se deliciaram com a mais pura 2
+destrtigdao.
+U 9164 RO DDE Wide ot che © ast
+OTS © PT be INKS
+
+LesIrulgdo.
+UV 0164 te & CO 2024 Wizards af the Coat
+OTJ ¢ PT te Inxocntt
+
+be Seda ds y |
+VU 0164 tT & C 2024 Wizards of the Coaat
+OT) - PT tw InnoGnrt
+
+VU 0164 T™ & C 2024 Wizards of the Coaat
+OT) ¢ PT > INnOGnIT
+
+U 0164 tt & C 2024 Wizards of che Coast
+OT) « PT tw InnoGnuit
+
+Lest lie da.
+U 0164 tt & C 2024 Wizards af che Coast
+OT) « PT tm INKOoGniT
+
+7” , i |
+wir SEV ds )
+VU 0164 t™ & C 2024 Wizards of che Coaat
+OT) ¢ PT tw INKOGKIT
+q a
+
+U 0164 Te & © 2024 Wizards of the Comm
+OT) - PT ® inwocutT
+
+U O164 Ts & C 2024 Wizards of the Coast
+OT) - PT > InaoGntT
+
+& A Todo Vapor 3a
+be ? ar - a " he xi
+} A a. . - iG .
+I a . : A
+' ° ” ” . ‘
+Feitico wr}
+. a
+j Até o final do turno, cada criatura que E
+. vocé controla recebe +2/+2 e ganha t
+x atropelar e “Esta criatura nado pode ser is
+pg bloqueada por mais de uma criatura”. 2
+i O trem descarrilado rasgou as ruas io
+@ vupecavets de Prosperidade, e seus novos al
+condutores se deliciaram com a mais pura z
+destruigdo.
+U O64 ™ & DoD e Wears at the Coast
+OT) © PT te INKOGNIT
+q
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 17:59:14
+matched_name: Skanos Dragonheart
+matched_set: CLB
+matched_collector: 521
+reason: nome superior PT OCR 'Skanos Coração Dracônico'
+name_hint: Aniteccdente conmio scsianda comandaiite, I
+namebar_text: BE skanos Coracig Draconico. \
+
+Skanos Cora 30 Dracénico
+
+| Skanos Corac a0 |
+
+Skanos Coracao Dracénice
+
+
+Skanos Coracao Draconico 4 é
+
+set_code_hint: MA
+collector_hint: 9
+
+raw_ocr:
+BE skanos Coracig Draconico. \
+
+Skanos Cora 30 Dracénico
+
+| Skanos Corac a0 |
+
+Skanos Coracao Dracénice
+
+
+PUNE ccdenle Conte sestudo combate. ? °
+2es" 360 u
+CLA + PY te Claamars “NN . Bee en re
+
+1 a oe ee oo | | re Neesb\ TES
+ode outros Dragos gue veces contrite cos f
+@ cards de Drage con seu: Comaterie ‘
+BB descollacuim Antecedente Pos pote ter cet
+Oetccodeante coat ead Conte,
+253/361 U
+CLO - PT mB Deans ‘eh DP Wee Wd the bc eet
+
+Rhea bas’, NR GENER? ah NP babe PVN Naeaay 8S .
+de outros Dragoes que vece controla cos Bg
+curds de Dragao em secu cemiteria 5
+ys “pe. .
+Escolha um Antecedente (Pack poule rer tan Y
+Aniteccdente conmio scsianda comandaiite, | :
+233/380 u
+CLR PY Ww Oa amare any SOB tn Cab. bet
+
+RMB EN, SR EERERY ah WF BEECEENTER PONINER ES NEELEN UO +9
+ma de outros Dragoes que voce controla ¢ os Bg
+cards de Dragdo em seu cemiterio.
+
+Escolha um Antecedente (locé pode rer iam
+
+Antecedente come seguade comandante.)
+
+Pes $o g 4/4
+Chm © P? tw (le Rate x 4 ne
+
+233/361 uU ZZ
+CLA - PY BM OaaRxts ‘oh SN SP Davee ta eb. beet
+
+233/361 U =D
+CLO - PT & DaaRnxrn "Ae NI? Weed id the Coon
+
+233/361 U “aa
+CLO - PY & DxaaRxm “Re NS Wr € the Cron
+
+233/361 U “aa
+CLO - PT & DeaaRxm Heo NY Weed d the Coon
+
+233/361 U “ala |
+CLO - PY & Dearxen "SH MS Wiee Wd the Coes
+
+i)
+233/361 U
+CLO - PV & OrrRxen Ae NI Weed the Crest
+
+233/361 U Cae
+CLO > PT & Deanne POAC WI2 Treedhh df the Coon
+
+233/361 U eae
+CLO - PT & Daanxen P&C NI Wreehh fd the Coon
+
+Skanos Coracao Dracénico 4
+“ we ,
+} t, ~. 2 aa
+2 -
+a
+> J &
+oy ya .
+Criatura Lendaria — Dragao Guardiao ©
+a ke
+Me Toda vez que Skanos Corayav Draconico = &&
+Na ataca, cle recebe +X'+X até o final do .
+Wy turno, sendo X o maior poder enue os ;
+va de outros Dragoes que voce controla ¢ os
+cards de Dragao em seu cemitento.
+Escolha um Antecedente (Laced pode rer ton
+Antecedente come segundo comandante.) .
+dessa 4/4
+Ci m+ PT te (le eARs ‘ “ ee
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 17:59:49
+matched_name: Elvish Hydromancer
+matched_set: DMU
+matched_collector: 162
+reason: fração+nome DMU #162
+name_hint: gitete foo Purle, So tcc Ine scer Case ei he z
+namebar_text: . Hidromante Elfica
+
+‘ dromante Elfica 3
+
+Hidromante Elfi (
+
+iidre ee a
+
+7 ae — - - = aad
+
+& Hidromante Elfica Zé
+— ~.F i # #|
+
+set_code_hint: OMU
+collector_hint: 2
+
+raw_ocr:
+. Hidromante Elfica
+
+‘ dromante Elfica 3
+
+Hidromante Elfi (
+
+iidre ee a
+
+7 ae — - - = aad
+
+PEERS FOS PAT Te a PCTS AUS PEROT GSS NCTE ES s
+fone Wr)
+Te2/ 28° Vv
+OMU+PY Or Fateem a SETI OMAN “NO i
+
+CBPootialhalee shits tehorg ad. orie ums fitun ins e
+Beas Goria is Grituina abv sare vee cates '
+¢ a, te tas Sonn ite c le tedns a vote hots mote ' . an ate a '
+F 7 tals a pan. “Ne errr ee rho, we TE See a be
+as ' Ye , ary \
+162/261 U
+OMU-PT mm Famemna SETA "OR ON Riee othe Os eet
+
+Pa bataiha sc cla tor reforgacdha. cra uma foha que “
+senboumme Copia daa criatura advo que voce contreda.
+SD arc somipre se domibrd de fetes an cere create dos BB
+gitete foo Purle, So tcc Ine scer Case ei he z
+ancy ee ; “372 )
+
+12/281 U
+OMU +P te Fameena SETIAWAS eae ee
+
+me batalha. se cla for reforgada. cric uma ficha que
+a >cpt uma copia da cnatura alvo que vuce controls.
+“A ayaa sempre se lembra de tedos oy eres tites des
+qituls feo parte. So prectsumtus Mrdcer osu mtemorist .
+eI TB
+AML PT ee Farce tm SET Aw AS x ” toe
+
+162/281 U W2)
+OMU-PY lM Famarna SITIAMAN on Se SOTO LOE At Pa Ty
+
+162/281 U =
+OMU+PT Re famagua SETLAAnN Toho NY Weel the Cros
+
+162/281 VU “3/2.
+OMU-PTY Mt Fanasna SETIAMAN Poh ND Wiser dn dhe Coors
+
+162/281 VU =
+OMU PT tm famasna SETAMAN Pees NI) Wiser dnd the Coon
+
+162/286!) VU 3/2.)
+OMU-+PT Mw Famamna SETIAMAN "RH NY Wied id the C-cost
+
+3/2
+162/281 U
+OMU-PY tm Famasna SITIAMAN Poh NYY Wreee dnd the Ccont
+
+162/261 UV Se
+OMY PT & Famarza Seren POC WI] Traeedhh :d the Coon
+
+162/281 VU Sie
+OMU PT te Famemma Saran POAC WI2 Trak the Coot
+
+° = \:
+& Hidromante Elfica Zar
+Le -- i
+é = F
+§ i -« e,
+47 ’ . , Ns el
+yee ‘
+a) Noo. _
+"f - ~ey 5
+Sf Y |
+\
+: <.
+Se -
+A . =, "© Ss ; Pa
+~ Wr.
+cD ‘
+Criatura — Elfo Mago ?
+af he
+fe Reforgar 3@ “Voce pode pagar wnt custe adicional te
+Me fe 36 uo Comparer cso mtaatcd. )
+' . ,
+me Quando Hidrumante Elfica entrar no campo de BY
+Me batatha. se cla for reforyada. cre uma ficha que 3
+@ ocr uma copia da cnatura alvo que voce controla. i
+“Alaa sentpre se lombra de tedes es sere tis des i
+qitats feo Parte, So prevtsuates Mrucer cosa mtertortse ‘
+at fon.” WW)
+VI IB
+TAL PT ie Fata mie a SETI Ae Ae ‘ ia Re
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 18:00:21
+matched_name: Pothole Mole
+matched_set: DFT
+matched_collector: 176
+reason: título OCR '? Pothole Mole -'
+name_hint: CVU, GFACR Gest Oller
+namebar_text: BL Pothole Mole —
+
+? Pothole Mole -
+
+| Pothole Mole
+
+_ othole Mole ey ee Ye -
+
+
+Pothole Mole 24
+ote ig ;
+» fg “eee, Wi
+
+set_code_hint: EAE
+collector_hint: 2025
+
+raw_ocr:
+BL Pothole Mole —
+
+? Pothole Mole -
+
+| Pothole Mole
+
+_ othole Mole ey ee Ye -
+
+
+Termin, track designer Tr)
+C 0176 /3
+DFT + EN % DaRIn Baoen MB N25 Wizards of the Coast
+qi if
+
+Bonill three cards, put the top three cards of |:
+Bvole fbyary vite your graveyard.) P
+“ u
+gS Sounecone plouse call pest control, elyani”
+Zenon, Gack desteney _
+C 0176 2/3
+DFT - EN te Darin Baoen ™ & © 2025 Wizards of the Coast
+
+null three cards, put the top three cards of — Ee
+your library vito your graveyard.) F
+“Someone please call pest control, Again.” Fy
+Termin, track designer yim)
+C 0176 |
+DFT + EN %» Darin Baotr ™ & «2025 Wizards af the Coast
+
+pq null three cards, put the top three cards of Kg
+Mg your library wito your graveyard.) }
+“Someone please call pest control. Again.”
+~-- Termin, track designer TW)
+Cc 0176
+DFT + EN by Darin Baote Ho DOTS Wisards ct the Carat
+
+CVU, GFACR Gest Oller
+C 0176
+DFT - EN te Darin Baotr re & © 2025 Wizards af the Coast
+
+C 0176 wp
+DFT - EN & Dane Banca ™ & © 2025 Wirards of the Coast
+
+C 0176 wp
+DFT - EN & Dann Baer ™ & © 2025 Wizards of the Coast
+
+C 0176 wn
+DFT - EN & Dane Baner ™ & © 2025 Wizards of the Coast
+
+C 0176 2B}
+DFT - EN %& Dani Baoer te & & 2025 Wizards of the Coast
+
+Les Peaad Pra be LOSE
+, ayy. \
+| 2/3
+C 0176
+DFT - EN % Dane Banca m™ & © 2025 Wizards of the Coast
+
+Cc 0176 eae
+DFT - EN & Danen Baper ™ & © 2025 Wizards of the Coast
+
+C 0176 2/3
+q OFT - EN %& Danex Baper ™ & C 2025 Winerds of the Coast
+
+4 ea Pa . . . oe . woe >, >
+
+% Pothole Mole 2e
+
+5 =_- p
+
+at See —F
+
+a » : — | aw
+ca — J i
+\
+Creature — Mole joi i
+
+4 When this creature enters, mill three 3
+
+ra cards, then you may return a land card
+
+Mg from your graveyard to your hand. (Jo §
+
+pa ill three cards, put the top three cards of :
+
+Me your library ito your graveyard.) o
+“Someone please call pest control. Again.”
+Termin, track designer ‘
+
+2/3 )
+C O76
+DFT + EN %& Darin Baorr M$ DOTS Wiaaete ut the Coast
+q Dy
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 18:00:56
+matched_name: Slavering Branchsnapper
+matched_set: DSK
+matched_collector: 198
+reason: título OCR 'M Slavering Branchsnapper 44'
+name_hint: Bit, putin tate vor laaid then shade.)
+namebar_text: Slaverins Sranchsnar ner )
+
+Slavering Branch
+
+. r w - . , * , — hsi are . 7 : , ~
+
+
+y
+M Slavering Branchsnapper 44
+,
+
+set_code_hint: DSK
+collector_hint: 198
+
+raw_ocr:
+Slaverins Sranchsnar ner )
+
+Slavering Branch
+
+. r w - . , * , — hsi are . 7 : , ~
+
+
+7)
+,
+c 0198
+
+DSK - EN & Jonn TEORICK 2M Bo NDE Wizards at the Coast
+
+Bit, putin tate vor laaid then shade.) 1
+BTN, Cook! Tt aide us a nice bry path :
+through the ledge mare!”
+a ALTITS Fe
+Cc 0198
+DSK - EN te Joun Tromicn ™ & © 2024 Wizards of the Coast
+
+ny, puri odo your hand, then shuffle) 4
+Hey, look! [It made us a nice big path <
+through the hedge maze!” ¥
+C 0198
+DSK © EN be Joun TeonicK ™ & 6 2026 Wizards af the Coast
+
+ya it, pul iw into your hand, then shuffle.) €
+st
+m “Hey, look! It made us a nice big path 3
+through the hedge maze!” o
+—Zimone | 6}
+Cc 0198
+DSK © EN be Joun TRoRick “eH DVDS Wade of the Cat
+
+C 0198 6
+DSK - EN t& Joan Troricx ™ & & 2024 Wizards af the Coast
+
+Cc 0198 To
+OSK - EN be Joan Tromcx ™ & © 2024 Wizards of the Coast
+
+Cc 0198 Tie
+OSK - EN te Joan Tepeica t™ & © 2024 Wizards of the Coast
+
+C 0198 Te
+DSK - EN % Joun Trprica rm & © 2024 Wizards of the Coast
+
+C 0198 We \
+DSK - EN %& Joan TrDRiICcK ™ & © 2024 Wizards of the Coast
+
+77)
+Cc 0198
+OSK - EN % Joun Trpeica rm & © 2024 Wizards of the Coast
+
+Cc 0198 aus
+OSK > EN > loun Trpricx ™ & © 2024 Wizards of the Coast
+
+Cc 0198 0 |
+OSK - EN Joan Troricx ™ & C 2024 Wizards of the Coast
+. 5
+
+m Slavering Branchsnapper 4@@
+q
+. ak
+Creature — Lizard wd Ff
+% ws
+| Trample F
+; Forestcycling 2 (2, Discard this card: Pe
+k Search your library for a Forest card, reveal P
+i it, put it into your hand, then shuffte.) q
+Hey, look! It made us a nice big path S
+through the hedge maze!” 3
+—Zimone —"
+
+Cc 0198 7/6
+DSK > EN & Jonn TLoRicK MM & N28 Wizards of the Coast
+qi
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 18:01:47
+matched_name: Threats Around Every Corner
+matched_set: DSK
+matched_collector: 200
+reason: título OCR 'Threats Around Every Corner 3 4'
+name_hint: m battlefield tapped, then shuffle
+namebar_text: Threats oe Every —
+
+Threats Around ever Corne
+
+Threats Around |
+
+a
+; Threats Around Every Corner 3 4
+
+set_code_hint: THE
+collector_hint: 2024
+
+raw_ocr:
+Threats oe Every —
+
+Threats Around ever Corne
+
+Threats Around |
+
+Oathieneid tapped, then snuine. ‘
+U 0200 ™ Se NIE Wizards of the Coast
+OSK + EN ®& ANDRIA PiraRo
+qi 4
+
+“4g Whenever a face-down permanent
+‘#vou control enters, search your library [4
+§ fora basic land card, put it onto the  f%
+m battlefield tapped, then shuffle.
+V 0200 ™ & © 2024 Wizands of the Coast
+DSK > EN  ANDALA Piraro
+
+gs Whenever a face-down permanent ¢
+you control enters, search your library }¥
+§ for a basic land card, put it onto the
+battlefield tapped, then shuffle. ¥
+VU 0200 ™ & © 2024 Wizards af the Coast
+OSK + EN % ANODRIA Piraro
+
+ma Whenever a face-down permanent ¢
+a you control enters, search your library
+@ for a basic land card, put itonto the &
+battlefield tapped, then shuffle. .
+U 0200 PM B62 Wines of the Caract
+DSK - EN te» ANDRA Prraro
+
+VU 0200 ™ & © 2024 Wizards af the Coast
+DSK - EN Be ANDRA PIPARO
+
+pe
+
+!
+U 0200 ™ & © 2024 Wizards of the Coast
+OSK - EN be AnDAara Pirparo
+
+U 0200 ™ & C 2024 Wizards of the Coast
+DSK - EN & Anpata Pirparo
+
+VU 0200 ™ & © 2024 Wizards of the Coast
+DSK - EN &» AnData Pirparo
+
+U 0200 Tm & © 2024 Wizards of che Coast
+DSK - EN te AnDara Piraro
+
+tf
+pe
+U 0200 ™ & C 2024 Wizards of the Coast
+OSK - EN & Anpara Pirparo
+. 5
+
+V 0200 ™ & C 2024 Wizards of the Conn
+DSK - EN > Ambata Prraro
+q .
+
+y 0200 Tt & © 2024 Wizards of the Coast
+OSK ¢ EN > AnDAara Prrparo
+q 5
+
+& Threats Around Every Corner 3@
+Lair
+g wy) _ a “
+Enchantment Pek
+fg When Threats Around Every Corner
+a enters, manifest dread. ‘
+va Whenever a face-down permanent 2
+@ you control enters, search your library .
+@ for a basic land card, put itonto the &
+battlefield tapped, then shuffle. ca
+
+U 0200 ™ & 6 2026 Wigande ut the Coad
+
+OSK - EN te ANDRIA PipARo
+q ad
+
+
+======================================================================
+version: 2026-07-08.17
+timestamp: 2026-07-09 18:02:23
+matched_name: Cryptid Inspector
+matched_set: DSK
+matched_collector: 174
+reason: título OCR '? Cryptid Inspector'
+name_hint: 4B inspector or another permanent vou
+namebar_text: ? Cryptid Inspector
+
+Cryptid Inspecto
+
+yo
+& Cryptid Inspector Zé
+
+set_code_hint: OSK
+collector_hint: 174
+
+raw_ocr:
+? Cryptid Inspector
+
+Cryptid Inspecto
+
+“Please be dead, Please Be dead, Please Be ?
+ad
+C 0174
+OSK + EN be Kim Sonor. PM & 2 § Wizards od the Coast
+
+4B inspector or another permanent vou .
+@ control is turned face up, put a +1 +1 :
+-# counter on Cryptid Inspector. x
+Be Ploase Be dead, please be fod, Nleuse be |
+dead.” 2/3 \
+C 0174
+DSK > EN Be Kim Soxor ™ & © 2024 Wizards of the Coast
+
+Na inspector or another permanent you ‘
+control is turned face up, put a +1/+1 ‘g
+counter on Cryptd Inspector. n
+
+a
+
+’
+“Please be dead, please be dead, please be x
+dead.” 7973) 3
+
+C 0174
+DSK - EN %» Kim SoxoL ™ & © 2026 Wizards of the Coast
+
+ey inspector or another permanent you
+ya control is turned face up, put a +1/+1 >
+wm counter on Cryptid Inspector. "
+“Please be dead, please be dead, please be "
+dead.” 273 )
+C 0174 2/3
+DSK - EN te Kim SaKor “™ & DUDE Wiaands of the Coa
+
+C 0174 WB)
+DSK - EN t Kim Soxor ™ & C2024 Wizards af the Coast
+
+C 0174 WB
+q DSK - EN t& Kim SoKon ™ & © 2024 Wizards of the Coast
+
+C 0174 2B.
+q DSK - EN te Kim Soxor t™ & © 2024 Wizards of the Coast
+
+C 0174 WB
+q DSK « EN te Kin SOKOL ™ & © 2024 Wizards af the Coast
+
+C 0174 wn
+DSK - EN te Kim SOKOL ™ & © 2024 Wizards of the Coast
+
+. : . adn whi ES 6 te ~~ iS . ef WS A wee ern 4
+4. a
+edicdad. /3 \
+' ) )
+C 0174
+DSK - EN t Kim SoKoL ™ & © 2024 Wizards of the Coast
+. .
+
+C 0174 aan
+q DSK - EN & Kin Soot te & © 20246 Wizards of the Const
+_
+
+C 0174 : 23
+DSK © EN i Kin Soxon r & © 2024 Wizards of the Const
+q 5
+
+& Cryptid Inspector 2e
+- . ehy f .
+Creature — Elf Warrior Oe? \
+: Vigilance i
+: Whenever a face-down permanent you P
+fa control enters and whenever Cryptid iy
+pa Inspector or another permanent you 2
+4 control is turned face up, put a +1/+1 o
+ea counter on Cryptid Inspector. in
+“Please be dead, please be dead, please be es
+dead.” )
+C O74 2/3
+OSK + EN t Kim SaKol ™ & ee DDE Wizards ut the Coast
+a
+
