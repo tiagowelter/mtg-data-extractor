@@ -576,22 +576,46 @@ def excel_names_match(cell_value: str, search_name: str) -> bool:
     return bool(cell_parts & search_parts)
 
 
-def find_name_row_in_excel(name: str) -> int | None:
+def collection_set_code(value: str) -> str:
+    value = (value or "").strip()
+    match = re.search(r"\(([A-Za-z0-9]+)\)\s*$", value)
+    if match:
+        return match.group(1).upper()
+    return value.upper()
+
+
+def excel_collections_match(cell_value: str, search_collection: str) -> bool:
+    cell = (cell_value or "").strip()
+    search = (search_collection or "").strip()
+    if not cell or not search:
+        return False
+    if normalize_text(cell) == normalize_text(search):
+        return True
+    cell_code = collection_set_code(cell)
+    search_code = collection_set_code(search)
+    return bool(cell_code) and cell_code == search_code
+
+
+def find_name_row_in_excel(name: str, collection: str = "") -> int | None:
     if not EXCEL_PATH.exists():
         return None
     workbook = load_workbook(EXCEL_PATH, read_only=True, data_only=True)
     try:
         sheet = workbook.active
         for row_index, row in enumerate(
-            sheet.iter_rows(min_col=1, max_col=1, values_only=True),
+            sheet.iter_rows(min_col=1, max_col=8, values_only=True),
             start=1,
         ):
             cell_value = row[0] if row else None
+            cell_collection = row[7] if row and len(row) > 7 else None
             if row_index == 1 and cell_value and str(cell_value).strip() == "Nome":
                 continue
             if cell_value is None or str(cell_value).strip() == "":
                 continue
-            if excel_names_match(str(cell_value), name):
+            if excel_names_match(str(cell_value), name) and excel_collections_match(
+                str(cell_collection or ""),
+                collection,
+            ):
                 return row_index
     finally:
         workbook.close()
@@ -4183,11 +4207,11 @@ class MagicExtractorApp:
     def clear_duplicate_alert(self) -> None:
         self.duplicate_alert.configure(text="")
 
-    def check_duplicate_alert(self, name: str) -> None:
+    def check_duplicate_alert(self, name: str, collection: str = "") -> None:
         if not name.strip():
             self.clear_duplicate_alert()
             return
-        existing_row = find_name_row_in_excel(name)
+        existing_row = find_name_row_in_excel(name, collection)
         if existing_row is not None:
             self.show_duplicate_alert(existing_row)
         else:
@@ -4195,9 +4219,10 @@ class MagicExtractorApp:
 
     def save_or_alert_duplicate(self, row: list[str], allow_update: bool = False) -> None:
         name = row[0]
+        collection = row[7] if len(row) > 7 else ""
         if not name.strip():
             return
-        existing_row = find_name_row_in_excel(name)
+        existing_row = find_name_row_in_excel(name, collection)
         if existing_row is not None:
             if allow_update and self.last_appended_row == existing_row:
                 update_row_in_excel(existing_row, row)
@@ -4208,7 +4233,7 @@ class MagicExtractorApp:
             return
         self.clear_duplicate_alert()
         append_row_to_excel(row)
-        self.last_appended_row = find_name_row_in_excel(name)
+        self.last_appended_row = find_name_row_in_excel(name, collection)
         self.log(f"Salvo em {EXCEL_PATH}")
         if self.last_appended_row:
             self.show_result_banner(
@@ -4335,10 +4360,10 @@ class MagicExtractorApp:
             self.write_debug(card, reason, ocr_result)
             row = self.db.to_row(card, self.foil_var.get())
             self.fill_fields(row, ocr_result, reason, job_id)
-            existing_row = find_name_row_in_excel(row[0])
+            existing_row = find_name_row_in_excel(row[0], row[7])
             if existing_row is None:
                 self.save_or_alert_duplicate(self.row_values())
-                saved_row = find_name_row_in_excel(row[0])
+                saved_row = find_name_row_in_excel(row[0], row[7])
                 if saved_row:
                     message = f"Salvo na linha {saved_row} de {EXCEL_PATH.name}."
                     self.show_result_banner(message, "success")
@@ -4346,12 +4371,12 @@ class MagicExtractorApp:
             else:
                 self.show_duplicate_alert(existing_row)
                 self.log(
-                    f"Preenchido: {row[0]} | {reason} | "
+                    f"Preenchido: {row[0]} | {row[7]} | {reason} | "
                     f"Já existe na linha {existing_row} de {EXCEL_PATH.name} — não foi adicionada de novo"
                 )
                 messagebox.showwarning(
                     "Carta já existe",
-                    f"\"{row[0]}\" já está na linha {existing_row} de {EXCEL_PATH.name}.\n\n"
+                    f"\"{row[0]}\" ({row[7]}) já está na linha {existing_row} de {EXCEL_PATH.name}.\n\n"
                     "Os campos foram preenchidos, mas a carta não foi adicionada de novo ao Excel.",
                 )
         except Exception as exc:
