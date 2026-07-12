@@ -4,3 +4,6 @@ __pycache__/
 last_extraction_debug.txt
 data/card_index.pkl
 data/scryfall_default_cards.json
+data/scryfall_default_cards.tmp
+data/scryfall_tokens.json
+data/scryfall_tokens.tmp

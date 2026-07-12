@@ -45,19 +45,23 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-08.17"
+APP_VERSION = "2026-07-11.2"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
+SCRYFALL_TOKENS_PATH = DATA_DIR / "scryfall_tokens.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
 MTGJSON_ATOMIC_PATH = DATA_DIR / "mtgjson_atomic_cards.json.gz"
 INDEX_PATH = DATA_DIR / "card_index.pkl"
-INDEX_VERSION = 24
+INDEX_VERSION = 25
 # Latin-script languages whose printed names (from foreign-only printings in
 # the Scryfall bulk, e.g. FBB French "Lunettes d'Urza") join the name pools.
 _FOREIGN_NAME_LANGS = {"fr", "es", "it", "de", "pt"}
-# Layouts that reuse real card names but are never scanned as collectible cards;
-# excluded from the fuzzy name/face matching pools.
+# Layouts that reuse real card names or very generic names; excluded from fuzzy
+# name/face matching pools. Tokens still join the print index, where footer
+# evidence can identify them without letting "Goblin" beat a real card name.
 _NON_CATALOG_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem", "reversible_card"}
+_TOKEN_LAYOUTS = {"token", "double_faced_token"}
+SCRYFALL_TOKEN_SEARCH_QUERY = "include:extras (layout:token or layout:double_faced_token)"
 EXCEL_PATH = APP_DIR / "MagicCollection.xlsx"
 DEBUG_PATH = APP_DIR / "last_extraction_debug.txt"
 DEBUG_LOG_PATH = APP_DIR / "extraction_log.txt"
@@ -231,6 +235,8 @@ def normalize_text(value: str) -> str:
     value = "".join(ch for ch in value if not unicodedata.combining(ch))
     value = value.lower()
     value = re.sub(r"[^a-z0-9]+", " ", value)
+    value = re.sub(r"\bs\s+h\s+(?:i|1)\s+e\s+l\s+d\b", " shield ", value)
+    value = re.sub(r"\bs\s+h\s+(?:ie|1e|le|ue)\s+l\s+d\b", " shield ", value)
     return re.sub(r"\s+", " ", value).strip()
 
 
@@ -1047,22 +1053,23 @@ class LocalOcr:
         text = re.sub(r"[^A-Z0-9]+", " ", text)
         long_footer_candidates = []
         for match in re.finditer(
-            r"\b([CMUR])(?:\1)?\s+(0*\d{3,4}[A-Z]?)\b[\s\S]{0,40}?\b([A-Z]{3})\b[\s\S]{0,20}?\b(?:EN|PT)\b",
+            r"\b([CMURT])(?:\1)?\s+(0*\d{3,4}[A-Z]?)\b[\s\S]{0,40}?\b([A-Z]{3})\b[\s\S]{0,20}?\b(?:EN|PT)\b",
             text,
         ):
             rarity, number, set_code = match.groups()
             normalized_number = ocr_collector_key(number)
-            if len(re.sub(r"\D", "", normalized_number)) >= 3:
-                long_footer_candidates.append((set_code, normalized_number, rarity, match.start()))
+            raw_digit_count = len(re.sub(r"\D", "", number))
+            if raw_digit_count >= 3:
+                long_footer_candidates.append((set_code, normalized_number, rarity, match.start(), raw_digit_count))
         if long_footer_candidates:
-            set_code, number, rarity, _position = max(
+            set_code, number, rarity, _position, _raw_digit_count = max(
                 long_footer_candidates,
-                key=lambda item: (len(re.sub(r"\D", "", item[1])), -item[3]),
+                key=lambda item: (1 if item[2] == "T" else 0, item[4], -item[3]),
             )
             return set_code, number, rarity
         rarity = ""
         rarity_with_pt_match = re.search(
-            r"\b([CMUR])\s+(\d{1,4}[A-Z]?)\s+(?:\d+\s+\d+\s+)?([A-Z0-9]{2,5})\s+(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b",
+            r"\b([CMURT])\s+(\d{1,4}[A-Z]?)\s+(?:\d+\s+\d+\s+)?([A-Z0-9]{2,5})\s+(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b",
             text,
         )
         if rarity_with_pt_match:
@@ -1070,7 +1077,7 @@ class LocalOcr:
             return set_code, ocr_collector_key(number), rarity
 
         rarity_match = re.search(
-            r"\b([CMUR])\s+(\d{1,4}[A-Z]?)\s+([A-Z0-9]{2,5})\s+(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b",
+            r"\b([CMURT])\s+(\d{1,4}[A-Z]?)\s+([A-Z0-9]{2,5})\s+(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b",
             text,
         )
         if rarity_match:
@@ -1078,7 +1085,7 @@ class LocalOcr:
             return set_code, ocr_collector_key(number), rarity
 
         loose_footer = re.search(
-            r"\b([CMUR])\s+(0*\d{1,4}[A-Z]?)\b[\s\S]{0,40}?\b([A-Z]{3})\b[\s\S]{0,20}?\b(?:EN|PT)\b",
+            r"\b([CMURT])\s+(0*\d{1,4}[A-Z]?)\b[\s\S]{0,40}?\b([A-Z]{3})\b[\s\S]{0,20}?\b(?:EN|PT)\b",
             text,
         )
         if loose_footer:
@@ -1140,6 +1147,45 @@ class ScryfallDatabase:
     def _foreign_norm_choices(self) -> dict[str, tuple[str, int]]:
         return self._normalized_choices("foreign", self.foreign_name_choices)
 
+    @staticmethod
+    def _is_token_card(card: dict) -> bool:
+        return card.get("layout") in _TOKEN_LAYOUTS
+
+    @classmethod
+    def _print_index_set_codes(cls, card: dict) -> list[str]:
+        set_code = (card.get("set") or "").upper()
+        codes = []
+
+        def add(code: str) -> None:
+            if code and code not in codes:
+                codes.append(code)
+
+        add(set_code)
+        if cls._is_token_card(card) and set_code.startswith("T") and len(set_code) > 2:
+            # Scryfall stores Marvel tokens in TMSH/TSPM/etc., while the
+            # printed footer shows the parent set code (MSH/SPM) after a "T".
+            add(set_code[1:])
+        return codes
+
+    @classmethod
+    def _print_match_set_codes(cls, card: dict) -> set[str]:
+        return set(cls._print_index_set_codes(card))
+
+    @staticmethod
+    def _token_context_in_raw_text(raw_text: str) -> bool:
+        normalized = normalize_text(raw_text)
+        if re.search(r"\btoken\s+(?:artifact|creature|enchantment|land|card)\b", normalized):
+            return True
+        footer_text = raw_text.upper().replace("\u2022", " ")
+        footer_text = re.sub(r"[^A-Z0-9]+", " ", footer_text)
+        return bool(
+            re.search(
+                r"\bT\s+0*\d{1,4}[A-Z]?\s+[A-Z0-9]{2,5}\s+"
+                r"(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b",
+                footer_text,
+            )
+        )
+
     def _build_foreign_names(self) -> None:
         """Printed names of Latin-script foreign printings, mapped to their
         English counterpart. These cover foreign-only sets (FBB, 4BB, REN,
@@ -1187,6 +1233,9 @@ class ScryfallDatabase:
         log("Baixando Default Cards do Scryfall para reconhecer impressões...")
         self._download_file(default_cards["download_uri"], SCRYFALL_CARDS_PATH, log)
 
+        log("Baixando tokens do Scryfall...")
+        self._download_token_cards(log)
+
         log("Baixando lista de coleções...")
         sets = requests.get("https://api.scryfall.com/sets", timeout=60, headers=HTTP_HEADERS)
         sets.raise_for_status()
@@ -1222,6 +1271,32 @@ class ScryfallDatabase:
                         last_log = time.time()
         temp_path.replace(path)
 
+    @staticmethod
+    def _download_token_cards(log) -> None:
+        cards = []
+        total = 0
+        url = "https://api.scryfall.com/cards/search"
+        params = {
+            "q": SCRYFALL_TOKEN_SEARCH_QUERY,
+            "unique": "prints",
+            "order": "set",
+        }
+        while url:
+            response = requests.get(url, params=params, timeout=60, headers=HTTP_HEADERS)
+            response.raise_for_status()
+            payload = response.json()
+            cards.extend(payload.get("data", []))
+            total = int(payload.get("total_cards") or total or len(cards))
+            log(f"Tokens: {len(cards)}/{total}")
+            url = payload.get("next_page") or ""
+            params = None
+            if url:
+                time.sleep(0.12)
+
+        temp_path = SCRYFALL_TOKENS_PATH.with_suffix(".tmp")
+        temp_path.write_text(json.dumps(cards, ensure_ascii=False), encoding="utf-8")
+        temp_path.replace(SCRYFALL_TOKENS_PATH)
+
     def load(self, force_rebuild: bool = False, log=lambda _msg: None) -> None:
         if self.loaded and not force_rebuild:
             return
@@ -1243,6 +1318,20 @@ class ScryfallDatabase:
         log("Lendo arquivo de cartas...")
         with SCRYFALL_CARDS_PATH.open("r", encoding="utf-8") as handle:
             self.cards = json.load(handle)
+        if SCRYFALL_TOKENS_PATH.exists():
+            log("Lendo suplemento de tokens...")
+            with SCRYFALL_TOKENS_PATH.open("r", encoding="utf-8") as handle:
+                token_cards = json.load(handle)
+            existing_ids = {card.get("id") for card in self.cards if card.get("id")}
+            for token_card in token_cards:
+                card_id = token_card.get("id")
+                if card_id and card_id in existing_ids:
+                    continue
+                self.cards.append(token_card)
+                if card_id:
+                    existing_ids.add(card_id)
+        else:
+            log("Suplemento de tokens ausente. Clique em Atualizar base para reconhecer tokens.")
 
         if SETS_PATH.exists():
             with SETS_PATH.open("r", encoding="utf-8") as handle:
@@ -1267,7 +1356,8 @@ class ScryfallDatabase:
             set_code = (card.get("set") or "").upper()
             collector = collector_key(card.get("collector_number"))
             if set_code and collector:
-                self.by_print.setdefault((set_code, collector), []).append(card)
+                for index_set_code in self._print_index_set_codes(card):
+                    self.by_print.setdefault((index_set_code, collector), []).append(card)
             oracle_id = card.get("oracle_id") or card.get("name")
             if oracle_id and collector:
                 self.oracle_collectors.setdefault(oracle_id, set()).add(collector)
@@ -1508,9 +1598,15 @@ class ScryfallDatabase:
             return None
         if len(candidates) == 1:
             return candidates[0]
+        token_context = self._token_context_in_raw_text(raw_text)
         scored = []
         for card in candidates:
             score = 0
+            if self._is_token_card(card):
+                if token_context:
+                    score += 140
+            elif token_context:
+                score -= 40
             if self._card_name_in_raw_text(card, raw_text):
                 score += 100
             pt_card = self.portuguese_for(card)
@@ -1855,11 +1951,11 @@ class ScryfallDatabase:
 
     def _print_evidence_in_ocr(self, card: dict, ctx: OcrMatchContext) -> bool:
         ocr = ctx.ocr
-        set_code = (card.get("set") or "").upper()
+        set_codes = self._print_match_set_codes(card)
         collector = collector_key(card.get("collector_number"))
         known_sets = self._known_set_codes()
         if ocr.set_code and ocr.collector_number:
-            if ocr.set_code.upper() == set_code and collector_key(ocr.collector_number) == collector:
+            if ocr.set_code.upper() in set_codes and collector_key(ocr.collector_number) == collector:
                 return True
         for index, token in enumerate(ctx.tokens):
             if collector not in self._collector_token_variants(token):
@@ -1868,18 +1964,18 @@ class ScryfallDatabase:
                 self._corrected_set(value, known_sets, collector) or value
                 for value in ctx.tokens[index + 1 : index + 16]
             }
-            if set_code in window:
+            if set_codes.intersection(window):
                 return True
         fraction_collectors = {fraction_collector for fraction_collector, _total in ctx.fractions}
-        if set_code in ctx.sets_in_text and collector in fraction_collectors:
+        if set_codes.intersection(ctx.sets_in_text) and collector in fraction_collectors:
             return True
         if collector in self._collector_numbers_in_text(ocr.raw_text):
-            if set_code in ctx.sets_in_text or set_code in ctx.tokens:
+            if set_codes.intersection(ctx.sets_in_text) or set_codes.intersection(ctx.tokens):
                 return True
         return False
 
     def _print_pair_occurrences(self, card: dict, ctx: OcrMatchContext) -> int:
-        set_code = (card.get("set") or "").upper()
+        set_codes = self._print_match_set_codes(card)
         collector = collector_key(card.get("collector_number"))
         known_sets = self._known_set_codes()
         count = 0
@@ -1890,7 +1986,7 @@ class ScryfallDatabase:
                 self._corrected_set(value, known_sets, collector) or value
                 for value in ctx.tokens[index + 1 : index + 16]
             }
-            if set_code in window:
+            if set_codes.intersection(window):
                 count += 1
         return count
 
@@ -2578,14 +2674,13 @@ class ScryfallDatabase:
             preferred = [
                 item
                 for item in same_oracle_cards
-                if (item.get("set") or "").upper() == preferred_set
+                if preferred_set in self._print_match_set_codes(item)
             ]
             if preferred:
                 return preferred[0]
 
         def set_in_text(item: dict) -> bool:
-            code = (item.get("set") or "").upper()
-            return bool(code) and code in set_codes_in_text
+            return bool(self._print_match_set_codes(item).intersection(set_codes_in_text))
 
         set_matches = [item for item in same_oracle_cards if set_in_text(item)]
         if set_matches:
@@ -2630,7 +2725,7 @@ class ScryfallDatabase:
         ]
         if same_cards:
             for item in same_cards:
-                if (item.get("set") or "").upper() in set_codes_in_text:
+                if self._print_match_set_codes(item).intersection(set_codes_in_text):
                     return item
             return same_cards[0]
         return context_pick or self._earliest_print(compatible, card)
@@ -2639,6 +2734,14 @@ class ScryfallDatabase:
     def _collector_numbers_in_text(raw_text: str) -> set[str]:
         text = raw_text.upper()
         collectors = set()
+        footer_text = text.replace("\u2022", " ")
+        footer_text = re.sub(r"[^A-Z0-9]+", " ", footer_text)
+        for match in re.finditer(
+            r"\b(?:[CMURT]\s+)?(0*\d{1,4}[A-Z]?)\s+[A-Z0-9]{2,5}\s+"
+            r"(?:EN|PT|ES|FR|DE|IT|JP|KO|RU|ZHS|ZHT)\b",
+            footer_text,
+        ):
+            collectors.add(ocr_collector_key(match.group(1)))
         for match in re.finditer(r"\b([0-9OIL]{1,4}[A-Z]?)\s*/\s*[0-9OILSE]{1,5}\b", text):
             collector = ocr_collector_key(match.group(1))
             total_raw = match.group(0).split("/", 1)[1]
@@ -2676,8 +2779,9 @@ class ScryfallDatabase:
         fractions = self._collector_fractions_in_text(raw_text)
         fraction_totals = {collector: total for collector, total in fractions}
         language_codes = {"EN", "PT", "ES", "FR", "DE", "IT", "JP", "KO", "RU", "ZHS", "ZHT"}
-        rarity_codes = {"C", "U", "R", "M"}
+        rarity_codes = {"C", "U", "R", "M", "T"}
         tokens = re.findall(r"[A-Z0-9]+", raw_text.upper())
+        token_context = self._token_context_in_raw_text(raw_text)
 
         def candidate_from(set_code: str, collector: str, allow_context_match: bool = False) -> dict | None:
             candidates = self._print_candidates(set_code, collector)
@@ -2688,7 +2792,9 @@ class ScryfallDatabase:
                     return card
             total = fraction_totals.get(collector, 0)
             collector_digits = re.sub(r"\D", "", collector)
-            if collector_digits and int(collector_digits) <= 9 and not total:
+            if collector_digits and int(collector_digits) <= 9 and not total and not (
+                allow_context_match and token_context
+            ):
                 return None
             if total:
                 if set_code in self._sets_for_card_count(total):
@@ -2875,7 +2981,7 @@ class ScryfallDatabase:
             return False
         oracle_id = hint_card.get("oracle_id") or hint_card.get("name")
         prints = self.en_by_oracle.get(oracle_id) or self.pt_by_oracle.get(oracle_id) or []
-        return any((item.get("set") or "").upper() == set_code for item in prints)
+        return any(set_code in self._print_match_set_codes(item) for item in prints)
 
     def is_confident_match(self, card: dict, ctx: OcrMatchContext) -> bool:
         ocr = ctx.ocr
@@ -2970,23 +3076,23 @@ class ScryfallDatabase:
             return True
         if ctx.hint_card and ctx.hint_card.get("oracle_id") == card.get("oracle_id"):
             return True
-        set_code = (card.get("set") or "").upper()
+        set_codes = self._print_match_set_codes(card)
         collector = collector_key(card.get("collector_number"))
         for index, token in enumerate(ctx.tokens):
             if collector not in self._collector_token_variants(token):
                 continue
             window = set(ctx.tokens[index + 1 : index + 16])
-            if set_code in window:
+            if set_codes.intersection(window):
                 return True
         for fraction_collector, total in ctx.fractions:
             if fraction_collector != collector:
                 continue
             matching_sets = self._sets_for_card_count(total)
-            if set_code not in matching_sets:
+            if not set_codes.intersection(matching_sets):
                 continue
-            if set_code in ctx.sets_in_text:
+            if set_codes.intersection(ctx.sets_in_text):
                 return True
-            if len(matching_sets) == 1 and set_code in ctx.tokens:
+            if len(matching_sets) == 1 and set_codes.intersection(ctx.tokens):
                 return True
         card_type = normalize_text(card_faces_text(card, "type_line"))
         card_text = normalize_text(card_faces_text(card, "oracle_text"))
@@ -3005,12 +3111,12 @@ class ScryfallDatabase:
         if not fractions and not collectors:
             return False
         card_collector = collector_key(card.get("collector_number"))
-        card_set = (card.get("set") or "").upper()
+        card_set_codes = self._print_match_set_codes(card)
         oracle_id = card.get("oracle_id")
 
         fraction_collectors = {collector for collector, _total in fractions}
         if card_collector in fraction_collectors:
-            if card_set in ctx.sets_in_text:
+            if card_set_codes.intersection(ctx.sets_in_text):
                 return False
             if self._card_name_in_raw_text(card, raw_text):
                 return False
@@ -3018,7 +3124,7 @@ class ScryfallDatabase:
             for collector, total in fractions:
                 if collector != card_collector:
                     continue
-                if card_set in self._sets_for_card_count(total):
+                if card_set_codes.intersection(self._sets_for_card_count(total)):
                     supporting = True
                     break
             return not supporting
