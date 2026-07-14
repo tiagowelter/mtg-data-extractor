@@ -45,14 +45,18 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-11.2"
+APP_VERSION = "2026-07-13.2"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SCRYFALL_TOKENS_PATH = DATA_DIR / "scryfall_tokens.json"
 SETS_PATH = DATA_DIR / "scryfall_sets.json"
 MTGJSON_ATOMIC_PATH = DATA_DIR / "mtgjson_atomic_cards.json.gz"
 INDEX_PATH = DATA_DIR / "card_index.pkl"
+VISUAL_CACHE_DIR = DATA_DIR / "visual_cache"
+VISUAL_HASH_CACHE_PATH = DATA_DIR / "visual_hash_cache.pkl"
 INDEX_VERSION = 25
+VISUAL_OLD_FRAME_CUTOFF = "2003-07-27"
+VISUAL_MATCH_MAX_CANDIDATES = 40
 # Latin-script languages whose printed names (from foreign-only printings in
 # the Scryfall bulk, e.g. FBB French "Lunettes d'Urza") join the name pools.
 _FOREIGN_NAME_LANGS = {"fr", "es", "it", "de", "pt"}
@@ -537,6 +541,78 @@ def fuzzy_word_count(expected_words: list[str], text_words: list[str], threshold
     return count
 
 
+def unique_words(words: list[str]) -> list[str]:
+    return list(dict.fromkeys(words))
+
+
+def image_pixels(image: Image.Image) -> list:
+    get_flattened_data = getattr(image, "get_flattened_data", None)
+    return list(get_flattened_data() if get_flattened_data else image.getdata())
+
+
+def crop_old_frame_art(image: Image.Image) -> Image.Image:
+    image = crop_possible_app_screenshot(image.convert("RGB"))
+    width, height = image.size
+    return image.crop(
+        (
+            int(width * 0.075),
+            int(height * 0.075),
+            int(width * 0.925),
+            int(height * 0.565),
+        )
+    )
+
+
+def visual_average_hash(image: Image.Image, size: int = 16) -> tuple[bool, ...]:
+    grayscale = ImageOps.grayscale(image)
+    grayscale = ImageOps.fit(grayscale, (size, size), method=Image.Resampling.LANCZOS)
+    pixels = image_pixels(grayscale)
+    average = sum(pixels) / max(1, len(pixels))
+    return tuple(pixel >= average for pixel in pixels)
+
+
+def visual_difference_hash(image: Image.Image, size: int = 16) -> tuple[bool, ...]:
+    grayscale = ImageOps.grayscale(image)
+    grayscale = ImageOps.fit(grayscale, (size + 1, size), method=Image.Resampling.LANCZOS)
+    pixels = image_pixels(grayscale)
+    bits = []
+    for y in range(size):
+        row = pixels[y * (size + 1) : (y + 1) * (size + 1)]
+        for x in range(size):
+            bits.append(row[x] > row[x + 1])
+    return tuple(bits)
+
+
+def visual_color_histogram(image: Image.Image) -> tuple[float, ...]:
+    image = ImageOps.fit(image.convert("RGB"), (64, 64), method=Image.Resampling.LANCZOS)
+    bins = [0] * 64
+    for red, green, blue in image_pixels(image):
+        bins[(red // 64) * 16 + (green // 64) * 4 + (blue // 64)] += 1
+    total = max(1, sum(bins))
+    return tuple(value / total for value in bins)
+
+
+def visual_features(image: Image.Image) -> dict[str, tuple]:
+    return {
+        "ahash": visual_average_hash(image),
+        "dhash": visual_difference_hash(image),
+        "hist": visual_color_histogram(image),
+    }
+
+
+def hamming_distance(left: tuple[bool, ...], right: tuple[bool, ...]) -> int:
+    return sum(a != b for a, b in zip(left, right))
+
+
+def visual_feature_distance(left: dict[str, tuple], right: dict[str, tuple]) -> float:
+    histogram_distance = sum(abs(a - b) for a, b in zip(left["hist"], right["hist"]))
+    return (
+        hamming_distance(left["ahash"], right["ahash"])
+        + hamming_distance(left["dhash"], right["dhash"]) * 0.5
+        + histogram_distance * 60
+    )
+
+
 def detect_tesseract_languages() -> tuple[str, bool]:
     if pytesseract is None:
         return "eng", False
@@ -786,6 +862,7 @@ class OcrResult:
     collector_number: str = ""
     rarity_hint: str = ""
     raw_text: str = ""
+    card_image: Image.Image | None = None
 
 
 class LocalOcr:
@@ -858,6 +935,7 @@ class LocalOcr:
             collector_number=collector_number,
             rarity_hint=rarity_hint,
             raw_text=raw_text,
+            card_image=image.copy(),
         )
 
     @staticmethod
@@ -1117,6 +1195,7 @@ class ScryfallDatabase:
         self.oracle_collectors: dict[str, set[str]] = {}
         self.loaded = False
         self._norm_cache: dict[str, dict[str, tuple[str, int]]] = {}
+        self._visual_hash_cache: dict[str, dict[str, tuple]] | None = None
 
     def _normalized_choices(self, key: str, choices: list[tuple[str, int]]) -> dict[str, tuple[str, int]]:
         """Map normalized name -> (original name, card index), built once.
@@ -1919,11 +1998,11 @@ class ScryfallDatabase:
             normalized_name = normalize_text(card_name)
             if normalized_phrase_in_text(normalized_name, normalized_raw):
                 return True
-            name_words = [
+            name_words = unique_words([
                 word for word in normalized_name.split() if len(word) >= 4 and word not in COMMON_PT_OCR_WORDS
-            ]
+            ])
             if not name_words:
-                name_words = [word for word in normalized_name.split() if len(word) >= 4]
+                name_words = unique_words([word for word in normalized_name.split() if len(word) >= 4])
             if not name_words:
                 continue
             if all(word in COMMON_PT_OCR_WORDS for word in name_words):
@@ -2485,6 +2564,14 @@ class ScryfallDatabase:
         if card:
             return finalize(card, f"assinatura texto+artista '{matched_line}'")
 
+        card, matched_line = self._find_by_old_frame_signature(ocr.raw_text)
+        if card:
+            return finalize(card, f"assinatura carta antiga '{matched_line}'")
+
+        card, matched_line = self._find_by_visual_signature(ocr)
+        if card:
+            return finalize(card, f"assinatura visual antiga '{matched_line}'")
+
         if ocr.name_hint and self._likely_name_hint(ocr.name_hint):
             normalized_hint = normalize_ocr_name(ocr.name_hint)
             card = None
@@ -2922,7 +3009,7 @@ class ScryfallDatabase:
             normalized_name = normalize_text(card_name)
             if normalized_phrase_in_text(normalized_name, normalized_raw):
                 return True
-            name_words = [word for word in normalized_name.split() if len(word) >= 4]
+            name_words = unique_words([word for word in normalized_name.split() if len(word) >= 4])
             required_matches = 2 if len(name_words) >= 2 else 1
             raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
             if name_words:
@@ -2939,7 +3026,10 @@ class ScryfallDatabase:
                     line_words = normalized_line.split()
                     if len(line_words) > 8:
                         continue
-                    if name_words and fuzzy_word_count(name_words, [word for word in line_words if len(word) >= 3]) < required_matches:
+                    if name_words and fuzzy_word_count(
+                        name_words,
+                        unique_words([word for word in line_words if len(word) >= 3]),
+                    ) < required_matches:
                         continue
                     if fuzz.WRatio(card_name, cleaned) >= 84:
                         return True
@@ -2964,11 +3054,11 @@ class ScryfallDatabase:
             normalized_name = normalize_text(card_name)
             if normalized_phrase_in_text(normalized_name, normalized_raw):
                 return True
-            name_words = [
+            name_words = unique_words([
                 word
                 for word in normalized_name.split()
                 if len(word) >= 3 and word not in COMMON_EN_OCR_WORDS and word not in COMMON_PT_OCR_WORDS
-            ]
+            ])
             if len(name_words) < 2:
                 continue
             required = min(3, len(name_words))
@@ -3319,8 +3409,8 @@ class ScryfallDatabase:
         what the OCR actually read — so a short substring match cannot beat a
         fuller one.
         """
-        name_words = [word for word in normalize_text(card_name).split() if len(word) >= 3]
-        hint_words = [word for word in (normalized_hint or "").split() if len(word) >= 3]
+        name_words = unique_words([word for word in normalize_text(card_name).split() if len(word) >= 3])
+        hint_words = unique_words([word for word in (normalized_hint or "").split() if len(word) >= 3])
         if not name_words or not hint_words:
             return 0
         return fuzzy_word_count(name_words, hint_words, threshold=85)
@@ -3814,6 +3904,278 @@ class ScryfallDatabase:
         if len(ranked) > 1 and ranked[1][0] > best_score - 3:
             return None, ""
         return best_card, best_card.get("artist", "")
+
+    @staticmethod
+    def _old_frame_signature_words(value: str, ignored: set[str], min_len: int = 5) -> list[str]:
+        return unique_words(
+            [
+                word
+                for word in normalize_text(value).split()
+                if len(word) >= min_len and word not in ignored
+            ]
+        )
+
+    def _old_frame_signature_candidates(
+        self,
+        raw_text: str,
+        *,
+        min_score: int = 0,
+        require_anchor: bool = False,
+        limit: int = VISUAL_MATCH_MAX_CANDIDATES,
+    ) -> list[tuple[int, dict, str]]:
+        if not raw_text:
+            return []
+        ignored = COMMON_EN_OCR_WORDS | COMMON_PT_OCR_WORDS | {
+            "about",
+            "also",
+            "among",
+            "another",
+            "being",
+            "blocked",
+            "blocking",
+            "could",
+            "during",
+            "only",
+            "these",
+            "those",
+            "until",
+            "would",
+        }
+        raw_words = unique_words([word for word in normalize_text(raw_text).split() if len(word) >= 3])
+        if len(raw_words) < 6:
+            return []
+        candidates = []
+
+        for card in self.cards:
+            if card.get("lang") != "en" or card.get("layout") in _NON_CATALOG_LAYOUTS:
+                continue
+            if card.get("digital") or "paper" not in (card.get("games") or []):
+                continue
+            released_at = card.get("released_at") or ""
+            if released_at and released_at > VISUAL_OLD_FRAME_CUTOFF:
+                continue
+
+            name_words = self._old_frame_signature_words(card.get("name", ""), ignored)
+            flavor_words = self._old_frame_signature_words(card_faces_text(card, "flavor_text"), ignored)
+            rules_words = self._old_frame_signature_words(
+                " ".join(
+                    [
+                        card_faces_text(card, "oracle_text"),
+                        card_faces_text(card, "printed_text"),
+                    ]
+                ),
+                ignored,
+            )
+            type_words = self._old_frame_signature_words(card_faces_text(card, "type_line"), ignored)
+            artist_words = self._old_frame_signature_words(card.get("artist", ""), ignored, min_len=4)
+
+            name_support = fuzzy_word_count(name_words, raw_words, threshold=82)
+            flavor_support = fuzzy_word_count(flavor_words, raw_words, threshold=82)
+            rules_support = fuzzy_word_count(rules_words, raw_words, threshold=82)
+            type_support = fuzzy_word_count(type_words, raw_words, threshold=85)
+            artist_support = fuzzy_word_count(artist_words, raw_words, threshold=86)
+            total_support = name_support + flavor_support + rules_support + type_support + artist_support
+            if total_support < 2:
+                continue
+
+            has_anchor = (
+                (artist_support >= 2 and rules_support >= 4)
+                or (flavor_support >= 3 and rules_support >= 2 and name_support >= 1)
+                or (name_support >= 1 and rules_support >= 5)
+            )
+            if require_anchor and not has_anchor:
+                continue
+
+            score = (
+                total_support * 10
+                + flavor_support * 8
+                + name_support * 6
+                + artist_support * 8
+                + rules_support
+                + type_support
+            )
+            if score < min_score:
+                continue
+
+            reason = (
+                f"score {score} "
+                f"(nome {name_support}, flavor {flavor_support}, texto {rules_support}, "
+                f"tipo {type_support}, artista {artist_support})"
+            )
+            candidates.append((score, card, reason))
+
+        candidates.sort(key=lambda item: item[0], reverse=True)
+        return candidates[:limit]
+
+    def _find_by_old_frame_signature(self, raw_text: str) -> tuple[dict | None, str]:
+        """Fallback for old frames where OCR loses the title and there is no
+        modern footer. It requires a unique cluster of old-card text signals
+        instead of trusting an isolated fuzzy word."""
+        ranked = self._old_frame_signature_candidates(
+            raw_text,
+            min_score=85,
+            require_anchor=True,
+            limit=30,
+        )
+        if not ranked:
+            return None, ""
+        best_score, best_card, best_reason = ranked[0]
+        best_oracle = best_card.get("oracle_id") or best_card.get("name", "")
+        second_other_oracle_score = max(
+            (
+                score
+                for score, card, _reason in ranked[1:]
+                if (card.get("oracle_id") or card.get("name", "")) != best_oracle
+            ),
+            default=0,
+        )
+        if second_other_oracle_score >= best_score - 20:
+            return None, ""
+        return best_card, best_reason
+
+    def _load_visual_hash_cache(self) -> dict[str, dict[str, tuple]]:
+        if self._visual_hash_cache is not None:
+            return self._visual_hash_cache
+        cache: dict[str, dict[str, tuple]] = {}
+        if VISUAL_HASH_CACHE_PATH.exists():
+            try:
+                with VISUAL_HASH_CACHE_PATH.open("rb") as handle:
+                    payload = pickle.load(handle)
+                if isinstance(payload, dict):
+                    cache = payload
+            except Exception:
+                cache = {}
+        self._visual_hash_cache = cache
+        return cache
+
+    def _save_visual_hash_cache(self) -> None:
+        if self._visual_hash_cache is None:
+            return
+        DATA_DIR.mkdir(exist_ok=True)
+        with VISUAL_HASH_CACHE_PATH.open("wb") as handle:
+            pickle.dump(self._visual_hash_cache, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+    @staticmethod
+    def _card_art_crop_uri(card: dict) -> str:
+        image_uris = card.get("image_uris") or {}
+        if image_uris.get("art_crop"):
+            return image_uris["art_crop"]
+        for face in card.get("card_faces") or []:
+            face_uris = face.get("image_uris") or {}
+            if face_uris.get("art_crop"):
+                return face_uris["art_crop"]
+        return ""
+
+    @staticmethod
+    def _visual_cache_file(card: dict) -> Path:
+        card_id = card.get("id") or f"{card.get('set', '')}-{card.get('collector_number', '')}-{card.get('name', '')}"
+        safe_id = re.sub(r"[^A-Za-z0-9_-]+", "_", card_id)[:96]
+        return VISUAL_CACHE_DIR / f"{safe_id}.jpg"
+
+    def _visual_features_for_card(self, card: dict) -> dict[str, tuple] | None:
+        art_uri = self._card_art_crop_uri(card)
+        if not art_uri:
+            return None
+        cache_key = f"{card.get('id', '')}:{art_uri}"
+        cache = self._load_visual_hash_cache()
+        if cache_key in cache:
+            return cache[cache_key]
+
+        VISUAL_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        image_path = self._visual_cache_file(card)
+        if not image_path.exists():
+            response = requests.get(art_uri, timeout=30, headers=HTTP_HEADERS)
+            response.raise_for_status()
+            image_path.write_bytes(response.content)
+        with Image.open(image_path) as reference:
+            features = visual_features(reference.convert("RGB"))
+        cache[cache_key] = features
+        self._save_visual_hash_cache()
+        return features
+
+    def _old_frame_visual_candidates(self, raw_text: str) -> list[tuple[dict, int]]:
+        ranked = self._old_frame_signature_candidates(
+            raw_text,
+            min_score=25,
+            require_anchor=False,
+            limit=VISUAL_MATCH_MAX_CANDIDATES,
+        )
+        if not ranked:
+            return []
+        score_by_oracle: dict[str, int] = {}
+        for score, card, _reason in ranked:
+            oracle_id = card.get("oracle_id") or card.get("name", "")
+            score_by_oracle[oracle_id] = max(score_by_oracle.get(oracle_id, 0), score)
+
+        cards = []
+        seen_ids = set()
+        oracle_ids = set(score_by_oracle)
+        for card in self.cards:
+            if card.get("lang") != "en" or card.get("layout") in _NON_CATALOG_LAYOUTS:
+                continue
+            if card.get("digital") or "paper" not in (card.get("games") or []):
+                continue
+            released_at = card.get("released_at") or ""
+            if released_at and released_at > VISUAL_OLD_FRAME_CUTOFF:
+                continue
+            oracle_id = card.get("oracle_id") or card.get("name", "")
+            if oracle_id not in oracle_ids:
+                continue
+            if not self._card_art_crop_uri(card):
+                continue
+            card_id = card.get("id") or f"{card.get('set', '')}:{card.get('collector_number', '')}:{card.get('name', '')}"
+            if card_id in seen_ids:
+                continue
+            seen_ids.add(card_id)
+            cards.append((card, score_by_oracle.get(oracle_id, 0)))
+            if len(cards) >= VISUAL_MATCH_MAX_CANDIDATES * 2:
+                break
+        return cards
+
+    def _find_by_visual_signature(self, ocr: OcrResult) -> tuple[dict | None, str]:
+        if ocr.card_image is None:
+            return None, ""
+        candidates = self._old_frame_visual_candidates(ocr.raw_text)
+        if not candidates:
+            return None, ""
+        query_features = visual_features(crop_old_frame_art(ocr.card_image))
+        scored = []
+        for card, text_score in candidates:
+            try:
+                reference_features = self._visual_features_for_card(card)
+            except Exception:
+                continue
+            if not reference_features:
+                continue
+            distance = visual_feature_distance(query_features, reference_features)
+            adjusted = distance - min(text_score, 120) * 0.08
+            scored.append((adjusted, distance, text_score, card))
+
+        if not scored:
+            return None, ""
+        scored.sort(key=lambda item: item[0])
+        best_adjusted, best_distance, best_text_score, best_card = scored[0]
+        best_oracle = best_card.get("oracle_id") or best_card.get("name", "")
+        second_other_oracle = next(
+            (
+                adjusted
+                for adjusted, _distance, _text_score, card in scored[1:]
+                if (card.get("oracle_id") or card.get("name", "")) != best_oracle
+            ),
+            None,
+        )
+        margin = (second_other_oracle - best_adjusted) if second_other_oracle is not None else 999.0
+        if best_distance <= 145 and margin >= 20:
+            return (
+                best_card,
+                f"dist {best_distance:.1f}, margem {margin:.1f}, texto {best_text_score}",
+            )
+        if best_distance <= 115 and best_text_score >= 50:
+            return (
+                best_card,
+                f"dist {best_distance:.1f}, texto {best_text_score}",
+            )
+        return None, ""
 
     @staticmethod
     def _self_reference_line_context(words: list[str], index: int, name_size: int = 1) -> bool:

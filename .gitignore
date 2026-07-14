@@ -7,3 +7,5 @@ data/scryfall_default_cards.json
 data/scryfall_default_cards.tmp
 data/scryfall_tokens.json
 data/scryfall_tokens.tmp
+data/visual_cache/
+data/visual_hash_cache.pkl
