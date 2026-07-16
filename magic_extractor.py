@@ -45,7 +45,7 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-13.2"
+APP_VERSION = "2026-07-14.2"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SCRYFALL_TOKENS_PATH = DATA_DIR / "scryfall_tokens.json"
@@ -54,7 +54,7 @@ MTGJSON_ATOMIC_PATH = DATA_DIR / "mtgjson_atomic_cards.json.gz"
 INDEX_PATH = DATA_DIR / "card_index.pkl"
 VISUAL_CACHE_DIR = DATA_DIR / "visual_cache"
 VISUAL_HASH_CACHE_PATH = DATA_DIR / "visual_hash_cache.pkl"
-INDEX_VERSION = 25
+INDEX_VERSION = 31
 VISUAL_OLD_FRAME_CUTOFF = "2003-07-27"
 VISUAL_MATCH_MAX_CANDIDATES = 40
 # Latin-script languages whose printed names (from foreign-only printings in
@@ -67,6 +67,11 @@ _NON_CATALOG_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem", "
 _TOKEN_LAYOUTS = {"token", "double_faced_token"}
 SCRYFALL_TOKEN_SEARCH_QUERY = "include:extras (layout:token or layout:double_faced_token)"
 EXCEL_PATH = APP_DIR / "MagicCollection.xlsx"
+EXCEL_LOCK = threading.RLock()
+# Excel, OneDrive and antivirus scanners can briefly retain a Windows file
+# handle after the workbook is closed.  Retry long enough for those transient
+# locks to clear before asking the user to close the file manually.
+EXCEL_RETRY_DELAYS = (0.1, 0.25, 0.5, 1.0, 2.0, 3.0, 5.0)
 DEBUG_PATH = APP_DIR / "last_extraction_debug.txt"
 DEBUG_LOG_PATH = APP_DIR / "extraction_log.txt"
 HTTP_HEADERS = {
@@ -122,6 +127,43 @@ TESSERACT_CANDIDATES = [
 ]
 
 MANUAL_PT_TRANSLATIONS = {
+    "Azure Drake": {
+        "printed_name": "Dragonete Lazur",
+        "printed_type_line": "Criatura — Dragonete",
+        "printed_text": "Voar",
+        "preferred_set": "M11",
+    },
+    "Claustrophobia": {
+        "printed_name": "Claustrofobia",
+        "printed_type_line": "Encantamento — Aura",
+        "printed_text": (
+            "Encantar criatura\n"
+            "Quando Claustrofobia entrar no campo de batalha, vire a criatura encantada.\n"
+            "A criatura encantada não é desvirada durante a etapa de desvirar de seu controlador."
+        ),
+        "preferred_set": "ISD",
+    },
+    "Fatal Fumes": {
+        "printed_name": "Fumaça Fatal",
+        "printed_type_line": "Mágica Instantânea",
+        "printed_text": "A criatura alvo recebe -4/-2 até o final do turno.",
+        "preferred_set": "DGM",
+    },
+    "Beetleform Mage": {
+        "printed_name": "Mago Besouriforme",
+        "printed_type_line": "Criatura — Humano Inseto Mago",
+        "printed_text": (
+            "{G}{U}: Mago Besouriforme recebe +2/+2 e ganha voar até o final do turno. "
+            "Ative esta habilidade apenas uma vez a cada turno."
+        ),
+        "preferred_set": "DGM",
+    },
+    "Duskdale Wurm": {
+        "printed_name": "Vorme Crepuscular",
+        "printed_type_line": "Criatura — Vorme",
+        "printed_text": "Atropelar",
+        "preferred_set": "EVE",
+    },
     "Dwarven Warriors": {
         "printed_name": "An\u00f5es Guerreiros",
         "printed_type_line": "Criatura \u2014 An\u00e3o",
@@ -226,6 +268,7 @@ MANUAL_PT_TRANSLATIONS = {
 }
 
 PREFERRED_PRINT_SETS = {
+    "Merfolk Spy": "M14",
     "Dwarven Warriors": "4ED",
     "Joven": "HML",
     "Earth Elemental": "4ED",
@@ -679,34 +722,103 @@ def excel_collections_match(cell_value: str, search_collection: str) -> bool:
 
 
 def find_name_row_in_excel(name: str, collection: str = "") -> int | None:
-    if not EXCEL_PATH.exists():
-        return None
-    workbook = load_workbook(EXCEL_PATH, read_only=True, data_only=True)
-    try:
-        sheet = workbook.active
-        for row_index, row in enumerate(
-            sheet.iter_rows(min_col=1, max_col=8, values_only=True),
-            start=1,
-        ):
-            cell_value = row[0] if row else None
-            cell_collection = row[7] if row and len(row) > 7 else None
-            if row_index == 1 and cell_value and str(cell_value).strip() == "Nome":
-                continue
-            if cell_value is None or str(cell_value).strip() == "":
-                continue
-            if excel_names_match(str(cell_value), name) and excel_collections_match(
-                str(cell_collection or ""),
-                collection,
+    with EXCEL_LOCK:
+        if not EXCEL_PATH.exists():
+            return None
+        workbook = load_excel_workbook(read_only=True, data_only=True)
+        try:
+            sheet = workbook.active
+            for row_index, row in enumerate(
+                sheet.iter_rows(min_col=1, max_col=8, values_only=True),
+                start=1,
             ):
-                return row_index
-    finally:
-        workbook.close()
+                cell_value = row[0] if row else None
+                cell_collection = row[7] if row and len(row) > 7 else None
+                if row_index == 1 and cell_value and str(cell_value).strip() == "Nome":
+                    continue
+                if cell_value is None or str(cell_value).strip() == "":
+                    continue
+                if excel_names_match(str(cell_value), name) and excel_collections_match(
+                    str(cell_collection or ""),
+                    collection,
+                ):
+                    return row_index
+        finally:
+            workbook.close()
     return None
+
+
+def excel_data_row_number(worksheet_row: int) -> int:
+    """Return the populated-row position shown to the user.
+
+    Some copies of the collection workbook contain large formatted-but-empty
+    ranges.  openpyxl preserves those physical row numbers, so a card can be
+    stored at worksheet row 5206 while being the 4439th populated Excel row.
+    Keep using the physical row internally, but do not include empty gaps in
+    messages shown to the user.
+    """
+    if worksheet_row < 1:
+        return worksheet_row
+    with EXCEL_LOCK:
+        if not EXCEL_PATH.exists():
+            return worksheet_row
+        workbook = load_excel_workbook(read_only=True, data_only=True)
+        try:
+            sheet = workbook.active
+            return sum(
+                1
+                for row in sheet.iter_rows(
+                    min_row=1,
+                    max_row=worksheet_row,
+                    min_col=1,
+                    max_col=1,
+                    values_only=True,
+                )
+                if row and row[0] is not None and str(row[0]).strip()
+            )
+        finally:
+            workbook.close()
+
+
+def load_excel_workbook(**kwargs):
+    """Retry short-lived Windows file sharing/antivirus failures."""
+    for attempt in range(len(EXCEL_RETRY_DELAYS) + 1):
+        try:
+            return load_workbook(EXCEL_PATH, **kwargs)
+        except OSError as exc:
+            if attempt == len(EXCEL_RETRY_DELAYS):
+                raise RuntimeError(
+                    f"Não foi possível abrir {EXCEL_PATH.name}. "
+                    "Feche o arquivo no Excel e tente novamente."
+                ) from exc
+            time.sleep(EXCEL_RETRY_DELAYS[attempt])
+
+
+def save_excel_workbook(workbook) -> None:
+    """Save beside the destination and replace it atomically after success."""
+    temporary_path = EXCEL_PATH.with_name(
+        f".{EXCEL_PATH.stem}.{os.getpid()}.{threading.get_ident()}.tmp.xlsx"
+    )
+    try:
+        workbook.save(temporary_path)
+        for attempt in range(len(EXCEL_RETRY_DELAYS) + 1):
+            try:
+                os.replace(temporary_path, EXCEL_PATH)
+                return
+            except OSError as exc:
+                if attempt == len(EXCEL_RETRY_DELAYS):
+                    raise RuntimeError(
+                        f"Não foi possível salvar {EXCEL_PATH.name}. "
+                        "Feche o arquivo no Excel e tente novamente."
+                    ) from exc
+                time.sleep(EXCEL_RETRY_DELAYS[attempt])
+    finally:
+        temporary_path.unlink(missing_ok=True)
 
 
 def ensure_excel_workbook():
     if EXCEL_PATH.exists():
-        workbook = load_workbook(EXCEL_PATH)
+        workbook = load_excel_workbook()
         sheet = workbook.active
     else:
         workbook = Workbook()
@@ -722,17 +834,25 @@ def ensure_excel_workbook():
 
 
 def append_row_to_excel(row: list[str]) -> None:
-    workbook, sheet = ensure_excel_workbook()
-    sheet.append(row)
-    workbook.save(EXCEL_PATH)
+    with EXCEL_LOCK:
+        workbook, sheet = ensure_excel_workbook()
+        try:
+            sheet.append(row)
+            save_excel_workbook(workbook)
+        finally:
+            workbook.close()
 
 
 def update_row_in_excel(row_number: int, row: list[str]) -> None:
-    workbook = load_workbook(EXCEL_PATH)
-    sheet = workbook.active
-    for col_index, value in enumerate(row, start=1):
-        sheet.cell(row=row_number, column=col_index, value=value)
-    workbook.save(EXCEL_PATH)
+    with EXCEL_LOCK:
+        workbook = load_excel_workbook()
+        try:
+            sheet = workbook.active
+            for col_index, value in enumerate(row, start=1):
+                sheet.cell(row=row_number, column=col_index, value=value)
+            save_excel_workbook(workbook)
+        finally:
+            workbook.close()
 
 
 def card_faces_text(card: dict, field: str) -> str:
@@ -2757,7 +2877,11 @@ class ScryfallDatabase:
             for collector in collectors
             if (re.sub(r"\D", "", collector) and int(re.sub(r"\D", "", collector)) >= 20)
         }
-        if preferred_set and not meaningful_collectors:
+        # A collector number without a readable set code is weak evidence: OCR
+        # can turn ISD #48/264 into #46/304, which points at the M14 reprint of
+        # Claustrophobia with the same art. Curated preferred printings are the
+        # safer fallback until the footer provides an actual set code.
+        if preferred_set and (not meaningful_collectors or not set_codes_in_text):
             preferred = [
                 item
                 for item in same_oracle_cards
@@ -4668,7 +4792,8 @@ class MagicExtractorApp:
         self.result_banner.configure(text="", bg="SystemButtonFace", fg="SystemWindowText")
 
     def show_duplicate_alert(self, row_number: int) -> None:
-        message = f"Carta já existe na linha {row_number} de {EXCEL_PATH.name} — não foi adicionada de novo."
+        display_row = excel_data_row_number(row_number)
+        message = f"Carta já existe na linha {display_row} de {EXCEL_PATH.name} — não foi adicionada de novo."
         self.duplicate_alert.configure(text=message)
         self.show_result_banner(message, "duplicate")
 
@@ -4695,7 +4820,8 @@ class MagicExtractorApp:
             if allow_update and self.last_appended_row == existing_row:
                 update_row_in_excel(existing_row, row)
                 self.clear_duplicate_alert()
-                self.log(f"Atualizado na linha {existing_row} em {EXCEL_PATH}")
+                display_row = excel_data_row_number(existing_row)
+                self.log(f"Atualizado na linha {display_row} em {EXCEL_PATH}")
                 return
             self.show_duplicate_alert(existing_row)
             return
@@ -4704,8 +4830,9 @@ class MagicExtractorApp:
         self.last_appended_row = find_name_row_in_excel(name, collection)
         self.log(f"Salvo em {EXCEL_PATH}")
         if self.last_appended_row:
+            display_row = excel_data_row_number(self.last_appended_row)
             self.show_result_banner(
-                f"Salvo na linha {self.last_appended_row} de {EXCEL_PATH.name}.",
+                f"Salvo na linha {display_row} de {EXCEL_PATH.name}.",
                 "success",
             )
 
@@ -4833,18 +4960,20 @@ class MagicExtractorApp:
                 self.save_or_alert_duplicate(self.row_values())
                 saved_row = find_name_row_in_excel(row[0], row[7])
                 if saved_row:
-                    message = f"Salvo na linha {saved_row} de {EXCEL_PATH.name}."
+                    display_row = excel_data_row_number(saved_row)
+                    message = f"Salvo na linha {display_row} de {EXCEL_PATH.name}."
                     self.show_result_banner(message, "success")
                     self.log(message)
             else:
+                display_row = excel_data_row_number(existing_row)
                 self.show_duplicate_alert(existing_row)
                 self.log(
                     f"Preenchido: {row[0]} | {row[7]} | {reason} | "
-                    f"Já existe na linha {existing_row} de {EXCEL_PATH.name} — não foi adicionada de novo"
+                    f"Já existe na linha {display_row} de {EXCEL_PATH.name} — não foi adicionada de novo"
                 )
                 messagebox.showwarning(
                     "Carta já existe",
-                    f"\"{row[0]}\" ({row[7]}) já está na linha {existing_row} de {EXCEL_PATH.name}.\n\n"
+                    f"\"{row[0]}\" ({row[7]}) já está na linha {display_row} de {EXCEL_PATH.name}.\n\n"
                     "Os campos foram preenchidos, mas a carta não foi adicionada de novo ao Excel.",
                 )
         except Exception as exc:
