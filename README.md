@@ -37,6 +37,6 @@ O arquivo padrão é `MagicCollection.xlsx`. A linha copiada é separada por TAB
 O botão `Copiar Google Docs` copia a mesma linha sem cabeçalho em texto simples, separada por ` | `.
 
 Depois de atualizar o código, abra pelo `abrir_magic_extractor.bat`. Ele fecha somente processos antigos do `magic_extractor.py` e abre a versão atual.
-No título da janela deve aparecer `Magic Extractor v2026-07-01.19`; se não aparecer, é uma janela antiga.
+No título da janela deve aparecer `Magic Extractor v2026-07-16.8`; se não aparecer, é uma janela antiga.
 O botão `Extrair` usa exatamente a imagem que aparece no preview; depois de copiar uma nova imagem, clique em `Colar imagem` antes de extrair.
 Se uma extração parecer suspeita, o app limpa os campos e grava o diagnóstico em `last_extraction_debug.txt`.
