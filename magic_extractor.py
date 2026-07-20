@@ -45,7 +45,7 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-16.8"
+APP_VERSION = "2026-07-19.1"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SCRYFALL_TOKENS_PATH = DATA_DIR / "scryfall_tokens.json"
@@ -501,15 +501,28 @@ AMBIGUOUS_SET_CODE_WORDS = {
 def is_plausible_namebar(text: str) -> bool:
     cleaned = clean_ocr_line(text or "")
     words = re.findall(r"[^\W\d_]{3,}", cleaned, flags=re.UNICODE)
-    if not words or len(words) > 6:
+    normalized_words = [word for word in normalize_text(cleaned).split() if len(word) >= 2]
+    compact_alpha = "".join(normalized_words)
+    short_word_title = (
+        2 <= len(normalized_words) <= 5
+        and len(compact_alpha) >= 6
+        and any(len(word) >= 3 for word in normalized_words)
+        and any(
+            word not in COMMON_PT_OCR_WORDS
+            and word not in COMMON_EN_OCR_WORDS
+            and word not in MTG_KEYWORD_NAME_STOPWORDS
+            for word in normalized_words
+        )
+    )
+    if (not words or len(words) > 6) and not short_word_title:
         return False
-    if not any(len(word) >= 4 for word in words):
+    if not any(len(word) >= 4 for word in words) and not short_word_title:
         return False
     alpha = sum(ch.isalpha() for ch in cleaned)
     if cleaned and alpha < len(cleaned) * 0.35:
         return False
     title_words = re.findall(r"\b[^\W\d_]{3,}\b", cleaned, flags=re.UNICODE)
-    if not title_words and len(words) <= 3:
+    if not title_words and len(words) <= 3 and not short_word_title:
         return False
     return True
 
@@ -3924,18 +3937,24 @@ class ScryfallDatabase:
             best_word_score = 0
             for pt_name, index in self.pt_name_choices:
                 normalized_pt_name = normalize_text(pt_name)
+                normalized_pt_tokens = normalized_pt_name.split()
                 pt_words = [word for word in normalized_pt_name.split() if len(word) >= 4]
-                if not pt_words:
-                    continue
+                all_pt_words = [word for word in normalized_pt_tokens if len(word) >= 3]
                 compact_pt_name = re.sub(r"\s+", "", normalized_pt_name)
-                if len(compact_pt_name) >= 8 and compact_raw:
+                short_compact_name = (
+                    not pt_words
+                    and len(normalized_pt_tokens) >= 2
+                    and 6 <= len(compact_pt_name) <= 10
+                    and any(len(word) >= 3 for word in normalized_pt_tokens)
+                )
+                if (len(compact_pt_name) >= 8 or short_compact_name) and compact_raw:
                     compact_score = 0
                     if compact_pt_name in compact_raw:
-                        compact_score = len(pt_words) * 120 + len(compact_pt_name)
+                        compact_score = max(len(pt_words), len(all_pt_words), 1) * 120 + len(compact_pt_name)
                     elif fuzz:
                         compact_ratio = fuzz.partial_ratio(compact_pt_name, compact_raw)
                         if compact_ratio >= 94:
-                            compact_score = len(pt_words) * 110 + len(compact_pt_name)
+                            compact_score = max(len(pt_words), len(all_pt_words), 1) * 110 + len(compact_pt_name)
                         elif (
                             compact_ratio >= 80
                             and len(pt_words) == 1
@@ -3947,6 +3966,8 @@ class ScryfallDatabase:
                         best_word_name = pt_name
                         best_word_card = self.cards[index]
                         continue
+                if not pt_words:
+                    continue
                 elif (
                     single_line_words
                     and len(pt_words) == 1
@@ -3969,9 +3990,7 @@ class ScryfallDatabase:
                             best_word_name = pt_name
                             best_word_card = self.cards[index]
                             continue
-                all_pt_words = [word for word in normalize_text(pt_name).split() if len(word) >= 3]
                 first_word = all_pt_words[0] if all_pt_words else ""
-                normalized_pt_tokens = normalize_text(pt_name).split()
                 has_short_article = bool(
                     normalized_pt_tokens
                     and normalized_pt_tokens[0] in {"a", "o", "as", "os"}
