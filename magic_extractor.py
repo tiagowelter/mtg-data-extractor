@@ -45,7 +45,7 @@ configure_ssl_certificates()
 
 
 APP_DIR = Path(__file__).resolve().parent
-APP_VERSION = "2026-07-19.1"
+APP_VERSION = "2026-07-20.2"
 DATA_DIR = APP_DIR / "data"
 SCRYFALL_CARDS_PATH = DATA_DIR / "scryfall_default_cards.json"
 SCRYFALL_TOKENS_PATH = DATA_DIR / "scryfall_tokens.json"
@@ -2656,6 +2656,56 @@ class ScryfallDatabase:
                         return card, set_code, collector
         return None, "", ""
 
+    def _strong_portuguese_namebar_match(
+        self, card: dict, matched_name: str, ocr: OcrResult
+    ) -> bool:
+        """Validate a Portuguese candidate against the actual title crops.
+
+        Rank by coverage first. A verbose OCR artifact can otherwise outrank a
+        clean title merely because it contains more long words, as happened
+        when ``Ties = erro, A mene ...`` hid the exact later read
+        ``m Gigante Petrochoque 38``.
+        """
+        namebar_lines = ranked_namebar_lines(ocr.namebar_text)
+        if not namebar_lines:
+            return False
+        significant_words = [
+            word for word in normalize_text(matched_name).split() if len(word) >= 3
+        ]
+        required_coverage = min(2, len(significant_words))
+        if not required_coverage:
+            return False
+        evidence = [
+            (
+                self._best_name_coverage(card, normalize_text(line)),
+                self._unexplained_title_words(card, line),
+            )
+            for line in namebar_lines
+        ]
+        coverage, unexplained = max(evidence, key=lambda item: (item[0], -item[1]))
+        if coverage >= required_coverage and unexplained < 2:
+            return True
+        # A different name that merely shares a word must not be rescued by
+        # unrelated rules or artist text elsewhere in the image.
+        if coverage < 1 or unexplained >= 2:
+            return False
+
+        normalized_raw = normalize_text(ocr.raw_text)
+        compact_raw = re.sub(r"\s+", "", normalized_raw)
+        raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
+        oracle_id = card.get("oracle_id") or card.get("name")
+        same_oracle_cards = self.en_by_oracle.get(oracle_id) or [card]
+        # The name index points at one arbitrary printing, while a reprint may
+        # have a different artist. Accept artist evidence from any printing of
+        # the same card, then let ``_prefer_print_from_ocr`` choose the set.
+        artist_ok = any(
+            self._artist_name_in_raw_text(item, normalized_raw, compact_raw, raw_words)
+            for item in same_oracle_cards
+        )
+        english_support = self._best_oracle_support(card, ocr.raw_text)
+        portuguese_support = self._portuguese_rules_text_support_score(card, ocr.raw_text)
+        return artist_ok and (english_support >= 4 or portuguese_support >= 3)
+
     def find(self, ocr: OcrResult) -> tuple[dict, str]:
         self.load()
         ctx = self._build_match_context(ocr)
@@ -2670,48 +2720,6 @@ class ScryfallDatabase:
             if self.is_confident_match(card, ctx):
                 return card, reason
             return None
-
-        def strong_portuguese_namebar_match(card: dict, matched_name: str) -> bool:
-            # Validate the database candidate against what was actually read
-            # from the title bar. Comparing the card with ``matched_name`` here
-            # compared it with its own Portuguese database name, allowing tiny
-            # noise such as "ay" to pass as the two-faced card Ayara.
-            namebar_lines = ranked_namebar_lines(ocr.namebar_text)
-            if not namebar_lines:
-                return False
-            # The best-ranked line is the fullest read of the title bar. A
-            # candidate that leaves two or more of its real words unexplained is
-            # a different name that merely shares a word with it, so no amount
-            # of coverage below should rescue it.
-            if self._unexplained_title_words(card, namebar_lines[0]) >= 2:
-                return False
-            coverage = max(
-                self._best_name_coverage(card, normalize_text(line))
-                for line in namebar_lines
-            )
-            significant_words = [
-                word for word in normalize_text(matched_name).split() if len(word) >= 3
-            ]
-            if coverage >= min(2, len(significant_words)):
-                return True
-            normalized_raw = normalize_text(ocr.raw_text)
-            compact_raw = re.sub(r"\s+", "", normalized_raw)
-            raw_words = [word for word in normalized_raw.split() if len(word) >= 3]
-            oracle_id = card.get("oracle_id") or card.get("name")
-            same_oracle_cards = self.en_by_oracle.get(oracle_id) or [card]
-            # The name index points at one arbitrary printing, while a reprint
-            # may have a different artist. Accept artist evidence from any
-            # printing of the same card, then let ``_prefer_print_from_ocr``
-            # choose the exact set.
-            artist_ok = any(
-                self._artist_name_in_raw_text(item, normalized_raw, compact_raw, raw_words)
-                for item in same_oracle_cards
-            )
-            english_support = self._best_oracle_support(card, ocr.raw_text)
-            portuguese_support = self._portuguese_rules_text_support_score(card, ocr.raw_text)
-            return coverage >= 1 and artist_ok and (
-                english_support >= 4 or portuguese_support >= 3
-            )
 
         # Identify the card from the dedicated title crop before using isolated
         # footer tokens. Footer evidence still selects the printing afterwards.
@@ -2730,7 +2738,9 @@ class ScryfallDatabase:
         namebar_pt, namebar_pt_name = self._fuzzy_portuguese_text(
             ocr.namebar_text, namebar_mode=True
         )
-        if namebar_pt and strong_portuguese_namebar_match(namebar_pt, namebar_pt_name):
+        if namebar_pt and self._strong_portuguese_namebar_match(
+            namebar_pt, namebar_pt_name, ocr
+        ):
             matched = try_match(namebar_pt, f"nome superior PT OCR '{namebar_pt_name}'")
             if matched:
                 return matched
@@ -4120,32 +4130,46 @@ class ScryfallDatabase:
             lines_seen += 1
             if lines_seen > 260:
                 break
-            for size in range(min(5, len(words)), 0, -1):
-                candidate = " ".join(words[:size])
-                if candidate not in choices:
-                    continue
-                first_word = words[0]
-                # Multi-word exact matches may start with a short word ("Rod of
-                # Ruin", "The Brute"); single-word candidates stay at >= 4.
-                min_first = 3 if size >= 2 else 4
-                if len(first_word) < min_first or first_word in ignored:
-                    continue
-                if size < len(words) and not self._title_extra_words_are_noise(words, size):
-                    continue
-                original_name, card_index = choices[candidate]
-                if len(normalize_text(original_name).split()) != size:
-                    continue
-                rank = (
-                    1 if self._line_is_title_case(cleaned, size) else 0,
-                    size,
-                    -(len(words) - size),
-                    -line_index,
-                )
-                if best_rank is None or rank > best_rank:
-                    best_rank = rank
-                    best_card = self.cards[card_index]
-                    best_line = cleaned
-                break
+            starts = [0]
+            # Card borders and mana symbols are sometimes OCR'd as one stray
+            # lowercase letter immediately before the capitalised title. Keep
+            # the original candidate, but also try the title after that noise:
+            # ``a Barrage of Expendables`` must resolve to the exact three-word
+            # name instead of falling through to flavour text such as
+            # ``Goblin generals ...``.
+            if len(words) > 1 and re.match(r"^[a-z]\s+(?=[A-Z])", cleaned):
+                starts.append(1)
+            for start in starts:
+                candidate_words = words[start:]
+                for size in range(min(5, len(candidate_words)), 0, -1):
+                    candidate = " ".join(candidate_words[:size])
+                    if candidate not in choices:
+                        continue
+                    first_word = candidate_words[0]
+                    # Multi-word exact matches may start with a short word ("Rod of
+                    # Ruin", "The Brute"); single-word candidates stay at >= 4.
+                    min_first = 3 if size >= 2 else 4
+                    if len(first_word) < min_first or first_word in ignored:
+                        continue
+                    if size < len(candidate_words) and not self._title_extra_words_are_noise(
+                        candidate_words, size
+                    ):
+                        continue
+                    original_name, card_index = choices[candidate]
+                    if len(normalize_text(original_name).split()) != size:
+                        continue
+                    rank = (
+                        1 if self._line_is_title_case(cleaned, size + start) else 0,
+                        size,
+                        -(len(candidate_words) - size),
+                        -start,
+                        -line_index,
+                    )
+                    if best_rank is None or rank > best_rank:
+                        best_rank = rank
+                        best_card = self.cards[card_index]
+                        best_line = cleaned
+                    break
         if best_card:
             return best_card, best_line
         return None, ""
